@@ -1,0 +1,168 @@
+﻿/**企业服务平台**/
+
+
+ ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	transition: all 1s;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #209ae3;
+	
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a img {
+	transition: all .3s linear;
+}
+
+a:hover img {
+	transform-origin: center;
+}
+
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+@font-face {
+	font-family: 'Digital-7';
+	src:url(../fonts/digital-7-4.ttf);
+   } 
+
+body {
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color: #fff;
+	padding:0;
+}
+
+.top{
+	background-color: #333;
+	height: 100px;
+
+}
+
+.container{
+	width: 1200px;
+}
+
+.top img{
+	margin:30px 0;
+}
+
+.jzgd{	
+	height: 1145px;
+	background: linear-gradient(0deg, #EEEEEE, #C0DBFB);
+}
+
+h1{
+	font-size: 60px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #666666;
+	line-height: 100px;
+	margin-top: 60px;
+}
+
+h2{
+	
+	font-size: 48px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #3A3AA6;
+	line-height: 100px;
+}
+
+p{
+	font-size: 24px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #333333;
+	line-height: 48px;
+}
+
+.cpqd{
+	background-color: #eee;
+	padding: 60px 0;
+}
+
+.cpqd h2{
+	margin-bottom: 30px;
+}
+
+.cpqd .col-md-2{
+	width: 20%;
+	font-size: 24px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #3A3AA6;
+	line-height: 30px;
+	text-align: center;
+}
+
+.cpqd .col-md-2 h4{
+	background-color: #fff;
+	padding: 25px 0;
+	margin-bottom: 20px;
+}
+
+.lct{
+	padding: 60px 0;
+}
+
+.td{
+	padding: 60px 0;
+	background-color: #DDECFE;
+}
+
+.lxwm img{
+	margin-top: 60px;
+}
+
+.bottom{
+	font-size: 24px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	background-color: #333;
+	text-align: center;
+	}
+
+.bottom p{
+	color: #FFFFFF;
+	line-height: 100px;
+	height: 100px;
+}
