@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+  <link rel="alternate" hreflang="zh" href="/official-website/zh/about.html" />
+  <link rel="alternate" hreflang="en" href="/official-website/en/about.html" />
+  <link rel="alternate" hreflang="fr" href="/official-website/fr/about.html" />
+  <link rel="alternate" hreflang="x-default" href="/official-website/en/about.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About Us | AXLTeco Limited</title>
 <meta name="description" content="Learn about AXLTeco Limited — a professional building intelligence and low-voltage systems engineering company serving Africa. Partner of CCECC in Nigeria." />
-<link rel="alternate" hreflang="zh" href="/about.html" />
-<link rel="alternate" hreflang="en" href="/en/about.html" />
-<link rel="alternate" hreflang="x-default" href="/about.html" />
 <link rel="stylesheet" href="../style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 <header class="header">
@@ -82,55 +84,157 @@
       <a href="./contact.html">Contact Us</a>
       <a href="./about.html">About Us</a>
       <div class="lang-switcher" style="display:flex;align-items:center;gap:8px;margin-left:auto;padding-left:16px;border-left:1px solid rgba(255,255,255,0.2);font-size:0.9rem;">
-        <a href="../about.html" style="color:rgba(255,255,255,0.7);text-decoration:none;">中文</a>
-        <span style="color:rgba(255,255,255,0.4);">|</span>
-        <span style="color:#fff;font-weight:600;">EN</span>
+        <a href="../zh/about.html">中</a>
+        <a href="../en/about.html" class="active">EN</a>
+        <a href="../fr/about.html">FR</a>
       </div>
     </nav>
   </div>
 </header>
+
 <div class="page-hero">
   <h1>About Us</h1>
   <p style="text-align:center;font-size:1.1rem;margin-bottom:0;color:var(--text-light);">Connecting Chinese Technology · Serving African Development</p>
 </div>
+
 <main class="page-content">
+  <!-- Section 2: Company Profile -->
   <h2>Company Profile</h2>
-  <img src="../images/company-overview.jpg" alt="Company Overview" style="max-width:100%;border-radius:8px;">
-  <p>AXLTeco Limited (Shenzhen AXLTeco Technology Co., Ltd.) is a professional company under Shenzhen Anxinlian, specialising in overseas building intelligence and low-voltage systems engineering. Established in Nigeria in 2024, the company leverages mature engineering management experience and advanced technology from China to deliver high-quality, reliable intelligent solutions for the African market.</p>
-  <p>Our primary service sectors include: government institutions, industrial parks, commercial complexes, infrastructure, healthcare facilities and educational buildings.</p>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;margin-bottom:40px;">
+    <div>
+      <p>AXLTeco Limited (Shenzhen AXLTeco Technology Co., Ltd.) is a professional company under Shenzhen Anxinlian, specialising in overseas building intelligence and low-voltage systems engineering. Established in Nigeria in 2024, the company leverages mature engineering management experience and advanced technology from China to deliver high-quality, reliable intelligent solutions for the African market.</p>
+      <p>Our primary service sectors include: government institutions, industrial parks, commercial complexes, infrastructure, healthcare facilities and educational buildings.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
+      <div class="data-card">
+        <div class="data-number">2024</div>
+        <div class="data-label">Established</div>
+      </div>
+      <div class="data-card">
+        <div class="data-number">6</div>
+        <div class="data-label">Service Sectors</div>
+      </div>
+      <div class="data-card">
+        <div class="data-number" style="font-size:1.4rem;">CCECC</div>
+        <div class="data-label">Strategic Partner</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 3: Core Business -->
   <h2>Core Business</h2>
-  <img src="../images/core-business.jpg" alt="Core Business" style="max-width:100%;border-radius:8px;">
-  <p>AXLTeco provides end-to-end services from consultancy, design, supply, construction, commissioning to O&M, covering 11 low-voltage systems:</p>
-  <ul>
-    <li>Security & Surveillance: CCTV, Access Control, Parking Management, Intrusion Detection</li>
-    <li>Communication & Network: Structured Cabling, Network Communication (LAN/WAN)</li>
-    <li>Building Automation System (BAS), Fire Detection & Alarm System, Public Address (PA) System</li>
-    <li>Conference System, Digital Signage, Data Centre Infrastructure, Intelligent Building Integration System</li>
-  </ul>
+  <div class="card-grid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-bottom:40px;">
+    <div class="card" style="padding:24px;text-align:center;">
+      <div class="icon-box"><i data-lucide="shield-check"></i></div>
+      <h3>Security Systems</h3>
+      <p style="font-size:0.85rem;">CCTV, Access Control, Parking Management, Intrusion Alarm</p>
+    </div>
+    <div class="card" style="padding:24px;text-align:center;">
+      <div class="icon-box"><i data-lucide="cpu"></i></div>
+      <h3>Smart Control</h3>
+      <p style="font-size:0.85rem;">BAS, FAS, Smart Lighting, Energy Management</p>
+    </div>
+    <div class="card" style="padding:24px;text-align:center;">
+      <div class="icon-box"><i data-lucide="network"></i></div>
+      <h3>Communication</h3>
+      <p style="font-size:0.85rem;">Structured Cabling, CATV, LAN/WAN, Wireless Coverage</p>
+    </div>
+    <div class="card" style="padding:24px;text-align:center;">
+      <div class="icon-box"><i data-lucide="server"></i></div>
+      <h3>Infrastructure</h3>
+      <p style="font-size:0.85rem;">Data Centre, Conference Systems, PA, Lightning Protection</p>
+    </div>
+  </div>
+
+  <!-- Section 4: Service Model -->
   <h2>Service Model</h2>
-  <img src="../images/service-model.jpg" alt="Service Model" style="max-width:100%;border-radius:8px;">
-  <p>AXLTeco adopts a "China Technology + Local Service" dual-engine model:</p>
-  <div class="feature-list"><div class="feature-item"><strong>China R&D Centres (Shenzhen / Chengdu)</strong><br>Solution design and technology R&D, engineering detailed design and BIM modelling, remote technical support and expert consultancy, supply chain integration and equipment selection.</div><div class="feature-item"><strong>Nigeria Service Team</strong><br>On-site project management and construction installation, localised rapid-response and after-sales service, on-site technical commissioning and system integration.</div></div>
+  <div class="feature-list" style="margin-bottom:40px;">
+    <div class="feature-item">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+        <i data-lucide="building-2" style="color:var(--accent);"></i>
+        <strong>China R&D Centre</strong>
+      </div>
+      <p style="font-size:0.9rem;">Shenzhen / Chengdu — Solution Design, R&D, BIM Modelling, Remote Support, Supply Chain Integration</p>
+    </div>
+    <div class="feature-item">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+        <i data-lucide="globe" style="color:var(--accent);"></i>
+        <strong>Nigeria Service Team</strong>
+      </div>
+      <p style="font-size:0.9rem;">On-site Management, Installation, Local Response, System Integration, Talent Development</p>
+    </div>
+  </div>
+
+  <!-- Section 5: Project Experience -->
   <h2>Project Experience</h2>
-  <img src="../images/projects.jpg" alt="Project Experience" style="max-width:100%;border-radius:8px;">
-  <p>As a key partner of China Civil Engineering Construction Corporation (CCECC), AXLTeco has been deeply involved in multiple national-level projects in Nigeria:</p>
-  <ul><li><strong>FIRS Headquarters, Lagos:</strong> Integrated intelligent building systems for a landmark government office building</li><li><strong>Mile 2 Integrated Transport Hub:</strong> Low-voltage and security systems for a complex transport node</li><li><strong>Lagos Blue Line Light Rail — Phase V:</strong> Intelligent infrastructure assurance for a key rail transit project</li><li><strong>Kano Railway Station:</strong> Intelligent systems for a railway station</li></ul>
+  <div style="display:grid;gap:16px;margin-bottom:40px;">
+    <div class="project-card">
+      <div class="project-number">1</div>
+      <div>
+        <div class="project-title">FIRS Project, Lagos</div>
+        <div class="project-desc">Landmark government office building intelligent system integration</div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-number">2</div>
+      <div>
+        <div class="project-title">Mile 2 Integrated Transport Hub</div>
+        <div class="project-desc">Low-voltage and security systems for a complex traffic node</div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-number">3</div>
+      <div>
+        <div class="project-title">Lagos Light Rail Blue Line Phase V</div>
+        <div class="project-desc">Intelligent system support for rail transport infrastructure</div>
+      </div>
+    </div>
+    <div class="project-card">
+      <div class="project-number">4</div>
+      <div>
+        <div class="project-title">Kano Railway Station</div>
+        <div class="project-desc">Comprehensive low-voltage engineering for a modern rail hub</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 6: Technical Strength -->
   <h2>Technical Strength</h2>
-  <img src="../images/award.jpg" alt="Awards & Honours" style="max-width:100%;border-radius:8px;">
-  <p>The "Lagos FIRS Smart Construction Site Management System" planned and implemented by AXLTeco won the <strong>MOHURD Science and Technology Award — First Prize</strong>, fully demonstrating the company's professional strength in building intelligence and large-scale projects.</p>
-  <p>The system monitors project progress and resource allocation in real time through digital means, enabling refined control; integrates AI recognition and sensor technology to proactively identify on-site risks and ensure construction safety; and ensures full-process data traceability so that every engineering link meets high-standard technical specifications.</p>
+  <div style="background:var(--light);border-radius:var(--radius);padding:24px;margin-bottom:24px;text-align:center;">
+    <p style="font-size:1.2rem;color:var(--primary);">The "FIRS Smart Construction Site Management System" won the</p>
+    <p style="font-size:1.5rem;font-weight:700;color:var(--accent);margin:12px 0;">MOHURD Science and Technology Award — First Prize</p>
+  </div>
+  <div class="card-grid" style="grid-template-columns:repeat(3,1fr);margin-bottom:40px;">
+    <div class="card" style="padding:20px;text-align:center;">
+      <div class="icon-box"><i data-lucide="bar-chart-3"></i></div>
+      <h3>Digital Management</h3>
+    </div>
+    <div class="card" style="padding:20px;text-align:center;">
+      <div class="icon-box"><i data-lucide="shield"></i></div>
+      <h3>Safety Assurance</h3>
+    </div>
+    <div class="card" style="padding:20px;text-align:center;">
+      <div class="icon-box"><i data-lucide="clipboard-check"></i></div>
+      <h3>Quality Traceability</h3>
+    </div>
+  </div>
+
+  <!-- Section 7: Vision & Mission + Brand Manifesto -->
   <h2>Vision & Mission</h2>
-  <img src="../images/vision.jpg" alt="Vision & Mission" style="max-width:100%;border-radius:8px;">
-  <p><strong>Our Mission:</strong> Connecting Chinese Technology · Serving African Development. With professional engineering capabilities, we promote the development of building intelligence and contribute Chinese wisdom, Chinese standards and localised service strength to African infrastructure.</p>
-  <p><strong>Our Vision:</strong> To become a trusted partner for building intelligence and low-voltage systems integration in Africa. Based in Nigeria, serving West Africa and the whole of Africa, working hand in hand with customers to create a smart future.</p>
-  <p><strong>Strategic Layout:</strong> With Nigeria as the centre, gradually expanding to West African and other African markets. Continuously improving design, construction and integration capabilities to build an internationally competitive intelligent brand.</p>
+  <div style="margin-bottom:24px;">
+    <p><strong>Mission:</strong> Connecting Chinese Technology · Serving African Development</p>
+    <p><strong>Vision:</strong> To become Africa's trusted partner in building intelligence and low-voltage system integration</p>
+    <p><strong>Strategy:</strong> Centered on Nigeria, gradually expanding across West Africa and the continent</p>
+  </div>
+
   <h2>Brand Manifesto</h2>
-  <div style="background:linear-gradient(135deg,var(--primary) 0%,var(--primary-light) 100%);color:#fff;padding:40px;border-radius:8px;text-align:center;">
-    <p style="font-size:1.4rem;font-weight:700;margin-bottom:12px;">We Build Systems, and We Build Trust</p>
-    <p style="font-size:1.1rem;opacity:0.9;">We deliver engineering, and we create long-term value</p>
-    <p style="margin-top:16px;opacity:0.7;font-size:0.9rem;">Quality-Driven · Innovation-Powered · Customer-Centred</p>
+  <div class="manifesto-card">
+    <p>We don't just build systems — we build trust</p>
+    <p>We don't just deliver projects — we create lasting value</p>
+    <p style="opacity:0.7;font-size:0.95rem;margin-top:16px;">Engineering quality as foundation · Technology innovation as driver · Customer value as guide</p>
   </div>
 </main>
+
 <footer class="footer">
   <div class="footer-inner">
     <div>
@@ -147,7 +251,7 @@
     </div>
     <div>
       <h4>Contact</h4>
-      <a href="https://wa.me/2349110215649" target="_blank">WhatsApp: +234 911 021 5649</a>
+      <a href="https://wa.me/09110215649" target="_blank">WhatsApp: 09110215649</a>
       <a href="mailto:service@axlteco.com">Email: service@axlteco.com</a>
       <a href="./contact.html">WeChat: 21259601</a>
       <p style="font-size:0.85rem;color:rgba(255,255,255,0.6);margin-top:8px;">Lagos, Nigeria</p>

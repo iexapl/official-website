@@ -1,5 +1,12 @@
 // AXLTeco Website - Shared Scripts
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+
 document.addEventListener('DOMContentLoaded', function() {
+  // Initialize Lucide icons
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
+
   // Mobile menu toggle
   var toggle = document.querySelector('.menu-toggle');
   var nav = document.querySelector('.nav');
@@ -10,11 +17,9 @@ document.addEventListener('DOMContentLoaded', function() {
       if (isOpen) {
         nav.classList.remove('show');
         toggle.setAttribute('aria-expanded', 'false');
-        toggle.textContent = '☰';
       } else {
         nav.classList.add('show');
         toggle.setAttribute('aria-expanded', 'true');
-        toggle.textContent = '✕';
       }
     });
 
@@ -23,8 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
       if (nav.classList.contains('show') && !nav.contains(e.target) && !toggle.contains(e.target)) {
         nav.classList.remove('show');
         toggle.setAttribute('aria-expanded', 'false');
-        toggle.textContent = '☰';
-        // Also close any open dropdowns
         document.querySelectorAll('.nav-dropdown.open').forEach(function(dd) {
           dd.classList.remove('open');
         });
@@ -32,18 +35,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Mobile dropdown toggle (click instead of hover)
+  // Mobile dropdown toggle
   var dropdowns = document.querySelectorAll('.nav-dropdown');
   dropdowns.forEach(function(dd) {
     var trigger = dd.querySelector(':scope > a');
     if (trigger) {
       trigger.addEventListener('click', function(e) {
-        // Only handle click on mobile (< 900px)
         if (window.innerWidth <= 900) {
           e.preventDefault();
           e.stopPropagation();
           var isOpen = dd.classList.contains('open');
-          // Close sibling dropdowns
           dropdowns.forEach(function(other) {
             if (other !== dd) other.classList.remove('open');
           });
@@ -64,8 +65,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // Back to top button
   var backToTop = document.createElement('button');
   backToTop.className = 'back-to-top';
-  backToTop.setAttribute('aria-label', '返回顶部');
-  backToTop.innerHTML = '↑';
+  backToTop.setAttribute('aria-label', 'Back to top');
+  backToTop.innerHTML = '<i data-lucide="chevron-up"></i>';
   document.body.appendChild(backToTop);
 
   var scrollThreshold = 300;
@@ -102,9 +103,83 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(sec);
   });
 
-  // Form button ripple-like feedback (handled via CSS :active)
-  // Add touch feedback for cards on mobile
+  // Touch feedback for cards
   document.querySelectorAll('.card, .contact-card, .feature-item').forEach(function(el) {
     el.addEventListener('touchstart', function() {}, { passive: true });
   });
+
+  // Contact form handling
+  var contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      var submitBtn = contactForm.querySelector('button[type="submit"]');
+      var originalText = submitBtn ? submitBtn.textContent : 'Submit';
+      var alertBox = document.getElementById('form-alert');
+      var messageField = contactForm.querySelector('textarea[name="message"]');
+
+      // Minimum length check (anti-spam)
+      if (messageField && messageField.value.trim().length < 20) {
+        if (alertBox) {
+          alertBox.className = 'form-alert error';
+          alertBox.textContent = window._formLang && window._formLang.msgTooShort || 'Message must be at least 20 characters.';
+          alertBox.style.display = 'block';
+        }
+        return;
+      }
+
+      // Honey pot check
+      var gotcha = contactForm.querySelector('input[name="_gotcha"]');
+      if (gotcha && gotcha.value) {
+        return; // Bot detected
+      }
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = window._formLang && window._formLang.sending || 'Sending...';
+      }
+
+      try {
+        var formData = new FormData(contactForm);
+        var res = await fetch(FORMSPREE_ENDPOINT, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (res.ok) {
+          if (alertBox) {
+            alertBox.className = 'form-alert success';
+            alertBox.textContent = window._formLang && window._formLang.success || 'Thank you! We will reply within 24 hours.';
+            alertBox.style.display = 'block';
+          }
+          contactForm.reset();
+          if (submitBtn) {
+            submitBtn.textContent = window._formLang && window._formLang.sent || 'Sent!';
+            submitBtn.style.background = '#22c55e';
+            setTimeout(function() {
+              submitBtn.textContent = originalText;
+              submitBtn.style.background = '';
+              submitBtn.disabled = false;
+            }, 3000);
+          }
+          setTimeout(function() {
+            if (alertBox) alertBox.style.display = 'none';
+          }, 8000);
+        } else {
+          throw new Error('Formspree error');
+        }
+      } catch (err) {
+        if (alertBox) {
+          alertBox.className = 'form-alert error';
+          alertBox.textContent = (window._formLang && window._formLang.error || 'Submission failed. Please try again or contact us via WhatsApp: ') + '09110215649';
+          alertBox.style.display = 'block';
+        }
+        if (submitBtn) {
+          submitBtn.textContent = originalText;
+          submitBtn.disabled = false;
+        }
+      }
+    });
+  }
 });
