@@ -19,18 +19,14 @@
       <span>AXLTeco</span> Limited
     </a>
     <button class="menu-toggle" aria-label="Menu">☰</button>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <div class="nav-dropdown">
-        <a href="service-software.html">Services</a>
+          <a href="index.html">Home</a>
+      <div class="nav-dropdown"><a href="service-software.html">Services</a>
         <div class="dropdown-menu">
           <a href="service-software.html">Custom Software</a>
           <a href="service-ai.html">AI Agents</a>
           <a href="service-modeling.html">Urban Modelling</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <a href="product-software-hr.html">Software</a>
+        </div></div>
+      <div class="nav-dropdown"><a href="product-software-hr.html">Software</a>
         <div class="dropdown-menu">
           <a href="product-software-hr.html">HR System</a>
           <a href="product-software-warehouse.html">WMS</a>
@@ -42,10 +38,8 @@
           <a href="product-software-info.html">Info Display</a>
           <a href="product-software-bim.html">BIM Lite</a>
           <a href="product-software-ibms.html">IBMS</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <a href="product-hardware-camera.html">Hardware</a>
+        </div></div>
+      <div class="nav-dropdown"><a href="product-hardware-camera.html">Hardware</a>
         <div class="dropdown-menu">
           <a href="product-hardware-camera.html">CCTV</a>
           <a href="product-hardware-attendance.html">Attendance</a>
@@ -58,10 +52,8 @@
           <a href="product-hardware-led.html">LED Displays</a>
           <a href="product-hardware-edge.html">AI Edge Server</a>
           <a href="product-hardware-drone.html">Heavy-Lift Drone</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <a href="solution-parking.html">Solutions</a>
+        </div></div>
+      <div class="nav-dropdown"><a href="solution-parking.html">Solutions</a>
         <div class="dropdown-menu">
           <a href="solution-parking.html">Parking</a>
           <a href="solution-campus.html">Smart Campus</a>
@@ -79,10 +71,9 @@
           <a href="solution-fire.html">Fire Alarm</a>
           <a href="solution-community.html">Smart Community</a>
           <a href="solution-solar.html">Solar & Storage</a>
-        </div>
-      </div>
-      <a href="contact.html">Contact Us</a>
-      <a href="about.html">About Us</a>
+        </div></div>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
       <div class="lang-switcher" style="display:flex;align-items:center;gap:8px;margin-left:auto;padding-left:16px;border-left:1px solid rgba(255,255,255,0.2);font-size:0.9rem;">
         <a href="../zh/solution-campus.html">中</a>
         <a href="../en/solution-campus.html" class="active">EN</a>
@@ -96,21 +87,40 @@
   <p>Security · Attendance · Access · Energy · Information</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-twin-city.webp" alt="Smart Campus Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-campus.webp" alt="Smart Campus Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content"><p>AXLTeco's smart campus solution builds a safe, efficient and intelligent campus environment for schools and universities through the integration of multiple systems.</p>
-    <h2>Solution Components</h2>
-    <div class="feature-list">
-    <div class="feature-item"><strong>Campus Security</strong><br>Perimeter intrusion detection, video surveillance and emergency alarm for all-round campus safety.</div>
-    <div class="feature-item"><strong>Smart Attendance</strong><br>Facial recognition attendance for students and staff, with automatic statistics and parent notifications.</div>
-    <div class="feature-item"><strong>Access Control</strong><br>Dormitory, library and laboratory access control with time-based permission management.</div>
-    <div class="feature-item"><strong>Energy Management</strong><br>Monitoring and optimisation of water, electricity and air conditioning consumption in classrooms and dormitories.</div>
-    <div class="feature-item"><strong>Information Display</strong><br>Campus announcements, class schedules and exam arrangements displayed on digital screens.</div>
-    <div class="feature-item"><strong>One-Card System</strong><br>One card for dining, shopping, borrowing and access, convenient for campus life.</div>
-    </div>
-    <h2>Solution Value</h2>
-    <p>Improve campus safety management, optimise resource utilisation and enhance the campus experience for teachers and students. Supports integration with education management platforms.</p>
-    </main>
+<main class="page-content">
+     <h2>System Architecture</h2>
+     <img src="../images/visual-solution-campus-arch.webp" alt="Smart Campus Architecture" style="max-width:100%;">
+     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Smart Campus Integrated Architecture</p>
+     <p>The smart campus adopts a four-layer architecture: Perception Layer covering IoT terminals such as access control, surveillance, and energy monitoring; Network Layer providing converged wired and wireless coverage; Platform Layer enabling data aggregation and intelligent analytics; Application Layer offering unified service portals for students, faculty, and administrators.</p>
+     <h2>Solution Components</h2>
+     <div class="feature-list">
+       <div class="feature-item"><strong>Access Control</strong><br>Face recognition/card entry, zone-based permission control, and visitor appointment management.</div>
+       <div class="feature-item"><strong>Video Surveillance</strong><br>Full campus coverage with intelligent analysis in key areas and real-time abnormal event alerts.</div>
+       <div class="feature-item"><strong>Campus Broadcasting</strong><br>Zone-based broadcasting, scheduled playback, and emergency broadcast with multimedia support.</div>
+       <div class="feature-item"><strong>One-Card System</strong><br>Unified card for access, payment, attendance, and library services.</div>
+       <div class="feature-item"><strong>Energy Management</strong><br>Real-time monitoring of water, electricity, and gas with consumption analysis and energy-saving recommendations.</div>
+       <div class="feature-item"><strong>Visitor Management</strong><br>Online appointment, ID verification, trajectory tracking, and departure confirmation.</div>
+     </div>
+     <h2>Application Architecture</h2>
+     <p>The campus management platform uses unified identity authentication at its core, integrating academic management, security surveillance, logistics services, and asset management subsystems. Through a data middleware, cross-system data interoperability is achieved, providing decision dashboards for leadership, teaching assistants for faculty, and one-stop campus services for students.</p>
+     <h2>Application Scenarios</h2>
+     <img src="../images/visual-solution-campus-scene.webp" alt="Smart Campus Scenarios" style="max-width:100%;">
+     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Smart Campus Scenarios</p>
+     <div class="feature-list">
+       <div class="feature-item"><strong>Security & Prevention</strong><br>Campus perimeter protection, key-area monitoring, stranger alerts, and one-click alarm linkage.</div>
+       <div class="feature-item"><strong>Teaching Management</strong><br>Smart classroom environment control, multimedia device management, and classroom attendance statistics.</div>
+       <div class="feature-item"><strong>Logistics Services</strong><br>Dormitory access control, cafeteria consumption tracking, maintenance work order workflow, and energy-saving control.</div>
+       <div class="feature-item"><strong>Home-School Communication</strong><br>Student entry/exit notifications, visitor appointment review, and campus activity push.</div>
+     </div>
+     <h2>Solution Advantages</h2>
+     <p>The system adopts a modular design that can be flexibly configured according to school scale, supporting tiered deployment from kindergartens to large universities. A unified platform reduces multi-system maintenance costs, and open APIs enable seamless integration with existing academic systems.</p>
+     <h2>Solution Value</h2>
+     <p>Improve campus safety management, optimize teaching resource allocation, reduce energy consumption, and create a safe, convenient, and comfortable learning and living environment for students and faculty.</p>
+     <h2>Project Practice</h2>
+     <p>AXLTeco has successfully deployed smart campus solutions in multiple schools across Nigeria, covering access control, video surveillance, and broadcast notification subsystems, significantly improving campus safety management and operational efficiency.</p>
+</main>
 <footer class="footer">
   <div class="footer-inner">
     <div>
