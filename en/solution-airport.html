@@ -19,18 +19,14 @@
       <span>AXLTeco</span> Limited
     </a>
     <button class="menu-toggle" aria-label="Menu">☰</button>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <div class="nav-dropdown">
-        <a href="service-software.html">Services</a>
+          <a href="index.html">Home</a>
+      <div class="nav-dropdown"><a href="service-software.html">Services</a>
         <div class="dropdown-menu">
           <a href="service-software.html">Custom Software</a>
           <a href="service-ai.html">AI Agents</a>
           <a href="service-modeling.html">Urban Modelling</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <a href="product-software-hr.html">Software</a>
+        </div></div>
+      <div class="nav-dropdown"><a href="product-software-hr.html">Software</a>
         <div class="dropdown-menu">
           <a href="product-software-hr.html">HR System</a>
           <a href="product-software-warehouse.html">WMS</a>
@@ -42,10 +38,8 @@
           <a href="product-software-info.html">Info Display</a>
           <a href="product-software-bim.html">BIM Lite</a>
           <a href="product-software-ibms.html">IBMS</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <a href="product-hardware-camera.html">Hardware</a>
+        </div></div>
+      <div class="nav-dropdown"><a href="product-hardware-camera.html">Hardware</a>
         <div class="dropdown-menu">
           <a href="product-hardware-camera.html">CCTV</a>
           <a href="product-hardware-attendance.html">Attendance</a>
@@ -58,10 +52,8 @@
           <a href="product-hardware-led.html">LED Displays</a>
           <a href="product-hardware-edge.html">AI Edge Server</a>
           <a href="product-hardware-drone.html">Heavy-Lift Drone</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <a href="solution-parking.html">Solutions</a>
+        </div></div>
+      <div class="nav-dropdown"><a href="solution-parking.html">Solutions</a>
         <div class="dropdown-menu">
           <a href="solution-parking.html">Parking</a>
           <a href="solution-campus.html">Smart Campus</a>
@@ -79,10 +71,9 @@
           <a href="solution-fire.html">Fire Alarm</a>
           <a href="solution-community.html">Smart Community</a>
           <a href="solution-solar.html">Solar & Storage</a>
-        </div>
-      </div>
-      <a href="contact.html">Contact Us</a>
-      <a href="about.html">About Us</a>
+        </div></div>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
       <div class="lang-switcher" style="display:flex;align-items:center;gap:8px;margin-left:auto;padding-left:16px;border-left:1px solid rgba(255,255,255,0.2);font-size:0.9rem;">
         <a href="../zh/solution-airport.html">中</a>
         <a href="../en/solution-airport.html" class="active">EN</a>
@@ -96,21 +87,40 @@
   <p>Security · Operations · Passenger · Baggage · Energy</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-tech.webp" alt="Smart Airport Architecture" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-airport.webp" alt="Smart Airport Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content"><p>AXLTeco's smart airport solution integrates multiple intelligent systems to improve airport security, operational efficiency and passenger experience.</p>
-    <h2>Solution Components</h2>
-    <div class="feature-list">
-    <div class="feature-item"><strong>Security Check</strong><br>Intelligent security screening, facial recognition boarding and perimeter intrusion detection.</div>
-    <div class="feature-item"><strong>Video Surveillance</strong><br>Full coverage of terminals, aprons and cargo areas, with AI-based anomaly detection.</div>
-    <div class="feature-item"><strong>Passenger Flow Analysis</strong><br>Real-time passenger flow monitoring and prediction to optimise security check and boarding arrangements.</div>
-    <div class="feature-item"><strong>Baggage Tracking</strong><br>RFID-based full-process baggage tracking to reduce loss and misdelivery.</div>
-    <div class="feature-item"><strong>Energy Management</strong><br>Intelligent control of lighting, HVAC and elevators in terminals for energy saving.</div>
-    <div class="feature-item"><strong>Flight Display</strong><br>Real-time flight information display and intelligent voice broadcasting.</div>
-    </div>
-    <h2>Solution Value</h2>
-    <p>Applicable to civil airports, general aviation airports and airport logistics parks. Compliant with civil aviation industry security standards.</p>
-    </main>
+<main class="page-content">
+     <h2>System Architecture</h2>
+     <img src="../images/visual-solution-airport-arch.webp" alt="Smart Airport Architecture" style="max-width:100%;">
+     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Smart Airport Integrated System Architecture</p>
+     <p>The smart airport solution adopts a three-tier "Infrastructure - Platform - Application" architecture. The infrastructure layer covers intelligent equipment in terminals, aprons, and cargo areas; the platform layer achieves data aggregation, video networking, and equipment linkage; the application layer provides differentiated services for passengers, airlines, and airport management.</p>
+     <h2>Solution Components</h2>
+     <div class="feature-list">
+       <div class="feature-item"><strong>Security Screening</strong><br>X-ray machines, security gates, and face recognition verification to improve screening efficiency and accuracy.</div>
+       <div class="feature-item"><strong>Boarding System</strong><br>Self check-in, self boarding, and face recognition boarding to reduce queuing time.</div>
+       <div class="feature-item"><strong>Baggage System</strong><br>Automatic baggage sorting, tracking, and anomaly alerts to reduce baggage error rates.</div>
+       <div class="feature-item"><strong>Flight Information Display</strong><br>FIDS system displays real-time flight dynamics, supporting multi-language and multi-terminal display.</div>
+       <div class="feature-item"><strong>Security Surveillance</strong><br>Full coverage monitoring of terminals, runways, and aprons with perimeter defense.</div>
+       <div class="feature-item"><strong>Building Automation</strong><br>Terminal environment control, lighting management, and energy optimization.</div>
+     </div>
+     <h2>Application Architecture</h2>
+     <p>The airport intelligent platform integrates six subsystems: security screening, boarding, baggage handling, flight information display, security surveillance, and building automation. Through a unified integration platform, cross-system data sharing and linkage control are achieved, enabling scenario-based intelligent responses such as automatic boarding gate announcements triggered by flight dynamics, baggage carousel linkage, and lighting adjustment.</p>
+     <h2>Application Scenarios</h2>
+     <img src="../images/visual-solution-airport-scene.webp" alt="Smart Airport Scenarios" style="max-width:100%;">
+     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Smart Airport Scenarios</p>
+     <div class="feature-list">
+       <div class="feature-item"><strong>Passenger Services</strong><br>Self check-in, self bag drop, facial recognition boarding, and real-time flight status push.</div>
+       <div class="feature-item"><strong>Security Channels</strong><br>X-ray intelligent image analysis, facial recognition verification, and security flow guidance.</div>
+       <div class="feature-item"><strong>Apron Management</strong><br>Intelligent gate allocation, ground vehicle dispatching, and aircraft trajectory monitoring.</div>
+       <div class="feature-item"><strong>Cargo Area</strong><br>Goods tracking and positioning, warehouse environment monitoring, and security linkage management.</div>
+     </div>
+     <h2>Solution Advantages</h2>
+     <p>The system complies with ICAO safety standards, supports multi-language and multi-currency adaptation, and meets the operational needs of international hub airports. The modular design allows phased construction, enabling smooth transition from single subsystems to full airport integration, reducing one-time investment risks.</p>
+     <h2>Solution Value</h2>
+     <p>Improve passenger throughput efficiency, enhance security capabilities, optimize airport resource utilization, and increase passenger satisfaction and airport commercial revenue.</p>
+     <h2>Project Practice</h2>
+     <p>AXLTeco provides low-voltage intelligent system construction and O&M services for multiple airports in Nigeria, covering security surveillance, access control, and broadcast systems to ensure safe and efficient airport operations.</p>
+</main>
 <footer class="footer">
   <div class="footer-inner">
     <div>

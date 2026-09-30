@@ -19,18 +19,14 @@
       <span>AXLTeco</span> Limited
     </a>
     <button class="menu-toggle" aria-label="Menu">☰</button>
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <div class="nav-dropdown">
-        <a href="service-software.html">Services</a>
+          <a href="index.html">Home</a>
+      <div class="nav-dropdown"><a href="service-software.html">Services</a>
         <div class="dropdown-menu">
           <a href="service-software.html">Custom Software</a>
           <a href="service-ai.html">AI Agents</a>
           <a href="service-modeling.html">Urban Modelling</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <a href="product-software-hr.html">Software</a>
+        </div></div>
+      <div class="nav-dropdown"><a href="product-software-hr.html">Software</a>
         <div class="dropdown-menu">
           <a href="product-software-hr.html">HR System</a>
           <a href="product-software-warehouse.html">WMS</a>
@@ -42,10 +38,8 @@
           <a href="product-software-info.html">Info Display</a>
           <a href="product-software-bim.html">BIM Lite</a>
           <a href="product-software-ibms.html">IBMS</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <a href="product-hardware-camera.html">Hardware</a>
+        </div></div>
+      <div class="nav-dropdown"><a href="product-hardware-camera.html">Hardware</a>
         <div class="dropdown-menu">
           <a href="product-hardware-camera.html">CCTV</a>
           <a href="product-hardware-attendance.html">Attendance</a>
@@ -58,10 +52,8 @@
           <a href="product-hardware-led.html">LED Displays</a>
           <a href="product-hardware-edge.html">AI Edge Server</a>
           <a href="product-hardware-drone.html">Heavy-Lift Drone</a>
-        </div>
-      </div>
-      <div class="nav-dropdown">
-        <a href="solution-parking.html">Solutions</a>
+        </div></div>
+      <div class="nav-dropdown"><a href="solution-parking.html">Solutions</a>
         <div class="dropdown-menu">
           <a href="solution-parking.html">Parking</a>
           <a href="solution-campus.html">Smart Campus</a>
@@ -79,10 +71,9 @@
           <a href="solution-fire.html">Fire Alarm</a>
           <a href="solution-community.html">Smart Community</a>
           <a href="solution-solar.html">Solar & Storage</a>
-        </div>
-      </div>
-      <a href="contact.html">Contact Us</a>
-      <a href="about.html">About Us</a>
+        </div></div>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
       <div class="lang-switcher" style="display:flex;align-items:center;gap:8px;margin-left:auto;padding-left:16px;border-left:1px solid rgba(255,255,255,0.2);font-size:0.9rem;">
         <a href="../zh/solution-parking.html">中</a>
         <a href="../en/solution-parking.html" class="active">EN</a>
@@ -96,19 +87,38 @@
   <p>LPR · Guidance · Car Finder · Automated Payment</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-tech.webp" alt="Parking Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-parking.webp" alt="Parking Management Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content"><p>AXLTeco's parking management solution achieves intelligent vehicle access management, improving parking efficiency and user experience while reducing operational costs.</p>
-    <h2>Solution Components</h2>
-    <div class="feature-list">
-    <div class="feature-item"><strong>Licence Plate Recognition System</strong><br>High-definition cameras automatically recognise licence plates with >99% accuracy, supporting multiple plate formats.</div>
-    <div class="feature-item"><strong>Parking Guidance System</strong><br>Ultrasonic / video detectors monitor parking space status in real time, with guidance screens directing drivers to vacant spaces quickly.</div>
-    <div class="feature-item"><strong>Reverse Car Finder</strong><br>Drivers enter their licence plate to query vehicle location and navigate to the parking spot.</div>
-    <div class="feature-item"><strong>Automated Payment System</strong><br>Automatic billing, QR code payment and cashless payment, with no need for manual attendance at the exit.</div>
-    </div>
-    <h2>Solution Value</h2>
-    <p>The system supports both cloud-based and local deployment, configurable according to parking lot scale. Supports integration with building management and fire systems for unified smart parking management.</p>
-    </main>
+<main class="page-content">
+     <h2>System Architecture</h2>
+     <img src="../images/visual-solution-parking-arch.webp" alt="Parking System Architecture" style="max-width:100%;">
+     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Intelligent Parking System Architecture</p>
+     <p>AXLTeco parking solution adopts a three-tier "Edge-Gateway-Cloud" architecture: the edge layer deploys license plate recognition cameras, parking space detectors, and barrier controllers; the gateway layer aggregates local data and enables real-time decisions; the cloud platform provides unified management, data analytics, and remote O&M. The system supports both on-premise and hybrid cloud deployment, flexibly adapting to parking facilities of all sizes.</p>
+     <h2>Solution Components</h2>
+     <div class="feature-list">
+       <div class="feature-item"><strong>License Plate Recognition</strong><br>HD cameras with &gt;99% recognition rate, supporting multiple plate formats.</div>
+       <div class="feature-item"><strong>Parking Guidance</strong><br>Ultrasonic/video detectors monitor space status in real time, with guidance screens directing drivers to available spots.</div>
+       <div class="feature-item"><strong>Reverse Vehicle Finding</strong><br>Drivers enter their plate number to locate their vehicle and get navigation to the parking spot.</div>
+       <div class="feature-item"><strong>Unattended Payment</strong><br>Automatic billing, QR code payment, and contactless payment eliminate the need for manned exits.</div>
+     </div>
+     <h2>Application Architecture</h2>
+     <p>The parking management platform uses a microservices architecture with core services including vehicle recognition (multi-format plates), parking space management (real-time status sync), billing & settlement (flexible rate configuration), and reporting & analytics (multi-dimensional operations analysis). The front-end provides three entry points: admin portal, driver mini-program, and attendant app, with data synchronized in real time via message queues to ensure stability under high concurrency.</p>
+     <h2>Application Scenarios</h2>
+     <img src="../images/visual-solution-parking-scene.webp" alt="Parking Application Scenarios" style="max-width:100%;">
+     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Intelligent Parking Scenarios</p>
+     <div class="feature-list">
+       <div class="feature-item"><strong>Commercial Complexes</strong><br>Multi-level parking management for shopping malls and office clusters, supporting peak-hour tidal lane scheduling.</div>
+       <div class="feature-item"><strong>Residential Communities</strong><br>Automatic entry for residents, visitor pre-registration, flexible monthly/temporary parking billing.</div>
+       <div class="feature-item"><strong>Transportation Hubs</strong><br>Long-term parking management and quick vehicle locating for airports and railway stations.</div>
+       <div class="feature-item"><strong>On-Street Parking</strong><br>Smart retrofitting of urban roadside parking spaces with dual-mode detection and electronic payment.</div>
+     </div>
+     <h2>Solution Advantages</h2>
+     <p>The system supports both cloud management and local deployment, flexibly configurable according to parking facility scale. Integration with building management and fire systems enables intelligent parking as part of a unified smart building ecosystem.</p>
+     <h2>Solution Value</h2>
+     <p>Increase parking turnover by over 30%, reduce labor costs by 60%, and shorten average vehicle search time to under 2 minutes. Data-driven optimization of parking resources creates continuous value for operators.</p>
+     <h2>Project Practice</h2>
+     <p>AXLTeco has deployed intelligent parking systems in multiple commercial complexes and residential communities in Lagos, achieving unattended toll collection and remote centralized management with stable operation exceeding 24 months.</p>
+</main>
 <footer class="footer">
   <div class="footer-inner">
     <div>
