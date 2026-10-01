@@ -83,37 +83,96 @@
 <div class="page-hero"><h1>智慧楼宇</h1><p>BA · 安防 · 消防 · 能耗 · 访客管理</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-building.webp" alt="智慧楼宇方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
-</div><main class="page-content">
-     <h2>系统架构</h2>
-     <img src="../images/visual-solution-building-arch.zh.webp" alt="智慧楼宇系统架构" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">智慧楼宇IBMS架构</p>
-     <p>智慧楼宇以IBMS智能建筑综合管理平台为核心，向下集成楼宇自控(BA)、消防(FA)、安防(SA)、通信(CA)、办公(OA)五大子系统，向上提供统一运维管理界面，实现建筑设备的集中监控与智能联动。</p><p>AXLTeco 智慧楼宇解决方案将建筑内各系统有机集成，实现楼宇设备的智能化管控和高效运营。</p>
-     <h2>方案组成</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>楼宇自控系统(BA)</strong><br>空调、照明、电梯、给排水等设备的自动监控与优化控制。</div>
-       <div class="feature-item"><strong>安防系统</strong><br>视频监控、门禁控制、入侵报警、电子巡更一体化管理。</div>
-       <div class="feature-item"><strong>消防系统</strong><br>火灾自动报警、消防联动控制、应急广播与疏散指示。</div>
-       <div class="feature-item"><strong>能耗管理系统</strong><br>分项计量、能效分析、节能控制策略，降低运营成本。</div>
-       <div class="feature-item"><strong>访客管理系统</strong><br>预约登记、人证核验、电梯联动、访客轨迹跟踪。</div>
-       <div class="feature-item"><strong>智能停车系统</strong><br>车牌识别、车位引导、反向寻车、无感支付。</div>
-     </div>
-     
-     <h2>应用架构</h2>
-     <p>IBMS平台采用分层解耦架构：设备接入层支持多种通信协议（Modbus/BACnet/OPC UA），数据处理层实现实时数据清洗与告警规则引擎，业务应用层提供能耗分析、设备运维、租户服务等场景化应用。支持本地部署与云端协同的混合模式。</p><h2>应用场景</h2>
-     <img src="../images/visual-solution-building-scene.webp" alt="智慧楼宇应用场景" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">智慧楼宇应用场景</p>
-     <div class="feature-list">
-       <div class="feature-item"><strong>商业办公</strong><br>写字楼公共区域环境自动控制，租户能耗分项计量，访客自助通行。</div>
-       <div class="feature-item"><strong>酒店公寓</strong><br>客房智能控制、能源管理、安防监控、服务机器人调度一体化。</div>
-       <div class="feature-item"><strong>医院建筑</strong><br>手术室环境监控、医疗设备资产管理、病区呼叫联动、能耗优化。</div>
-       <div class="feature-item"><strong>商业综合体</strong><br>多业态统一管理平台，客流分析、设备联动、应急疏散指挥。</div>
-     </div><h2>方案优势</h2>
-     <p>基于BIM+IoT的数字孪生技术，实现建筑全生命周期可视化管理。AI算法驱动的能耗优化策略可降低建筑能耗15%-25%。统一平台打破信息孤岛，减少运维人力成本30%以上。</p><h2>方案价值</h2>
-     <p>提升楼宇运营效率，降低能源消耗，增强安全保障，改善租户体验，提升物业资产价值。</p>
-     
-     
-     <h2>项目实践</h2>
-     <p>AXLTeco 在拉各斯联邦税务局(FIRS)大楼部署了完整的智能楼宇管理系统，涵盖楼宇自控、安防监控、消防联动等子系统，为大型政府办公楼宇的智能化运营提供了标杆案例。</p></main><footer class="footer">
+</div><main>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">系统架构</h2>
+  <img src="../images/visual-solution-building-arch.zh.webp" alt="智慧楼宇系统架构">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧楼宇IBMS架构</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧楼宇以IBMS智能建筑综合管理平台为核心，向下集成楼宇自控(BA)、消防(FA)、安防(SA)、通信(CA)、办公(OA)五大子系统，向上提供统一运维管理界面，实现建筑设备的集中监控与智能联动。AXLTeco 智慧楼宇解决方案将建筑内各系统有机集成，实现楼宇设备的智能化管控和高效运营。</p>
+</section>
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">方案组成</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="zap"></i></div>
+      <div class="capability-title">楼宇自控系统(BA)</div>
+      <div class="capability-desc">空调、照明、电梯、给排水等设备的自动监控与优化控制。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="star"></i></div>
+      <div class="capability-title">安防系统</div>
+      <div class="capability-desc">视频监控、门禁控制、入侵报警、电子巡更一体化管理。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="flame"></i></div>
+      <div class="capability-title">消防系统</div>
+      <div class="capability-desc">火灾自动报警、消防联动控制、应急广播与疏散指示。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="diamond"></i></div>
+      <div class="capability-title">能耗管理系统</div>
+      <div class="capability-desc">分项计量、能效分析、节能控制策略，降低运营成本。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="triangle"></i></div>
+      <div class="capability-title">访客管理系统</div>
+      <div class="capability-desc">预约登记、人证核验、电梯联动、访客轨迹跟踪。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="brain"></i></div>
+      <div class="capability-title">智能停车系统</div>
+      <div class="capability-desc">车牌识别、车位引导、反向寻车、无感支付。</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <h2 class="section-title">应用架构</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">IBMS平台采用分层解耦架构：设备接入层支持多种通信协议（Modbus/BACnet/OPC UA），数据处理层实现实时数据清洗与告警规则引擎，业务应用层提供能耗分析、设备运维、租户服务等场景化应用。支持本地部署与云端协同的混合模式。</p>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">应用场景</h2>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-building-scene.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>商业办公</h3>
+      <p>写字楼公共区域环境自动控制，租户能耗分项计量，访客自助通行。</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-building-scene.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>酒店公寓</h3>
+      <p>客房智能控制、能源管理、安防监控、服务机器人调度一体化。</p>
+    </div>
+  </div>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-building-scene.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>医院建筑</h3>
+      <p>手术室环境监控、医疗设备资产管理、病区呼叫联动、能耗优化。</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-building-scene.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>商业综合体</h3>
+      <p>多业态统一管理平台，客流分析、设备联动、应急疏散指挥。</p>
+    </div>
+  </div>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">方案优势</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">基于BIM+IoT的数字孪生技术，实现建筑全生命周期可视化管理。AI算法驱动的能耗优化策略可降低建筑能耗15%-25%。统一平台打破信息孤岛，减少运维人力成本30%以上。</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">方案价值</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">提升楼宇运营效率，降低能源消耗，增强安全保障，改善租户体验，提升物业资产价值。</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">项目实践</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco 在拉各斯联邦税务局(FIRS)大楼部署了完整的智能楼宇管理系统，涵盖楼宇自控、安防监控、消防联动等子系统，为大型政府办公楼宇的智能化运营提供了标杆案例。</p>
+</section>
+</main><footer class="footer">
   <div class="footer-inner">
     <div>
       <h4>AXLTeco Limited</h4>
