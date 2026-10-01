@@ -90,40 +90,92 @@
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-city.webp" alt="Solution ville intelligente" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content">
-     <h2>Architecture Système</h2>
-     <img src="../images/visual-solution-city-arch.fr.webp" alt="Architecture ville intelligente" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Architecture jumeau numérique ville intelligente</p>
-     <p>La solution ville intelligente s'appuie sur la base numérique CIM (City Information Modeling), établissant une architecture globale « Une Plateforme, Deux Centres, N Applications ». La plateforme cerveau urbain intègre les données opérationnelles de la ville, avec des centres de commande et de données qui se pilotent mutuellement pour supporter N scénarios d'application intelligente incluant transport, sécurité, environnement et services gouvernementaux.</p>
-     <h2>Architecture de la Solution</h2>
-     <img src="../images/visual-twin-city.webp" alt="Architecture de la Ville Intelligente" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Schéma d'Architecture de la Ville Jumelle Numérique (Source: Documents de Référence sur le Jumeau Numérique)</p>
-     <h2>Composition de la Solution</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Réseau de capteurs urbain</strong><br>Déploiement de capteurs IoT, de vidéosurveillance et de stations de monitoring environnemental pour construire des capacités de perception à l'échelle de la ville.</div>
-       <div class="feature-item"><strong>Plateforme de données urbaines</strong><br>Agrégation de données multi-sources gouvernementales, IoT et Internet pour réaliser la gouvernance et le partage des données.</div>
-       <div class="feature-item"><strong>Jumeau numérique de la ville</strong><br>Base numérique 3D CIM+BIM+GIS pour visualiser l'état opérationnel urbain.</div>
-       <div class="feature-item"><strong>Moteur de décision intelligent</strong><br>Les modèles d'algorithmes IA analysent les données urbaines pour assister la prise de décision scientifique et l'alerte prédictive.</div>
-     </div>
-     <h2>Capacités Principales</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Réseau de Perception Urbaine</strong><br>Déploiement de réseaux de capteurs IoT pour collecter en temps réel les données de fonctionnement urbain incluant le trafic, l'environnement, l'énergie et la sécurité.</div>
-       <div class="feature-item"><strong>Plateforme de Convergence des Données</strong><br>Intégration des données gouvernementales, des données IoT et des données Internet pour construire un centre de données urbain.</div>
-       <div class="feature-item"><strong>Carte Digitale Unifiée de la Ville</strong><br>Base numérique urbaine 3D basée sur CIM+BIM+GIS, visualisation de la situation opérationnelle urbaine.</div>
-       <div class="feature-item"><strong>Moteur de Décision Intelligent</strong><br>Analyse IA des données de fonctionnement urbain pour aider les gestionnaires à prendre des décisions scientifiques.</div>
-     </div>
-     <h2>Architecture d'Application</h2>
-     <p>La plateforme ville intelligente adopte une architecture microservices cloud-native : la couche inférieure est la couche d'accès de perception IoT urbaine ; la couche intermédiaire comprend les middle platforms de données et d'IA ; la couche supérieure contient les applications métier pour divers départements gouvernementaux. Grâce à un système d'exploitation urbain unifié, l'interopérabilité des données inter-départements et la collaboration métier sont réalisées, éliminant les « silos d'information ».</p>
-     <h2>Scénarios d'Application</h2>
-     <img src="../images/visual-solution-city-scene.webp" alt="Scénarios ville intelligente" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Scénarios ville intelligente</p>
-     <p>Applicable à la surveillance opérationnelle urbaine, au dispatch de commande d'urgence, à l'optimisation du trafic, au monitoring environnemental, aux services publics et à la simulation de planification urbaine. Grâce à la technologie de jumeau numérique, les plans urbains peuvent être répétés dans l'espace virtuel pour réduire les risques et coûts de construction réelle.</p>
-     <h2>Avantages de la Solution</h2>
-     <p>Basée sur la technologie de jumeau numérique, la solution réalise la « correspondance virtuel-physique » de la ville, permettant la pré-simulation des schémas de planification urbaine dans l'espace virtuel pour réduire les risques de construction réelle. La plateforme a une scalabilité élastique, supportant la construction hiérarchisée des quartiers isolés aux villes entières avec un investissement contrôlable et des résultats rapides.</p>
-     <h2>Valeur de la Solution</h2>
-     <p>Amélioration du niveau de raffinement de la gouvernance urbaine, promotion des « services gouvernementaux en un réseau » et de la « gestion urbaine en un réseau ». Grâce à l'optimisation data-driven de l'allocation des ressources publiques, amélioration de la qualité de vie des citoyens et pose des fondations numériques pour le développement urbain durable.</p>
-     <h2>Pratique Projet</h2>
-     <p>AXLTeco participe activement à la digitalisation urbaine de l'Afrique, fournissant des services de transport intelligent, de vidéosurveillance sécurité et d'infrastructure électrique basse tension intelligente pour des villes comme Lagos, accumulant une riche expérience de mise en œuvre de projets à l'échelle urbaine.</p>
+<main>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">Architecture Système</h2>
+  <img src="../images/visual-solution-city-arch.fr.webp" alt="Architecture ville intelligente">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Architecture jumeau numérique ville intelligente</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">La solution ville intelligente s'appuie sur la base numérique CIM (City Information Modeling), établissant une architecture globale « Une Plateforme, Deux Centres, N Applications ». La plateforme cerveau urbain intègre les données opérationnelles de la ville, avec des centres de commande et de données qui se pilotent mutuellement pour supporter N scénarios d'application intelligente incluant transport, sécurité, environnement et services gouvernementaux.</p>
+
+<h2 class="section-title">Architecture de la Solution</h2>
+  <img src="../images/visual-twin-city.webp" alt="Architecture de la Ville Intelligente">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Schéma d'Architecture de la Ville Jumelle Numérique (Source: Documents de Référence sur le Jumeau Numérique)</p>
+</section>
+
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">Composition de la Solution</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="building-2"></i></div>
+      <div class="capability-title">Réseau de capteurs urbain</div>
+      <div class="capability-desc">Déploiement de capteurs IoT, de vidéosurveillance et de stations de monitoring environnemental pour construire des capacités de perception à l'échelle de la ville.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="building-2"></i></div>
+      <div class="capability-title">Plateforme de données urbaines</div>
+      <div class="capability-desc">Agrégation de données multi-sources gouvernementales, IoT et Internet pour réaliser la gouvernance et le partage des données.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="building-2"></i></div>
+      <div class="capability-title">Jumeau numérique de la ville</div>
+      <div class="capability-desc">Base numérique 3D CIM+BIM+GIS pour visualiser l'état opérationnel urbain.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="git-branch"></i></div>
+      <div class="capability-title">Moteur de décision intelligent</div>
+      <div class="capability-desc">Les modèles d'algorithmes IA analysent les données urbaines pour assister la prise de décision scientifique et l'alerte prédictive.</div>
+    </div>
+  </div>
+</section>
+<section id="capabilities" class="capability-section section-container">
+  <h2 class="section-title">Capacités Principales</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="building-2"></i></div>
+      <div class="capability-title">Réseau de Perception Urbaine</div>
+      <div class="capability-desc">Déploiement de réseaux de capteurs IoT pour collecter en temps réel les données de fonctionnement urbain incluant le trafic, l'environnement, l'énergie et la sécurité.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="database"></i></div>
+      <div class="capability-title">Plateforme de Convergence des Données</div>
+      <div class="capability-desc">Intégration des données gouvernementales, des données IoT et des données Internet pour construire un centre de données urbain.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="building-2"></i></div>
+      <div class="capability-title">Carte Digitale Unifiée de la Ville</div>
+      <div class="capability-desc">Base numérique urbaine 3D basée sur CIM+BIM+GIS, visualisation de la situation opérationnelle urbaine.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="git-branch"></i></div>
+      <div class="capability-title">Moteur de Décision Intelligent</div>
+      <div class="capability-desc">Analyse IA des données de fonctionnement urbain pour aider les gestionnaires à prendre des décisions scientifiques.</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <h2 class="section-title">Architecture d'Application</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">La plateforme ville intelligente adopte une architecture microservices cloud-native : la couche inférieure est la couche d'accès de perception IoT urbaine ; la couche intermédiaire comprend les middle platforms de données et d'IA ; la couche supérieure contient les applications métier pour divers départements gouvernementaux. Grâce à un système d'exploitation urbain unifié, l'interopérabilité des données inter-départements et la collaboration métier sont réalisées, éliminant les « silos d'information ».</p>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">Scénarios d'Application</h2>
+  <div style="max-width:900px;margin:0 auto;">
+    <img src="../images/visual-solution-city-scene.webp" alt="Scénarios ville intelligente" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  </div>
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Scénarios ville intelligente</p>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable à la surveillance opérationnelle urbaine, au dispatch de commande d'urgence, à l'optimisation du trafic, au monitoring environnemental, aux services publics et à la simulation de planification urbaine. Grâce à la technologie de jumeau numérique, les plans urbains peuvent être répétés dans l'espace virtuel pour réduire les risques et coûts de construction réelle.</p>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">Avantages de la Solution</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Basée sur la technologie de jumeau numérique, la solution réalise la « correspondance virtuel-physique » de la ville, permettant la pré-simulation des schémas de planification urbaine dans l'espace virtuel pour réduire les risques de construction réelle. La plateforme a une scalabilité élastique, supportant la construction hiérarchisée des quartiers isolés aux villes entières avec un investissement contrôlable et des résultats rapides.</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">Valeur de la Solution</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Amélioration du niveau de raffinement de la gouvernance urbaine, promotion des « services gouvernementaux en un réseau » et de la « gestion urbaine en un réseau ». Grâce à l'optimisation data-driven de l'allocation des ressources publiques, amélioration de la qualité de vie des citoyens et pose des fondations numériques pour le développement urbain durable.</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">Pratique Projet</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco participe activement à la digitalisation urbaine de l'Afrique, fournissant des services de transport intelligent, de vidéosurveillance sécurité et d'infrastructure électrique basse tension intelligente pour des villes comme Lagos, accumulant une riche expérience de mise en œuvre de projets à l'échelle urbaine.</p>
+</section>
 </main>
 <footer class="footer">
   <div class="footer-inner">
