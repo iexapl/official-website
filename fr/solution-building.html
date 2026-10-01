@@ -90,37 +90,95 @@
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-building.webp" alt="Solution bâtiment intelligent" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content">
-     <h2>Architecture Système</h2>
-     <img src="../images/visual-solution-building-arch.fr.webp" alt="Architecture bâtiment intelligent" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Architecture IBMS bâtiment intelligent</p>
-     <p>La solution bâtiment intelligent est centrée sur la plateforme IBMS de gestion intelligente des bâtiments, intégrant cinq sous-systèmes vers le bas : Building Automation (BA), Fire Alarm (FA), Security (SA), Communication (CA) et Office Automation (OA), et fournissant une interface de gestion O&M unifiée vers le haut pour réaliser la surveillance centralisée et la liaison intelligente des équipements du bâtiment.</p>
-     <h2>Composition de la Solution</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Building Automation (BA)</strong><br>Surveillance automatique et contrôle optimisé du CVC, de l'éclairage, des ascenseurs et de l'alimentation en eau/évacuation.</div>
-       <div class="feature-item"><strong>Système de sécurité</strong><br>Gestion intégrée de la vidéosurveillance, du contrôle d'accès, des alarmes intrusion et de la patrouille électronique.</div>
-       <div class="feature-item"><strong>Système incendie</strong><br>Détection automatique d'incendie, contrôle de liaison incendie, diffusion d'urgence et guidage d'évacuation.</div>
-       <div class="feature-item"><strong>Gestion énergétique</strong><br>Sous-comptage, analyse d'efficacité énergétique et stratégies de contrôle d'économie d'énergie pour réduire les coûts d'exploitation.</div>
-       <div class="feature-item"><strong>Gestion visiteurs</strong><br>Enregistrement rendez-vous, vérification d'identité, liaison ascenseur et suivi de trajectoire visiteur.</div>
-       <div class="feature-item"><strong>Parking intelligent</strong><br>Reconnaissance de plaque, guidage parking, recherche de véhicule et paiement sans contact.</div>
-     </div>
-     <h2>Architecture d'Application</h2>
-     <p>La plateforme IBMS adopte une architecture découplée en couches : la couche d'accès aux périphériques supporte plusieurs protocoles (Modbus/BACnet/OPC UA) ; la couche de traitement des données implémente le nettoyage de données en temps réel et les moteurs de règles d'alarme ; la couche d'application métier fournit des applications basées sur les scénarios telles que l'analyse énergétique, la maintenance des équipements et les services aux locataires. Supporte à la fois le déploiement sur site et la collaboration cloud-hybride.</p>
-     <h2>Scénarios d'Application</h2>
-     <img src="../images/visual-solution-building-scene.webp" alt="Scénarios bâtiment intelligent" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Scénarios bâtiment intelligent</p>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Bureaux commerciaux</strong><br>Contrôle environnement automatique des espaces communs, sous-comptage énergétique locataires et accès visiteurs en libre-service.</div>
-       <div class="feature-item"><strong>Hôtels et résidences</strong><br>Contrôle intelligent intégré des chambres, gestion énergétique, vidéosurveillance sécurité et dispatching de robots de service.</div>
-       <div class="feature-item"><strong>Bâtiments hospitaliers</strong><br>Surveillance environnement salle d'opération, gestion des actifs équipements médicaux, liaison appel chambre et optimisation énergétique.</div>
-       <div class="feature-item"><strong>Complexes commerciaux</strong><br>Plateforme de gestion multi-locataires unifiée avec analyse de flux de visiteurs, liaison équipements et commande d'évacuation d'urgence.</div>
-     </div>
-     <h2>Avantages de la Solution</h2>
-     <p>Basée sur la technologie de jumeau numérique BIM+IoT, la solution permet la gestion visuelle du cycle de vie des bâtiments. Les stratégies d'optimisation énergétique pilotées par IA peuvent réduire la consommation énergétique des bâtiments de 15%-25%. La plateforme unifiée élimine les silos d'information et réduit les coûts de main-d'œuvre O&M de plus de 30%.</p>
-     <h2>Valeur de la Solution</h2>
-     <p>Amélioration de l'efficacité opérationnelle du bâtiment, réduction de la consommation énergétique, renforcement de la sécurité, amélioration de l'expérience locataires et augmentation de la valeur des actifs immobiliers.</p>
-     <h2>Pratique Projet</h2>
-     <p>AXLTeco a déployé un système complet de gestion intelligente des bâtiments au FIRS building de Lagos, couvrant les sous-systèmes d'automatisation du bâtiment, de vidéosurveillance sécurité et de liaison incendie, fournissant un cas de référence pour les opérations intelligentes dans les grands bâtiments administratifs gouvernementaux.</p>
+<main>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">Architecture Système</h2>
+  <img src="../images/visual-solution-building-arch.fr.webp" alt="Architecture bâtiment intelligent">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Architecture IBMS bâtiment intelligent</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">La solution bâtiment intelligent est centrée sur la plateforme IBMS de gestion intelligente des bâtiments, intégrant cinq sous-systèmes vers le bas : Building Automation (BA), Fire Alarm (FA), Security (SA), Communication (CA) et Office Automation (OA), et fournissant une interface de gestion O&amp;M unifiée vers le haut pour réaliser la surveillance centralisée et la liaison intelligente des équipements du bâtiment.</p>
+</section>
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">Composition de la Solution</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="zap"></i></div>
+      <div class="capability-title">Building Automation (BA)</div>
+      <div class="capability-desc">Surveillance automatique et contrôle optimisé du CVC, de l'éclairage, des ascenseurs et de l'alimentation en eau/évacuation.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="star"></i></div>
+      <div class="capability-title">Système de sécurité</div>
+      <div class="capability-desc">Gestion intégrée de la vidéosurveillance, du contrôle d'accès, des alarmes intrusion et de la patrouille électronique.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="flame"></i></div>
+      <div class="capability-title">Système incendie</div>
+      <div class="capability-desc">Détection automatique d'incendie, contrôle de liaison incendie, diffusion d'urgence et guidage d'évacuation.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="diamond"></i></div>
+      <div class="capability-title">Gestion énergétique</div>
+      <div class="capability-desc">Sous-comptage, analyse d'efficacité énergétique et stratégies de contrôle d'économie d'énergie pour réduire les coûts d'exploitation.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="triangle"></i></div>
+      <div class="capability-title">Gestion visiteurs</div>
+      <div class="capability-desc">Enregistrement rendez-vous, vérification d'identité, liaison ascenseur et suivi de trajectoire visiteur.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="brain"></i></div>
+      <div class="capability-title">Parking intelligent</div>
+      <div class="capability-desc">Reconnaissance de plaque, guidage parking, recherche de véhicule et paiement sans contact.</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <h2 class="section-title">Architecture d'Application</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">La plateforme IBMS adopte une architecture découplée en couches : la couche d'accès aux périphériques supporte plusieurs protocoles (Modbus/BACnet/OPC UA) ; la couche de traitement des données implémente le nettoyage de données en temps réel et les moteurs de règles d'alarme ; la couche d'application métier fournit des applications basées sur les scénarios telles que l'analyse énergétique, la maintenance des équipements et les services aux locataires. Supporte à la fois le déploiement sur site et la collaboration cloud-hybride.</p>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">Scénarios d'Application</h2>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-building-scene.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Bureaux commerciaux</h3>
+      <p>Contrôle environnement automatique des espaces communs, sous-comptage énergétique locataires et accès visiteurs en libre-service.</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-building-scene.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Hôtels et résidences</h3>
+      <p>Contrôle intelligent intégré des chambres, gestion énergétique, vidéosurveillance sécurité et dispatching de robots de service.</p>
+    </div>
+  </div>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-building-scene.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Bâtiments hospitaliers</h3>
+      <p>Surveillance environnement salle d'opération, gestion des actifs équipements médicaux, liaison appel chambre et optimisation énergétique.</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-building-scene.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Complexes commerciaux</h3>
+      <p>Plateforme de gestion multi-locataires unifiée avec analyse de flux de visiteurs, liaison équipements et commande d'évacuation d'urgence.</p>
+    </div>
+  </div>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">Avantages de la Solution</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Basée sur la technologie de jumeau numérique BIM+IoT, la solution permet la gestion visuelle du cycle de vie des bâtiments. Les stratégies d'optimisation énergétique pilotées par IA peuvent réduire la consommation énergétique des bâtiments de 15%-25%. La plateforme unifiée élimine les silos d'information et réduit les coûts de main-d'œuvre O&amp;M de plus de 30%.</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">Valeur de la Solution</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Amélioration de l'efficacité opérationnelle du bâtiment, réduction de la consommation énergétique, renforcement de la sécurité, amélioration de l'expérience locataires et augmentation de la valeur des actifs immobiliers.</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">Pratique Projet</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco a déployé un système complet de gestion intelligente des bâtiments au FIRS building de Lagos, couvrant les sous-systèmes d'automatisation du bâtiment, de vidéosurveillance sécurité et de liaison incendie, fournissant un cas de référence pour les opérations intelligentes dans les grands bâtiments administratifs gouvernementaux.</p>
+</section>
 </main>
 <footer class="footer">
   <div class="footer-inner">
