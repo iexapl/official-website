@@ -83,37 +83,96 @@
 <div class="page-hero"><h1>智慧机场</h1><p>安检 · 登机 · 行李 · 航班信息显示</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-airport.webp" alt="智慧机场方案架构" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
-</div><main class="page-content">
-     <h2>系统架构</h2>
-     <img src="../images/visual-solution-airport-arch.webp" alt="智慧机场系统架构" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">智慧机场集成系统架构</p>
-     <p>智慧机场解决方案采用「基础设施层-平台层-应用层」三层架构。基础设施层覆盖航站楼、停机坪、货运区的智能化设备；平台层实现数据汇聚、视频联网、设备联动；应用层面向旅客、航司、机场管理方提供差异化服务。</p><p>AXLTeco 智慧机场解决方案通过智能化系统提升机场运营效率、安全保障水平和旅客服务体验。</p>
-     <h2>方案组成</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>安检系统</strong><br>X光机、安检门、人脸识别核验，提升安检效率和准确性。</div>
-       <div class="feature-item"><strong>登机系统</strong><br>自助值机、自助登机、人脸识别登机，减少排队等待。</div>
-       <div class="feature-item"><strong>行李系统</strong><br>行李自动分拣、追踪定位、异常告警，降低行李差错率。</div>
-       <div class="feature-item"><strong>航班信息显示</strong><br>FIDS系统实时显示航班动态，支持多语言、多终端展示。</div>
-       <div class="feature-item"><strong>安防监控系统</strong><br>航站楼、跑道、停机坪全覆盖监控，周界防范。</div>
-       <div class="feature-item"><strong>楼宇自控系统</strong><br>航站楼环境控制、照明管理、能耗优化。</div>
-     </div>
-     
-     <h2>应用架构</h2>
-     <p>机场智能化平台集成安检、登机、行李、航显、安防、楼宇自控六大子系统。通过统一集成平台实现跨系统数据共享与联动控制，例如航班动态自动触发登机口广播、行李转盘联动、照明调节等场景化智能响应。</p><h2>应用场景</h2>
-     <img src="../images/visual-solution-airport-scene.webp" alt="智慧机场应用场景" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">智慧机场应用场景</p>
-     <div class="feature-list">
-       <div class="feature-item"><strong>旅客服务</strong><br>自助值机、自助托运、人脸识别登机、航班动态实时推送。</div>
-       <div class="feature-item"><strong>安检通道</strong><br>X光智能判图、人脸识别核验、安检流程分流引导。</div>
-       <div class="feature-item"><strong>停机坪管理</strong><br>机位智能分配、地面车辆调度、航空器轨迹监控。</div>
-       <div class="feature-item"><strong>货运区域</strong><br>货物追踪定位、仓储环境监控、安检联动管理。</div>
-     </div>
-     <h2>方案优势</h2>
-     <p>系统符合国际民航组织(ICAO)安全标准，支持多语言、多币种适配，满足国际枢纽机场运营需求。模块化设计允许分阶段建设，从单个子系统到全机场集成平滑过渡，降低一次性投资风险。</p>
-     <h2>方案价值</h2>
-     <p>提升旅客通关效率，增强安全保障能力，优化机场资源利用，提升旅客满意度和机场商业收益。</p>
-     <h2>项目实践</h2>
-     <p>AXLTeco 为尼日利亚多个机场提供弱电智能化系统建设与运维服务，涵盖安防监控、门禁管理、广播系统等基础设施，保障机场安全高效运营。</p></main><footer class="footer">
+</div><main>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">系统架构</h2>
+  <img src="../images/visual-solution-airport-arch.webp" alt="智慧机场系统架构">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧机场集成系统架构</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧机场解决方案采用「基础设施层-平台层-应用层」三层架构。基础设施层覆盖航站楼、停机坪、货运区的智能化设备；平台层实现数据汇聚、视频联网、设备联动；应用层面向旅客、航司、机场管理方提供差异化服务。AXLTeco 智慧机场解决方案通过智能化系统提升机场运营效率、安全保障水平和旅客服务体验。</p>
+</section>
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">方案组成</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="zap"></i></div>
+      <div class="capability-title">安检系统</div>
+      <div class="capability-desc">X光机、安检门、人脸识别核验，提升安检效率和准确性。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="star"></i></div>
+      <div class="capability-title">登机系统</div>
+      <div class="capability-desc">自助值机、自助登机、人脸识别登机，减少排队等待。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="hexagon"></i></div>
+      <div class="capability-title">行李系统</div>
+      <div class="capability-desc">行李自动分拣、追踪定位、异常告警，降低行李差错率。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="diamond"></i></div>
+      <div class="capability-title">航班信息显示</div>
+      <div class="capability-desc">FIDS系统实时显示航班动态，支持多语言、多终端展示。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="video"></i></div>
+      <div class="capability-title">安防监控系统</div>
+      <div class="capability-desc">航站楼、跑道、停机坪全覆盖监控，周界防范。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="square"></i></div>
+      <div class="capability-title">楼宇自控系统</div>
+      <div class="capability-desc">航站楼环境控制、照明管理、能耗优化。</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <h2 class="section-title">应用架构</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">机场智能化平台集成安检、登机、行李、航显、安防、楼宇自控六大子系统。通过统一集成平台实现跨系统数据共享与联动控制，例如航班动态自动触发登机口广播、行李转盘联动、照明调节等场景化智能响应。</p>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">应用场景</h2>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-airport-scene.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>旅客服务</h3>
+      <p>自助值机、自助托运、人脸识别登机、航班动态实时推送。</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-airport-scene.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>安检通道</h3>
+      <p>X光智能判图、人脸识别核验、安检流程分流引导。</p>
+    </div>
+  </div>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-airport-scene.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>停机坪管理</h3>
+      <p>机位智能分配、地面车辆调度、航空器轨迹监控。</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-airport-scene.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>货运区域</h3>
+      <p>货物追踪定位、仓储环境监控、安检联动管理。</p>
+    </div>
+  </div>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">方案优势</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">系统符合国际民航组织(ICAO)安全标准，支持多语言、多币种适配，满足国际枢纽机场运营需求。模块化设计允许分阶段建设，从单个子系统到全机场集成平滑过渡，降低一次性投资风险。</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">方案价值</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">提升旅客通关效率，增强安全保障能力，优化机场资源利用，提升旅客满意度和机场商业收益。</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">项目实践</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco 为尼日利亚多个机场提供弱电智能化系统建设与运维服务，涵盖安防监控、门禁管理、广播系统等基础设施，保障机场安全高效运营。</p>
+</section>
+</main><footer class="footer">
   <div class="footer-inner">
     <div>
       <h4>AXLTeco Limited</h4>
