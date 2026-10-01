@@ -586,6 +586,115 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   background: rgba(56,189,248,0.04);
 }
 
+/* === PM Spec v1.0 - P0 Batch Layout Classes === */
+
+/* 容器与栅格 */
+.section-container { max-width: 1140px; margin: 0 auto; padding: 80px 24px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.grid-auto { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+
+/* 卡片修饰类（.card 基类已存在于 v22） */
+.card-purple { border-color: rgba(167,139,250,0.2) !important; }
+.card-purple:hover { box-shadow: 0 0 20px rgba(167,139,250,0.1); border-color: var(--color-accent) !important; }
+
+/* Hero 区 */
+.hero-section { background: var(--color-bg); padding: 120px 24px; text-align: center; }
+.hero-title { font-size: 48px; font-weight: 700; color: var(--color-text-strong); }
+.hero-title span { color: var(--color-brand); }
+.hero-subtitle { font-size: 20px; color: var(--color-text-muted); margin-top: 16px; }
+.hero-cta { margin-top: 32px; display: flex; gap: 16px; justify-content: center; }
+.btn-primary { background: var(--color-brand); color: var(--color-bg); padding: 12px 24px; border-radius: 8px; font-weight: 600; display: inline-block; }
+
+/* 亮点横幅 */
+.highlights-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; padding: 48px 24px; background: var(--color-bg); }
+.highlight-item { text-align: center; }
+.highlight-icon { width: 48px; height: 48px; margin: 0 auto 12px; color: var(--color-brand); }
+.highlight-title { font-size: 18px; font-weight: 600; color: var(--color-text-strong); }
+.highlight-desc { font-size: 14px; color: var(--color-text-muted); margin-top: 8px; }
+
+/* 产品简介 */
+.intro-section { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+.intro-text { color: var(--color-text); font-size: 16px; line-height: 1.8; }
+.intro-image { border-radius: var(--radius-lg); border: 1px solid var(--color-line-soft); box-shadow: var(--shadow-card); }
+
+/* 核心能力/图标卡 */
+.capability-section { padding: 80px 24px; background: var(--color-bg); }
+.capability-card { text-align: center; padding: 32px 24px; background: var(--color-bg-elevated); border-radius: var(--radius); border: 1px solid var(--color-line-soft); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.capability-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-card-hover); border-color: var(--color-brand); }
+.capability-icon { width: 48px; height: 48px; margin: 0 auto 16px; background: rgba(56,189,248,0.1); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: var(--color-brand); }
+.capability-title { font-size: 18px; font-weight: 600; color: var(--color-text-strong); }
+.capability-desc { font-size: 14px; color: var(--color-text-muted); margin-top: 8px; line-height: 1.6; }
+
+/* 方案优势/大图+列表 */
+.advantage-section { display: grid; grid-template-columns: 55% 45%; gap: 48px; align-items: center; padding: 80px 24px; }
+.advantage-section.reverse { grid-template-columns: 45% 55%; }
+.advantage-list { display: flex; flex-direction: column; gap: 24px; }
+.advantage-item { display: flex; gap: 16px; }
+.advantage-icon { width: 40px; height: 40px; flex-shrink: 0; color: var(--color-brand); }
+.advantage-content h3 { font-size: 18px; font-weight: 600; color: var(--color-text-strong); }
+.advantage-content p { font-size: 14px; color: var(--color-text-muted); margin-top: 4px; }
+.advantage-image { border-radius: var(--radius-lg); border: 1px solid var(--color-line-soft); }
+
+/* 应用场景/左右交替 */
+.scenario-section { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; padding: 80px 24px; }
+.scenario-section.reverse .scenario-image { order: 2; }
+.scenario-section.reverse .scenario-text { order: 1; }
+.scenario-image { border-radius: var(--radius-lg); border: 1px solid var(--color-line-soft); }
+.scenario-text h3 { font-size: 24px; font-weight: 600; color: var(--color-text-strong); }
+.scenario-text p { font-size: 16px; color: var(--color-text-muted); margin-top: 12px; line-height: 1.7; }
+.scenario-tags { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+.scenario-tag { background: rgba(56,189,248,0.1); color: var(--color-brand); padding: 4px 12px; border-radius: 4px; font-size: 13px; }
+
+/* 安全合规/三列 */
+.security-section { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; padding: 80px 24px; }
+.security-card { padding: 24px; background: var(--color-bg-elevated); border-radius: var(--radius); border: 1px solid var(--color-line-soft); }
+.security-card img { width: 100%; border-radius: 8px; margin-bottom: 16px; }
+.security-card h3 { font-size: 18px; font-weight: 600; color: var(--color-text-strong); }
+.security-card ul { margin-top: 12px; padding-left: 18px; }
+.security-card li { font-size: 14px; color: var(--color-text-muted); margin-top: 8px; line-height: 1.6; }
+
+/* 客户案例/卡片墙 */
+.case-section { padding: 80px 24px; background: var(--color-bg); }
+.case-card { padding: 32px 24px; background: var(--color-bg-elevated); border-radius: var(--radius); border: 1px solid var(--color-line-soft); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.case-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-card-hover); }
+.case-logo { height: 48px; margin-bottom: 16px; display: flex; align-items: center; }
+.case-logo img { max-height: 100%; max-width: 120px; }
+.case-desc { font-size: 14px; color: var(--color-text-muted); line-height: 1.6; }
+.case-link { display: inline-block; margin-top: 16px; color: var(--color-brand); font-size: 14px; }
+
+/* 项目成果/数据指标 */
+.metric-section { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; padding: 80px 24px; text-align: center; }
+.metric-number { font-size: 48px; font-weight: 700; color: var(--color-brand); font-variant-numeric: tabular-nums; }
+.metric-label { font-size: 16px; color: var(--color-text-muted); margin-top: 8px; }
+
+/* 架构图容器 */
+.architecture-container { max-width: 1200px; margin: 0 auto; padding: 48px 24px; text-align: center; }
+.architecture-container img { max-width: 100%; border-radius: 8px; }
+
+/* 技术栈标签 */
+.tech-pill { display: inline-block; background: rgba(56,189,248,0.1); color: var(--color-brand); padding: 4px 12px; border-radius: 4px; font-size: 13px; font-family: monospace; margin: 4px; }
+.tech-pill-purple { background: rgba(167,139,250,0.1); color: var(--color-accent); }
+
+/* 锚点导航 */
+.anchor-nav { display: flex; gap: 32px; justify-content: center; padding: 16px 24px; background: rgba(5,11,26,0.95); position: sticky; top: 0; z-index: 100; border-bottom: 1px solid var(--color-line-soft); }
+.anchor-nav a { color: var(--color-text-muted); font-size: 14px; transition: color 0.2s; }
+.anchor-nav a:hover, .anchor-nav a.active { color: var(--color-brand); }
+
+/* P0 响应式断点 */
+@media (max-width: 991px) {
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .highlights-bar { grid-template-columns: repeat(2, 1fr); }
+  .metric-section { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 767px) {
+  .grid-2, .grid-3, .grid-4, .grid-auto, .intro-section, .advantage-section, .advantage-section.reverse, .scenario-section, .security-section, .metric-section { grid-template-columns: 1fr; }
+  .advantage-section.reverse .advantage-image, .scenario-section.reverse .scenario-image { order: 0; }
+  .hero-title { font-size: 32px; }
+  .highlights-bar { grid-template-columns: 1fr; }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero h1 { font-size: 1.6rem; }
@@ -602,3 +711,50 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
     font-size: 1rem;
   }
 }
+
+/* === PM Spec v1.0 - P1 Hardware Page Classes === */
+
+/* 产品系列卡片：圆角16px，暗底，紫色描边 */
+.product-card {
+  border-radius: var(--radius-lg);
+  background: #0a1224;
+  border: 1px solid rgba(167,139,250,0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 24px rgba(167,139,250,0.15);
+  border-color: var(--color-accent);
+}
+
+/* 产品图区域：占卡片上部，深色背景居中图标 */
+.product-card-img {
+  width: 100%;
+  height: 220px;
+  background: var(--color-bg-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(167,139,250,0.15);
+}
+
+/* 规格参数列表 */
+.product-card-specs {
+  margin-top: 12px;
+  padding-left: 18px;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+.product-card-specs li {
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+/* === Service Page — v22-p3 additions (4 new selectors) === */
+.process-steps { max-width: 800px; margin: 40px auto 0; display: flex; flex-direction: column; gap: 0; }
+.step-card { display: flex; gap: 24px; align-items: flex-start; padding: 28px 32px; border-radius: 12px; }
+.step-number { width: 48px; height: 48px; border-radius: 50%; background: var(--color-brand); color: var(--color-bg); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px; flex-shrink: 0; }
+.step-connector { width: 2px; height: 32px; background: linear-gradient(to bottom, var(--color-brand), rgba(56,189,248,0.1)); margin-left: 23px; align-self: flex-start; }
+.step-content { flex: 1; }
+.step-content h3 { font-size: var(--fs-h3); color: var(--color-text-strong); margin-bottom: 6px; }
+.step-content p { font-size: 14px; color: var(--color-text-muted); line-height: 1.6; }

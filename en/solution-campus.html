@@ -90,37 +90,95 @@
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-campus.webp" alt="Smart Campus Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content">
-     <h2>System Architecture</h2>
-     <img src="../images/visual-solution-campus-arch.webp" alt="Smart Campus Architecture" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Smart Campus Integrated Architecture</p>
-     <p>The smart campus adopts a four-layer architecture: Perception Layer covering IoT terminals such as access control, surveillance, and energy monitoring; Network Layer providing converged wired and wireless coverage; Platform Layer enabling data aggregation and intelligent analytics; Application Layer offering unified service portals for students, faculty, and administrators.</p>
-     <h2>Solution Components</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Access Control</strong><br>Face recognition/card entry, zone-based permission control, and visitor appointment management.</div>
-       <div class="feature-item"><strong>Video Surveillance</strong><br>Full campus coverage with intelligent analysis in key areas and real-time abnormal event alerts.</div>
-       <div class="feature-item"><strong>Campus Broadcasting</strong><br>Zone-based broadcasting, scheduled playback, and emergency broadcast with multimedia support.</div>
-       <div class="feature-item"><strong>One-Card System</strong><br>Unified card for access, payment, attendance, and library services.</div>
-       <div class="feature-item"><strong>Energy Management</strong><br>Real-time monitoring of water, electricity, and gas with consumption analysis and energy-saving recommendations.</div>
-       <div class="feature-item"><strong>Visitor Management</strong><br>Online appointment, ID verification, trajectory tracking, and departure confirmation.</div>
-     </div>
-     <h2>Application Architecture</h2>
-     <p>The campus management platform uses unified identity authentication at its core, integrating academic management, security surveillance, logistics services, and asset management subsystems. Through a data middleware, cross-system data interoperability is achieved, providing decision dashboards for leadership, teaching assistants for faculty, and one-stop campus services for students.</p>
-     <h2>Application Scenarios</h2>
-     <img src="../images/visual-solution-campus-scene.webp" alt="Smart Campus Scenarios" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Smart Campus Scenarios</p>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Security & Prevention</strong><br>Campus perimeter protection, key-area monitoring, stranger alerts, and one-click alarm linkage.</div>
-       <div class="feature-item"><strong>Teaching Management</strong><br>Smart classroom environment control, multimedia device management, and classroom attendance statistics.</div>
-       <div class="feature-item"><strong>Logistics Services</strong><br>Dormitory access control, cafeteria consumption tracking, maintenance work order workflow, and energy-saving control.</div>
-       <div class="feature-item"><strong>Home-School Communication</strong><br>Student entry/exit notifications, visitor appointment review, and campus activity push.</div>
-     </div>
-     <h2>Solution Advantages</h2>
-     <p>The system adopts a modular design that can be flexibly configured according to school scale, supporting tiered deployment from kindergartens to large universities. A unified platform reduces multi-system maintenance costs, and open APIs enable seamless integration with existing academic systems.</p>
-     <h2>Solution Value</h2>
-     <p>Improve campus safety management, optimize teaching resource allocation, reduce energy consumption, and create a safe, convenient, and comfortable learning and living environment for students and faculty.</p>
-     <h2>Project Practice</h2>
-     <p>AXLTeco has successfully deployed smart campus solutions in multiple schools across Nigeria, covering access control, video surveillance, and broadcast notification subsystems, significantly improving campus safety management and operational efficiency.</p>
+<main>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">System Architecture</h2>
+  <img src="../images/visual-solution-campus-arch.webp" alt="Smart Campus Architecture">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Smart Campus Integrated Architecture</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The smart campus adopts a four-layer architecture: Perception Layer covering IoT terminals such as access control, surveillance, and energy monitoring; Network Layer providing converged wired and wireless coverage; Platform Layer enabling data aggregation and intelligent analytics; Application Layer offering unified service portals for students, faculty, and administrators.</p>
+</section>
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">Solution Components</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="door-open"></i></div>
+      <div class="capability-title">Access Control</div>
+      <div class="capability-desc">Face recognition/card entry, zone-based permission control, and visitor appointment management.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="video"></i></div>
+      <div class="capability-title">Video Surveillance</div>
+      <div class="capability-desc">Full campus coverage with intelligent analysis in key areas and real-time abnormal event alerts.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="volume-2"></i></div>
+      <div class="capability-title">Campus Broadcasting</div>
+      <div class="capability-desc">Zone-based broadcasting, scheduled playback, and emergency broadcast with multimedia support.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="map"></i></div>
+      <div class="capability-title">One-Card System</div>
+      <div class="capability-desc">Unified card for access, payment, attendance, and library services.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="triangle"></i></div>
+      <div class="capability-title">Energy Management</div>
+      <div class="capability-desc">Real-time monitoring of water, electricity, and gas with consumption analysis and energy-saving recommendations.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="square"></i></div>
+      <div class="capability-title">Visitor Management</div>
+      <div class="capability-desc">Online appointment, ID verification, trajectory tracking, and departure confirmation.</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <h2 class="section-title">Application Architecture</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">The campus management platform uses unified identity authentication at its core, integrating academic management, security surveillance, logistics services, and asset management subsystems. Through a data middleware, cross-system data interoperability is achieved, providing decision dashboards for leadership, teaching assistants for faculty, and one-stop campus services for students.</p>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">Application Scenarios</h2>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-campus-scene.webp" alt="Smart Campus Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Security &amp; Prevention</h3>
+      <p>Campus perimeter protection, key-area monitoring, stranger alerts, and one-click alarm linkage.</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-campus-scene.webp" alt="Smart Campus Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Teaching Management</h3>
+      <p>Smart classroom environment control, multimedia device management, and classroom attendance statistics.</p>
+    </div>
+  </div>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-campus-scene.webp" alt="Smart Campus Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Logistics Services</h3>
+      <p>Dormitory access control, cafeteria consumption tracking, maintenance work order workflow, and energy-saving control.</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-campus-scene.webp" alt="Smart Campus Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Home-School Communication</h3>
+      <p>Student entry/exit notifications, visitor appointment review, and campus activity push.</p>
+    </div>
+  </div>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">Solution Advantages</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">The system adopts a modular design that can be flexibly configured according to school scale, supporting tiered deployment from kindergartens to large universities. A unified platform reduces multi-system maintenance costs, and open APIs enable seamless integration with existing academic systems.</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">Solution Value</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Improve campus safety management, optimize teaching resource allocation, reduce energy consumption, and create a safe, convenient, and comfortable learning and living environment for students and faculty.</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">Project Practice</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco has successfully deployed smart campus solutions in multiple schools across Nigeria, covering access control, video surveillance, and broadcast notification subsystems, significantly improving campus safety management and operational efficiency.</p>
+</section>
 </main>
 <footer class="footer">
   <div class="footer-inner">

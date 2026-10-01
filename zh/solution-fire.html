@@ -84,34 +84,76 @@
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-fire-hero.webp" alt="火灾自动报警方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content"><p>AXLTeco 火灾自动报警解决方案通过早期火灾探测和智能联动控制，最大限度保障人员生命安全和减少财产损失。</p>
-     <h2>系统架构</h2>
-     <div class="page-image" style="max-width:900px;margin:20px auto;padding:0 20px;">
-       <img src="../images/visual-solution-fire-arch.zh.webp" alt="火灾自动报警系统架构" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
-     </div>
-     <p>火灾自动报警系统由火灾探测、报警控制、联动执行和消防管理四个子系统组成。探测子系统包括烟感、温感、火焰和气体探测器；报警控制子系统负责信号处理、报警确认和分区广播；联动执行子系统控制喷淋、排烟、卷帘和应急照明；消防管理子系统提供图形显示、事件记录和远程监管。</p>
-     <h2>方案组成</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>火灾探测器</strong><br>光电感烟、感温、火焰、可燃气体等多种类型探测器。</div>
-       <div class="feature-item"><strong>报警主机</strong><br>智能火灾报警控制器，支持多回路、大容量设备接入。</div>
-       <div class="feature-item"><strong>手动报警</strong><br>手动火灾报警按钮，人员发现火情可即时触发报警。</div>
-       <div class="feature-item"><strong>声光报警</strong><br>火灾声光警报器，分区/全楼广播疏散指令。</div>
-       <div class="feature-item"><strong>联动控制</strong><br>自动联动消防喷淋、防排烟、防火卷帘、应急照明、门禁释放。</div>
-       <div class="feature-item"><strong>图形显示</strong><br>消防控制室图形显示装置，火灾位置一目了然。</div>
-     </div>
-     <h2>应用架构</h2>
-     <div class="page-image" style="max-width:900px;margin:20px auto;padding:0 20px;">
-       <img src="../images/visual-solution-fire-app.zh.webp" alt="火灾自动报警应用架构" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
-     </div>
-     <p>应用架构采用分布式设计，探测器和模块通过回路总线连接至报警主机，主机通过通信接口与图形显示装置、消防联动控制器和城市消防远程监控中心对接。支持多主机联网，实现大型建筑群统一消防管理。</p>
-     <h2>应用场景</h2>
-     <p>适用于商业建筑、住宅小区、工业厂房、仓储物流、医院、学校等各类建筑场所。系统符合国家消防规范要求，通过消防产品认证，是建筑消防安全的必备系统。</p>
-     <h2>方案优势</h2>
-     <p>高灵敏度探测器，实现早期火灾预警；智能算法降低误报率；强大的联动控制能力，自动执行消防预案；支持联网监管，接入城市消防远程监控平台；图形化显示，火灾位置直观明了。</p>
-     <h2>方案价值</h2>
-     <p>第一时间发现火情并发出警报，为人员疏散争取宝贵时间。自动联动消防设备，有效控制火势蔓延。完整的事件记录和远程监管，满足消防合规要求，降低火灾造成的人员伤亡和财产损失。</p>
-     <h2>项目实践</h2>
-     <p>已为多个商业综合体、工业厂房和住宅小区提供火灾自动报警系统设计、安装和调试服务，所有项目均通过消防验收，系统运行稳定可靠。</p></main>
+<main>
+<div class="section-container" style="padding-top:48px;padding-bottom:0;">
+  <p style="max-width:900px;margin:0 auto;color:var(--color-text);line-height:1.8;">AXLTeco 火灾自动报警解决方案通过早期火灾探测和智能联动控制，最大限度保障人员生命安全和减少财产损失。</p>
+</div>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">系统架构</h2>
+  <img src="../images/visual-solution-fire-arch.zh.webp" alt="火灾自动报警系统架构">
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">火灾自动报警系统由火灾探测、报警控制、联动执行和消防管理四个子系统组成。探测子系统包括烟感、温感、火焰和气体探测器；报警控制子系统负责信号处理、报警确认和分区广播；联动执行子系统控制喷淋、排烟、卷帘和应急照明；消防管理子系统提供图形显示、事件记录和远程监管。</p>
+</section>
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">方案组成</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="radar"></i></div>
+      <div class="capability-title">火灾探测器</div>
+      <div class="capability-desc">光电感烟、感温、火焰、可燃气体等多种类型探测器。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="bell"></i></div>
+      <div class="capability-title">报警主机</div>
+      <div class="capability-desc">智能火灾报警控制器，支持多回路、大容量设备接入。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="bell"></i></div>
+      <div class="capability-title">手动报警</div>
+      <div class="capability-desc">手动火灾报警按钮，人员发现火情可即时触发报警。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="bell"></i></div>
+      <div class="capability-title">声光报警</div>
+      <div class="capability-desc">火灾声光警报器，分区/全楼广播疏散指令。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="link"></i></div>
+      <div class="capability-title">联动控制</div>
+      <div class="capability-desc">自动联动消防喷淋、防排烟、防火卷帘、应急照明、门禁释放。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="square"></i></div>
+      <div class="capability-title">图形显示</div>
+      <div class="capability-desc">消防控制室图形显示装置，火灾位置一目了然。</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <div class="intro-text">
+    <h2 class="section-title" style="text-align:left;padding-bottom:0;">应用架构</h2>
+    <p>应用架构采用分布式设计，探测器和模块通过回路总线连接至报警主机，主机通过通信接口与图形显示装置、消防联动控制器和城市消防远程监控中心对接。支持多主机联网，实现大型建筑群统一消防管理。</p>
+  </div>
+  <div>
+    <img src="../images/visual-solution-fire-app.zh.webp" alt="火灾自动报警应用架构" class="intro-image" style="width:100%;">
+  </div>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">应用场景</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">适用于商业建筑、住宅小区、工业厂房、仓储物流、医院、学校等各类建筑场所。系统符合国家消防规范要求，通过消防产品认证，是建筑消防安全的必备系统。</p>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">方案优势</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">高灵敏度探测器，实现早期火灾预警；智能算法降低误报率；强大的联动控制能力，自动执行消防预案；支持联网监管，接入城市消防远程监控平台；图形化显示，火灾位置直观明了。</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">方案价值</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">第一时间发现火情并发出警报，为人员疏散争取宝贵时间。自动联动消防设备，有效控制火势蔓延。完整的事件记录和远程监管，满足消防合规要求，降低火灾造成的人员伤亡和财产损失。</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">项目实践</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">已为多个商业综合体、工业厂房和住宅小区提供火灾自动报警系统设计、安装和调试服务，所有项目均通过消防验收，系统运行稳定可靠。</p>
+</section>
+</main>
 <footer class="footer">
   <div class="footer-inner">
     <div>

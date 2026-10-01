@@ -90,37 +90,95 @@
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-traffic.webp" alt="Smart Traffic Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content">
-     <h2>System Architecture</h2>
-     <img src="../images/visual-solution-traffic-arch.en.webp" alt="Smart Traffic Architecture" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Intelligent Traffic Management Architecture</p>
-     <p>The smart traffic system adopts a three-tier "Front-end Perception - Edge Computing - Central Analysis" architecture. The front-end deploys video detectors, radar, and signal controllers; the edge layer implements real-time traffic data processing and signal optimization; the central platform handles traffic situation analysis, command dispatch, and decision support.</p>
-     <h2>Solution Components</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Signal Control</strong><br>Adaptive signal timing that automatically adjusts green light duration based on real-time traffic flow.</div>
-       <div class="feature-item"><strong>Video Surveillance</strong><br>Full coverage monitoring at intersections and road sections with automatic traffic event detection and alerts.</div>
-       <div class="feature-item"><strong>Violation Detection</strong><br>Automatic capture and evidence collection for red-light running, speeding, wrong-way driving, and lane violations.</div>
-       <div class="feature-item"><strong>Flow Analysis</strong><br>Real-time collection of vehicle volume, speed, and occupancy data to generate traffic status reports.</div>
-       <div class="feature-item"><strong>Guidance Publishing</strong><br>Real-time road condition information publishing to guide vehicle diversion and balance network load.</div>
-       <div class="feature-item"><strong>Transit Priority</strong><br>Detect bus positions and grant green light priority passage.</div>
-     </div>
-     <h2>Application Architecture</h2>
-     <p>The traffic management platform includes six core subsystems: signal control, video surveillance, violation detection, flow analysis, guidance publishing, and transit priority. All subsystems interconnect through a unified data bus, supporting both single-point independent operation and regional coordinated control to adapt to cities of different sizes.</p>
-     <h2>Application Scenarios</h2>
-     <img src="../images/visual-solution-traffic-scene.webp" alt="Smart Traffic Scenarios" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Smart Traffic Scenarios</p>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Intersection Signal Optimization</strong><br>Adaptive signal timing based on real-time traffic flow to reduce vehicle waiting time.</div>
-       <div class="feature-item"><strong>Arterial Green Wave Coordination</strong><br>Coordinated signal control across adjacent intersections to enable smooth passage along main roads.</div>
-       <div class="feature-item"><strong>Regional Traffic Dispersion</strong><br>Peak-hour regional traffic balancing control to prevent local congestion from spreading.</div>
-       <div class="feature-item"><strong>Intelligent Violation Capture</strong><br>Automatic recognition and evidence collection for red-light running, speeding, and wrong-way driving.</div>
-     </div>
-     <h2>Solution Advantages</h2>
-     <p>The system is compatible with multiple mainstream signal controller brands at home and abroad, protecting existing investments. AI video analysis technology eliminates the need for destructive road surface coil installation, with short construction cycles and low maintenance costs. Open data interfaces support integration with city traffic command centers and map service providers.</p>
-     <h2>Solution Value</h2>
-     <p>Improve road capacity, reduce traffic accidents, optimize public transit services, and provide data support and decision-making basis for urban traffic management.</p>
-     <h2>Project Practice</h2>
-     <p>AXLTeco has participated in the low-voltage and intelligent system construction for transportation infrastructure including Lagos Mile 2 Integrated Transport Hub, Lagos Light Rail Blue Line Phase 5, and Kano Railway Station, accumulating engineering implementation experience in the transportation sector.</p>
+<main>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">System Architecture</h2>
+  <img src="../images/visual-solution-traffic-arch.en.webp" alt="Smart Traffic Architecture">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Intelligent Traffic Management Architecture</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The smart traffic system adopts a three-tier "Front-end Perception - Edge Computing - Central Analysis" architecture. The front-end deploys video detectors, radar, and signal controllers; the edge layer implements real-time traffic data processing and signal optimization; the central platform handles traffic situation analysis, command dispatch, and decision support.</p>
+</section>
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">Solution Components</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="zap"></i></div>
+      <div class="capability-title">Signal Control</div>
+      <div class="capability-desc">Adaptive signal timing that automatically adjusts green light duration based on real-time traffic flow.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="video"></i></div>
+      <div class="capability-title">Video Surveillance</div>
+      <div class="capability-desc">Full coverage monitoring at intersections and road sections with automatic traffic event detection and alerts.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="hexagon"></i></div>
+      <div class="capability-title">Violation Detection</div>
+      <div class="capability-desc">Automatic capture and evidence collection for red-light running, speeding, wrong-way driving, and lane violations.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="diamond"></i></div>
+      <div class="capability-title">Flow Analysis</div>
+      <div class="capability-desc">Real-time collection of vehicle volume, speed, and occupancy data to generate traffic status reports.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="triangle"></i></div>
+      <div class="capability-title">Guidance Publishing</div>
+      <div class="capability-desc">Real-time road condition information publishing to guide vehicle diversion and balance network load.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="square"></i></div>
+      <div class="capability-title">Transit Priority</div>
+      <div class="capability-desc">Detect bus positions and grant green light priority passage.</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <h2 class="section-title">Application Architecture</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">The traffic management platform includes six core subsystems: signal control, video surveillance, violation detection, flow analysis, guidance publishing, and transit priority. All subsystems interconnect through a unified data bus, supporting both single-point independent operation and regional coordinated control to adapt to cities of different sizes.</p>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">Application Scenarios</h2>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-traffic-scene.webp" alt="Smart Traffic Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Intersection Signal Optimization</h3>
+      <p>Adaptive signal timing based on real-time traffic flow to reduce vehicle waiting time.</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-traffic-scene.webp" alt="Smart Traffic Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Arterial Green Wave Coordination</h3>
+      <p>Coordinated signal control across adjacent intersections to enable smooth passage along main roads.</p>
+    </div>
+  </div>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-traffic-scene.webp" alt="Smart Traffic Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Regional Traffic Dispersion</h3>
+      <p>Peak-hour regional traffic balancing control to prevent local congestion from spreading.</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-traffic-scene.webp" alt="Smart Traffic Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Intelligent Violation Capture</h3>
+      <p>Automatic recognition and evidence collection for red-light running, speeding, and wrong-way driving.</p>
+    </div>
+  </div>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">Solution Advantages</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">The system is compatible with multiple mainstream signal controller brands at home and abroad, protecting existing investments. AI video analysis technology eliminates the need for destructive road surface coil installation, with short construction cycles and low maintenance costs. Open data interfaces support integration with city traffic command centers and map service providers.</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">Solution Value</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Improve road capacity, reduce traffic accidents, optimize public transit services, and provide data support and decision-making basis for urban traffic management.</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">Project Practice</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco has participated in the low-voltage and intelligent system construction for transportation infrastructure including Lagos Mile 2 Integrated Transport Hub, Lagos Light Rail Blue Line Phase 5, and Kano Railway Station, accumulating engineering implementation experience in the transportation sector.</p>
+</section>
 </main>
 <footer class="footer">
   <div class="footer-inner">

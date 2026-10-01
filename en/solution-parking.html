@@ -90,35 +90,85 @@
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-parking.webp" alt="Parking Management Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content">
-     <h2>System Architecture</h2>
-     <img src="../images/visual-solution-parking-arch.en.webp" alt="Parking System Architecture" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Intelligent Parking System Architecture</p>
-     <p>AXLTeco parking solution adopts a three-tier "Edge-Gateway-Cloud" architecture: the edge layer deploys license plate recognition cameras, parking space detectors, and barrier controllers; the gateway layer aggregates local data and enables real-time decisions; the cloud platform provides unified management, data analytics, and remote O&M. The system supports both on-premise and hybrid cloud deployment, flexibly adapting to parking facilities of all sizes.</p>
-     <h2>Solution Components</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>License Plate Recognition</strong><br>HD cameras with &gt;99% recognition rate, supporting multiple plate formats.</div>
-       <div class="feature-item"><strong>Parking Guidance</strong><br>Ultrasonic/video detectors monitor space status in real time, with guidance screens directing drivers to available spots.</div>
-       <div class="feature-item"><strong>Reverse Vehicle Finding</strong><br>Drivers enter their plate number to locate their vehicle and get navigation to the parking spot.</div>
-       <div class="feature-item"><strong>Unattended Payment</strong><br>Automatic billing, QR code payment, and contactless payment eliminate the need for manned exits.</div>
-     </div>
-     <h2>Application Architecture</h2>
-     <p>The parking management platform uses a microservices architecture with core services including vehicle recognition (multi-format plates), parking space management (real-time status sync), billing & settlement (flexible rate configuration), and reporting & analytics (multi-dimensional operations analysis). The front-end provides three entry points: admin portal, driver mini-program, and attendant app, with data synchronized in real time via message queues to ensure stability under high concurrency.</p>
-     <h2>Application Scenarios</h2>
-     <img src="../images/visual-solution-parking-scene.webp" alt="Parking Application Scenarios" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Intelligent Parking Scenarios</p>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Commercial Complexes</strong><br>Multi-level parking management for shopping malls and office clusters, supporting peak-hour tidal lane scheduling.</div>
-       <div class="feature-item"><strong>Residential Communities</strong><br>Automatic entry for residents, visitor pre-registration, flexible monthly/temporary parking billing.</div>
-       <div class="feature-item"><strong>Transportation Hubs</strong><br>Long-term parking management and quick vehicle locating for airports and railway stations.</div>
-       <div class="feature-item"><strong>On-Street Parking</strong><br>Smart retrofitting of urban roadside parking spaces with dual-mode detection and electronic payment.</div>
-     </div>
-     <h2>Solution Advantages</h2>
-     <p>The system supports both cloud management and local deployment, flexibly configurable according to parking facility scale. Integration with building management and fire systems enables intelligent parking as part of a unified smart building ecosystem.</p>
-     <h2>Solution Value</h2>
-     <p>Increase parking turnover by over 30%, reduce labor costs by 60%, and shorten average vehicle search time to under 2 minutes. Data-driven optimization of parking resources creates continuous value for operators.</p>
-     <h2>Project Practice</h2>
-     <p>AXLTeco has deployed intelligent parking systems in multiple commercial complexes and residential communities in Lagos, achieving unattended toll collection and remote centralized management with stable operation exceeding 24 months.</p>
+<main>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">System Architecture</h2>
+  <img src="../images/visual-solution-parking-arch.en.webp" alt="Parking System Architecture">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Intelligent Parking System Architecture</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco parking solution adopts a three-tier "Edge-Gateway-Cloud" architecture: the edge layer deploys license plate recognition cameras, parking space detectors, and barrier controllers; the gateway layer aggregates local data and enables real-time decisions; the cloud platform provides unified management, data analytics, and remote O&amp;M. The system supports both on-premise and hybrid cloud deployment, flexibly adapting to parking facilities of all sizes.</p>
+</section>
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">Solution Components</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="scan-line"></i></div>
+      <div class="capability-title">License Plate Recognition</div>
+      <div class="capability-desc">HD cameras with &gt;99% recognition rate, supporting multiple plate formats.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="map-pin"></i></div>
+      <div class="capability-title">Parking Guidance</div>
+      <div class="capability-desc">Ultrasonic/video detectors monitor space status in real time, with guidance screens directing drivers to available spots.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="search"></i></div>
+      <div class="capability-title">Reverse Vehicle Finding</div>
+      <div class="capability-desc">Drivers enter their plate number to locate their vehicle and get navigation to the parking spot.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="credit-card"></i></div>
+      <div class="capability-title">Unattended Payment</div>
+      <div class="capability-desc">Automatic billing, QR code payment, and contactless payment eliminate the need for manned exits.</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <h2 class="section-title">Application Architecture</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">The parking management platform uses a microservices architecture with core services including vehicle recognition (multi-format plates), parking space management (real-time status sync), billing &amp; settlement (flexible rate configuration), and reporting &amp; analytics (multi-dimensional operations analysis). The front-end provides three entry points: admin portal, driver mini-program, and attendant app, with data synchronized in real time via message queues to ensure stability under high concurrency.</p>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">Application Scenarios</h2>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-parking-scene.webp" alt="Parking Application Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Commercial Complexes</h3>
+      <p>Multi-level parking management for shopping malls and office clusters, supporting peak-hour tidal lane scheduling.</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-parking-scene.webp" alt="Parking Application Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Residential Communities</h3>
+      <p>Automatic entry for residents, visitor pre-registration, flexible monthly/temporary parking billing.</p>
+    </div>
+  </div>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-parking-scene.webp" alt="Parking Application Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Transportation Hubs</h3>
+      <p>Long-term parking management and quick vehicle locating for airports and railway stations.</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-parking-scene.webp" alt="Parking Application Scenarios" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>On-Street Parking</h3>
+      <p>Smart retrofitting of urban roadside parking spaces with dual-mode detection and electronic payment.</p>
+    </div>
+  </div>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">Solution Advantages</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">The system supports both cloud management and local deployment, flexibly configurable according to parking facility scale. Integration with building management and fire systems enables intelligent parking as part of a unified smart building ecosystem.</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">Solution Value</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Increase parking turnover by over 30%, reduce labor costs by 60%, and shorten average vehicle search time to under 2 minutes. Data-driven optimization of parking resources creates continuous value for operators.</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">Project Practice</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco has deployed intelligent parking systems in multiple commercial complexes and residential communities in Lagos, achieving unattended toll collection and remote centralized management with stable operation exceeding 24 months.</p>
+</section>
 </main>
 <footer class="footer">
   <div class="footer-inner">

@@ -83,35 +83,86 @@
 <div class="page-hero"><h1>停车场</h1><p>车牌识别 · 车位引导 · 反向寻车 · 无人收费</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-parking.webp" alt="停车场方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
-</div><main class="page-content">
-     <h2>系统架构</h2>
-     <img src="../images/visual-solution-parking-arch.zh.webp" alt="停车场系统架构" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">停车场智能化系统架构</p>
-     <p>AXLTeco 停车场解决方案采用「端-边-云」三层架构：端侧部署车牌识别摄像头、车位探测器、道闸控制器；边缘侧通过智能网关实现本地数据汇聚与实时决策；云端平台提供统一管理、数据分析与远程运维。系统支持私有化部署与混合云模式，满足不同规模停车场的灵活适配。</p><p>AXLTeco 停车场解决方案实现车辆出入口的智能化管理，提升停车效率和用户体验，降低运营成本。</p>
-     <h2>方案组成</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>车牌识别系统</strong><br>高清摄像头自动识别车牌，识别率>99%，支持多种车牌格式。</div>
-       <div class="feature-item"><strong>车位引导系统</strong><br>超声波/视频探测器实时监测车位状态，引导屏指引车主快速找到空位。</div>
-       <div class="feature-item"><strong>反向寻车系统</strong><br>车主输入车牌即可查询车辆位置，导航至停车点。</div>
-       <div class="feature-item"><strong>无人收费系统</strong><br>自动计费、扫码支付、无感支付，出口无需人工值守。</div>
-     </div>
-     
-     <h2>应用架构</h2>
-     <p>停车场管理平台采用微服务架构，核心服务包括：车辆识别服务（支持多车牌格式）、车位管理服务（实时状态同步）、计费结算服务（灵活费率配置）、报表统计服务（多维运营分析）。前端提供管理后台、车主小程序、收费员APP三端入口，数据通过消息队列实时同步，确保高并发场景下的稳定运行。</p><h2>应用场景</h2>
-     <img src="../images/visual-solution-parking-scene.webp" alt="停车场应用场景" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">智能停车应用场景</p>
-     <div class="feature-list">
-       <div class="feature-item"><strong>商业综合体</strong><br>大型购物中心、写字楼群的多层停车场管理，支持高峰时段潮汐车道调度。</div>
-       <div class="feature-item"><strong>住宅小区</strong><br>业主车辆自动放行，访客预约通行，月租/临停灵活计费。</div>
-       <div class="feature-item"><strong>交通枢纽</strong><br>机场、火车站停车场的长时停车管理与快速寻车服务。</div>
-       <div class="feature-item"><strong>路侧停车</strong><br>城市道路泊位智能化改造，地磁+视频双模检测，电子收费。</div>
-     </div><h2>方案优势</h2>
-     <p>系统支持云端管理和本地部署两种模式，可根据停车场规模灵活配置。支持与楼宇管理系统、消防系统联动，实现智慧停车一体化管理。</p>
-     
-     
-     <h2>方案价值</h2>
-     <p>提升停车场周转率30%以上，减少人工成本60%，车主平均寻位时间缩短至2分钟以内。通过数据分析优化车位资源配置，为停车场运营方创造持续增值空间。</p><h2>项目实践</h2>
-     <p>AXLTeco 已在拉各斯多个商业综合体和住宅社区部署智能停车系统，实现无人值守收费与远程集中管理，系统稳定运行超过24个月，获得客户高度认可。</p></main><footer class="footer">
+</div><main>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">系统架构</h2>
+  <img src="../images/visual-solution-parking-arch.zh.webp" alt="停车场系统架构">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">停车场智能化系统架构</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco 停车场解决方案采用「端-边-云」三层架构：端侧部署车牌识别摄像头、车位探测器、道闸控制器；边缘侧通过智能网关实现本地数据汇聚与实时决策；云端平台提供统一管理、数据分析与远程运维。系统支持私有化部署与混合云模式，满足不同规模停车场的灵活适配。AXLTeco 停车场解决方案实现车辆出入口的智能化管理，提升停车效率和用户体验，降低运营成本。</p>
+</section>
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">方案组成</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="scan-line"></i></div>
+      <div class="capability-title">车牌识别系统</div>
+      <div class="capability-desc">高清摄像头自动识别车牌，识别率&gt;99%，支持多种车牌格式。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="map-pin"></i></div>
+      <div class="capability-title">车位引导系统</div>
+      <div class="capability-desc">超声波/视频探测器实时监测车位状态，引导屏指引车主快速找到空位。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="search"></i></div>
+      <div class="capability-title">反向寻车系统</div>
+      <div class="capability-desc">车主输入车牌即可查询车辆位置，导航至停车点。</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="credit-card"></i></div>
+      <div class="capability-title">无人收费系统</div>
+      <div class="capability-desc">自动计费、扫码支付、无感支付，出口无需人工值守。</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <h2 class="section-title">应用架构</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">停车场管理平台采用微服务架构，核心服务包括：车辆识别服务（支持多车牌格式）、车位管理服务（实时状态同步）、计费结算服务（灵活费率配置）、报表统计服务（多维运营分析）。前端提供管理后台、车主小程序、收费员APP三端入口，数据通过消息队列实时同步，确保高并发场景下的稳定运行。</p>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">应用场景</h2>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-parking-scene.webp" alt="停车场应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>商业综合体</h3>
+      <p>大型购物中心、写字楼群的多层停车场管理，支持高峰时段潮汐车道调度。</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-parking-scene.webp" alt="停车场应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>住宅小区</h3>
+      <p>业主车辆自动放行，访客预约通行，月租/临停灵活计费。</p>
+    </div>
+  </div>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-parking-scene.webp" alt="停车场应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>交通枢纽</h3>
+      <p>机场、火车站停车场的长时停车管理与快速寻车服务。</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-parking-scene.webp" alt="停车场应用场景" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>路侧停车</h3>
+      <p>城市道路泊位智能化改造，地磁+视频双模检测，电子收费。</p>
+    </div>
+  </div>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">方案优势</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">系统支持云端管理和本地部署两种模式，可根据停车场规模灵活配置。支持与楼宇管理系统、消防系统联动，实现智慧停车一体化管理。</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">方案价值</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">提升停车场周转率30%以上，减少人工成本60%，车主平均寻位时间缩短至2分钟以内。通过数据分析优化车位资源配置，为停车场运营方创造持续增值空间。</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">项目实践</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco 已在拉各斯多个商业综合体和住宅社区部署智能停车系统，实现无人值守收费与远程集中管理，系统稳定运行超过24个月，获得客户高度认可。</p>
+</section>
+</main><footer class="footer">
   <div class="footer-inner">
     <div>
       <h4>AXLTeco Limited</h4>

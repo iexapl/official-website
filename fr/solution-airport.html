@@ -90,37 +90,95 @@
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-airport.webp" alt="Solution aéroport intelligent" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content">
-     <h2>Architecture Système</h2>
-     <img src="../images/visual-solution-airport-arch.webp" alt="Architecture aéroport intelligent" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Architecture système intégré aéroport intelligent</p>
-     <p>La solution aéroport intelligent adopte une architecture trois niveaux « Infrastructure - Plateforme - Application ». La couche infrastructure couvre les équipements intelligents des terminaux, des aires de trafic et des zones cargo ; la couche plateforme réalise l'agrégation de données, le réseau vidéo et la liaison des équipements ; la couche application fournit des services différenciés pour les passagers, les compagnies aériennes et la gestion aéroportuaire.</p>
-     <h2>Composition de la Solution</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Contrôle de sécurité</strong><br> Machines à rayons X, portiques de sécurité et vérification par reconnaissance faciale pour améliorer l'efficacité et la précision du contrôle.</div>
-       <div class="feature-item"><strong>Système d'embarquement</strong><br>Enregistrement automatique, embarquement automatique et embarquement par reconnaissance faciale pour réduire le temps d'attente.</div>
-       <div class="feature-item"><strong>Système de bagages</strong><br>Tri automatique des bagages, suivi et alertes d'anomalies pour réduire les taux d'erreur de bagages.</div>
-       <div class="feature-item"><strong>Affichage des informations de vol</strong><br>Le système FIDS affiche la dynamique des vols en temps réel, supportant l'affichage multi-langue et multi-terminal.</div>
-       <div class="feature-item"><strong>Vidéosurveillance sécurité</strong><br>Couverture complète des terminaux, pistes et aires de trafic avec défense périmétrique.</div>
-       <div class="feature-item"><strong>Automatisation du bâtiment</strong><br>Contrôle environnement des terminaux, gestion de l'éclairage et optimisation énergétique.</div>
-     </div>
-     <h2>Architecture d'Application</h2>
-     <p>La plateforme intelligente aéroportuaire intègre six sous-systèmes : contrôle de sécurité, embarquement, traitement des bagages, affichage des informations de vol, vidéosurveillance sécurité et automatisation du bâtiment. Grâce à une plateforme d'intégration unifiée, le partage de données cross-système et le contrôle de liaison sont réalisés, permettant des réponses intelligentes basées sur les scénarios telles que les annonces automatiques de portes d'embarquement déclenchées par la dynamique des vols, la liaison des carrousels à bagages et l'ajustement de l'éclairage.</p>
-     <h2>Scénarios d'Application</h2>
-     <img src="../images/visual-solution-airport-scene.webp" alt="Scénarios aéroport intelligent" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Scénarios aéroport intelligent</p>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Services aux passagers</strong><br>Enregistrement automatique, dépôt automatique des bagages, embarquement par reconnaissance faciale et push du statut des vols en temps réel.</div>
-       <div class="feature-item"><strong>Voies de sécurité</strong><br>Analyse intelligente des images aux rayons X, vérification par reconnaissance faciale et guidage du flux de sécurité.</div>
-       <div class="feature-item"><strong>Gestion de l'aire de trafic</strong><br>Allocation intelligente des portes, dispatching des véhicules au sol et monitoring de la trajectoire des avions.</div>
-       <div class="feature-item"><strong>Zone cargo</strong><br>Suivi et positionnement des marchandises, surveillance environnementale des entrepôts et gestion de liaison sécurité.</div>
-     </div>
-     <h2>Avantages de la Solution</h2>
-     <p>Le système est conforme aux normes de sécurité de l'OACI, supporte l'adaptation multi-langue et multi-devise, et répond aux besoins opérationnels des aéroports hubs internationaux. La conception modulaire permet une construction par phases, permettant une transition en douceur des sous-systèmes isolés à l'intégration complète de l'aéroport, réduisant les risques d'investissement unique.</p>
-     <h2>Valeur de la Solution</h2>
-     <p>Amélioration de l'efficacité du débit des passagers, renforcement des capacités de sécurité, optimisation de l'utilisation des ressources aéroportuaires, et augmentation de la satisfaction des passagers et des revenus commerciaux de l'aéroport.</p>
-     <h2>Pratique Projet</h2>
-     <p>AXLTeco fournit des services de construction et de maintenance des systèmes basse tension et intelligents pour plusieurs aéroports au Nigéria, couvrant la vidéosurveillance sécurité, le contrôle d'accès et les systèmes de diffusion pour assurer des opérations aéroportuaires sûres et efficaces.</p>
+<main>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">Architecture Système</h2>
+  <img src="../images/visual-solution-airport-arch.webp" alt="Architecture aéroport intelligent">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Architecture système intégré aéroport intelligent</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">La solution aéroport intelligent adopte une architecture trois niveaux « Infrastructure - Plateforme - Application ». La couche infrastructure couvre les équipements intelligents des terminaux, des aires de trafic et des zones cargo ; la couche plateforme réalise l'agrégation de données, le réseau vidéo et la liaison des équipements ; la couche application fournit des services différenciés pour les passagers, les compagnies aériennes et la gestion aéroportuaire.</p>
+</section>
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">Composition de la Solution</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="zap"></i></div>
+      <div class="capability-title">Contrôle de sécurité</div>
+      <div class="capability-desc">Machines à rayons X, portiques de sécurité et vérification par reconnaissance faciale pour améliorer l'efficacité et la précision du contrôle.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="star"></i></div>
+      <div class="capability-title">Système d'embarquement</div>
+      <div class="capability-desc">Enregistrement automatique, embarquement automatique et embarquement par reconnaissance faciale pour réduire le temps d'attente.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="hexagon"></i></div>
+      <div class="capability-title">Système de bagages</div>
+      <div class="capability-desc">Tri automatique des bagages, suivi et alertes d'anomalies pour réduire les taux d'erreur de bagages.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="diamond"></i></div>
+      <div class="capability-title">Affichage des informations de vol</div>
+      <div class="capability-desc">Le système FIDS affiche la dynamique des vols en temps réel, supportant l'affichage multi-langue et multi-terminal.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="video"></i></div>
+      <div class="capability-title">Vidéosurveillance sécurité</div>
+      <div class="capability-desc">Couverture complète des terminaux, pistes et aires de trafic avec défense périmétrique.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="square"></i></div>
+      <div class="capability-title">Automatisation du bâtiment</div>
+      <div class="capability-desc">Contrôle environnement des terminaux, gestion de l'éclairage et optimisation énergétique.</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <h2 class="section-title">Architecture d'Application</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">La plateforme intelligente aéroportuaire intègre six sous-systèmes : contrôle de sécurité, embarquement, traitement des bagages, affichage des informations de vol, vidéosurveillance sécurité et automatisation du bâtiment. Grâce à une plateforme d'intégration unifiée, le partage de données cross-système et le contrôle de liaison sont réalisés, permettant des réponses intelligentes basées sur les scénarios telles que les annonces automatiques de portes d'embarquement déclenchées par la dynamique des vols, la liaison des carrousels à bagages et l'ajustement de l'éclairage.</p>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">Scénarios d'Application</h2>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-airport-scene.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Services aux passagers</h3>
+      <p>Enregistrement automatique, dépôt automatique des bagages, embarquement par reconnaissance faciale et push du statut des vols en temps réel.</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-airport-scene.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Voies de sécurité</h3>
+      <p>Analyse intelligente des images aux rayons X, vérification par reconnaissance faciale et guidage du flux de sécurité.</p>
+    </div>
+  </div>
+  <div class="scenario-section">
+    <img src="../images/visual-solution-airport-scene.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Gestion de l'aire de trafic</h3>
+      <p>Allocation intelligente des portes, dispatching des véhicules au sol et monitoring de la trajectoire des avions.</p>
+    </div>
+  </div>
+  <div class="scenario-section reverse">
+    <img src="../images/visual-solution-airport-scene.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;">
+    <div class="scenario-text">
+      <h3>Zone cargo</h3>
+      <p>Suivi et positionnement des marchandises, surveillance environnementale des entrepôts et gestion de liaison sécurité.</p>
+    </div>
+  </div>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">Avantages de la Solution</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Le système est conforme aux normes de sécurité de l'OACI, supporte l'adaptation multi-langue et multi-devise, et répond aux besoins opérationnels des aéroports hubs internationaux. La conception modulaire permet une construction par phases, permettant une transition en douceur des sous-systèmes isolés à l'intégration complète de l'aéroport, réduisant les risques d'investissement unique.</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">Valeur de la Solution</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Amélioration de l'efficacité du débit des passagers, renforcement des capacités de sécurité, optimisation de l'utilisation des ressources aéroportuaires, et augmentation de la satisfaction des passagers et des revenus commerciaux de l'aéroport.</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">Pratique Projet</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco fournit des services de construction et de maintenance des systèmes basse tension et intelligents pour plusieurs aéroports au Nigéria, couvrant la vidéosurveillance sécurité, le contrôle d'accès et les systèmes de diffusion pour assurer des opérations aéroportuaires sûres et efficaces.</p>
+</section>
 </main>
 <footer class="footer">
   <div class="footer-inner">

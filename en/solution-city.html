@@ -90,40 +90,92 @@
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
   <img src="../images/visual-solution-city.webp" alt="Smart City Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
 </div>
-<main class="page-content">
-     <h2>System Architecture</h2>
-     <img src="../images/visual-solution-city-arch.en.webp" alt="Smart City Architecture" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Smart City Digital Twin Architecture</p>
-     <p>The smart city solution builds on the CIM (City Information Modeling) digital base, establishing a "One Platform, Two Centers, N Applications" overall architecture. The city brain platform integrates urban operational data, with command and data centers driving each other to support N smart application scenarios including transportation, security, environmental protection, and government services.</p>
-     <h2>Solution Architecture</h2>
-     <img src="../images/visual-twin-city.webp" alt="Smart City Architecture" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Digital Twin City Architecture Diagram (Source: Digital Twin Reference Materials)</p>
-     <h2>Solution Components</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Urban Sensing Network</strong><br>Deploy IoT sensors, video surveillance, and environmental monitoring stations to build city-wide sensing capabilities.</div>
-       <div class="feature-item"><strong>Urban Data Platform</strong><br>Aggregate government, IoT, and Internet multi-source data to achieve data governance and sharing.</div>
-       <div class="feature-item"><strong>City Digital Twin</strong><br>CIM+BIM+GIS 3D digital base for visualizing urban operational status.</div>
-       <div class="feature-item"><strong>Intelligent Decision Engine</strong><br>AI algorithm models analyze urban data to assist scientific decision-making and predictive early warning.</div>
-     </div>
-     <h2>Core Capabilities</h2>
-     <div class="feature-list">
-       <div class="feature-item"><strong>Urban Sensing Network</strong><br>Deploy IoT sensor networks to collect real-time urban operational data including traffic, environment, energy, and security.</div>
-       <div class="feature-item"><strong>Data Convergence Platform</strong><br>Integrate government data, IoT data, and Internet data to build an urban big data centre.</div>
-       <div class="feature-item"><strong>City Digital Twin Map</strong><br>Based on CIM+BIM+GIS 3D urban digital foundation, visualising urban operational status.</div>
-       <div class="feature-item"><strong>Intelligent Decision Engine</strong><br>AI analysis of urban operational data to assist managers in scientific decision-making.</div>
-     </div>
-     <h2>Application Architecture</h2>
-     <p>The smart city platform adopts a cloud-native microservices architecture: the bottom layer is the urban IoT perception access layer; the middle layer consists of the data and AI middle platforms; the upper layer contains business applications for various government departments. Through a unified city operating system, cross-departmental data interoperability and business collaboration are achieved, breaking down "information silos."</p>
-     <h2>Application Scenarios</h2>
-     <img src="../images/visual-solution-city-scene.webp" alt="Smart City Scenarios" style="max-width:100%;">
-     <p style="text-align:center;color:var(--text-muted);font-size:0.85rem;">Smart City Scenarios</p>
-     <p>Applicable to urban operation monitoring, emergency command dispatch, traffic optimization, environmental monitoring, public services, and urban planning simulation. Through digital twin technology, urban plans can be rehearsed in virtual space to reduce actual construction risks and costs.</p>
-     <h2>Solution Advantages</h2>
-     <p>Based on digital twin technology, the solution achieves "virtual-physical mapping" of the city, enabling pre-simulation of urban planning schemes in virtual space to reduce actual construction risks. The platform has elastic scalability, supporting tiered construction from single blocks to entire cities with controllable investment and rapid results.</p>
-     <h2>Solution Value</h2>
-     <p>Improve the refinement level of urban governance, promote "one-network government services" and "one-network urban management." Through data-driven optimization of public resource allocation, improve citizens' quality of life and lay a digital foundation for sustainable urban development.</p>
-     <h2>Project Practice</h2>
-     <p>AXLTeco actively participates in Africa's urban digitalization, providing smart transportation, security surveillance, and low-voltage intelligent infrastructure services for cities like Lagos, accumulating rich city-level project implementation experience.</p>
+<main>
+<section id="architecture" class="architecture-container">
+  <h2 class="section-title">System Architecture</h2>
+  <img src="../images/visual-solution-city-arch.en.webp" alt="Smart City Architecture">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Smart City Digital Twin Architecture</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The smart city solution builds on the CIM (City Information Modeling) digital base, establishing a "One Platform, Two Centers, N Applications" overall architecture. The city brain platform integrates urban operational data, with command and data centers driving each other to support N smart application scenarios including transportation, security, environmental protection, and government services.</p>
+
+<h2 class="section-title">Solution Architecture</h2>
+  <img src="../images/visual-twin-city.webp" alt="Smart City Architecture">
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Digital Twin City Architecture Diagram (Source: Digital Twin Reference Materials)</p>
+</section>
+
+<section id="components" class="capability-section section-container">
+  <h2 class="section-title">Solution Components</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="building-2"></i></div>
+      <div class="capability-title">Urban Sensing Network</div>
+      <div class="capability-desc">Deploy IoT sensors, video surveillance, and environmental monitoring stations to build city-wide sensing capabilities.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="building-2"></i></div>
+      <div class="capability-title">Urban Data Platform</div>
+      <div class="capability-desc">Aggregate government, IoT, and Internet multi-source data to achieve data governance and sharing.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="building-2"></i></div>
+      <div class="capability-title">City Digital Twin</div>
+      <div class="capability-desc">CIM+BIM+GIS 3D digital base for visualizing urban operational status.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="git-branch"></i></div>
+      <div class="capability-title">Intelligent Decision Engine</div>
+      <div class="capability-desc">AI algorithm models analyze urban data to assist scientific decision-making and predictive early warning.</div>
+    </div>
+  </div>
+</section>
+<section id="capabilities" class="capability-section section-container">
+  <h2 class="section-title">Core Capabilities</h2>
+  <div class="grid-3">
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="building-2"></i></div>
+      <div class="capability-title">Urban Sensing Network</div>
+      <div class="capability-desc">Deploy IoT sensor networks to collect real-time urban operational data including traffic, environment, energy, and security.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="database"></i></div>
+      <div class="capability-title">Data Convergence Platform</div>
+      <div class="capability-desc">Integrate government data, IoT data, and Internet data to build an urban big data centre.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="building-2"></i></div>
+      <div class="capability-title">City Digital Twin Map</div>
+      <div class="capability-desc">Based on CIM+BIM+GIS 3D urban digital foundation, visualising urban operational status.</div>
+    </div>
+    <div class="capability-card">
+      <div class="capability-icon"><i data-lucide="git-branch"></i></div>
+      <div class="capability-title">Intelligent Decision Engine</div>
+      <div class="capability-desc">AI analysis of urban operational data to assist managers in scientific decision-making.</div>
+    </div>
+  </div>
+</section>
+<section id="app-arch" class="section-container">
+  <h2 class="section-title">Application Architecture</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">The smart city platform adopts a cloud-native microservices architecture: the bottom layer is the urban IoT perception access layer; the middle layer consists of the data and AI middle platforms; the upper layer contains business applications for various government departments. Through a unified city operating system, cross-departmental data interoperability and business collaboration are achieved, breaking down "information silos."</p>
+</section>
+<section id="scenarios" class="section-container">
+  <h2 class="section-title">Application Scenarios</h2>
+  <div style="max-width:900px;margin:0 auto;">
+    <img src="../images/visual-solution-city-scene.webp" alt="Smart City Scenarios" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  </div>
+  <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Smart City Scenarios</p>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable to urban operation monitoring, emergency command dispatch, traffic optimization, environmental monitoring, public services, and urban planning simulation. Through digital twin technology, urban plans can be rehearsed in virtual space to reduce actual construction risks and costs.</p>
+</section>
+<section id="advantages" class="section-container">
+  <h2 class="section-title">Solution Advantages</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Based on digital twin technology, the solution achieves "virtual-physical mapping" of the city, enabling pre-simulation of urban planning schemes in virtual space to reduce actual construction risks. The platform has elastic scalability, supporting tiered construction from single blocks to entire cities with controllable investment and rapid results.</p>
+</section>
+<section id="value" class="section-container">
+  <h2 class="section-title">Solution Value</h2>
+  <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Improve the refinement level of urban governance, promote "one-network government services" and "one-network urban management." Through data-driven optimization of public resource allocation, improve citizens' quality of life and lay a digital foundation for sustainable urban development.</p>
+</section>
+<section id="practice" class="case-section section-container">
+  <h2 class="section-title">Project Practice</h2>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco actively participates in Africa's urban digitalization, providing smart transportation, security surveillance, and low-voltage intelligent infrastructure services for cities like Lagos, accumulating rich city-level project implementation experience.</p>
+</section>
 </main>
 <footer class="footer">
   <div class="footer-inner">
