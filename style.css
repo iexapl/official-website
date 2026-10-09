@@ -809,3 +809,13 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 .step-content { flex: 1; }
 .step-content h3 { font-size: var(--fs-h3); color: var(--color-text-strong); margin-bottom: 6px; }
 .step-content p { font-size: 14px; color: var(--color-text-muted); line-height: 1.6; }
+
+/* A3: 首页核心实力区块图标居中 - 作用域限定，仅作用于首页 */
+.strength-section .icon-box {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.strength-section .card-body {
+  text-align: center;
+}
