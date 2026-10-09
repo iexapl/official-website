@@ -1,0 +1,5922 @@
+[
+  {
+    "file": "./en/about.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 2
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/contact.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/index.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-adscreen.html",
+    "changes": [
+      {
+        "old": "Advertising Screen",
+        "new": "Advertising &amp; Information Display",
+        "count": 2
+      },
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-attendance.html",
+    "changes": [
+      {
+        "old": "Attendance Devices",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 2
+      },
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 5
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-camera.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      },
+      {
+        "old": "Video Surveillance",
+        "new": "CCTV System",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-drone.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-edge.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-gate.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-gps.html",
+    "changes": [
+      {
+        "old": "Vehicle GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 2
+      },
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 2
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-led.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-oil.html",
+    "changes": [
+      {
+        "old": "Vehicle Fuel Theft Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 2
+      },
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-passage.html",
+    "changes": [
+      {
+        "old": "Pedestrian Access",
+        "new": "Pedestrian Passage Equipment",
+        "count": 2
+      },
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-hardware-splicing.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "Video Wall",
+        "new": "Video Wall System",
+        "count": 4
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-software-bim.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-software-blacklist.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 3
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-software-budget.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-software-dashboard.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-software-hr.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 3
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-software-ibms.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 2
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-software-info.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-software-inspection.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-software-warehouse.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/product-software-workorder.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/service-ai.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/service-modeling.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/service-software.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-airport.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-broadcast.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-building.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-campus.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 2
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      },
+      {
+        "old": "Video Surveillance",
+        "new": "CCTV System",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-city.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-community.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 4
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      },
+      {
+        "old": "Video Surveillance",
+        "new": "CCTV System",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-conference.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-construction.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-datacenter.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-eagle.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-fire.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-iptv.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-parking.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-patrol.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 3
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-solar.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./en/solution-traffic.html",
+    "changes": [
+      {
+        "old": "Video Walls",
+        "new": "Video Wall System",
+        "count": 1
+      },
+      {
+        "old": "LED Displays",
+        "new": "Outdoor LED Display",
+        "count": 1
+      },
+      {
+        "old": "CCTV",
+        "new": "CCTV System",
+        "count": 1
+      },
+      {
+        "old": "Attendance",
+        "new": "Attendance &amp; Access Control Equipment",
+        "count": 1
+      },
+      {
+        "old": "Fuel Sensor",
+        "new": "Vehicle Fuel Consumption &amp; Anti-Theft Sensor",
+        "count": 1
+      },
+      {
+        "old": "GPS Tracker",
+        "new": "Vehicle GPS Tracking Terminal",
+        "count": 1
+      },
+      {
+        "old": "Access Gates",
+        "new": "Pedestrian Passage Equipment",
+        "count": 1
+      },
+      {
+        "old": "Ad Screens",
+        "new": "Advertising &amp; Information Display",
+        "count": 1
+      },
+      {
+        "old": "Video Surveillance",
+        "new": "CCTV System",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/about.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "file": "./fr/contact.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/index.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-adscreen.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écran Publicitaire",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 3
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-attendance.html",
+    "changes": [
+      {
+        "old": "Appareils de Présence",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 2
+      },
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 4
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-camera.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance",
+        "new": "Système de Vidéosurveillance",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-drone.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-edge.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-gate.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-gps.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS Véhicule",
+        "new": "Terminal de Localisation GPS",
+        "count": 2
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 2
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-led.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Écran LED Extérieur",
+        "new": "Écrans LED Extérieurs",
+        "count": 2
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-oil.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Antivol Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 2
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 2
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-passage.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Accès Piéton",
+        "new": "Équipements de Passage Piéton",
+        "count": 2
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-hardware-splicing.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Mur d'Images",
+        "new": "Système de Murs Vidéo",
+        "count": 4
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-software-bim.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-software-blacklist.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 3
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-software-budget.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-software-dashboard.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-software-hr.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-software-ibms.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-software-info.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-software-inspection.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-software-warehouse.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/product-software-workorder.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/service-ai.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/service-modeling.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/service-software.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-airport.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-broadcast.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-building.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-campus.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-city.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-community.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-conference.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-construction.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 2
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-datacenter.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-eagle.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-fire.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-iptv.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-parking.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-patrol.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 2
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-solar.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./fr/solution-traffic.html",
+    "changes": [
+      {
+        "old": "Pointage",
+        "new": "Équipements de Pointage et Contrôle d'Accès",
+        "count": 1
+      },
+      {
+        "old": "Capteur Carburant",
+        "new": "Capteur de Consommation et Anti-Vol de Carburant",
+        "count": 1
+      },
+      {
+        "old": "Traceur GPS",
+        "new": "Terminal de Localisation GPS",
+        "count": 1
+      },
+      {
+        "old": "Contrôle d'Accès",
+        "new": "Équipements de Passage Piéton",
+        "count": 1
+      },
+      {
+        "old": "Écrans Pub",
+        "new": "Écrans Publicitaires et d'Information",
+        "count": 1
+      },
+      {
+        "old": "Murs Vidéo",
+        "new": "Système de Murs Vidéo",
+        "count": 1
+      },
+      {
+        "old": "Afficheurs LED",
+        "new": "Écrans LED Extérieurs",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance (CCTV)",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      },
+      {
+        "old": "Vidéosurveillance",
+        "new": "Système de Vidéosurveillance",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/about.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 2
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/contact.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/index.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-adscreen.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 9
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-attendance.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 7
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-camera.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 7
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-drone.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-edge.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-gate.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-gps.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 5
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-led.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-oil.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 4
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-passage.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 5
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-hardware-splicing.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 7
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-software-bim.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-software-blacklist.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-software-budget.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-software-dashboard.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-software-hr.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 4
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-software-ibms.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 2
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-software-info.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-software-inspection.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-software-warehouse.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/product-software-workorder.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/service-ai.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/service-modeling.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/service-software.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-airport.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-broadcast.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-building.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 2
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-campus.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 3
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-city.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 2
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-community.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 3
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-conference.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-construction.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 3
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-datacenter.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-eagle.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-fire.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-iptv.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-parking.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-patrol.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 3
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-solar.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 1
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "file": "./zh/solution-traffic.html",
+    "changes": [
+      {
+        "old": "车辆偷油传感器",
+        "new": "车辆油耗与防偷油传感器",
+        "count": 1
+      },
+      {
+        "old": "车辆定位传感器",
+        "new": "车辆定位终端",
+        "count": 1
+      },
+      {
+        "old": "考勤设备",
+        "new": "考勤与门禁设备",
+        "count": 1
+      },
+      {
+        "old": "视频监控",
+        "new": "视频监控系统",
+        "count": 4
+      },
+      {
+        "old": "人行通道",
+        "new": "人行通道设备",
+        "count": 1
+      },
+      {
+        "old": "广告屏",
+        "new": "广告与信息显示屏",
+        "count": 1
+      },
+      {
+        "old": "拼接屏",
+        "new": "拼接屏系统",
+        "count": 1
+      },
+      {
+        "old": "户外LED屏",
+        "new": "户外 LED 大屏",
+        "count": 1
+      }
+    ]
+  }
+]
