@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
   <img src="../images/solution-solar-arch-v2.webp" alt="Solar energy storage system architecture">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The system consists of four subsystems: solar power generation, energy storage, energy management and load supply. The PV subsystem includes panels, inverters and combiner equipment; the storage subsystem comprises battery packs, BMS and storage inverters; the EMS optimises charge/discharge strategies and grid-tied/off-grid switching.</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The system consists of four subsystems: solar power generation, energy storage, energy management and load supply. The PV subsystem includes panels, inverters and combiner equipment; the storage subsystem comprises battery packs, BMS and storage inverters; the EMS optimises charge/discharge strategies and grid-tied/off-grid switching. The application architecture adopts cloud + local dual mode. The local EMS collects PV, storage and load data in real time and executes optimal strategies; the cloud platform provides remote monitoring and analytics; the user app supports generation viewing and alerts.</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">Solution Components</h2>
@@ -127,15 +127,6 @@
       <div class="capability-title">EV Charging</div>
       <div class="capability-desc">Supporting EV charging piles for integrated solar-storage-charging operation.</div>
     </div>
-  </div>
-</section>
-<section id="app-arch" class="section-container">
-  <div class="intro-text">
-    <h2 class="section-title" style="text-align:left;padding-bottom:0;">Application Architecture</h2>
-    <p>The application architecture adopts cloud + local dual mode. The local EMS collects PV, storage and load data in real time and executes optimal strategies; the cloud platform provides remote monitoring and analytics; the user app supports generation viewing and alerts.</p>
-  </div>
-  <div>
-    <img src="../images/solution-solar-arch-v2.webp" alt="Solar energy storage application architecture" class="intro-image" style="width:100%;">
   </div>
 </section>
 <section id="scenarios" class="section-container">
