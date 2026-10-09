@@ -740,14 +740,11 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   opacity: 1;
 }
 
-/* 产品图区域：渐变暗底，图标光晕容器 */
+/* 产品图区域：渐变暗底，图片容器 */
 .product-card-img {
   width: 100%;
   height: 200px;
   background: linear-gradient(180deg, var(--color-bg-soft) 0%, var(--color-bg-elevated) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-bottom: 1px solid rgba(167,139,250,0.15);
   position: relative;
   overflow: hidden;
@@ -758,12 +755,13 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   width: 120px; height: 120px;
   background: radial-gradient(circle, rgba(167,139,250,0.08) 0%, transparent 70%);
   border-radius: 50%;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
 }
-.product-card-img i,
-.product-card-img svg {
+.product-card-img img {
   position: relative;
   z-index: 1;
-  filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));
 }
 
 /* 卡片内容区 */
