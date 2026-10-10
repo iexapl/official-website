@@ -94,7 +94,7 @@
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-parking-arch-v3.en.webp" alt="Smart Parking Solution Architecture">
+  <img src="../images/solution-parking-arch-v4.en.webp" alt="Smart Parking Solution Architecture">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The Smart Parking solution adopts a three-tier "Device-Edge-Cloud" architecture. The device layer deploys license-plate recognition cameras, parking-space magnetic/video detectors, and barrier controllers, with edge gateways enabling local billing decisions and offline autonomy. The cloud platform is built on .NET + Furion microservices, with core services including vehicle recognition (supporting multi-national plate formats), parking-space management (Redis Cluster real-time status sync), billing settlement (RabbitMQ asynchronous transaction reconciliation), and operations reporting (MongoDB multi-dimensional analytics). The data layer uses MySQL for member and transaction data, and MongoDB for entry/exit records and video evidence. The management side builds an operations back-office with Vue 3 + Element Plus, the driver side develops a cross-platform mini-program with uni-app x, and the attendant side has a native APP, with tri-terminal data synchronized in real time via message queues to ensure stable operation under high concurrency.</p>
 </section>
 <section id="components" class="capability-section section-container">

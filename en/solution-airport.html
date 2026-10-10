@@ -94,7 +94,7 @@
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-airport-arch-v3.en.webp" alt="Smart Airport Architecture">
+  <img src="../images/solution-airport-arch-v4.en.webp" alt="Smart Airport Architecture">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The Smart Airport solution adopts an "Edge-Gateway-Cloud" collaborative architecture. The edge layer covers IoT sensing devices and edge gateways across terminals, aprons, and cargo zones for local data acquisition and preprocessing. The platform layer builds a data middle-platform on the .NET + Furion microservices framework, using a RabbitMQ cluster for asynchronous event-driven communication across six subsystems—security screening, boarding, baggage, flight information display, surveillance, and building automation—while Redis Cluster caches hot flight dynamics and passenger trajectory data, and SqlSugar handles multi-source ORM mapping. The application layer delivers an airport operations command dashboard and management back-office built with Vue 3 + Element Plus, plus a passenger mobile service developed with uni-app x, supporting flight push notifications, smart navigation, and paperless travel. The unified integration platform breaks down subsystem silos, enabling scenario-based intelligent responses such as automatic boarding-gate announcements triggered by flight changes, baggage-carousel coordinated scheduling, and adaptive zone lighting.</p>
 </section>
 <section id="components" class="capability-section section-container">

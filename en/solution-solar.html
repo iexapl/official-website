@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-solar-arch-v3.en.webp" alt="Solar energy storage system architecture">
+  <img src="../images/solution-solar-arch-v4.en.webp" alt="Solar energy storage system architecture">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The PV & Energy Storage system adopts a four-layer "Generation-Storage-Management-Load" architecture. The PV generation subsystem includes panels, inverters, and combiner equipment. The energy storage subsystem comprises battery packs, BMS, and storage inverters, connecting running data to the platform through MQTT gateways. The energy management layer builds a local EMS and cloud O&M platform on .NET, using RabbitMQ to orchestrate charge/discharge strategies and alarm events, Redis caching real-time power and SOC status, MySQL storing device assets and revenue ledgers, and MongoDB storing historical generation and consumption curves. The user side builds a monitoring dashboard with Vue 3 + Element Plus, paired with a mobile APP developed with uni-app x, enabling real-time generation viewing, revenue statistics, fault alarm push, and remote O&M.</p>
 </section>
 <section id="components" class="capability-section section-container">

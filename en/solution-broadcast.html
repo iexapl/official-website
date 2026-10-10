@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-broadcast-arch-v3.en.webp" alt="Broadcast system architecture">
+  <img src="../images/solution-broadcast-arch-v4.en.webp" alt="Broadcast system architecture">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The broadcast system adopts a "Digital IP Network + Microservices" architecture. The central layer deploys a .NET-based broadcast service cluster, using RabbitMQ message queues to orchestrate multi-source audio priority scheduling, with Redis caching scheduled tasks and zone states. The transmission layer leverages the existing IP network or a dedicated network, with Keepalived + Nginx active-standby ensuring high service availability. The terminal layer covers ceiling speakers, wall-mounted speakers, column speakers, and horns, supporting 256-level zone management and fire alarm override linkage. The management console is built with Vue 3 + Element Plus as a visual broadcast studio, integrating program scheduling, role-based permissions, operation logs, and device topology monitoring. The system interfaces with fire alarm and building automation subsystems via standard protocols, enabling one-click emergency broadcasting and multi-system collaborative response.</p>
 </section>
 <section id="components" class="capability-section section-container">
