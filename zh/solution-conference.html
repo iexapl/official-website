@@ -125,7 +125,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-conference-arch-v5.zh.webp" alt="音视频会议方案架构" loading="lazy" decoding="async" width="1531" height="1141">
+  <img src="../images/solution-conference-arch-v6.zh.webp" alt="音视频会议方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">音视频会议系统采用「采集-处理-传输-呈现」四层架构。采集层接入高清摄像机、麦克风阵列与多路音视频接口；处理层基于 .NET 8.0 + ASP.NET Core + SignalR 实现低延迟媒体路由与混音处理，Redis Cluster 缓存会议状态与设备配置，SqlSugar ORM 管理会议室资产与预约数据，DotNetCore.CAP 保障会议录制与通知的分布式事务一致性；传输层通过企业内网或专线保障音视频 QoS，Keepalived + Nginx 主备确保服务不中断。数据层 MySQL 存储会议与资产数据，MongoDB 存储录制与日志。管理端以 Vue 3 + Element Plus 构建统一会议管理平台，集成会议室预约、设备预检、远程协作、屏幕共享与会议统计分析；桌面控制端基于 WPF 或 .NET MAUI 构建，支持本地化部署与混合云接入。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker 标准化部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
