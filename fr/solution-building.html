@@ -94,7 +94,7 @@
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-building-arch-v3.fr.webp" alt="Architecture bâtiment intelligent">
+  <img src="../images/solution-building-arch-v4.fr.webp" alt="Architecture bâtiment intelligent">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Architecture IBMS bâtiment intelligent</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">La solution Bâtiment Intelligent s'articule autour de la plateforme IBMS de gestion intelligente des bâtiments, construite avec une architecture microservices .NET + Furion comme plateforme de données middleware unifiée. La couche d'accès aux périphériques agrège les données de cinq sous-systèmes—Building Automation (BA), Fire Alarm (FA), Security (SA), Communication (CA) et Office Automation (OA)—via des passerelles multi-protocoles supportant Modbus/BACnet/OPC UA, utilisant des clusters RabbitMQ pour le lien piloté par événements et Redis Cluster pour la mise en cache des états d'équipement en millisecondes. La couche données stocke les données métier structurées dans MySQL, les logs de surveillance et d'alarme en série temporelle dans MongoDB, avec SqlSugar fournissant les capacités ORM hétérogènes multi-bases. La couche application fournit une interface de gestion O&M unifiée construite avec Vue 3 + Element Plus, intégrant l'analyse énergétique, la maintenance prédictive des équipements, les services d'espace locataire et la visualisation du jumeau numérique.</p>
 </section>

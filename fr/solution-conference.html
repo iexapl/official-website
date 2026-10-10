@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-conference-arch-v3.fr.webp" alt="Architecture du système de conférence AV">
+  <img src="../images/solution-conference-arch-v4.fr.webp" alt="Architecture du système de conférence AV">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le Système de Conférence AV adopte une architecture à quatre couches « Capture-Traitement-Transmission-Affichage ». La couche capture connecte les caméras HD, les matrices de microphones et les interfaces AV multi-canaux. La couche traitement utilise .NET + SignalR pour le routage média à faible latence et le mixage audio, Redis mettant en cache les états de conférence et les configurations des équipements, et SqlSugar gérant les ressources des salles et les données de réservation. La couche transmission garantit la QoS AV sur l'intranet d'entreprise ou des lignes dédiées, avec Keepalived + Nginx en mode actif-secours assurant un service ininterrompu. La couche affichage couvre les murs LED, les projecteurs et les terminaux mobiles.</p>
 </section>
 <section id="components" class="capability-section section-container">
