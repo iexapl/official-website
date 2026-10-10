@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
   <img src="../images/solution-fire-arch-v3.fr.webp" alt="Architecture du système d&#x27;alarme incendie">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le système comprend quatre sous-systèmes : détection d'incendie, contrôle d'alarme, exécution de liaison et gestion incendie. La détection inclut les détecteurs de fumée, chaleur, flamme et gaz. L'architecture adopte une conception distribuée avec détecteurs et modules connectés via bus de boucle au tableau d'alarme. Le tableau s'interface avec les unités d'affichage graphique.</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le Système d'Alarme Incendie adopte une architecture distribuée à quatre couches « Détection-Alarme-Liaison-Gestion ». La couche détection connecte les détecteurs de fumée, chaleur, flamme et gaz au tableau d'alarme via des bus de boucle. La couche contrôle utilise des contrôleurs embarqués pour le traitement du signal, la confirmation de zone et la diffusion prioritaire. La couche liaison pilote les réponses coordonnées des sprinklers, extraction de fumée, rideaux coupe-feu, éclairage de secours et diffusion incendie via le bus d'événements RabbitMQ, avec Redis mettant en cache les états d'équipement en temps réel. La couche gestion construit une plateforme de commande incendie sur .NET + Furion, avec MySQL stockant les archives incendie des bâtiments et les registres d'équipements.</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">Composition de la Solution</h2>

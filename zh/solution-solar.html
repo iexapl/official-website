@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-solar-arch-v3.zh.webp" alt="光伏储能方案架构">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">光伏储能系统由光伏发电、储能系统、能量管理和负载供电四个子系统组成。 光伏发电子系统包括光伏组件、逆变器和汇流设备； 储能子系统由电池组、电池管理系统和储能逆变器构成； 能量管理子系统负责充放电策略优化和并网/离网切换控制； 负载供电子系统为各类用电设备提供稳定电力输出。 采用云端+本地双模式。 本地能量管理系统（EMS）实时采集光伏、储能和负载数据，执行最优充放电策略； 云端管理平台提供远程监控、数据分析和运维服务； 用户端APP支持发电量查看、收益统计和故障告警推送。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">光伏储能系统采用「发电-储能-管理-负载」四层架构。光伏发电子系统包含组件、逆变器与汇流设备；储能子系统由电池组、BMS 与储能逆变器构成，通过 MQTT 网关将运行数据接入平台；能量管理层基于 .NET 构建本地 EMS 与云端运维平台，RabbitMQ 编排充放电策略与告警事件，Redis 缓存实时功率与SOC状态，MySQL 存储设备资产与收益台账，MongoDB 存储历史发电与用电曲线；用户端以 Vue 3 + Element Plus 构建监控大屏，配套 uni-app x 开发移动端 APP，实现发电量实时查看、收益统计、故障告警推送与远程运维。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-patrol-arch-v3.zh.webp" alt="电子巡更方案架构">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">电子巡更系统由巡更点、移动终端、管理平台和数据中心组成。 巡更点采用NFC/二维码/蓝牙标签部署在关键位置； 移动终端包括专用巡更棒和智能手机APP； 管理平台提供路线规划、任务下发和实时监控； 数据中心存储巡逻记录、异常事件和统计分析数据。 包含 patrol APP、管理Web端和数据服务。 移动端支持离线打卡、拍照上传和语音上报； 管理端提供路线设计、排班管理、实时监控和报表分析； 数据服务实现巡逻数据存储、异常事件推送和第三方系统对接。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">电子巡更系统采用「点位-终端-平台-数据」四层架构。巡更点采用 NFC/二维码/蓝牙标签部署于关键位置；移动终端包括专用巡更设备与 uni-app x 开发的智能手机 APP，支持离线打卡、拍照取证、语音上报与 GPS 轨迹记录；平台层基于 .NET + Furion 构建，RabbitMQ 编排巡更任务与异常事件流，Redis Cluster 缓存路线与排班状态，MySQL 存储巡逻记录与考核数据，MongoDB 存储现场影像与语音；管理端以 Vue 3 + Element Plus 构建，提供路线设计、智能排班、实时监控、异常告警与多维度报表分析，支持与安防、工单系统对接。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

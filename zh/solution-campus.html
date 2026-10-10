@@ -89,7 +89,7 @@
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-campus-arch-v3.zh.webp" alt="智慧校园方案架构">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧校园一体化架构</p>
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧校园采用「感知层-网络层-平台层-应用层」四层架构。 感知层覆盖门禁、监控、能耗等物联网终端； 网络层提供有线无线融合覆盖； 平台层实现数据汇聚与智能分析； 应用层面向师生、管理者提供统一服务入口。 AXLTeco 智慧校园解决方案以物联网和信息技术为支撑，构建安全、高效、绿色的现代化校园环境。 校园管理平台以统一身份认证为核心，集成教务管理、安防监控、后勤服务、资产管理等子系统。 通过数据中台实现跨系统数据互通，为校领导提供决策驾驶舱，为教师提供教学助手，为学生提供一站式校园服务。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧校园采用「感知-网络-平台-应用」四层架构。感知层通过物联网网关接入门禁、监控、能耗、环境监测等终端，边缘节点完成数据清洗与本地联动；平台层基于 .NET + Furion 构建校园数字中台，RabbitMQ 集群打通教务、安防、后勤、资产等子系统业务事件，Redis Cluster 缓存课表、考勤与一卡通高频数据，MySQL 承载核心业务，MongoDB 存储行为日志与非结构化教学资源；应用层面向师生提供 Vue 3 + Element Plus 管理驾驶舱与 uni-app x 一站式校园服务 APP，实现跨系统统一身份认证、数据互通共享与智能决策支持。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

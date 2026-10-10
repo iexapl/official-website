@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-fire-arch-v3.zh.webp" alt="火灾自动报警方案架构">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">火灾自动报警系统由火灾探测、报警控制、联动执行和消防管理四个子系统组成。 探测子系统包括烟感、温感、火焰和气体探测器； 报警控制子系统负责信号处理、报警确认和分区广播； 联动执行子系统控制喷淋、排烟、卷帘和应急照明； 消防管理子系统提供图形显示、事件记录和远程监管。 采用分布式设计，探测器和模块通过回路总线连接至报警主机，主机通过通信接口与图形显示装置、消防联动控制器和城市消防远程监控中心对接。 支持多主机联网，实现大型建筑群统一消防管理。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">火灾自动报警系统采用「探测-报警-联动-管理」四层分布式架构。探测层通过回路总线连接烟感、温感、火焰与气体探测器至报警主机；控制层基于嵌入式控制器实现信号处理、分区确认与优先级广播；联动层通过 RabbitMQ 事件总线驱动喷淋、排烟、卷帘、应急照明与消防广播的协同响应，Redis 缓存设备实时状态；管理层以 .NET + Furion 构建消防指挥平台，MySQL 存储建筑消防档案与设备台账，MongoDB 存储事件录像与操作日志，Vue 3 + Element Plus 管理端提供图形化监控、电子预案、远程巡检与多主机联网统一消防管理。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

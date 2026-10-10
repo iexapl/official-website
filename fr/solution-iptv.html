@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
   <img src="../images/solution-iptv-arch-v3.fr.webp" alt="Architecture du système IPTV">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le système IPTV adopte une architecture en quatre couches : tête de réseau, transmission, terminaux et gestion de contenu. La tête de réseau gère la réception des signaux, l'encodage et l'injection de contenu. L'architecture utilise des microservices incluant le streaming en direct, la VOD, l'EPG et la facturation. Le support multi-locataires permet une gestion de marque indépendante.</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le Système IPTV adopte une architecture microservices à quatre couches : Tête de Réseau - Transmission - Terminal - Opérations. La tête de réseau gère la réception des signaux TV, l'encodage, le transcodage et l'injection de contenu. La couche transmission distribue les flux AV sur les réseaux IP, avec Keepalived + Nginx en mode actif-secours garantissant la haute disponibilité du streaming core. La plateforme construit cinq microservices—Direct, VOD, EPG, Utilisateur et Facturation—sur .NET + Furion, utilisant RabbitMQ pour orchestrer les événements de publication et d'abonnement, Redis Cluster mettant en cache les guides de programmes et les métadonnées de contenu, MySQL stockant les données utilisateur et de facturation, et MongoDB stockant les tags de contenu et les logs de visionnage.</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">Composition de la Solution</h2>

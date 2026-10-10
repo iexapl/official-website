@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-conference-arch-v3.zh.webp" alt="音视频会议方案架构">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">音视频会议系统采用音视频采集、信号处理、网络传输和终端显示四层架构。 采集层包括高清摄像机、麦克风阵列和各类音视频接口； 处理层完成编解码、混音和图像处理； 传输层通过IP网络实现音视频数据可靠传输； 显示层涵盖大屏幕、投影仪和各类显示终端。 支持会议室本地控制、远程协作平台和统一会议管理。 本地中控系统管理灯光、窗帘和音视频设备； 远程协作平台支持多会场高清视频会议和屏幕共享； 会议管理系统实现预约、签到、统计和资产管理。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">音视频会议系统采用「采集-处理-传输-呈现」四层架构。采集层接入高清摄像机、麦克风阵列与多路音视频接口；处理层基于 .NET + SignalR 实现低延迟媒体路由与混音处理，Redis 缓存会议状态与设备配置，SqlSugar 管理会议室资产与预约数据；传输层通过企业内网或专线保障音视频 QoS，Keepalived + Nginx 主备确保服务不中断；呈现层覆盖 LED 大屏、投影与移动终端。管理端以 Vue 3 + Element Plus 构建统一会议管理平台，集成会议室预约、设备预检、远程协作、屏幕共享与会议统计分析，支持本地化部署与混合云接入。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

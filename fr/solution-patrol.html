@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
   <img src="../images/solution-patrol-arch-v3.fr.webp" alt="Architecture du système de rondes">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le système comprend des points de ronde, des terminaux mobiles, une plateforme de gestion et un centre de données. Les points utilisent des tags NFC/QR/Bluetooth ; les terminaux incluent des appareils dédiés et des applications smartphones. L'architecture inclut les applications de ronde, le portail web de gestion et les services de données. L'application mobile supporte le pointage hors ligne et le signalement vocal.</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le Système de Rondes Électroniques adopte une architecture à quatre couches « Point-Terminal-Plateforme-Données ». Les points de ronde utilisent des tags NFC/QR/Bluetooth déployés aux positions clés. Les terminaux mobiles incluent des appareils dédiés et une application smartphone développée avec uni-app x, supportant le pointage hors ligne, la capture photo de preuves, le signalement vocal et l'enregistrement de trajectoire GPS. La couche plateforme est construite sur .NET + Furion, avec RabbitMQ orchestrant les tâches de ronde et les flux d'événements anormaux, Redis Cluster mettant en cache les itinéraires et les plannings, MySQL stockant les enregistrements de ronde et les données d'évaluation, et MongoDB stockant les images et enregistrements vocaux sur site.</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">Composition de la Solution</h2>

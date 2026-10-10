@@ -89,7 +89,7 @@
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-eagle-arch-v3.zh.webp" alt="城市鹰眼方案架构">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">城市鹰眼立体防控架构</p>
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">城市鹰眼系统构建「高空瞭望-低点补盲-空中巡查」三位一体的立体化监控网络。 高点部署长焦云台摄像机，低点部署广角摄像机和智能分析设备，空中通过无人机巡飞补充，形成对城市重点区域的无死角覆盖。 AXLTeco 城市鹰眼解决方案通过高空瞭望和全景监控技术，实现城市大范围的立体化安防监控。 鹰眼平台整合视频汇聚、AI智能分析、告警联动、指挥调度四大核心能力。 视频汇聚层兼容多品牌设备接入； AI分析层实现人员聚集、车辆违停、火灾烟雾等异常事件识别； 告警联动层自动推送至责任部门； 指挥调度层支持可视化的资源调配与轨迹追踪。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">城市鹰眼系统构建「高空瞭望-低点补盲-空中巡查」立体化防控网络。高点部署长焦云台与全景摄像机，低点部署广角与智能分析设备，无人机巡飞补充盲区，形成对城市重点区域的无死角覆盖。视频汇聚层通过多协议网关兼容多品牌设备接入，经 RabbitMQ 集群推送至 AI 分析引擎；平台层基于 .NET + Furion 构建，Redis Cluster 缓存视频索引与轨迹数据，MySQL 管理设备与警力资源，MongoDB 存储告警证据链；应用层以 Vue 3 + Element Plus 构建指挥调度大屏，实现人员聚集、车辆违停、火灾烟雾等异常事件的实时识别、自动告警推送与可视化资源调配。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

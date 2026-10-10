@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-datacenter-arch-v3.zh.webp" alt="机房与网络方案架构">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">系统采用分层架构，涵盖基础设施、网络传输、安全防护和运维管理。 基础设施层包括环境、电力、UPS和精密空调； 网络层涵盖核心交换、路由和无线覆盖； 安全层部署防火墙、入侵检测和访问控制； 管理层提供统一监控和告警。 采用云网融合，支持物理服务器、虚拟化和混合云。 SDN控制器实现自动化编排，容器平台和微服务提供弹性、高可用的基础设施。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">机房与网络方案采用「基础设施-网络-安全-运维」分层架构。基础设施层集成环境监控、UPS、精密空调与动环传感器，边缘网关完成数据采集与告警预处理；平台层基于 .NET 构建统一运维中台，通过 RabbitMQ 编排告警事件流，Redis Cluster 缓存设备状态与性能指标，MySQL 存储资产配置与变更记录，MongoDB 存储日志与监控时序数据；网络层采用 SDN 控制器实现自动化编排，Keepalived + Nginx 主备保障管理面高可用；应用层以 Vue 3 + Element Plus 构建可视化运维大屏，集成容量规划、故障预测、自动化巡检与报表分析，支持物理服务器、虚拟化与混合云统一管理。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

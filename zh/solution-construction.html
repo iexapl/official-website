@@ -87,7 +87,7 @@
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-construction-arch-v3.zh.webp" alt="智慧工地业务架构">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧工地方案架构</p>
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">系统采用「云-边-端」三层架构：端层部署人员定位、环境监测、塔吊监测等物联网感知设备； 边缘层进行实时数据处理与本地决策； 云平台提供统一的项目管理、数据分析与远程监管，支持多项目并行管理。 系统支持微信小程序、PC Web、TV看板、APP、H5等多种终端接入，满足不同角色的使用需求。 项目经理可通过PC端查看全局数据，监理人员可用手机APP现场巡检，管理层通过TV看板实时掌握项目动态。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧工地采用「端-边-云」三层架构。端层部署人员定位、环境监测、塔吊监测、AI 安全帽识别等物联网感知设备；边缘层通过本地网关实现实时数据聚合与危险预警本地决策，保障弱网环境下的安全生产；云平台基于 .NET + Furion 微服务架构构建项目管理中枢，RabbitMQ 集群驱动质量、安全、进度、人员、设备五大业务域事件，MySQL 存储项目台账，MongoDB 存储巡检影像与传感器时序数据，Redis Cluster 缓存现场实时状态。管理端以 Vue 3 + Element Plus 构建 PC 指挥大屏，配合 uni-app x 开发监理巡检 APP 与 TV 数据看板，实现多项目并行监管与数据驱动的精益建造。</p>
 </section>
 <section id="components" class="capability-section section-container">
     <h2 class="section-title">方案组成</h2>
