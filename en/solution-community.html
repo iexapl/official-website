@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Smart Community Solution | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>Smart Community Solution</h1><p>Access · Parking · CCTV System · Property · Services</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-community-hero.webp" alt="Smart community solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-community-hero.webp" alt="Smart community solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-community-arch-v5.en.webp" alt="Smart community system architecture">
+  <img src="../images/solution-community-arch-v5.en.webp" alt="Smart community system architecture" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The Smart Community adopts a Cloud-Edge-Device collaborative architecture. The cloud layer builds a community digital middle-platform on .NET 8.0 + ASP.NET Core + Furion microservices, with DotNetCore.CAP supporting distributed transactions across business domains, RabbitMQ clusters orchestrating business event flows for security, access, property and lifestyle services, MySQL storing resident profiles and work-order data, MongoDB storing video surveillance metadata and behavioural logs, and Redis Cluster supporting high-frequency caching for access authorisation and parking billing; SqlSugar provides multi-source ORM capabilities. The edge layer deploys local MQTT Broker gateways and lightweight service nodes for offline buffering and local linkage; the device layer covers face-recognition access control, licence-plate recognition barriers and smart sensors, connecting via MQTT / CoAP / HTTP. The resident side develops a cross-platform app with uni-app x (Vapor Mode), the property side builds an operations management back-office with Vue 3 + Element Plus, and desktop management clients are built on WPF or .NET MAUI for fine-grained governance of people, vehicles, properties and devices. DevOps uses Git + Jenkins + NuGet/NPM for CI/CD, with Docker + Kubernetes for elastic deployment.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Application Scenarios</h2>
-  <img src="../images/solution-community-extra.webp" alt="Smart community integrated management scenario" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-community-extra.webp" alt="Smart community integrated management scenario" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable to residential communities, apartments, villas and care homes. Provides safe and convenient access, efficient property services and rich lifestyle services.</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-community-extra2.webp" alt="Smart Community IoT Sensor Network and Device Ecosystem" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-community-extra2.webp" alt="Smart Community IoT Sensor Network and Device Ecosystem" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

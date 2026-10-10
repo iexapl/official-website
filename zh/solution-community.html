@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>智慧社区解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>智慧社区解决方案</h1><p>门禁 · 停车 · 监控 · 物业 · 便民服务</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-community-hero.webp" alt="智慧社区方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-community-hero.webp" alt="智慧社区方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-community-arch-v5.zh.webp" alt="智慧社区方案架构">
+  <img src="../images/solution-community-arch-v5.zh.webp" alt="智慧社区方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧社区采用「云-边-端」协同架构。云端基于 .NET 8.0 + ASP.NET Core + Furion 微服务平台构建社区数字中台，DotNetCore.CAP 支撑跨业务域分布式事务，RabbitMQ 集群编排安防、通行、物业、生活服务的业务事件流，MySQL 存储居民档案与工单数据，MongoDB 存储视频监控元数据与行为日志，Redis Cluster 支撑门禁授权、停车计费等高频缓存；SqlSugar 提供多数据源 ORM 能力。边缘层部署本地 MQTT Broker 网关与轻量级服务节点，实现断网续传与本地联动；终端层涵盖人脸识别门禁、车牌识别道闸、智能传感等 IoT 设备，通过 MQTT / CoAP / HTTP 协议接入。居民端采用 uni-app x（Vapor Mode）开发跨平台 APP，物业端以 Vue 3 + Element Plus 构建运营管理后台，桌面管理端基于 WPF 或 .NET MAUI 构建，实现人、车、房、设备的精细化治理。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker + Kubernetes 弹性部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">应用场景</h2>
-  <img src="../images/solution-community-extra.webp" alt="智慧社区综合管理场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-community-extra.webp" alt="智慧社区综合管理场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">适用于住宅小区、公寓、别墅、养老社区等居住场所。为居民提供安全便捷的通行体验、高效透明的物业服务、丰富便利的生活服务，打造智慧化、人性化的社区生活环境。</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-community-extra2.webp" alt="智慧社区物联网传感器网络与设备生态" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-community-extra2.webp" alt="智慧社区物联网传感器网络与设备生态" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

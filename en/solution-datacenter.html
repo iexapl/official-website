@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Data Centre & Network Solution | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>Data Centre & Network Solution</h1><p>Infrastructure · Cabling · Network · Security</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-datacenter-hero.webp" alt="Data Center Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-datacenter-hero.webp" alt="Data Center Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-datacenter-arch-v5.en.webp" alt="Data centre system architecture">
+  <img src="../images/solution-datacenter-arch-v5.en.webp" alt="Data centre system architecture" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The Data Centre & Network solution adopts a layered Infrastructure-Network-Security-O&M architecture. The infrastructure layer integrates environmental monitoring, UPS, precision cooling and power-environment sensors, with edge gateways completing data acquisition and alarm preprocessing via MQTT / Modbus TCP. The platform layer builds a unified O&M middle-platform on .NET 8.0 + ASP.NET Core + Furion, with DotNetCore.CAP guaranteeing transactional consistency for alarm escalation and change work orders, RabbitMQ orchestrating alarm event flows, Redis Cluster caching device states and performance metrics, MySQL storing asset configurations and change records, MongoDB storing logs and monitoring time-series data, and SqlSugar providing multi-source ORM mapping. The network layer uses an SDN controller for automated orchestration, with Keepalived + Nginx active-standby ensuring management-plane HA. The application layer builds a visual O&M dashboard with Vue 3 + Element Plus, integrating capacity planning, fault prediction, automated inspection and reporting; desktop O&M clients are built on WPF or .NET MAUI, supporting unified management of physical servers, virtualisation and hybrid cloud. DevOps uses Git + Jenkins + NuGet/NPM for continuous delivery, with Docker + Kubernetes for standardized deployment.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Application Scenarios</h2>
-  <img src="../images/solution-datacenter-extra.webp" alt="Data center infrastructure scenario" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-datacenter-extra.webp" alt="Data center infrastructure scenario" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable to enterprise data centres, server rooms, office networks, campus networks and branch interconnection. We provide complete services from infrastructure construction to network architecture design.</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-datacenter-extra2.webp" alt="Data Center Cooling System and Rack Management" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-datacenter-extra2.webp" alt="Data Center Cooling System and Rack Management" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

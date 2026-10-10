@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>智慧交通解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,11 +83,11 @@
 </header>
 <div class="page-hero"><h1>智慧交通解决方案</h1><p>信号控制 · 视频监控系统 · 违章检测 · 流量分析</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-traffic-v2.webp" alt="智慧交通控制中心数字大屏场景" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-traffic-v2.webp" alt="智慧交通控制中心数字大屏场景" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div><main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-traffic-arch-v5.zh.webp" alt="智慧交通方案架构">
+  <img src="../images/solution-traffic-arch-v5.zh.webp" alt="智慧交通方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧交通管控架构</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧交通采用「前端感知-边缘计算-中心研判」三级架构。前端部署视频检测器、雷达、信号机与 AI 边缘盒，实现车流量、违章行为与道路事件的实时识别；边缘层通过本地计算节点完成信号优化与区域协调控制，降低中心平台负载。中心平台基于 .NET 8.0 + ASP.NET Core + Furion 微服务架构构建，DotNetCore.CAP 保障信号控制与违章处罚的事务一致性，RabbitMQ 集群汇聚路侧多源事件，Redis Cluster 缓存实时路况与信号状态，MySQL 存储交通设施档案，MongoDB 存储视频证据与流量时序数据，SqlSugar 提供多数据源 ORM 映射。应用层以 Vue 3 + Element Plus 构建交通指挥大屏，集成信号控制、视频巡查、违章检测、流量分析、诱导发布与公交优先六大子系统，桌面指挥端基于 WPF 或 .NET MAUI 构建 Native 级研判工作站，通过统一数据总线实现单点独立运行与区域协调控制的双模式适配。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker + Kubernetes 弹性部署。</p>
 </section>
@@ -129,28 +129,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">应用场景</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-traffic-scene-1.webp" alt="智慧交通应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-traffic-scene-1.webp" alt="智慧交通应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>路口信号优化</h3>
       <p>基于实时车流的自适应信号配时，减少车辆等待时间。</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-traffic-scene-2.webp" alt="智慧交通应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-traffic-scene-2.webp" alt="智慧交通应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>干线绿波协调</h3>
       <p>相邻路口信号联动控制，实现主干路车辆少停车通过。</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-traffic-scene-3.webp" alt="智慧交通应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-traffic-scene-3.webp" alt="智慧交通应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>区域交通疏导</h3>
       <p>高峰时段区域交通均衡控制，防止局部拥堵扩散。</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-traffic-scene-4.webp" alt="智慧交通应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-traffic-scene-4.webp" alt="智慧交通应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>违章智能抓拍</h3>
       <p>闯红灯、超速、逆行等违法行为自动识别取证。</p>
@@ -169,7 +169,7 @@
   <h2 class="section-title">项目实践</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco 已参与拉各斯 Mile 2 综合交通枢纽、拉各斯轻轨蓝线五期及卡诺火车站等交通基础设施的弱电与智能化系统建设，积累了交通领域的工程实施经验。</p>
 </section>
-  <img src="../images/solution-traffic-extra2.webp" alt="智能交通光轨数据流" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-traffic-extra2.webp" alt="智能交通光轨数据流" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main><footer class="footer">
   <div class="footer-inner">
     <div>

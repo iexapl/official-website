@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Solar & Energy Storage Solution | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>Solar & Energy Storage Solution</h1><p>Solar PV · Storage · Smart Dispatch · Monitoring</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-solar-hero.webp" alt="Solar energy storage solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-solar-hero.webp" alt="Solar energy storage solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-solar-arch-v5.en.webp" alt="Solar energy storage system architecture">
+  <img src="../images/solution-solar-arch-v5.en.webp" alt="Solar energy storage system architecture" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The PV & Energy Storage system adopts a four-layer Generation-Storage-Management-Load architecture. The PV generation subsystem includes panels, inverters and combiner equipment. The energy storage subsystem comprises battery packs, BMS and storage inverters, connecting running data to the platform via MQTT gateways. The energy management layer builds a local EMS and cloud O&M platform on .NET 8.0 + ASP.NET Core, with DotNetCore.CAP supporting transactional consistency for charge/discharge strategies and alarm escalation, RabbitMQ orchestrating charge/discharge strategies and alarm events, Redis caching real-time power and SOC states, MySQL storing device assets and revenue ledgers, MongoDB storing historical generation and consumption curves, and SqlSugar providing multi-source ORM mapping. The user side builds a monitoring dashboard with Vue 3 + Element Plus, complemented by a mobile APP developed with uni-app x (Vapor Mode) for real-time generation viewing, revenue statistics, fault alarm push and remote O&M; desktop O&M clients are built on WPF or .NET MAUI. DevOps uses Git + Jenkins + NuGet/NPM for continuous delivery, with Docker + Kubernetes for elastic deployment.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -130,7 +130,7 @@
   </div>
 </section>
 <section id="scenarios" class="section-container">
-  <img src="../images/solution-solar-extra.webp" alt="Solar energy storage smart monitoring system at night" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;">
+  <img src="../images/solution-solar-extra.webp" alt="Solar energy storage smart monitoring system at night" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 
   <h2 class="section-title">Application Scenarios</h2>
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable to commercial and industrial rooftops, factory parks, off-grid villages, microgrids and telecom base station backup power. In areas with unstable grid supply, the system provides reliable independent power.</p>
@@ -147,7 +147,7 @@
   <h2 class="section-title">Project Practice</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Delivered solar and energy storage solutions for multiple factories, commercial buildings and off-grid communities, covering full lifecycle from design to commissioning and O&amp;M services.</p>
 </section>
-  <img src="../images/solution-solar-extra2.webp" alt="Solar energy smart data visualization" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-solar-extra2.webp" alt="Solar energy smart data visualization" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main>
 <footer class="footer">
   <div class="footer-inner">

@@ -10,7 +10,7 @@
 <title>Solution de Parking Intelligent | AXLTeco Limited</title>
 <meta name="description" content="AXLTeco Limited — Solutions de bâtiment intelligent et de systèmes à basse tension pour l'Afrique." />
 <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -89,12 +89,12 @@
   <p>LPR · Guidance · Recherche Véhicule · Paiement Automatisé</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-parking.webp" alt="Solution de Parking Intelligent" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-parking.webp" alt="Solution de Parking Intelligent" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-parking-arch-v5.fr.webp" alt="Architecture système Parking Intelligent">
+  <img src="../images/solution-parking-arch-v5.fr.webp" alt="Architecture système Parking Intelligent" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Architecture système Parking Intelligent</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le système de Parking Intelligent adopte une architecture à trois niveaux Appareil-Edge-Cloud. La couche appareils déploie des caméras de reconnaissance de plaques, des détecteurs magnétiques/vidéo de places de stationnement et des contrôleurs de barrières, avec des passerelles edge permettant les décisions de facturation locales et l'autonomie hors ligne. La plateforme cloud est construite sur des microservices .NET 8.0 + ASP.NET Core + Furion, avec des services principaux incluant la reconnaissance de véhicules (supportant plusieurs formats de plaques nationaux), la gestion des places (synchronisation d'état en temps réel Redis Cluster), le règlement de facturation (réconciliation asynchrone des transactions RabbitMQ, avec DotNetCore.CAP assurant la cohérence transactionnelle financière) et les rapports opérationnels (analyses multidimensionnelles MongoDB). La couche données utilise MySQL pour les données de membres et de transactions, MongoDB pour les enregistrements d'entrée/sortie et les preuves vidéo, avec SqlSugar complétant le mappage ORM multi-sources. Le côté gestion construit un back-office opérationnel avec Vue 3 + Element Plus, le côté conducteur développe un mini-programme multiplateforme avec uni-app x (Vapor Mode), et le côté préposé dispose d'une application native multiplateforme construite sur .NET MAUI, avec la synchronisation des données tri-terminaux en temps réel via des files de messages pour assurer un fonctionnement stable sous forte concurrence. DevOps utilise Git + Jenkins + NuGet/NPM pour la livraison continue, avec Docker + Kubernetes pour le déploiement élastique.</p>
 </section>
@@ -126,28 +126,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Scénarios d'Application</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-parking-scene-1.webp" alt="Scénarios Parking Intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-1.webp" alt="Scénarios Parking Intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Complexes commerciaux</h3>
       <p>Gestion parking multi-niveaux pour centres commerciaux et ensembles de bureaux, supportant la gestion des voies de marée aux heures de pointe.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-parking-scene-2.webp" alt="Scénarios Parking Intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-2.webp" alt="Scénarios Parking Intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Résidences</h3>
       <p>Entrée automatique des résidents, pré-enregistrement visiteurs, facturation flexible mensuelle/temporaire.</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-parking-scene-3.webp" alt="Scénarios Parking Intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-3.webp" alt="Scénarios Parking Intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Hubs de transport</h3>
       <p>Gestion parking longue durée et service de recherche rapide de véhicule pour aéroports et gares.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-parking-scene-4.webp" alt="Scénarios Parking Intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-4.webp" alt="Scénarios Parking Intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Parking en rue</h3>
       <p>Retrofit intelligent des places de stationnement en bordure de route avec détection bimode et paiement électronique.</p>
@@ -166,7 +166,7 @@
   <h2 class="section-title">Pratique Projet</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco a déployé des systèmes de parking intelligents dans plusieurs complexes commerciaux et communautés résidentielles à Lagos, réalisant la perception sans personnel et la gestion centralisée à distance avec une stabilité de fonctionnement dépassant 24 mois.</p>
 </section>
-  <img src="../images/solution-parking-extra2.webp" alt="Scène futuriste de Parking Intelligent" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-parking-extra2.webp" alt="Scène futuriste de Parking Intelligent" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main>
 <footer class="footer">
   <div class="footer-inner">

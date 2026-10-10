@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>酒店/社区IPTV解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>酒店/社区IPTV解决方案</h1><p>电视系统 · 点播 · 信息发布 · 多房间管理</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-iptv.webp" alt="IPTV方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-iptv.webp" alt="IPTV方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-iptv-arch-v5.zh.webp" alt="IPTV方案架构">
+  <img src="../images/solution-iptv-arch-v5.zh.webp" alt="IPTV方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">IPTV 系统采用「头端-传输-终端-运营」四层微服务架构。头端层完成电视信号接收、编码转码与内容注入；传输层通过 IP 网络将音视频流分发至各终端，Keepalived + Nginx 主备保障核心流媒体高可用。平台层基于 .NET 8.0 + ASP.NET Core + Furion 构建直播、点播、EPG、用户、计费五大微服务，DotNetCore.CAP 支撑订购与计费的事务一致性，RabbitMQ 编排内容发布与订购事件，Redis Cluster 缓存节目单与热点内容元数据，MySQL 存储用户与计费数据，MongoDB 存储内容标签与观看行为日志，SqlSugar 提供多数据源 ORM 映射。运营端以 Vue 3 + Element Plus 构建内容编排与多租户管理平台，终端支持 Android TV、机顶盒与移动端；桌面运营客户端基于 WPF 或 .NET MAUI 构建 Native 级播控台。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker + Kubernetes 弹性扩缩容。</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">应用场景</h2>
-  <img src="../images/solution-iptv-extra.webp" alt="IPTV数字娱乐系统场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-iptv-extra.webp" alt="IPTV数字娱乐系统场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">适用于酒店客房、酒店大堂、社区客厅、长租公寓、养老院等场所。为住客提供丰富的电视娱乐和便捷的信息服务，提升住宿体验和社区生活品质。</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-iptv-extra2.webp" alt="IPTV流媒体内容分发与传输网络" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-iptv-extra2.webp" alt="IPTV流媒体内容分发与传输网络" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

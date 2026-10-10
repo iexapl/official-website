@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>火灾自动报警解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>火灾自动报警解决方案</h1><p>烟感 · 温感 · 报警主机 · 联动控制</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-fire-hero.webp" alt="火灾自动报警方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-fire-hero.webp" alt="火灾自动报警方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-fire-arch-v5.zh.webp" alt="火灾自动报警方案架构">
+  <img src="../images/solution-fire-arch-v5.zh.webp" alt="火灾自动报警方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">火灾自动报警系统采用「探测-报警-联动-管理」四层分布式架构。探测层通过回路总线连接烟感、温感、火焰与气体探测器至报警主机；控制层基于嵌入式控制器实现信号处理、分区确认与优先级广播；联动层通过 RabbitMQ 事件总线驱动喷淋、排烟、卷帘、应急照明与消防广播的协同响应，DotNetCore.CAP 保障关键消防联动指令的事务一致性，Redis Cluster 缓存设备实时状态。管理层以 .NET 8.0 + ASP.NET Core + Furion 构建消防指挥平台，MySQL 存储建筑消防档案与设备台账，MongoDB 存储事件录像与操作日志，SqlSugar 完成多数据源 ORM 映射；Vue 3 + Element Plus 管理端提供图形化监控、电子预案、远程巡检与多主机联网统一消防管理；桌面消防工作站基于 WPF 或 .NET MAUI 构建。IoT 接入层通过 MQTT / BACnet / Modbus TCP 汇聚多品牌设备，边缘网关实现本地联动与断网自治。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker 标准化部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -130,7 +130,7 @@
   </div>
 </section>
 <section id="scenarios" class="section-container">
-  <img src="../images/solution-fire-extra.webp" alt="智能消防系统建筑内部防护场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;">
+  <img src="../images/solution-fire-extra.webp" alt="智能消防系统建筑内部防护场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 
   <h2 class="section-title">应用场景</h2>
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">适用于商业建筑、住宅小区、工业厂房、仓储物流、医院、学校等各类建筑场所。系统符合国家消防规范要求，通过消防产品认证，是建筑消防安全的必备系统。</p>
@@ -149,7 +149,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-fire-extra2.webp" alt="智能消防应急疏散与告警联动系统" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-fire-extra2.webp" alt="智能消防应急疏散与告警联动系统" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Solution Solaire & Stockage d'Énergie | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>Solution Solaire & Stockage d'Énergie</h1><p>PV · Stockage · Dispatch · Surveillance</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-solar-hero.webp" alt="Solution stockage d'énergie solaire" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-solar-hero.webp" alt="Solution stockage d'énergie solaire" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-solar-arch-v5.fr.webp" alt="Architecture du système solaire et stockage">
+  <img src="../images/solution-solar-arch-v5.fr.webp" alt="Architecture du système solaire et stockage" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le Système Solaire et Stockage adopte une architecture à quatre couches Production-Stockage-Gestion-Charges. Le sous-système de production photovoltaïque inclut les panneaux, les onduleurs et les boîtiers de combinaison. Le sous-système de stockage comprend les packs de batteries, le BMS et les onduleurs de stockage, connectant les données de fonctionnement à la plateforme via des passerelles MQTT. La couche de gestion énergétique construit un EMS local et une plateforme O&M cloud sur .NET 8.0 + ASP.NET Core, avec DotNetCore.CAP supportant la cohérence transactionnelle pour les stratégies de charge/décharge et l'escalade d'alarmes, RabbitMQ orchestrant les stratégies de charge/décharge et les événements d'alarmes, Redis mettant en cache la puissance en temps réel et les états SOC, MySQL stockant les actifs d'équipements et les registres de revenus, MongoDB stockant les courbes historiques de production et de consommation, et SqlSugar fournissant le mappage ORM multi-sources. Le côté utilisateur construit un tableau de bord de surveillance avec Vue 3 + Element Plus, complété par une application mobile développée avec uni-app x (Vapor Mode) pour la visualisation de production en temps réel, les statistiques de revenus, la poussée d'alarmes de pannes et l'O&M à distance; les clients O&M de bureau sont construits sur WPF ou .NET MAUI. DevOps utilise Git + Jenkins + NuGet/NPM pour la livraison continue, avec Docker + Kubernetes pour le déploiement élastique.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -130,7 +130,7 @@
   </div>
 </section>
 <section id="scenarios" class="section-container">
-  <img src="../images/solution-solar-extra.webp" alt="Système de surveillance intelligente du stockage solaire de nuit" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;">
+  <img src="../images/solution-solar-extra.webp" alt="Système de surveillance intelligente du stockage solaire de nuit" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 
   <h2 class="section-title">Scénarios d'Application</h2>
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable aux toits commerciaux et industriels, parcs d'usines, villages hors réseau, micro-réseaux et alimentation de secours de stations de télécommunications.</p>
@@ -147,7 +147,7 @@
   <h2 class="section-title">Pratique Projet</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Solutions solaires et stockage livrées pour de multiples usines, bâtiments commerciaux et communautés hors réseau, couvrant le cycle de vie complet de la conception à la mise en service.</p>
 </section>
-  <img src="../images/solution-solar-extra2.webp" alt="Visualisation intelligente des données solaires" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-solar-extra2.webp" alt="Visualisation intelligente des données solaires" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main>
 <footer class="footer">
   <div class="footer-inner">

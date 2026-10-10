@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fire Alarm Solution | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>Fire Alarm Solution</h1><p>Smoke · Heat · Control Panel · Linkage</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-fire-hero.webp" alt="Fire alarm solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-fire-hero.webp" alt="Fire alarm solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-fire-arch-v5.en.webp" alt="Fire alarm system architecture">
+  <img src="../images/solution-fire-arch-v5.en.webp" alt="Fire alarm system architecture" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The Fire Alarm system adopts a four-layer distributed Detection-Alarm-Linkage-Management architecture. The detection layer connects smoke, heat, flame and gas detectors to the alarm panel via loop buses. The control layer uses embedded controllers for signal processing, zone confirmation and priority broadcast. The linkage layer drives coordinated responses of sprinklers, smoke exhaust, roller shutters, emergency lighting and fire broadcast through the RabbitMQ event bus, with DotNetCore.CAP guaranteeing transactional consistency for critical fire-linkage commands, and Redis Cluster caching real-time device states. The management layer builds a fire command platform on .NET 8.0 + ASP.NET Core + Furion, with MySQL storing building fire archives and device ledgers, MongoDB storing event recordings and operation logs, and SqlSugar completing multi-source ORM mapping. The Vue 3 + Element Plus management console provides graphical monitoring, electronic plans, remote inspection and unified multi-panel networked fire management; desktop fire workstations are built on WPF or .NET MAUI. The IoT access layer aggregates multi-brand devices via MQTT / BACnet / Modbus TCP, with edge gateways enabling local linkage and offline autonomy. DevOps uses Git + Jenkins + NuGet/NPM for continuous delivery, with Docker for standardized deployment.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -130,7 +130,7 @@
   </div>
 </section>
 <section id="scenarios" class="section-container">
-  <img src="../images/solution-fire-extra.webp" alt="Smart fire protection system building interior scene" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;">
+  <img src="../images/solution-fire-extra.webp" alt="Smart fire protection system building interior scene" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 
   <h2 class="section-title">Application Scenarios</h2>
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable to commercial buildings, residential complexes, industrial plants, warehouses, hospitals and schools. The system meets national fire safety regulations and holds fire product certifications.</p>
@@ -149,7 +149,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-fire-extra2.webp" alt="Intelligent Fire Emergency Evacuation and Alert Linkage System" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-fire-extra2.webp" alt="Intelligent Fire Emergency Evacuation and Alert Linkage System" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

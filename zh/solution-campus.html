@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>智慧校园解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,11 +83,11 @@
 </header>
 <div class="page-hero"><h1>智慧校园解决方案</h1><p>门禁 · 监控 · 广播 · 一卡通 · 能耗管理</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-campus.webp" alt="智慧校园方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-campus.webp" alt="智慧校园方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div><main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-campus-arch-v5.zh.webp" alt="智慧校园方案架构">
+  <img src="../images/solution-campus-arch-v5.zh.webp" alt="智慧校园方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧校园一体化架构</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧校园采用「感知-网络-平台-应用」四层架构。感知层通过物联网网关接入门禁、监控、能耗、环境监测等终端，边缘节点完成数据清洗与本地联动；平台层基于 .NET 8.0 + ASP.NET Core + Furion 构建校园数字中台，DotNetCore.CAP 支撑跨子系统的分布式事件与事务一致性，RabbitMQ 集群打通教务、安防、后勤、资产等子系统业务事件，Redis Cluster 缓存课表、考勤与一卡通高频数据，SqlSugar 完成多数据源 ORM 映射；MySQL 承载核心业务，MongoDB 存储行为日志与非结构化教学资源。应用层面向师生提供 Vue 3 + Element Plus 管理驾驶舱与 uni-app x（Vapor Mode）一站式校园服务 APP，桌面端管理台基于 WPF 或 .NET MAUI 构建；实现跨系统统一身份认证、数据互通共享与智能决策支持。DevOps 链路以 Git + Jenkins + NuGet/NPM 持续交付，Docker + Kubernetes 保障弹性扩缩容。</p>
 </section>
@@ -129,28 +129,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">应用场景</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-campus-scene-1.webp" alt="智慧校园应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-campus-scene-1.webp" alt="智慧校园应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>安全防控</h3>
       <p>校园周界防范、重点区域监控、陌生人预警、一键报警联动。</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-campus-scene-2.webp" alt="智慧校园应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-campus-scene-2.webp" alt="智慧校园应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>教学管理</h3>
       <p>智慧教室环境控制、多媒体设备管理、课堂考勤统计。</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-campus-scene-3.webp" alt="智慧校园应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-campus-scene-3.webp" alt="智慧校园应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>后勤服务</h3>
       <p>宿舍门禁管理、食堂消费统计、报修工单流转、节能管控。</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-campus-scene-4.webp" alt="智慧校园应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-campus-scene-4.webp" alt="智慧校园应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>家校互通</h3>
       <p>学生出入校通知、访客预约审核、校园动态推送。</p>
@@ -169,7 +169,7 @@
   <h2 class="section-title">项目实践</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco 在尼日利亚多所学校成功部署智慧校园解决方案，涵盖门禁考勤、视频监控系统、广播通知等子系统，显著提升了校园安全管理水平和运营效率。</p>
 </section>
-  <img src="../images/solution-campus-extra2.webp" alt="校园智慧管理鸟瞰网络" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-campus-extra2.webp" alt="校园智慧管理鸟瞰网络" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main><footer class="footer">
   <div class="footer-inner">
     <div>

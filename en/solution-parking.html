@@ -10,7 +10,7 @@
 <title>Smart Parking Solution | AXLTeco Limited</title>
 <meta name="description" content="AXLTeco Limited — Smart building and low-voltage systems solutions for Africa." />
 <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -89,12 +89,12 @@
   <p>LPR · Guidance · Car Finder · Automated Payment</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-parking.webp" alt="Smart Parking Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-parking.webp" alt="Smart Parking Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-parking-arch-v5.en.webp" alt="Smart Parking Solution Architecture">
+  <img src="../images/solution-parking-arch-v5.en.webp" alt="Smart Parking Solution Architecture" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The Smart Parking solution adopts a three-tier Device-Edge-Cloud architecture. The device layer deploys licence-plate recognition cameras, parking-space magnetic/video detectors and barrier controllers, with edge gateways enabling local billing decisions and offline autonomy. The cloud platform is built on .NET 8.0 + ASP.NET Core + Furion microservices, with core services including vehicle recognition (supporting multiple national plate formats), parking-space management (Redis Cluster real-time status sync), billing settlement (RabbitMQ asynchronous transaction reconciliation, with DotNetCore.CAP ensuring financial transactional consistency) and operations reporting (MongoDB multi-dimensional analytics). The data layer uses MySQL for member and transaction data, MongoDB for entry/exit records and video evidence, with SqlSugar completing multi-source ORM mapping. The management side builds an operations back-office with Vue 3 + Element Plus, the driver side develops a cross-platform mini-program with uni-app x (Vapor Mode), and the attendant side has a cross-platform native APP built on .NET MAUI, with tri-terminal data synchronised in real time via message queues to ensure stable operation under high concurrency. DevOps uses Git + Jenkins + NuGet/NPM for continuous delivery, with Docker + Kubernetes for elastic deployment.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -125,28 +125,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Application Scenarios</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-parking-scene-1.webp" alt="Smart Parking Application Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-1.webp" alt="Smart Parking Application Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Commercial Complexes</h3>
       <p>Multi-level parking management for shopping malls and office clusters, supporting peak-hour tidal lane scheduling.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-parking-scene-2.webp" alt="Smart Parking Application Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-2.webp" alt="Smart Parking Application Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Residential Communities</h3>
       <p>Automatic entry for residents, visitor pre-registration, flexible monthly/temporary parking billing.</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-parking-scene-3.webp" alt="Smart Parking Application Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-3.webp" alt="Smart Parking Application Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Transportation Hubs</h3>
       <p>Long-term parking management and quick vehicle locating for airports and railway stations.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-parking-scene-4.webp" alt="Smart Parking Application Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-4.webp" alt="Smart Parking Application Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>On-Street Parking</h3>
       <p>Smart retrofitting of urban roadside parking spaces with dual-mode detection and electronic payment.</p>
@@ -165,7 +165,7 @@
   <h2 class="section-title">Project Practice</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco has deployed intelligent parking systems in multiple commercial complexes and residential communities in Lagos, achieving unattended toll collection and remote centralized management with stable operation exceeding 24 months.</p>
 </section>
-  <img src="../images/solution-parking-extra2.webp" alt="Smart Parking futuristic scene" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-parking-extra2.webp" alt="Smart Parking futuristic scene" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main>
 <footer class="footer">
   <div class="footer-inner">

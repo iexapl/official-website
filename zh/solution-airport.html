@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>智慧机场解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,11 +83,11 @@
 </header>
 <div class="page-hero"><h1>智慧机场解决方案</h1><p>安检 · 登机 · 行李 · 航班信息显示</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-airport.webp" alt="智慧机场方案架构" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-airport.webp" alt="智慧机场方案架构" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div><main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-airport-arch-v5.zh.webp" alt="智慧机场方案架构">
+  <img src="../images/solution-airport-arch-v5.zh.webp" alt="智慧机场方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧机场采用「端-边-云」协同架构。端侧覆盖航站楼、停机坪、货运区的物联网感知设备与边缘网关，通过 MQTT over TLS 与 OPC UA 实现现场数据采集与本地预处理；平台层基于 .NET 8.0 + ASP.NET Core + Furion 微服务框架构建数据中台，DotNetCore.CAP 支撑分布式事件总线与最终一致性事务，RabbitMQ 集群编排安检、登机、行李、航显、安防、楼宇自控六大子系统的异步事件驱动通信，Redis Cluster 缓存热点航班动态与旅客轨迹数据，SqlSugar 完成多数据源 ORM 映射；数据层以 MySQL 存储结构化业务数据，MongoDB 存储日志与非结构化影像证据。应用层以 Vue 3 + Element Plus 构建机场运营指挥大屏与管理后台，uni-app x（Vapor Mode）开发旅客端移动服务，支持航班动态推送、智能导航与无纸化出行；桌面管理端基于 WPF 或 .NET MAUI（WinUI 3 底层）构建 Native 级工作站。DevOps 链路以 Git + Jenkins + NuGet/NPM 实现持续集成，Docker + Kubernetes 保障弹性部署与灰度发布。</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -128,28 +128,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">应用场景</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-airport-scene-1.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-1.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>旅客服务</h3>
       <p>自助值机、自助托运、人脸识别登机、航班动态实时推送。</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-airport-scene-2.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-2.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>安检通道</h3>
       <p>X光智能判图、人脸识别核验、安检流程分流引导。</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-airport-scene-3.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-3.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>停机坪管理</h3>
       <p>机位智能分配、地面车辆调度、航空器轨迹监控。</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-airport-scene-4.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-4.webp" alt="智慧机场应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>货运区域</h3>
       <p>货物追踪定位、仓储环境监控、安检联动管理。</p>
@@ -168,7 +168,7 @@
   <h2 class="section-title">项目实践</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco 为尼日利亚多个机场提供弱电智能化系统建设与运维服务，涵盖安防监控、门禁管理、广播系统等基础设施，保障机场安全高效运营。</p>
 </section>
-  <img src="../images/solution-airport-extra2.webp" alt="机场智慧管理全息场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-airport-extra2.webp" alt="机场智慧管理全息场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main><footer class="footer">
   <div class="footer-inner">
     <div>

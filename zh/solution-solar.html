@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>光伏储能解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>光伏储能解决方案</h1><p>光伏发电 · 储能系统 · 智能调度 · 监控管理</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-solar-hero.webp" alt="光伏储能方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-solar-hero.webp" alt="光伏储能方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-solar-arch-v5.zh.webp" alt="光伏储能方案架构">
+  <img src="../images/solution-solar-arch-v5.zh.webp" alt="光伏储能方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">光伏储能系统采用「发电-储能-管理-负载」四层架构。光伏发电子系统包含组件、逆变器与汇流设备；储能子系统由电池组、BMS 与储能逆变器构成，通过 MQTT 网关将运行数据接入平台。能量管理层基于 .NET 8.0 + ASP.NET Core 构建本地 EMS 与云端运维平台，DotNetCore.CAP 支撑充放电策略与告警升级的事务一致性，RabbitMQ 编排充放电策略与告警事件，Redis 缓存实时功率与 SOC 状态，MySQL 存储设备资产与收益台账，MongoDB 存储历史发电与用电曲线，SqlSugar 提供多数据源 ORM 映射。用户端以 Vue 3 + Element Plus 构建监控大屏，配套 uni-app x（Vapor Mode）开发移动端 APP，实现发电量实时查看、收益统计、故障告警推送与远程运维；桌面运维端基于 WPF 或 .NET MAUI 构建 Native 级 EMS 工作站。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker + Kubernetes 弹性部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -130,7 +130,7 @@
   </div>
 </section>
 <section id="scenarios" class="section-container">
-  <img src="../images/solution-solar-extra.webp" alt="光伏储能智能监控系统夜景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;">
+  <img src="../images/solution-solar-extra.webp" alt="光伏储能智能监控系统夜景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 
   <h2 class="section-title">应用场景</h2>
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">适用于工商业屋顶、工厂园区、离网村落、微电网、通信基站备用电源等场景。在电力供应不稳定地区，光伏储能系统可提供可靠的独立供电；在电网稳定地区，可实现削峰填谷、降低电费支出。</p>
@@ -147,7 +147,7 @@
   <h2 class="section-title">项目实践</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">已为多个工厂、商业建筑和离网社区提供光伏储能解决方案，涵盖方案设计、设备供应、安装调试和运维服务全生命周期，项目发电量和收益达到设计预期。</p>
 </section>
-  <img src="../images/solution-solar-extra2.webp" alt="光伏储能智能数据可视化" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-solar-extra2.webp" alt="光伏储能智能数据可视化" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main>
 <footer class="footer">
   <div class="footer-inner">

@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>广播及背景音乐解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>广播及背景音乐解决方案</h1><p>公共广播 · 分区控制 · 紧急广播 · 背景音乐</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-broadcast.webp" alt="广播系统方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-broadcast.webp" alt="广播系统方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-broadcast-arch-v5.zh.webp" alt="广播方案架构">
+  <img src="../images/solution-broadcast-arch-v5.zh.webp" alt="广播方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">广播系统采用「数字 IP 网络 + 微服务」架构。中心层部署基于 .NET 8.0 + ASP.NET Core 的播控服务集群，Furion 提供模块化插件与动态 API 能力，DotNetCore.CAP 保障广播指令的可靠投递与事务一致性；RabbitMQ 消息队列编排多音源优先级调度与消防强切联动，Redis Cluster 缓存定时任务、分区状态与播放清单；SqlSugar 完成多租户权限与设备台账的 ORM 映射。传输层利用现有 IP 网络或独立组网，Keepalived + Nginx 主备保障管理面高可用。数据层 MySQL 存储节目单与操作审计，MongoDB 存储录音与日志。管理端采用 Vue 3 + Element Plus 构建可视化编播台，集成节目单编排、权限分级、设备拓扑监控与实时监听；移动端以 uni-app x（Vapor Mode）开发分区遥控与应急广播 APP。DevOps 链路以 Git + Jenkins + NuGet/NPM 持续交付，Docker 标准化部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">应用场景</h2>
-  <img src="../images/solution-broadcast-extra.webp" alt="公共广播系统智能场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-broadcast-extra.webp" alt="公共广播系统智能场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">适用于办公楼、商场、酒店、学校、医院、车站、机场等公共场所。紧急广播符合国家消防规范要求，确保突发事件时人员安全疏散。背景音乐系统营造舒适的商业氛围，提升场所品质。</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-broadcast-extra2.webp" alt="公共广播音频频谱分析与声场监测" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-broadcast-extra2.webp" alt="公共广播音频频谱分析与声场监测" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

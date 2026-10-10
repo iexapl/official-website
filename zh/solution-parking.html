@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>智慧停车场解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,11 +83,11 @@
 </header>
 <div class="page-hero"><h1>智慧停车场解决方案</h1><p>车牌识别 · 车位引导 · 反向寻车 · 无人收费</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-parking.webp" alt="智慧停车场解决方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-parking.webp" alt="智慧停车场解决方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div><main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-parking-arch-v5.zh.webp" alt="智慧停车场方案架构">
+  <img src="../images/solution-parking-arch-v5.zh.webp" alt="智慧停车场方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧停车场采用「端-边-云」三层架构。端侧部署车牌识别摄像头、车位地磁/视频探测器与道闸控制器，边缘网关实现本地计费决策与断网自治；云平台基于 .NET 8.0 + ASP.NET Core + Furion 微服务架构构建，核心服务包括车辆识别（支持多国标车牌）、车位管理（Redis Cluster 实时状态同步）、计费结算（RabbitMQ 异步交易对账，DotNetCore.CAP 保障财务事务一致性）与运营报表（MongoDB 多维分析）；数据层采用 MySQL 存储会员与交易数据，MongoDB 存储进出记录与影像证据，SqlSugar 完成多数据源 ORM 映射。管理端以 Vue 3 + Element Plus 构建运营后台，车主端采用 uni-app x（Vapor Mode）开发跨平台小程序，收费员端配套基于 .NET MAUI 构建的跨平台原生 APP，三端数据通过消息队列实时同步，保障高并发场景下的稳定运行。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker + Kubernetes 弹性部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -118,28 +118,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">应用场景</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-parking-scene-1.webp" alt="智慧停车场应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-1.webp" alt="智慧停车场应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>商业综合体</h3>
       <p>大型购物中心、写字楼群的多层停车场管理，支持高峰时段潮汐车道调度。</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-parking-scene-2.webp" alt="智慧停车场应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-2.webp" alt="智慧停车场应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>住宅小区</h3>
       <p>业主车辆自动放行，访客预约通行，月租/临停灵活计费。</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-parking-scene-3.webp" alt="智慧停车场应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-3.webp" alt="智慧停车场应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>交通枢纽</h3>
       <p>机场、火车站停车场的长时停车管理与快速寻车服务。</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-parking-scene-4.webp" alt="智慧停车场应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-parking-scene-4.webp" alt="智慧停车场应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>路侧停车</h3>
       <p>城市道路泊位智能化改造，地磁+视频双模检测，电子收费。</p>
@@ -158,7 +158,7 @@
   <h2 class="section-title">项目实践</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco 已在拉各斯多个商业综合体和住宅社区部署智能停车系统，实现无人值守收费与远程集中管理，系统稳定运行超过24个月，获得客户高度认可。</p>
 </section>
-  <img src="../images/solution-parking-extra2.webp" alt="智慧停车场未来场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-parking-extra2.webp" alt="智慧停车场未来场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main><footer class="footer">
   <div class="footer-inner">
     <div>

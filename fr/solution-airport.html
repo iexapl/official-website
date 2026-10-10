@@ -10,7 +10,7 @@
 <title>Solution aéroport intelligent | AXLTeco Limited</title>
 <meta name="description" content="AXLTeco Limited — Solutions de bâtiment intelligent et de systèmes à basse tension pour l'Afrique." />
 <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -89,12 +89,12 @@
   <p>Sécurité · Opérations · Passagers · Bagages · Énergie</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-airport.webp" alt="Solution aéroport intelligent" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-airport.webp" alt="Solution aéroport intelligent" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-airport-arch-v5.fr.webp" alt="Architecture aéroport intelligent">
+  <img src="../images/solution-airport-arch-v5.fr.webp" alt="Architecture aéroport intelligent" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Architecture système intégré aéroport intelligent</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">La solution Aéroport Intelligent adopte une architecture collaborative Périphérie-Passerelle-Cloud. La couche périphérie couvre les dispositifs de perception IoT et les passerelles edge sur les terminaux, les aires de trafic et les zones cargo, acquérant les données locales via MQTT over TLS et OPC UA avec prétraitement sur site. La couche plateforme construit une plateforme de données intermédiaires sur des microservices .NET 8.0 + ASP.NET Core + Furion, avec DotNetCore.CAP supportant le bus d'événements distribué et les transactions à cohérence finale, des clusters RabbitMQ orchestrant la communication asynchrone pilotée par événements entre six sous-systèmes (sécurité, embarquement, bagages, FIDS, surveillance et BMS), Redis Cluster mettant en cache les dynamiques de vols fréquents et les trajectoires passagers, et SqlSugar fournissant le mappage ORM multi-sources. La couche données utilise MySQL pour les données structurées et MongoDB pour les journaux et les preuves vidéo non structurées. La couche application construit un tableau de bord de commande des opérations aéroportuaires et un back-office de gestion avec Vue 3 + Element Plus, et développe des services mobiles passagers avec uni-app x (Vapor Mode) pour les notifications de vol, la navigation intelligente et le voyage sans papier; les clients de gestion de bureau sont construits sur WPF ou .NET MAUI (sous-couche WinUI 3). La chaîne DevOps exploite Git + Jenkins + NuGet/NPM pour l'intégration et le déploiement continus, avec Docker + Kubernetes assurant le déploiement élastique et les publications canary.</p>
 </section>
@@ -136,28 +136,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Scénarios d'Application</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-airport-scene-1.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-1.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Services aux passagers</h3>
       <p>Enregistrement automatique, dépôt automatique des bagages, embarquement par reconnaissance faciale et push du statut des vols en temps réel.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-airport-scene-2.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-2.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Voies de sécurité</h3>
       <p>Analyse intelligente des images aux rayons X, vérification par reconnaissance faciale et guidage du flux de sécurité.</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-airport-scene-3.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-3.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Gestion de l'aire de trafic</h3>
       <p>Allocation intelligente des portes, dispatching des véhicules au sol et monitoring de la trajectoire des avions.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-airport-scene-4.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-4.webp" alt="Scénarios aéroport intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Zone cargo</h3>
       <p>Suivi et positionnement des marchandises, surveillance environnementale des entrepôts et gestion de liaison sécurité.</p>
@@ -176,7 +176,7 @@
   <h2 class="section-title">Pratique Projet</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco fournit des services de construction et de maintenance des systèmes basse tension et intelligents pour plusieurs aéroports au Nigéria, couvrant la vidéosurveillance sécurité, le contrôle d'accès et les systèmes de diffusion pour assurer des opérations aéroportuaires sûres et efficaces.</p>
 </section>
-  <img src="../images/solution-airport-extra2.webp" alt="Scène holographique de gestion intelligente d'aéroport" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-airport-extra2.webp" alt="Scène holographique de gestion intelligente d'aéroport" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main>
 <footer class="footer">
   <div class="footer-inner">

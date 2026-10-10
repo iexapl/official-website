@@ -10,7 +10,7 @@
 <title>Solution campus intelligent | AXLTeco Limited</title>
 <meta name="description" content="AXLTeco Limited — Solutions de bâtiment intelligent et de systèmes à basse tension pour l'Afrique." />
 <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -89,12 +89,12 @@
   <p>Sécurité · Présence · Accès · Énergie · Information</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-campus.webp" alt="Solution campus intelligent" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-campus.webp" alt="Solution campus intelligent" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-campus-arch-v5.fr.webp" alt="Architecture campus intelligent">
+  <img src="../images/solution-campus-arch-v5.fr.webp" alt="Architecture campus intelligent" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Architecture intégrée campus intelligent</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le Campus Intelligent adopte une architecture à quatre couches Perception-Réseau-Plateforme-Application. La couche perception connecte le contrôle d'accès, la surveillance, l'énergie et les terminaux de surveillance environnementale via des passerelles IoT, avec des nœuds edge effectuant le nettoyage de données et le chaînage local. La couche plateforme construit une plateforme de données intermédiaires du campus sur .NET 8.0 + ASP.NET Core + Furion, avec DotNetCore.CAP supportant les événements distribués et la cohérence transactionnelle entre sous-systèmes, des clusters RabbitMQ reliant les événements métier entre les sous-systèmes académiques, sécurité, logistique et actifs, Redis Cluster mettant en cache les données à haute fréquence comme les emplois du temps, la présence et les transactions de cartes intelligentes, et SqlSugar complétant le mappage ORM multi-sources; MySQL porte le cœur métier, tandis que MongoDB stocke les journaux comportementaux et les ressources pédagogiques non structurées. La couche application fournit un cockpit de gestion Vue 3 + Element Plus et une application de service campus tout-en-un avec uni-app x (Vapor Mode) pour le corps professoral et les étudiants, avec des clients de gestion de bureau construits sur WPF ou .NET MAUI; réalisant l'authentification d'identité unifiée, l'interopérabilité des données et le support à la décision intelligente entre systèmes. La chaîne DevOps utilise Git + Jenkins + NuGet/NPM pour la livraison continue, avec Docker + Kubernetes assurant l'élasticité.</p>
 </section>
@@ -136,28 +136,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Scénarios d'Application</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-campus-scene-1.webp" alt="Scénarios campus intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-campus-scene-1.webp" alt="Scénarios campus intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Sécurité et prévention</h3>
       <p>Protection périmétrique du campus, surveillance zones clés, alertes étrangers et liaison alarme one-click.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-campus-scene-2.webp" alt="Scénarios campus intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-campus-scene-2.webp" alt="Scénarios campus intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Gestion pédagogique</h3>
       <p>Contrôle environnement salle intelligente, gestion des équipements multimédias et statistiques de présence en classe.</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-campus-scene-3.webp" alt="Scénarios campus intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-campus-scene-3.webp" alt="Scénarios campus intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Services logistiques</h3>
       <p>Contrôle d'accès dortoirs, suivi consommation cafétéria, workflow maintenance et contrôle économie d'énergie.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-campus-scene-4.webp" alt="Scénarios campus intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-campus-scene-4.webp" alt="Scénarios campus intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Communication école-famille</h3>
       <p>Notifications entrée/sortie étudiants, validation rendez-vous visiteurs et push des activités campus.</p>
@@ -176,7 +176,7 @@
   <h2 class="section-title">Pratique Projet</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco a déployé avec succès des solutions de campus intelligent dans plusieurs écoles au Nigéria, couvrant les sous-systèmes de contrôle d'accès, de vidéosurveillance et de diffusion, améliorant significativement la gestion sécurité campus et l'efficacité opérationnelle.</p>
 </section>
-  <img src="../images/solution-campus-extra2.webp" alt="Réseau aérien de gestion intelligente de campus" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-campus-extra2.webp" alt="Réseau aérien de gestion intelligente de campus" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main>
 <footer class="footer">
   <div class="footer-inner">

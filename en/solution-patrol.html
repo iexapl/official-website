@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Electronic Patrol Solution | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>Electronic Patrol Solution</h1><p>Routes · Check-in · Alerts · Analytics</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-patrol-hero.webp" alt="Electronic patrol solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-patrol-hero.webp" alt="Electronic patrol solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-patrol-arch-v5.en.webp" alt="Electronic patrol system architecture">
+  <img src="../images/solution-patrol-arch-v5.en.webp" alt="Electronic patrol system architecture" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The Electronic Patrol system adopts a four-layer Point-Terminal-Platform-Data architecture. Patrol points use NFC/QR/Bluetooth tags deployed at key locations. Mobile terminals include dedicated patrol devices and a smartphone APP developed with uni-app x (Vapor Mode), supporting offline check-in, photo evidence, voice reporting and GPS trajectory recording. The platform layer is built on .NET 8.0 + ASP.NET Core + Furion, with DotNetCore.CAP guaranteeing transactional consistency for abnormal events and work-order flows, RabbitMQ orchestrating patrol tasks and abnormal event flows, Redis Cluster caching routes and shift states, MySQL storing patrol records and assessment data, MongoDB storing on-site images and voice, and SqlSugar providing multi-source ORM mapping. The management side builds route design, intelligent scheduling, real-time monitoring, abnormal alarm and multi-dimensional reporting with Vue 3 + Element Plus; desktop management clients are built on WPF or .NET MAUI. Supports integration with security and work-order systems. DevOps uses Git + Jenkins + NuGet/NPM for CI/CD, with Docker for standardized deployment.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Application Scenarios</h2>
-  <img src="../images/solution-patrol-extra.webp" alt="Smart patrol security management scenario" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-patrol-extra.webp" alt="Smart patrol security management scenario" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable to residential communities, industrial parks, commercial complexes, campuses and hospitals. Linked with CCTV System systems for visual patrol management.</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-patrol-extra2.webp" alt="Electronic Patrol Route Optimization and GPS Tracking" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-patrol-extra2.webp" alt="Electronic Patrol Route Optimization and GPS Tracking" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

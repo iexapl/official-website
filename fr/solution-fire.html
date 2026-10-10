@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Solution d'Alarme Incendie | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>Solution d'Alarme Incendie</h1><p>Fumée · Chaleur · Tableau · Liaison</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-fire-hero.webp" alt="Solution d'alarme incendie" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-fire-hero.webp" alt="Solution d'alarme incendie" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-fire-arch-v5.fr.webp" alt="Architecture du système d&#x27;alarme incendie">
+  <img src="../images/solution-fire-arch-v5.fr.webp" alt="Architecture du système d&#x27;alarme incendie" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le Système d'Alarme Incendie adopte une architecture distribuée à quatre couches Détection-Alarme-Liaison-Gestion. La couche détection connecte les détecteurs de fumée, chaleur, flamme et gaz au tableau d'alarme via des bus de boucle. La couche contrôle utilise des contrôleurs embarqués pour le traitement des signaux, la confirmation de zones et la diffusion prioritaire. La couche liaison pilote les réponses coordonnées des sprinklers, extraction de fumée, rideaux métalliques, éclairage de secours et diffusion incendie via le bus d'événements RabbitMQ, avec DotNetCore.CAP garantissant la cohérence transactionnelle pour les commandes de liaison incendie critiques, et Redis Cluster mettant en cache les états d'équipements en temps réel. La couche gestion construit une plateforme de commande incendie sur .NET 8.0 + ASP.NET Core + Furion, avec MySQL stockant les archives incendie des bâtiments et les registres d'équipements, MongoDB stockant les enregistrements d'événements et les journaux d'opérations, et SqlSugar complétant le mappage ORM multi-sources. La console de gestion Vue 3 + Element Plus fournit la surveillance graphique, les plans électroniques, l'inspection à distance et la gestion incendie unifiée multi-panneaux en réseau; les postes de travail incendie de bureau sont construits sur WPF ou .NET MAUI. La couche d'accès IoT agrège les équipements multi-marques via MQTT / BACnet / Modbus TCP, avec des passerelles edge permettant le chaînage local et l'autonomie hors ligne. DevOps utilise Git + Jenkins + NuGet/NPM pour la livraison continue, avec Docker pour le déploiement standardisé.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -130,7 +130,7 @@
   </div>
 </section>
 <section id="scenarios" class="section-container">
-  <img src="../images/solution-fire-extra.webp" alt="Système de protection incendie intelligent intérieur du bâtiment" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;">
+  <img src="../images/solution-fire-extra.webp" alt="Système de protection incendie intelligent intérieur du bâtiment" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 
   <h2 class="section-title">Scénarios d'Application</h2>
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable aux bâtiments commerciaux, complexes résidentiels, usines industrielles, entrepôts, hôpitaux et écoles. Le système respecte les réglementations de sécurité incendie.</p>
@@ -149,7 +149,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-fire-extra2.webp" alt="Système d'Évacuation d'Urgence Incendie Intelligent et de Liaison d'Alerte" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-fire-extra2.webp" alt="Système d'Évacuation d'Urgence Incendie Intelligent et de Liaison d'Alerte" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

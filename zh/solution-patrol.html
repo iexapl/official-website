@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>电子巡更解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>电子巡更解决方案</h1><p>巡更路线 · 打卡记录 · 异常上报 · 统计分析</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-patrol-hero.webp" alt="电子巡更方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-patrol-hero.webp" alt="电子巡更方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-patrol-arch-v5.zh.webp" alt="电子巡更方案架构">
+  <img src="../images/solution-patrol-arch-v5.zh.webp" alt="电子巡更方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">电子巡更系统采用「点位-终端-平台-数据」四层架构。巡更点采用 NFC/二维码/蓝牙标签部署于关键位置；移动终端包括专用巡更设备与基于 uni-app x（Vapor Mode）开发的智能手机 APP，支持离线打卡、拍照取证、语音上报与 GPS 轨迹记录。平台层基于 .NET 8.0 + ASP.NET Core + Furion 构建，DotNetCore.CAP 保障异常事件与工单流转的事务一致性，RabbitMQ 编排巡更任务与异常事件流，Redis Cluster 缓存路线与排班状态，MySQL 存储巡逻记录与考核数据，MongoDB 存储现场影像与语音，SqlSugar 提供多数据源 ORM 映射。管理端以 Vue 3 + Element Plus 构建，提供路线设计、智能排班、实时监控、异常告警与多维度报表分析；桌面管理端基于 WPF 或 .NET MAUI 构建。支持与安防、工单系统对接。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker 标准化部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">应用场景</h2>
-  <img src="../images/solution-patrol-extra.webp" alt="智慧巡更安防管理场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-patrol-extra.webp" alt="智慧巡更安防管理场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">适用于物业小区、工业园区、商业综合体、校园、医院等需要保安巡逻的场所。与视频监控系统联动，巡逻打卡时自动调取附近摄像头画面，实现可视化巡逻管理。</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-patrol-extra2.webp" alt="电子巡更路线优化与GPS定位追踪" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-patrol-extra2.webp" alt="电子巡更路线优化与GPS定位追踪" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

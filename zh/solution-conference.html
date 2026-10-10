@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>音视频会议解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>音视频会议解决方案</h1><p>会议系统 · 远程视频 · 无纸化会议</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-conference.webp" alt="会议系统方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-conference.webp" alt="会议系统方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-conference-arch-v5.zh.webp" alt="音视频会议方案架构">
+  <img src="../images/solution-conference-arch-v5.zh.webp" alt="音视频会议方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">音视频会议系统采用「采集-处理-传输-呈现」四层架构。采集层接入高清摄像机、麦克风阵列与多路音视频接口；处理层基于 .NET 8.0 + ASP.NET Core + SignalR 实现低延迟媒体路由与混音处理，Redis Cluster 缓存会议状态与设备配置，SqlSugar 管理会议室资产与预约数据，DotNetCore.CAP 保障会议录制与通知的分布式事务一致性；传输层通过企业内网或专线保障音视频 QoS，Keepalived + Nginx 主备确保服务不中断。数据层 MySQL 存储会议与资产数据，MongoDB 存储录制与日志。管理端以 Vue 3 + Element Plus 构建统一会议管理平台，集成会议室预约、设备预检、远程协作、屏幕共享与会议统计分析；桌面控制端基于 WPF 或 .NET MAUI 构建 Native 级会控客户端，支持本地化部署与混合云接入。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker 标准化部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">应用场景</h2>
-  <img src="../images/solution-conference-extra.webp" alt="智能会议系统应用场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-conference-extra.webp" alt="智能会议系统应用场景" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">适用于企业会议室、培训室、报告厅、指挥中心等场所。支持本地会议、远程视频会议、培训直播、无纸化办公等多种应用场景，满足不同规模和类型的会议需求。</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-conference-extra2.webp" alt="智能会议远程协作与混合办公空间" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-conference-extra2.webp" alt="智能会议远程协作与混合办公空间" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

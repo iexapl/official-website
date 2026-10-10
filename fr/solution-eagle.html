@@ -10,7 +10,7 @@
 <title>Solution œil de faucon urbain | AXLTeco Limited</title>
 <meta name="description" content="AXLTeco Limited — Solutions de bâtiment intelligent et de systèmes à basse tension pour l'Afrique." />
 <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -89,12 +89,12 @@
   <p>Aérien · Panoramique · Intelligent · Temps Réel</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-eagle.webp" alt="Solution œil de faucon urbain" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-eagle.webp" alt="Solution œil de faucon urbain" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-eagle-arch-v5.fr.webp" alt="Architecture œil de faucon">
+  <img src="../images/solution-eagle-arch-v5.fr.webp" alt="Architecture œil de faucon" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Architecture défense stéréoscopique œil de faucon</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le Système Oeil de Faucon Urbain construit un réseau de défense tridimensionnel de Surveillance Haute Altitude, Couverture Basse Altitude et Patrouille Aérienne. Les points hauts déploient des caméras PTZ longue focale et panoramiques, les points bas déploient des dispositifs grand-angle et d'analyse intelligente, et les drones patrouillent pour couvrir les angles morts, convergent vers une passerelle multi-protocoles via MQTT / RTSP / HTTP pour une couverture sans faille des zones urbaines clés. La couche de convergence vidéo pousse les flux vers un moteur d'analyse AI via des clusters RabbitMQ. La couche plateforme est construite sur .NET 8.0 + ASP.NET Core + Furion, avec Redis Cluster mettant en cache les index vidéo et les données de trajectoires, MySQL gérant les équipements et les ressources policières, MongoDB stockant les chaînes de preuves d'alarmes, SqlSugar fournissant le mappage ORM multi-sources, et DotNetCore.CAP garantissant la cohérence transactionnelle distribuée pour l'escalade d'alarmes et les commandes de dispatch. La couche application construit un tableau de bord de commande et de dispatch avec Vue 3 + Element Plus, réalisant la reconnaissance en temps réel d'événements anormaux comme les rassemblements de personnes, le stationnement illégal et la fumée d'incendie, la poussée automatique d'alarmes et l'allocation visuelle des ressources; les clients de commande de bureau sont construits sur WPF ou .NET MAUI. DevOps utilise Git + Jenkins + NuGet/NPM pour l'intégration et le déploiement continus, avec Docker + Kubernetes pour le déploiement élastique.</p>
 </section>
@@ -124,11 +124,11 @@
   </div>
 </section>
 <section id="scenarios" class="section-container">
-  <img src="../images/solution-eagle-extra.webp" alt="Système de surveillance sécurité œil-de-l'aigre couvrant le campus" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;">
+  <img src="../images/solution-eagle-extra.webp" alt="Système de surveillance sécurité œil-de-l'aigre couvrant le campus" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 
   <h2 class="section-title">Scénarios d'Application</h2>
   <div style="max-width:900px;margin:0 auto;">
-    <img src="../images/visual-solution-eagle-scene.webp" alt="Scénarios œil de faucon" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+    <img src="../images/visual-solution-eagle-scene.webp" alt="Scénarios œil de faucon" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
   </div>
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Scénarios œil de faucon urbain</p>
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Adapté à la surveillance des zones urbaines clés, à la sécurité des grands événements, au dispatch de commande d'urgence, à la surveillance des incendies de forêt et à la patrouille côtière. Intégré aux plateformes de commande de sécurité publique pour réaliser une réponse rapide « découverte - analyse - dispatch - traitement ».</p>
@@ -147,7 +147,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-eagle-extra2.webp" alt="Analyse de Suivi Intelligente et Reconnaissance Visuelle IA du Système Eye Eagle" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-eagle-extra2.webp" alt="Analyse de Suivi Intelligente et Reconnaissance Visuelle IA du Système Eye Eagle" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

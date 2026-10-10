@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>智慧楼宇解决方案 | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,11 +83,11 @@
 </header>
 <div class="page-hero"><h1>智慧楼宇解决方案</h1><p>BA · 安防 · 消防 · 能耗 · 访客管理</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-building.webp" alt="智慧楼宇方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-building.webp" alt="智慧楼宇方案" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div><main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-building-arch-v5.zh.webp" alt="智慧楼宇方案架构">
+  <img src="../images/solution-building-arch-v5.zh.webp" alt="智慧楼宇方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧楼宇IBMS架构</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧楼宇以 IBMS 智能建筑综合管理平台为核心，采用 .NET 8.0 + ASP.NET Core + Furion 微服务架构构建统一数据中台。设备接入层通过 Modbus RTU/TCP、BACnet、OPC UA 多协议网关汇聚楼宇自控（BA）、消防（FA）、安防（SA）、通信（CA）、办公（OA）五大子系统数据；MQTT Broker（EMQX）汇聚 IoT 传感器与边缘网关，RabbitMQ 集群实现跨子系统事件驱动联动，DotNetCore.CAP 保障关键联动指令的分布式事务一致性；Redis Cluster 支撑毫秒级设备状态缓存，SqlSugar 提供 MySQL / MongoDB / 时序数据库多库异构 ORM 能力。数据层以 MySQL 存储结构化业务数据，MongoDB 存储时序监控与告警日志，TDengine 承载能耗与设备运行趋势。应用层以 Vue 3 + Element Plus 打造统一运维管理界面，集成能耗分析、设备预测性维护、租户空间服务与数字孪生可视化；桌面管理端基于 WPF 或 .NET MAUI 构建 Native 级工作站。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker + Kubernetes 实现本地部署与云端协同的混合模式。</p>
 </section>
@@ -129,28 +129,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">应用场景</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-building-scene-1.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-1.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>商业办公</h3>
       <p>写字楼公共区域环境自动控制，租户能耗分项计量，访客自助通行。</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-building-scene-2.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-2.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>酒店公寓</h3>
       <p>客房智能控制、能源管理、安防监控、服务机器人调度一体化。</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-building-scene-3.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-3.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>医院建筑</h3>
       <p>手术室环境监控、医疗设备资产管理、病区呼叫联动、能耗优化。</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-building-scene-4.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-4.webp" alt="智慧楼宇应用场景" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>商业综合体</h3>
       <p>多业态统一管理平台，客流分析、设备联动、应急疏散指挥。</p>
@@ -169,7 +169,7 @@
   <h2 class="section-title">项目实践</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco 在拉各斯联邦税务局(FIRS)大楼部署了完整的智能楼宇管理系统，涵盖楼宇自控、安防监控、消防联动等子系统，为大型政府办公楼宇的智能化运营提供了标杆案例。</p>
 </section>
-  <img src="../images/solution-building-extra2.webp" alt="楼宇智慧管理光路结构" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-building-extra2.webp" alt="楼宇智慧管理光路结构" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main><footer class="footer">
   <div class="footer-inner">
     <div>

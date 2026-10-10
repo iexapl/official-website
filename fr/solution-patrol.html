@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Solution de Rondes Électroniques | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>Solution de Rondes Électroniques</h1><p>Itinéraires · Équipements de Pointage et Contrôle d'Accès · Alertes · Analyses</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-patrol-hero.webp" alt="Solution de rondes électroniques" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-patrol-hero.webp" alt="Solution de rondes électroniques" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-patrol-arch-v5.fr.webp" alt="Architecture du système de rondes">
+  <img src="../images/solution-patrol-arch-v5.fr.webp" alt="Architecture du système de rondes" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le Système de Rondes Électroniques adopte une architecture à quatre couches Point-Terminal-Plateforme-Données. Les points de ronde utilisent des tags NFC/QR/Bluetooth déployés aux positions clés. Les terminaux mobiles incluent des appareils dédiés et une application smartphone développée avec uni-app x (Vapor Mode), supportant le pointage hors ligne, la collecte de preuves photo, le rapport vocal et l'enregistrement de trajectoires GPS. La couche plateforme est construite sur .NET 8.0 + ASP.NET Core + Furion, avec DotNetCore.CAP garantissant la cohérence transactionnelle pour les événements anormaux et les flux de bons de travail, RabbitMQ orchestrant les tâches de ronde et les flux d'événements anormaux, Redis Cluster mettant en cache les itinéraires et les états de planification, MySQL stockant les registres de patrouille et les données d'évaluation, MongoDB stockant les images et voix sur site, et SqlSugar fournissant le mappage ORM multi-sources. Le côté gestion construit la conception d'itinéraires, la planification intelligente, la surveillance en temps réel, l'alerte anormale et le reporting multidimensionnel avec Vue 3 + Element Plus; les clients de gestion de bureau sont construits sur WPF ou .NET MAUI. Supporte l'intégration avec les systèmes de sécurité et de bons de travail. DevOps utilise Git + Jenkins + NuGet/NPM pour l'intégration et le déploiement continus, avec Docker pour le déploiement standardisé.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Scénarios d'Application</h2>
-  <img src="../images/solution-patrol-extra.webp" alt="Scénario de gestion de sécurité de patrouille intelligente" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-patrol-extra.webp" alt="Scénario de gestion de sécurité de patrouille intelligente" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable aux communautés résidentielles, parcs industriels, complexes commerciaux, campus et hôpitaux. Lié aux systèmes de vidéosurveillance.</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-patrol-extra2.webp" alt="Optimisation des Itinéraires de Patrouille Électronique et Suivi GPS" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-patrol-extra2.webp" alt="Optimisation des Itinéraires de Patrouille Électronique et Suivi GPS" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

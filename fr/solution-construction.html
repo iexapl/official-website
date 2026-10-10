@@ -10,7 +10,7 @@
 <title>Solution chantier intelligent | AXLTeco Limited</title>
 <meta name="description" content="AXLTeco Limited — Solutions de bâtiment intelligent et de systèmes à basse tension pour l'Afrique." />
 <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -91,7 +91,7 @@
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-construction-arch-v5.fr.webp" alt="Architecture métier chantier intelligent">
+  <img src="../images/solution-construction-arch-v5.fr.webp" alt="Architecture métier chantier intelligent" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Architecture métier chantier intelligent</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">Le Chantier Intelligent adopte une architecture à trois niveaux Appareil-Edge-Cloud. La couche appareils déploie des dispositifs de perception IoT pour le positionnement du personnel, la surveillance environnementale, le monitoring de grues à tour et la reconnaissance AI de casques de sécurité, se connectant aux passerelles edge via MQTT / LoRa / 4G. La couche edge effectue l'agrégation de données en temps réel et les décisions d'alerte de danger local via des nœuds de calcul locaux, assurant la sécurité de production dans des environnements à faible connectivité. La plateforme cloud construit un centre de gestion de projets sur des microservices .NET 8.0 + ASP.NET Core + Furion, avec DotNetCore.CAP supportant la cohérence transactionnelle pour les alarmes critiques et les bons de travail, des clusters RabbitMQ pilotant les événements sur cinq domaines métier (qualité, sécurité, planning, personnel, équipements), MySQL stockant les registres de projets, MongoDB stockant les images d'inspection et les données séries temporelles des capteurs, Redis Cluster mettant en cache l'état en temps réel du site, et SqlSugar fournissant le mappage ORM multi-sources. Le côté gestion construit un tableau de bord de commande PC avec Vue 3 + Element Plus, complété par une application d'inspection de supervision et un mur de données TV développés avec uni-app x (Vapor Mode), et des clients de gestion de bureau construits sur WPF ou .NET MAUI pour la supervision parallèle de projets multiples et la construction lean pilotée par les données. DevOps utilise Git + Jenkins + NuGet/NPM pour l'intégration et le déploiement continus, avec Docker + Kubernetes pour le déploiement élastique.</p>
 </section>
@@ -163,7 +163,7 @@
 <section id="scenarios" class="section-container">
     <h2 class="section-title">Scénarios d'Application</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-construction-scene-1.webp" alt="Construction de bâtiments" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-construction-scene-1.webp" alt="Construction de bâtiments" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Construction de bâtiments</h3>
       <p>Contrôle sécurité et qualité pour la construction de résidences hautes et complexes commerciaux.</p>
@@ -173,7 +173,7 @@
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-construction-scene-2.webp" alt="Ingénierie municipale" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-construction-scene-2.webp" alt="Ingénierie municipale" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Ingénierie municipale</h3>
       <p>Surveillance environnementale et gestion de l'avancement pour les projets de routes, ponts et canalisations.</p>
@@ -183,7 +183,7 @@
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-construction-scene-3.webp" alt="Transport ferroviaire" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-construction-scene-3.webp" alt="Transport ferroviaire" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Transport ferroviaire</h3>
       <p>Surveillance sécurité fondation profonde et coffrage haut pour la construction de stations de métro et tunnels.</p>
@@ -193,7 +193,7 @@
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-construction-scene-4.webp" alt="Usines industrielles" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-construction-scene-4.webp" alt="Usines industrielles" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Usines industrielles</h3>
       <p>Surveillance installation structure métallique et gestion sécurité du personnel pour la construction de grandes usines.</p>
@@ -204,7 +204,7 @@
   </div>
 </section>
 <section id="advantages" class="advantage-section section-container">
-    <img src="../images/visual-solution-construction.webp" alt="Solution chantier intelligent" class="advantage-image" style="width:100%;">
+    <img src="../images/visual-solution-construction.webp" alt="Solution chantier intelligent" class="advantage-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="advantage-list">
       <h2 class="section-title" style="text-align:left;padding-bottom:0;">Avantages de la Solution</h2>
       <div class="advantage-item">

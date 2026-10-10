@@ -10,7 +10,7 @@
 <title>Smart Airport Solution | AXLTeco Limited</title>
 <meta name="description" content="AXLTeco Limited — Smart building and low-voltage systems solutions for Africa." />
 <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -89,12 +89,12 @@
   <p>Security · Operations · Passenger · Baggage · Energy</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-airport.webp" alt="Smart Airport Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-airport.webp" alt="Smart Airport Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-airport-arch-v5.en.webp" alt="Smart Airport Architecture">
+  <img src="../images/solution-airport-arch-v5.en.webp" alt="Smart Airport Architecture" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The Smart Airport solution adopts an Edge-Gateway-Cloud collaborative architecture. The edge layer covers IoT sensing devices and edge gateways across terminals, aprons, and cargo zones, acquiring local data via MQTT over TLS and OPC UA with on-site preprocessing. The platform layer builds a data middle-platform on .NET 8.0 + ASP.NET Core + Furion microservices, with DotNetCore.CAP supporting distributed event-bus and eventual-consistency transactions, RabbitMQ clusters orchestrating asynchronous event-driven communication across six subsystems (security, boarding, baggage, FIDS, surveillance, and BMS), Redis Cluster caching hot flight dynamics and passenger trajectories, and SqlSugar providing multi-source ORM mapping. The data layer uses MySQL for structured business data and MongoDB for logs and unstructured video evidence. The application layer builds an airport operations command dashboard and management back-office with Vue 3 + Element Plus, and develops passenger mobile services with uni-app x (Vapor Mode) for flight push notifications, smart navigation and paperless travel; desktop management clients are built on WPF or .NET MAUI (WinUI 3 underpinning). The DevOps pipeline leverages Git + Jenkins + NuGet/NPM for CI/CD, with Docker + Kubernetes ensuring elastic deployment and canary releases.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -135,28 +135,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Application Scenarios</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-airport-scene-1.webp" alt="Smart Airport Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-1.webp" alt="Smart Airport Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Passenger Services</h3>
       <p>Self check-in, self bag drop, facial recognition boarding, and real-time flight status push.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-airport-scene-2.webp" alt="Smart Airport Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-2.webp" alt="Smart Airport Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Security Channels</h3>
       <p>X-ray intelligent image analysis, facial recognition verification, and security flow guidance.</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-airport-scene-3.webp" alt="Smart Airport Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-3.webp" alt="Smart Airport Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Apron Management</h3>
       <p>Intelligent gate allocation, ground vehicle dispatching, and aircraft trajectory monitoring.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-airport-scene-4.webp" alt="Smart Airport Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-airport-scene-4.webp" alt="Smart Airport Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Cargo Area</h3>
       <p>Goods tracking and positioning, warehouse environment monitoring, and security linkage management.</p>
@@ -175,7 +175,7 @@
   <h2 class="section-title">Project Practice</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco provides low-voltage intelligent system construction and O&amp;M services for multiple airports in Nigeria, covering security surveillance, access control, and broadcast systems to ensure safe and efficient airport operations.</p>
 </section>
-  <img src="../images/solution-airport-extra2.webp" alt="Airport smart management holographic scene" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-airport-extra2.webp" alt="Airport smart management holographic scene" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main>
 <footer class="footer">
   <div class="footer-inner">

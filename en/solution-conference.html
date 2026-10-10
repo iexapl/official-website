@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AV Conference Solution | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>AV Conference Solution</h1><p>Conference · Video · Paperless</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-conference.webp" alt="Conference system solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-conference.webp" alt="Conference system solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-conference-arch-v5.en.webp" alt="AV conference system architecture">
+  <img src="../images/solution-conference-arch-v5.en.webp" alt="AV conference system architecture" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The AV Conference system adopts a four-layer Capture-Process-Transmit-Display architecture. The capture layer connects HD cameras, microphone arrays and multi-channel AV interfaces. The processing layer uses .NET 8.0 + ASP.NET Core + SignalR for low-latency media routing and audio mixing, Redis Cluster caching conference states and device configurations, SqlSugar managing meeting-room assets and reservation data, and DotNetCore.CAP guaranteeing distributed transactional consistency for recording and notifications. The transmission layer ensures AV QoS via enterprise LAN or dedicated lines, with Keepalived + Nginx active-standby preventing service interruption. MySQL stores meeting and asset data, while MongoDB stores recordings and logs. The management side builds a unified meeting management platform with Vue 3 + Element Plus, integrating room reservation, equipment pre-check, remote collaboration, screen sharing and meeting analytics; desktop control clients are built on WPF or .NET MAUI, supporting on-premises deployment and hybrid-cloud access. DevOps uses Git + Jenkins + NuGet/NPM for continuous delivery, with Docker for standardized deployment.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Application Scenarios</h2>
-  <img src="../images/solution-conference-extra.webp" alt="Smart conference system application scenario" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-conference-extra.webp" alt="Smart conference system application scenario" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable to corporate meeting rooms, training rooms, auditoriums and command centres. Supports local meetings, remote conferencing, training broadcasts and paperless office scenarios.</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-conference-extra2.webp" alt="Smart Conference Remote Collaboration and Hybrid Workspace" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-conference-extra2.webp" alt="Smart Conference Remote Collaboration and Hybrid Workspace" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

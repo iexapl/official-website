@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PA & Background Music Solution | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>PA & Background Music Solution</h1><p>Public Address · Zoning · Emergency · BGM</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-broadcast.webp" alt="Broadcast system solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-broadcast.webp" alt="Broadcast system solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-broadcast-arch-v5.en.webp" alt="Broadcast system architecture">
+  <img src="../images/solution-broadcast-arch-v5.en.webp" alt="Broadcast system architecture" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The broadcast system adopts a Digital IP Network + Microservices architecture. The central layer deploys a .NET 8.0 + ASP.NET Core broadcast-service cluster, with Furion providing modular plug-ins and dynamic API capabilities, and DotNetCore.CAP ensuring reliable delivery and transactional consistency of broadcast commands; RabbitMQ message queues orchestrate multi-source audio priority scheduling and fire-emergency override linkage, while Redis Cluster caches scheduled tasks, zone states and playlists. SqlSugar completes ORM mapping for multi-tenant permissions and device ledgers. The transport layer leverages existing IP networks or independent networking, with Keepalived + Nginx active-standby ensuring management-plane HA. MySQL stores program schedules and operational audits, while MongoDB stores recordings and logs. The management side builds a visual broadcast console with Vue 3 + Element Plus, integrating program scheduling, permission grading, device topology monitoring and real-time listening; the mobile side develops zone remote control and emergency broadcast apps with uni-app x (Vapor Mode). The DevOps pipeline uses Git + Jenkins + NuGet/NPM for continuous delivery, with Docker for standardized deployment.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Application Scenarios</h2>
-  <img src="../images/solution-broadcast-extra.webp" alt="Smart public address system scenario" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-broadcast-extra.webp" alt="Smart public address system scenario" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable to office buildings, shopping malls, hotels, schools, hospitals, stations and airports. Emergency broadcast meets national fire safety regulations; BGM creates a comfortable commercial atmosphere.</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-broadcast-extra2.webp" alt="Public Address Audio Spectrum Analysis and Acoustic Monitoring" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-broadcast-extra2.webp" alt="Public Address Audio Spectrum Analysis and Acoustic Monitoring" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

@@ -10,7 +10,7 @@
 <title>Smart Building Solution | AXLTeco Limited</title>
 <meta name="description" content="AXLTeco Limited — Smart building and low-voltage systems solutions for Africa." />
 <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -89,12 +89,12 @@
   <p>BAS · Security · Fire · Energy · Visitor Management</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-building.webp" alt="Smart Building Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-building.webp" alt="Smart Building Solution" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-building-arch-v5.en.webp" alt="Smart Building Architecture">
+  <img src="../images/solution-building-arch-v5.en.webp" alt="Smart Building Architecture" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Smart Building IBMS Architecture</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The Smart Building solution centres on an IBMS integrated building management platform, built on a .NET 8.0 + ASP.NET Core + Furion microservices architecture forming a unified data middle-platform. The device access layer aggregates data from five subsystems (BA, FA, SA, CA, OA) via multi-protocol gateways supporting Modbus RTU/TCP, BACnet and OPC UA; an MQTT Broker (EMQX) collects IoT sensors and edge gateways, RabbitMQ clusters enable cross-subsystem event-driven linkage, and DotNetCore.CAP guarantees distributed transactional consistency for critical linkage commands. Redis Cluster supports millisecond-level device-state caching, and SqlSugar provides heterogeneous multi-database ORM across MySQL, MongoDB and time-series databases. The data layer uses MySQL for structured business data, MongoDB for time-series monitoring and alarm logs, and TDengine for energy consumption and equipment trends. The application layer delivers a unified O&M management interface with Vue 3 + Element Plus, integrating energy analysis, predictive maintenance, tenant space services and digital-twin visualisation; desktop management clients are built on WPF or .NET MAUI. DevOps uses Git + Jenkins + NuGet/NPM for CI/CD, with Docker + Kubernetes enabling hybrid on-premises and cloud-collaborative deployment.</p>
 </section>
@@ -136,28 +136,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Application Scenarios</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-building-scene-1.webp" alt="Smart Building Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-1.webp" alt="Smart Building Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Commercial Offices</h3>
       <p>Automatic environmental control in public areas, tenant energy sub-metering, and self-service visitor access.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-building-scene-2.webp" alt="Smart Building Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-2.webp" alt="Smart Building Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Hotels &amp; Apartments</h3>
       <p>Integrated room intelligent control, energy management, security surveillance, and service robot dispatching.</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-building-scene-3.webp" alt="Smart Building Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-3.webp" alt="Smart Building Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Hospital Buildings</h3>
       <p>Operating room environment monitoring, medical equipment asset management, ward call linkage, and energy optimization.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-building-scene-4.webp" alt="Smart Building Scenarios" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-4.webp" alt="Smart Building Scenarios" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Commercial Complexes</h3>
       <p>Unified multi-tenant management platform with passenger flow analysis, equipment linkage, and emergency evacuation command.</p>
@@ -176,7 +176,7 @@
   <h2 class="section-title">Project Practice</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco deployed a complete intelligent building management system at the FIRS building in Lagos, covering building automation, security surveillance, and fire linkage subsystems, providing a benchmark case for intelligent operations in large government office buildings.</p>
 </section>
-  <img src="../images/solution-building-extra2.webp" alt="Building smart management light circuit structure" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-building-extra2.webp" alt="Building smart management light circuit structure" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main>
 <footer class="footer">
   <div class="footer-inner">

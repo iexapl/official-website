@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Solution Centre de Données & Réseau | AXLTeco Limited</title>
   <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -83,7 +83,7 @@
 </header>
 <div class="page-hero"><h1>Solution Centre de Données & Réseau</h1><p>Infrastructure · Câblage · Réseau · Sécurité</p></div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-datacenter-hero.webp" alt="Solution centre de données" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-datacenter-hero.webp" alt="Solution centre de données" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" decoding="async" width="1200" height="675">
 </div>
 <main>
 <div class="section-container" style="padding-top:48px;padding-bottom:0;">
@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-datacenter-arch-v5.fr.webp" alt="Architecture système du centre de données">
+  <img src="../images/solution-datacenter-arch-v5.fr.webp" alt="Architecture système du centre de données" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">La solution Centre de Données & Réseau adopte une architecture en couches Infrastructure-Réseau-Sécurité-O&M. La couche infrastructure intègre la surveillance environnementale, l'onduleur, le refroidissement de précision et les capteurs de la salle électrique, avec des passerelles edge complétant l'acquisition de données et le prétraitement d'alarmes via MQTT / Modbus TCP. La couche plateforme construit une plateforme O&M unifiée sur .NET 8.0 + ASP.NET Core + Furion, avec DotNetCore.CAP garantissant la cohérence transactionnelle pour l'escalade d'alarmes et les bons de travail de changement, RabbitMQ orchestrant les flux d'événements d'alarmes, Redis Cluster mettant en cache les états d'équipements et les métriques de performance, MySQL stockant les configurations d'actifs et les registres de changements, MongoDB stockant les journaux et les données de surveillance séries temporelles, et SqlSugar fournissant le mappage ORM multi-sources. La couche réseau utilise un contrôleur SDN pour l'orchestration automatisée, avec Keepalived + Nginx actif-secours assurant la haute disponibilité du plan de gestion. La couche application construit un tableau de bord O&M visuel avec Vue 3 + Element Plus, intégrant la planification de capacité, la prédiction de pannes, l'inspection automatisée et le reporting; les clients O&M de bureau sont construits sur WPF ou .NET MAUI, supportant la gestion unifiée des serveurs physiques, de la virtualisation et du cloud hybride. DevOps utilise Git + Jenkins + NuGet/NPM pour la livraison continue, avec Docker + Kubernetes pour le déploiement standardisé.</p>
 </section>
 <section id="components" class="capability-section section-container">
@@ -131,7 +131,7 @@
 </section>
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Scénarios d'Application</h2>
-  <img src="../images/solution-datacenter-extra.webp" alt="Scénario d'infrastructure de centre de données" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-datacenter-extra.webp" alt="Scénario d'infrastructure de centre de données" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
   <p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;">Applicable aux centres de données d'entreprise, salles serveurs, réseaux de bureaux, réseaux de campus et interconnexion de succursales.</p>
 </section>
 <section id="advantages" class="section-container">
@@ -148,7 +148,7 @@
 </section>
 
 <section class="section-container">
-  <img src="../images/solution-datacenter-extra2.webp" alt="Gestion des Baies et Système de Refroidissement du Centre de Données" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-datacenter-extra2.webp" alt="Gestion des Baies et Système de Refroidissement du Centre de Données" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </section>
 </main>
 <footer class="footer">

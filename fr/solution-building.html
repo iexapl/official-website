@@ -10,7 +10,7 @@
 <title>Solution bâtiment intelligent | AXLTeco Limited</title>
 <meta name="description" content="AXLTeco Limited — Solutions de bâtiment intelligent et de systèmes à basse tension pour l'Afrique." />
 <link rel="stylesheet" href="../style.css">
-  <script src="../assets/lucide/lucide.min.js"></script>
+  <script src="../assets/lucide/lucide.min.js" defer></script>
 </head>
 <body>
 <header class="header">
@@ -89,12 +89,12 @@
   <p>BAS · Sécurité · Incendie · Énergie · Visiteurs</p>
 </div>
 <div class="page-image" style="max-width:900px;margin:30px auto;padding:0 20px;">
-  <img src="../images/visual-solution-building.webp" alt="Solution bâtiment intelligent" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);">
+  <img src="../images/visual-solution-building.webp" alt="Solution bâtiment intelligent" style="width:100%;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(56,189,248,0.15);" loading="lazy" decoding="async" width="1200" height="675">
 </div>
 <main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Architecture de la Solution</h2>
-  <img src="../images/solution-building-arch-v5.fr.webp" alt="Architecture bâtiment intelligent">
+  <img src="../images/solution-building-arch-v5.fr.webp" alt="Architecture bâtiment intelligent" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">Architecture IBMS bâtiment intelligent</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">La solution Bâtiment Intelligent s'appuie sur une plateforme de gestion de bâtiments intégrée IBMS, construite sur une architecture microservices .NET 8.0 + ASP.NET Core + Furion formant une plateforme de données intermédiaires unifiée. La couche d'accès aux dispositifs agrège les données de cinq sous-systèmes (BA, FA, SA, CA, OA) via des passerelles multi-protocoles supportant Modbus RTU/TCP, BACnet et OPC UA; un Broker MQTT (EMQX) collecte les capteurs IoT et les passerelles edge, des clusters RabbitMQ activent le chaînage piloté par événements entre sous-systèmes, et DotNetCore.CAP garantit la cohérence transactionnelle distribuée pour les commandes de chaînage critiques. Redis Cluster supporte la mise en cache des états d'équipements au niveau milliseconde, et SqlSugar fournit un ORM multi-bases hétérogènes sur MySQL, MongoDB et des bases de données séries temporelles. La couche données utilise MySQL pour les données structurées, MongoDB pour les journaux de surveillance et d'alarmes séries temporelles, et TDengine pour les tendances de consommation énergétique et d'équipements. La couche application fournit une interface de gestion O&M unifiée avec Vue 3 + Element Plus, intégrant l'analyse énergétique, la maintenance prédictive, les services d'espaces locataires et la visualisation de jumeau numérique; les clients de gestion de bureau sont construits sur WPF ou .NET MAUI. DevOps utilise Git + Jenkins + NuGet/NPM pour l'intégration et le déploiement continus, avec Docker + Kubernetes permettant un déploiement hybride sur site et en cloud collaboratif.</p>
 </section>
@@ -136,28 +136,28 @@
 <section id="scenarios" class="section-container">
   <h2 class="section-title">Scénarios d'Application</h2>
   <div class="scenario-section">
-    <img src="../images/visual-solution-building-scene-1.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-1.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Bureaux commerciaux</h3>
       <p>Contrôle environnement automatique des espaces communs, sous-comptage énergétique locataires et accès visiteurs en libre-service.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-building-scene-2.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-2.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Hôtels et résidences</h3>
       <p>Contrôle intelligent intégré des chambres, gestion énergétique, vidéosurveillance sécurité et dispatching de robots de service.</p>
     </div>
   </div>
   <div class="scenario-section">
-    <img src="../images/visual-solution-building-scene-3.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-3.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Bâtiments hospitaliers</h3>
       <p>Surveillance environnement salle d'opération, gestion des actifs équipements médicaux, liaison appel chambre et optimisation énergétique.</p>
     </div>
   </div>
   <div class="scenario-section reverse">
-    <img src="../images/visual-solution-building-scene-4.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;">
+    <img src="../images/visual-solution-building-scene-4.webp" alt="Scénarios bâtiment intelligent" class="scenario-image" style="width:100%;" loading="lazy" decoding="async" width="1200" height="675">
     <div class="scenario-text">
       <h3>Complexes commerciaux</h3>
       <p>Plateforme de gestion multi-locataires unifiée avec analyse de flux de visiteurs, liaison équipements et commande d'évacuation d'urgence.</p>
@@ -176,7 +176,7 @@
   <h2 class="section-title">Pratique Projet</h2>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">AXLTeco a déployé un système complet de gestion intelligente des bâtiments au FIRS building de Lagos, couvrant les sous-systèmes d'automatisation du bâtiment, de vidéosurveillance sécurité et de liaison incendie, fournissant un cas de référence pour les opérations intelligentes dans les grands bâtiments administratifs gouvernementaux.</p>
 </section>
-  <img src="../images/solution-building-extra2.webp" alt="Structure de circuits lumineux pour gestion intelligente de bâtiment" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy">
+  <img src="../images/solution-building-extra2.webp" alt="Structure de circuits lumineux pour gestion intelligente de bâtiment" style="width:100%;max-width:1000px;border-radius:var(--radius-lg);border:1px solid rgba(56,189,248,0.15);box-shadow:var(--shadow-card);margin:24px auto;display:block;" loading="lazy" decoding="async" width="1200" height="675">
 </main>
 <footer class="footer">
   <div class="footer-inner">
