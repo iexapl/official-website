@@ -87,7 +87,7 @@
 </div><main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-airport-arch-v4.zh.webp" alt="智慧机场方案架构">
+  <img src="../images/solution-airport-arch-v5.zh.webp" alt="智慧机场方案架构">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧机场采用「端-边-云」协同架构。端侧覆盖航站楼、停机坪、货运区的物联网感知设备与边缘网关，通过 MQTT over TLS 与 OPC UA 实现现场数据采集与本地预处理；平台层基于 .NET 8.0 + ASP.NET Core + Furion 微服务框架构建数据中台，DotNetCore.CAP 支撑分布式事件总线与最终一致性事务，RabbitMQ 集群编排安检、登机、行李、航显、安防、楼宇自控六大子系统的异步事件驱动通信，Redis Cluster 缓存热点航班动态与旅客轨迹数据，SqlSugar 完成多数据源 ORM 映射；数据层以 MySQL 存储结构化业务数据，MongoDB 存储日志与非结构化影像证据。应用层以 Vue 3 + Element Plus 构建机场运营指挥大屏与管理后台，uni-app x（Vapor Mode）开发旅客端移动服务，支持航班动态推送、智能导航与无纸化出行；桌面管理端基于 WPF 或 .NET MAUI（WinUI 3 底层）构建 Native 级工作站。DevOps 链路以 Git + Jenkins + NuGet/NPM 实现持续集成，Docker + Kubernetes 保障弹性部署与灰度发布。</p>
 </section>
 <section id="components" class="capability-section section-container">

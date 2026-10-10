@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-community-arch-v4.zh.webp" alt="智慧社区方案架构">
+  <img src="../images/solution-community-arch-v5.zh.webp" alt="智慧社区方案架构">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧社区采用「云-边-端」协同架构。云端基于 .NET 8.0 + ASP.NET Core + Furion 微服务平台构建社区数字中台，DotNetCore.CAP 支撑跨业务域分布式事务，RabbitMQ 集群编排安防、通行、物业、生活服务的业务事件流，MySQL 存储居民档案与工单数据，MongoDB 存储视频监控元数据与行为日志，Redis Cluster 支撑门禁授权、停车计费等高频缓存；SqlSugar 提供多数据源 ORM 能力。边缘层部署本地 MQTT Broker 网关与轻量级服务节点，实现断网续传与本地联动；终端层涵盖人脸识别门禁、车牌识别道闸、智能传感等 IoT 设备，通过 MQTT / CoAP / HTTP 协议接入。居民端采用 uni-app x（Vapor Mode）开发跨平台 APP，物业端以 Vue 3 + Element Plus 构建运营管理后台，桌面管理端基于 WPF 或 .NET MAUI 构建，实现人、车、房、设备的精细化治理。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker + Kubernetes 弹性部署。</p>
 </section>
 <section id="components" class="capability-section section-container">

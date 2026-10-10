@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-patrol-arch-v4.zh.webp" alt="电子巡更方案架构">
+  <img src="../images/solution-patrol-arch-v5.zh.webp" alt="电子巡更方案架构">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">电子巡更系统采用「点位-终端-平台-数据」四层架构。巡更点采用 NFC/二维码/蓝牙标签部署于关键位置；移动终端包括专用巡更设备与基于 uni-app x（Vapor Mode）开发的智能手机 APP，支持离线打卡、拍照取证、语音上报与 GPS 轨迹记录。平台层基于 .NET 8.0 + ASP.NET Core + Furion 构建，DotNetCore.CAP 保障异常事件与工单流转的事务一致性，RabbitMQ 编排巡更任务与异常事件流，Redis Cluster 缓存路线与排班状态，MySQL 存储巡逻记录与考核数据，MongoDB 存储现场影像与语音，SqlSugar 提供多数据源 ORM 映射。管理端以 Vue 3 + Element Plus 构建，提供路线设计、智能排班、实时监控、异常告警与多维度报表分析；桌面管理端基于 WPF 或 .NET MAUI 构建。支持与安防、工单系统对接。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker 标准化部署。</p>
 </section>
 <section id="components" class="capability-section section-container">

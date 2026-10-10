@@ -91,7 +91,7 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">Solution Architecture</h2>
-  <img src="../images/solution-conference-arch-v4.en.webp" alt="AV conference system architecture">
+  <img src="../images/solution-conference-arch-v5.en.webp" alt="AV conference system architecture">
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">The AV Conference system adopts a four-layer Capture-Process-Transmit-Display architecture. The capture layer connects HD cameras, microphone arrays and multi-channel AV interfaces. The processing layer uses .NET 8.0 + ASP.NET Core + SignalR for low-latency media routing and audio mixing, Redis Cluster caching conference states and device configurations, SqlSugar managing meeting-room assets and reservation data, and DotNetCore.CAP guaranteeing distributed transactional consistency for recording and notifications. The transmission layer ensures AV QoS via enterprise LAN or dedicated lines, with Keepalived + Nginx active-standby preventing service interruption. MySQL stores meeting and asset data, while MongoDB stores recordings and logs. The management side builds a unified meeting management platform with Vue 3 + Element Plus, integrating room reservation, equipment pre-check, remote collaboration, screen sharing and meeting analytics; desktop control clients are built on WPF or .NET MAUI, supporting on-premises deployment and hybrid-cloud access. DevOps uses Git + Jenkins + NuGet/NPM for continuous delivery, with Docker for standardized deployment.</p>
 </section>
 <section id="components" class="capability-section section-container">
