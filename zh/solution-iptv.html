@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-iptv-arch-v4.zh.webp" alt="IPTV方案架构">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">IPTV 系统采用「头端-传输-终端-运营」四层微服务架构。头端层完成电视信号接收、编码转码与内容注入；传输层通过 IP 网络将音视频流分发至各终端，Keepalived + Nginx 主备保障核心流媒体高可用；平台层基于 .NET + Furion 构建直播、点播、EPG、用户、计费五大微服务，RabbitMQ 编排内容发布与订购事件，Redis Cluster 缓存节目单与热点内容元数据，MySQL 存储用户与计费数据，MongoDB 存储内容标签与观看行为日志；运营端以 Vue 3 + Element Plus 构建内容编排与多租户管理平台，终端支持 Android TV、机顶盒与移动端 APP，实现酒店或社区的独立品牌定制。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">IPTV 系统采用「头端-传输-终端-运营」四层微服务架构。头端层完成电视信号接收、编码转码与内容注入；传输层通过 IP 网络将音视频流分发至各终端，Keepalived + Nginx 主备保障核心流媒体高可用。平台层基于 .NET 8.0 + ASP.NET Core + Furion 构建直播、点播、EPG、用户、计费五大微服务，DotNetCore.CAP 支撑订购与计费的事务一致性，RabbitMQ 编排内容发布与订购事件，Redis Cluster 缓存节目单与热点内容元数据，MySQL 存储用户与计费数据，MongoDB 存储内容标签与观看行为日志，SqlSugar 提供多数据源 ORM 映射。运营端以 Vue 3 + Element Plus 构建内容编排与多租户管理平台，终端支持 Android TV、机顶盒与移动端；桌面运营客户端基于 WPF 或 .NET MAUI 构建 Native 级播控台。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker + Kubernetes 弹性扩缩容。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

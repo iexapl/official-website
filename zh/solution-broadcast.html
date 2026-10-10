@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-broadcast-arch-v4.zh.webp" alt="广播方案架构">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">广播系统采用「数字IP网络 + 微服务」架构。中心层部署基于 .NET 平台的播控服务集群，通过 RabbitMQ 消息队列编排多音源优先级调度，Redis 缓存定时任务与分区状态；传输层利用现有 IP 网络或独立组网，Keepalived + Nginx 主备保障服务高可用；终端层覆盖吸顶喇叭、壁挂音箱、音柱与号角，支持 256 级分区管理与消防强切联动。管理端采用 Vue 3 + Element Plus 构建可视化编播台，集成节目单编排、权限分级、操作日志与设备拓扑监控。系统通过标准协议接口与消防、楼宇自控等弱电子系统对接，实现紧急事件一键广播与多系统协同响应。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">广播系统采用「数字 IP 网络 + 微服务」架构。中心层部署基于 .NET 8.0 + ASP.NET Core 的播控服务集群，Furion 提供模块化插件与动态 API 能力，DotNetCore.CAP 保障广播指令的可靠投递与事务一致性；RabbitMQ 消息队列编排多音源优先级调度与消防强切联动，Redis Cluster 缓存定时任务、分区状态与播放清单；SqlSugar 完成多租户权限与设备台账的 ORM 映射。传输层利用现有 IP 网络或独立组网，Keepalived + Nginx 主备保障管理面高可用。数据层 MySQL 存储节目单与操作审计，MongoDB 存储录音与日志。管理端采用 Vue 3 + Element Plus 构建可视化编播台，集成节目单编排、权限分级、设备拓扑监控与实时监听；移动端以 uni-app x（Vapor Mode）开发分区遥控与应急广播 APP。DevOps 链路以 Git + Jenkins + NuGet/NPM 持续交付，Docker 标准化部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

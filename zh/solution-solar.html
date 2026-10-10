@@ -92,7 +92,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-solar-arch-v4.zh.webp" alt="光伏储能方案架构">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">光伏储能系统采用「发电-储能-管理-负载」四层架构。光伏发电子系统包含组件、逆变器与汇流设备；储能子系统由电池组、BMS 与储能逆变器构成，通过 MQTT 网关将运行数据接入平台；能量管理层基于 .NET 构建本地 EMS 与云端运维平台，RabbitMQ 编排充放电策略与告警事件，Redis 缓存实时功率与SOC状态，MySQL 存储设备资产与收益台账，MongoDB 存储历史发电与用电曲线；用户端以 Vue 3 + Element Plus 构建监控大屏，配套 uni-app x 开发移动端 APP，实现发电量实时查看、收益统计、故障告警推送与远程运维。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">光伏储能系统采用「发电-储能-管理-负载」四层架构。光伏发电子系统包含组件、逆变器与汇流设备；储能子系统由电池组、BMS 与储能逆变器构成，通过 MQTT 网关将运行数据接入平台。能量管理层基于 .NET 8.0 + ASP.NET Core 构建本地 EMS 与云端运维平台，DotNetCore.CAP 支撑充放电策略与告警升级的事务一致性，RabbitMQ 编排充放电策略与告警事件，Redis 缓存实时功率与 SOC 状态，MySQL 存储设备资产与收益台账，MongoDB 存储历史发电与用电曲线，SqlSugar 提供多数据源 ORM 映射。用户端以 Vue 3 + Element Plus 构建监控大屏，配套 uni-app x（Vapor Mode）开发移动端 APP，实现发电量实时查看、收益统计、故障告警推送与远程运维；桌面运维端基于 WPF 或 .NET MAUI 构建 Native 级 EMS 工作站。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker + Kubernetes 弹性部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>
