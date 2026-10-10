@@ -86,11 +86,11 @@
 </div><main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-city-arch-v4.zh.webp" alt="智慧城市方案架构">
+  <img src="../images/solution-city-arch-v5.zh.webp" alt="智慧城市方案架构">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧城市数字孪生架构</p>
   <img src="../images/visual-twin-city-v2.webp" alt="智慧城市数字孪生平台可视化">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">数字孪生城市架构示意（来源：数字孪生梳理参考材料）</p>
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧城市解决方案以 CIM 城市信息模型为数字底座，采用「云原生微服务 + 数据中台」架构。城市物联感知接入层汇聚交通、安防、环保、市政等多源异构数据，经 RabbitMQ 集群进入数据中台进行实时清洗与治理；AI 中台基于 .NET 生态构建，集成 SqlSugar 多库适配、Redis Cluster 海量缓存与 MongoDB 时序存储，支撑城市级流量预测、环境预警与应急推演；应用层以 Vue 3 + Element Plus 构建「城市大脑」指挥大屏与各委办局业务系统，通过 Kubernetes 容器编排实现弹性扩缩容，Docker 标准化部署保障跨环境一致性，打破部门信息孤岛，实现跨域数据互通与业务协同。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧城市解决方案以 CIM 城市信息模型为数字底座，采用「云原生微服务 + 数据中台」架构。城市物联感知接入层汇聚交通、安防、环保、市政等多源异构数据，通过 MQTT / HTTP / WebSocket 进入数据中台；RabbitMQ 集群实现实时清洗与治理，DotNetCore.CAP 保障关键城市事件的事务一致性；AI 中台基于 .NET 8.0 + ASP.NET Core + Furion 构建，集成 SqlSugar 多库适配、Redis Cluster 海量缓存与 MongoDB 时序存储，支撑城市级流量预测、环境预警与应急推演。应用层以 Vue 3 + Element Plus 构建「城市大脑」指挥大屏与各委办局业务系统，桌面决策端基于 WPF 或 .NET MAUI 构建 Native 级工作站。基础设施层通过 Docker + Kubernetes 容器编排实现弹性扩缩容，Keepalived + Nginx 主备保障高可用，Git + Jenkins + NuGet/NPM 构建持续交付流水线，打破部门信息孤岛，实现跨域数据互通与业务协同。</p>
 </section>
 
 <section id="components" class="capability-section section-container">

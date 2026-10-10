@@ -91,8 +91,8 @@
 </div>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-datacenter-arch-v4.zh.webp" alt="机房与网络方案架构">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">机房与网络方案采用「基础设施-网络-安全-运维」分层架构。基础设施层集成环境监控、UPS、精密空调与动环传感器，边缘网关完成数据采集与告警预处理；平台层基于 .NET 构建统一运维中台，通过 RabbitMQ 编排告警事件流，Redis Cluster 缓存设备状态与性能指标，MySQL 存储资产配置与变更记录，MongoDB 存储日志与监控时序数据；网络层采用 SDN 控制器实现自动化编排，Keepalived + Nginx 主备保障管理面高可用；应用层以 Vue 3 + Element Plus 构建可视化运维大屏，集成容量规划、故障预测、自动化巡检与报表分析，支持物理服务器、虚拟化与混合云统一管理。</p>
+  <img src="../images/solution-datacenter-arch-v5.zh.webp" alt="机房与网络方案架构">
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">机房与网络方案采用「基础设施-网络-安全-运维」分层架构。基础设施层集成环境监控、UPS、精密空调与动环传感器，边缘网关通过 MQTT / Modbus TCP 完成数据采集与告警预处理；平台层基于 .NET 8.0 + ASP.NET Core + Furion 构建统一运维中台，DotNetCore.CAP 保障告警升级与变更工单的事务一致性，RabbitMQ 编排告警事件流，Redis Cluster 缓存设备状态与性能指标，MySQL 存储资产配置与变更记录，MongoDB 存储日志与监控时序数据，SqlSugar 提供多数据源 ORM 映射。网络层采用 SDN 控制器实现自动化编排，Keepalived + Nginx 主备保障管理面高可用。应用层以 Vue 3 + Element Plus 构建可视化运维大屏，集成容量规划、故障预测、自动化巡检与报表分析；桌面运维端基于 WPF 或 .NET MAUI 构建 Native 级运维工作站，支持物理服务器、虚拟化与混合云统一管理。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker + Kubernetes 标准化部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

@@ -87,9 +87,9 @@
 </div><main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-campus-arch-v4.zh.webp" alt="智慧校园方案架构">
+  <img src="../images/solution-campus-arch-v5.zh.webp" alt="智慧校园方案架构">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧校园一体化架构</p>
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧校园采用「感知-网络-平台-应用」四层架构。感知层通过物联网网关接入门禁、监控、能耗、环境监测等终端，边缘节点完成数据清洗与本地联动；平台层基于 .NET + Furion 构建校园数字中台，RabbitMQ 集群打通教务、安防、后勤、资产等子系统业务事件，Redis Cluster 缓存课表、考勤与一卡通高频数据，MySQL 承载核心业务，MongoDB 存储行为日志与非结构化教学资源；应用层面向师生提供 Vue 3 + Element Plus 管理驾驶舱与 uni-app x 一站式校园服务 APP，实现跨系统统一身份认证、数据互通共享与智能决策支持。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧校园采用「感知-网络-平台-应用」四层架构。感知层通过物联网网关接入门禁、监控、能耗、环境监测等终端，边缘节点完成数据清洗与本地联动；平台层基于 .NET 8.0 + ASP.NET Core + Furion 构建校园数字中台，DotNetCore.CAP 支撑跨子系统的分布式事件与事务一致性，RabbitMQ 集群打通教务、安防、后勤、资产等子系统业务事件，Redis Cluster 缓存课表、考勤与一卡通高频数据，SqlSugar 完成多数据源 ORM 映射；MySQL 承载核心业务，MongoDB 存储行为日志与非结构化教学资源。应用层面向师生提供 Vue 3 + Element Plus 管理驾驶舱与 uni-app x（Vapor Mode）一站式校园服务 APP，桌面端管理台基于 WPF 或 .NET MAUI 构建；实现跨系统统一身份认证、数据互通共享与智能决策支持。DevOps 链路以 Git + Jenkins + NuGet/NPM 持续交付，Docker + Kubernetes 保障弹性扩缩容。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>
