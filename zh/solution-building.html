@@ -87,7 +87,7 @@
 </div><main>
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
-  <img src="../images/solution-building-arch-v3.zh.webp" alt="智慧楼宇方案架构">
+  <img src="../images/solution-building-arch-v4.zh.webp" alt="智慧楼宇方案架构">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧楼宇IBMS架构</p>
   <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧楼宇以 IBMS 智能建筑综合管理平台为核心，采用 .NET + Furion 微服务架构构建统一数据中台。设备接入层通过 Modbus/BACnet/OPC UA 多协议网关汇聚楼宇自控(BA)、消防(FA)、安防(SA)、通信(CA)、办公(OA)五大子系统数据，经 RabbitMQ 集群实现事件驱动联动，Redis Cluster 支撑毫秒级设备状态缓存；数据层以 MySQL 存储结构化业务数据，MongoDB 存储时序监控与告警日志，SqlSugar 提供多库异构 ORM 能力；应用层以 Vue 3 + Element Plus 打造统一运维管理界面，集成能耗分析、设备预测性维护、租户空间服务与数字孪生可视化，支持本地部署与云端协同的混合模式。</p>
 </section>
