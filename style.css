@@ -489,7 +489,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
   pointer-events: none;
 }
 .manifesto-card > * { position: relative; z-index: 1; }
-.manifesto-card p { font-size: 1.1rem; line-height: 2; opacity: 0.95; }
+.manifesto-card p { font-size: 1.1rem; line-height: 2; opacity: 0.95; color: var(--color-surface); }
 .manifesto-card .lead { font-size: 1.3rem; font-weight: 700; }
 .manifesto-card .sub  { font-size: 1.1rem; }
 .manifesto-card .footnote { opacity: 0.7; margin-top: 16px; font-size: 0.95rem; }
