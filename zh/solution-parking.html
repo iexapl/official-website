@@ -122,7 +122,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-parking-arch-v5.zh.webp" alt="智慧停车场方案架构" loading="lazy" decoding="async" width="1531" height="1141">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧停车场采用「端-边-云」三层架构。端侧部署车牌识别摄像头、车位地磁/视频探测器与道闸控制器，边缘网关实现本地计费决策与断网自治；云平台基于 .NET 8.0 + ASP.NET Core + Furion 微服务架构构建，核心服务包括车辆识别（支持多国标车牌）、车位管理（Redis Cluster 实时状态同步）、计费结算（RabbitMQ 异步交易对账，DotNetCore.CAP 保障财务事务一致性）与运营报表（MongoDB 多维分析）；数据层采用 MySQL 存储会员与交易数据，MongoDB 存储进出记录与影像证据，SqlSugar 完成多数据源 ORM 映射。管理端以 Vue 3 + Element Plus 构建运营后台，车主端采用 uni-app x（Vapor Mode）开发跨平台小程序，收费员端配套基于 .NET MAUI 构建的跨平台原生 APP，三端数据通过消息队列实时同步，保障高并发场景下的稳定运行。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker + Kubernetes 弹性部署。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧停车场采用「端-边-云」三层架构。端侧部署车牌识别摄像头、车位地磁/视频探测器与道闸控制器，边缘网关实现本地计费决策与断网自治；云平台基于 .NET 8.0 + ASP.NET Core + Furion 微服务架构构建，核心服务包括车辆识别（支持多国标车牌）、车位管理（Redis Cluster 实时状态同步）、计费结算（RabbitMQ 异步交易对账，DotNetCore.CAP 保障财务事务一致性）与运营报表（MongoDB 多维分析）；数据层采用 MySQL 存储会员与交易数据，MongoDB 存储进出记录与影像证据，SqlSugar ORM 完成多数据源映射。管理端以 Vue 3 + Element Plus 构建运营后台，车主端采用 uni-app x（Vapor Mode）开发跨平台小程序，收费员端配套基于 .NET MAUI 构建的跨平台原生 APP，三端数据通过消息队列实时同步，保障高并发场景下的稳定运行。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker + Kubernetes 弹性部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

@@ -123,7 +123,7 @@
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-traffic-arch-v5.zh.webp" alt="智慧交通方案架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧交通管控架构</p>
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧交通采用「前端感知-边缘计算-中心研判」三级架构。前端部署视频检测器、雷达、信号机与 AI 边缘盒，实现车流量、违章行为与道路事件的实时识别；边缘层通过本地计算节点完成信号优化与区域协调控制，降低中心平台负载。中心平台基于 .NET 8.0 + ASP.NET Core + Furion 微服务架构构建，DotNetCore.CAP 保障信号控制与违章处罚的事务一致性，RabbitMQ 集群汇聚路侧多源事件，Redis Cluster 缓存实时路况与信号状态，MySQL 存储交通设施档案，MongoDB 存储视频证据与流量时序数据，SqlSugar 提供多数据源 ORM 映射。应用层以 Vue 3 + Element Plus 构建交通指挥大屏，集成信号控制、视频巡查、违章检测、流量分析、诱导发布与公交优先六大子系统，桌面指挥端基于 WPF 或 .NET MAUI 构建 Native 级研判工作站，通过统一数据总线实现单点独立运行与区域协调控制的双模式适配。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker + Kubernetes 弹性部署。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧交通采用「前端感知-边缘计算-中心研判」三级架构。前端部署视频检测器、雷达、信号机与 AI 边缘盒，实现车流量、违章行为与道路事件的实时识别；边缘层通过本地计算节点完成信号优化与区域协调控制，降低中心平台负载。中心平台基于 .NET 8.0 + ASP.NET Core + Furion 微服务架构构建，DotNetCore.CAP 保障信号控制与违章处罚的事务一致性，RabbitMQ 集群汇聚路侧多源事件，Redis Cluster 缓存实时路况与信号状态，MySQL 存储交通设施档案，MongoDB 存储视频证据与流量时序数据，SqlSugar ORM 提供多数据源映射。应用层以 Vue 3 + Element Plus 构建交通指挥大屏，集成信号控制、视频巡查、违章检测、流量分析、诱导发布与公交优先六大子系统，桌面指挥端基于 WPF 或 .NET MAUI 构建，通过统一数据总线实现单点独立运行与区域协调控制的双模式适配。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker + Kubernetes 弹性部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

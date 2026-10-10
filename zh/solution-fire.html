@@ -126,7 +126,7 @@
 <section id="architecture" class="architecture-container">
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-fire-arch-v5.zh.webp" alt="火灾自动报警方案架构" loading="lazy" decoding="async" width="1531" height="1141">
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">火灾自动报警系统采用「探测-报警-联动-管理」四层分布式架构。探测层通过回路总线连接烟感、温感、火焰与气体探测器至报警主机；控制层基于嵌入式控制器实现信号处理、分区确认与优先级广播；联动层通过 RabbitMQ 事件总线驱动喷淋、排烟、卷帘、应急照明与消防广播的协同响应，DotNetCore.CAP 保障关键消防联动指令的事务一致性，Redis Cluster 缓存设备实时状态。管理层以 .NET 8.0 + ASP.NET Core + Furion 构建消防指挥平台，MySQL 存储建筑消防档案与设备台账，MongoDB 存储事件录像与操作日志，SqlSugar 完成多数据源 ORM 映射；Vue 3 + Element Plus 管理端提供图形化监控、电子预案、远程巡检与多主机联网统一消防管理；桌面消防工作站基于 WPF 或 .NET MAUI 构建。IoT 接入层通过 MQTT / BACnet / Modbus TCP 汇聚多品牌设备，边缘网关实现本地联动与断网自治。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker 标准化部署。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">火灾自动报警系统采用「探测-报警-联动-管理」四层分布式架构。探测层通过回路总线连接烟感、温感、火焰与气体探测器至报警主机；控制层基于嵌入式控制器实现信号处理、分区确认与优先级广播；联动层通过 RabbitMQ 事件总线驱动喷淋、排烟、卷帘、应急照明与消防广播的协同响应，DotNetCore.CAP 保障关键消防联动指令的事务一致性，Redis Cluster 缓存设备实时状态。管理层以 .NET 8.0 + ASP.NET Core + Furion 构建消防指挥平台，MySQL 存储建筑消防档案与设备台账，MongoDB 存储事件录像与操作日志，SqlSugar ORM 完成多数据源映射；Vue 3 + Element Plus 管理端提供图形化监控、电子预案、远程巡检与多主机联网统一消防管理；桌面消防工作站基于 WPF 或 .NET MAUI 构建。IoT 接入层通过 MQTT / BACnet / Modbus TCP 汇聚多品牌设备，边缘网关实现本地联动与断网自治。DevOps 以 Git + Jenkins + NuGet/NPM 持续交付，Docker 标准化部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
   <h2 class="section-title">方案组成</h2>

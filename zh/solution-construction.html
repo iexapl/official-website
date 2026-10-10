@@ -121,7 +121,7 @@
   <h2 class="section-title">方案架构</h2>
   <img src="../images/solution-construction-arch-v5.zh.webp" alt="智慧工地业务架构" loading="lazy" decoding="async" width="1531" height="1141">
   <p style="text-align:center;color:var(--color-text-muted);font-size:0.85rem;margin-top:8px;">智慧工地方案架构</p>
-  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧工地采用「端-边-云」三层架构。端层部署人员定位、环境监测、塔吊监测、AI 安全帽识别等物联网感知设备，通过 MQTT / LoRa / 4G 接入边缘网关；边缘层通过本地计算节点实现实时数据聚合与危险预警本地决策，保障弱网环境下的安全生产。云平台基于 .NET 8.0 + ASP.NET Core + Furion 微服务架构构建项目管理中枢，DotNetCore.CAP 支撑关键告警与工单的事务一致性，RabbitMQ 集群驱动质量、安全、进度、人员、设备五大业务域事件，MySQL 存储项目台账，MongoDB 存储巡检影像与传感器时序数据，Redis Cluster 缓存现场实时状态，SqlSugar 提供多数据源 ORM 映射。管理端以 Vue 3 + Element Plus 构建 PC 指挥大屏，配合 uni-app x（Vapor Mode）开发监理巡检 APP 与 TV 数据看板，桌面管理端基于 WPF 或 .NET MAUI 构建，实现多项目并行监管与数据驱动的精益建造。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker + Kubernetes 弹性部署。</p>
+  <p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;">智慧工地采用「端-边-云」三层架构。端层部署人员定位、环境监测、塔吊监测、AI 安全帽识别等物联网感知设备，通过 MQTT / LoRa / 4G 接入边缘网关；边缘层通过本地计算节点实现实时数据聚合与危险预警本地决策，保障弱网环境下的安全生产。云平台基于 .NET 8.0 + ASP.NET Core + Furion 微服务架构构建项目管理中枢，DotNetCore.CAP 支撑关键告警与工单的事务一致性，RabbitMQ 集群驱动质量、安全、进度、人员、设备五大业务域事件，MySQL 存储项目台账，MongoDB 存储巡检影像与传感器时序数据，Redis Cluster 缓存现场实时状态，SqlSugar ORM 提供多数据源映射。管理端以 Vue 3 + Element Plus 构建 PC 指挥大屏，配合 uni-app x（Vapor Mode）开发监理巡检 APP，桌面管理端基于 WPF 或 .NET MAUI 构建。DevOps 以 Git + Jenkins + NuGet/NPM 持续集成，Docker + Kubernetes 弹性部署。</p>
 </section>
 <section id="components" class="capability-section section-container">
     <h2 class="section-title">方案组成</h2>
