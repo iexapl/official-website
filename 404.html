@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 - Page Not Found | AXLTeco Limited</title>
+<meta name="description" content="The page you are looking for does not exist. Visit AXLTeco Limited for building intelligence and low-voltage systems solutions." />
+<meta name="robots" content="noindex, follow" />
+<link rel="canonical" href="https://iexapl.github.io/official-website/en/index.html" />
+<link rel="stylesheet" href="style.css">
+<style>
+.error-container { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px; background: #0f172a; color: #fff; }
+.error-code { font-size: 120px; font-weight: 800; color: #0ea5e9; line-height: 1; margin-bottom: 16px; }
+.error-title { font-size: 28px; font-weight: 600; margin-bottom: 12px; }
+.error-text { font-size: 16px; color: #94a3b8; margin-bottom: 32px; max-width: 480px; }
+.error-links { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+.error-links a { color: #0ea5e9; text-decoration: none; font-weight: 500; }
+.error-links a:hover { text-decoration: underline; }
+</style>
+<script>
+// Auto-redirect fallback for old URLs
+(function(){
+  var path = window.location.pathname;
+  var langMatch = path.match(/\/(zh|en|fr)\//);
+  if (!langMatch) return;
+  var lang = langMatch[1];
+  var filename = path.substring(path.lastIndexOf('/') + 1);
+  if (!filename) filename = 'index.html';
+  
+  var redirectMap = {
+      "product-software-hr.html": "software/hrms.html",
+      "product-software-blacklist.html": "software/blacklist.html",
+      "product-software-warehouse.html": "software/warehouse.html",
+      "product-software-workorder.html": "software/procurement.html",
+      "product-software-inspection.html": "software/safety.html",
+      "product-software-bim.html": "software/bim.html",
+      "product-software-ibms.html": "software/ibms.html",
+      "product-software-info.html": "software/info-display.html",
+      "product-software-budget.html": "software/budget.html",
+      "product-software-dashboard.html": "software/dashboard.html",
+      "product-hardware-camera.html": "hardware/camera.html",
+      "product-hardware-attendance.html": "hardware/attendance.html",
+      "product-hardware-gate.html": "hardware/gate.html",
+      "product-hardware-passage.html": "hardware/passage.html",
+      "product-hardware-splicing.html": "hardware/splicing.html",
+      "product-hardware-adscreen.html": "hardware/adscreen.html",
+      "product-hardware-led.html": "hardware/led.html",
+      "product-hardware-gps.html": "hardware/gps.html",
+      "product-hardware-oil.html": "hardware/oil.html",
+      "product-hardware-edge.html": "hardware/ai-server.html",
+      "product-hardware-drone.html": "hardware/drone.html",
+      "service-software.html": "service/software-dev.html",
+      "service-ai.html": "service/ai-agent.html",
+      "service-modeling.html": "service/city-modeling.html",
+      "solution-construction.html": "solution/smart-construction.html",
+      "solution-building.html": "solution/smart-building.html",
+      "solution-traffic.html": "solution/smart-traffic.html",
+      "solution-city.html": "solution/smart-city.html",
+      "solution-parking.html": "solution/smart-parking.html",
+      "solution-campus.html": "solution/smart-campus.html",
+      "solution-datacenter.html": "solution/data-center.html",
+      "solution-eagle.html": "solution/city-eagle.html",
+      "solution-fire.html": "solution/fire-alarm.html",
+      "solution-conference.html": "solution/av-conference.html",
+      "solution-community.html": "solution/smart-community.html",
+      "solution-solar.html": "solution/solar-energy.html",
+      "solution-patrol.html": "solution/patrol.html",
+      "solution-airport.html": "solution/smart-airport.html",
+      "solution-broadcast.html": "solution/broadcast.html",
+      "solution-iptv.html": "solution/iptv.html"
+  };
+  
+  if (redirectMap[filename]) {
+    var newPath = path.replace(filename, redirectMap[filename]);
+    window.location.replace(newPath);
+  }
+})();
+</script>
+</head>
+<body>
+<div class="error-container">
+  <div class="error-code">404</div>
+  <h1 class="error-title">Page Not Found</h1>
+  <p class="error-text">The page you are looking for does not exist or has been moved. Please choose a language below to continue exploring AXLTeco Limited.</p>
+  <div class="error-links">
+    <a href="/official-website/zh/index.html">中文站</a>
+    <a href="/official-website/en/index.html">English</a>
+    <a href="/official-website/fr/index.html">Français</a>
+  </div>
+</div>
+</body>
+</html>
