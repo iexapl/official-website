@@ -67,3 +67,5 @@
     height: 12px;
   }
 }
+.software-page main>section:first-child>p{text-align:left!important;text-indent:2em}
+.software-page .capability-desc{text-align:left;text-indent:2em}
