@@ -11,3 +11,59 @@
 .menu-col li a{display:block;padding:6px 0 6px 10px;color:var(--color-text-muted);font-size:0.85rem;text-decoration:none;border-left:2px solid transparent;transition:all 0.2s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .menu-col li a:hover{color:var(--color-brand);border-left-color:var(--color-brand);background:rgba(56,189,248,0.06)}
 @media (max-width:900px){.nav-dropdown.has-mega-menu{position:relative}.nav-dropdown.has-mega-menu .mega-menu{position:static;box-shadow:none;background:rgba(56,189,248,0.03);display:none;opacity:1;transform:none;pointer-events:auto;max-height:0;overflow:hidden;transition:max-height 0.3s ease;padding:0;border:none;border-radius:0}.nav-dropdown.has-mega-menu.open .mega-menu{display:block;max-height:800px}.mega-menu-inner{flex-direction:column;padding:0 16px}.menu-col h4{font-size:0.9rem;color:var(--color-text);margin-top:8px}.menu-col li a{color:var(--color-text-muted);font-size:0.85rem;padding:8px 0 8px 12px}}
+/* ===== Fix: Desktop nav hover dead-zone + close delay ===== */
+@media (min-width: 901px) {
+  .nav-dropdown,
+  .nav-dropdown.has-mega-menu {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+  }
+  .nav-dropdown > a,
+  .nav-dropdown.has-mega-menu > a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .nav-dropdown .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+    transition-delay: 0.2s;
+    pointer-events: none;
+  }
+  .nav-dropdown:hover .dropdown-menu,
+  .nav-dropdown.open .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0s;
+    pointer-events: auto;
+  }
+  .nav-dropdown.has-mega-menu .mega-menu {
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+    transition-delay: 0.2s;
+  }
+  .nav-dropdown.has-mega-menu:hover .mega-menu,
+  .nav-dropdown.has-mega-menu.open .mega-menu {
+    transition-delay: 0s;
+  }
+  .nav-dropdown .dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    height: 12px;
+  }
+  .nav-dropdown.has-mega-menu .mega-menu::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    height: 12px;
+  }
+}
