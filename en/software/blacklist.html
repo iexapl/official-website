@@ -263,10 +263,10 @@
 <!-- System Architecture -->
 <section class="section-container">
 <h2 class="section-title">System Architecture</h2>
-<div class="architecture-container" style="background:var(--color-bg-elevated);border-radius:var(--radius-lg);border:1px solid var(--color-line-soft);padding:32px 24px;">
+<div class="architecture-container tech-grid-bg" style="background:var(--color-bg-elevated);border-radius:var(--radius-lg);border:1px solid var(--color-line-soft);padding:32px 24px;">
 <h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">System Architecture</h3>
-<img alt="Blacklist Management System System Architecture" decoding="async" height="1121" loading="lazy" src="../../images/software-blacklist-arch-v30.en.webp" style="width:100%;max-width:900px;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
-<p style="text-align:center;color:#8aa0b8;font-size:14px;margin-top:12px;">The system adopts a multi-source aggregation plus real-time matching architecture: manual entry, batch import, API sync, and face/plate recognition terminals converge into the list management service; Redis Cluster caches hot lists for millisecond matching; a risk-tier service determines the level and triggers SignalR real-time alerts; five scenarios — hiring, collaboration, visitors, access, and parking — embed the matching engine; RabbitMQ asynchronously generates alert logs and MongoDB stores full audit trails for compliance traceability.</p>
+<img alt="Blacklist Management System System Architecture" decoding="async" height="1121" loading="lazy" src="../../images/software-blacklist-arch-v30.en.webp" style="width:100%;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
+<p style="text-align:center;color:var(--color-text-muted);font-size:14px;margin-top:12px;">The system adopts a multi-source aggregation plus real-time matching architecture: manual entry, batch import, API sync, and face/plate recognition terminals converge into the list management service; Redis Cluster caches hot lists for millisecond matching; a risk-tier service determines the level and triggers SignalR real-time alerts; five scenarios — hiring, collaboration, visitors, access, and parking — embed the matching engine; RabbitMQ asynchronously generates alert logs and MongoDB stores full audit trails for compliance traceability.</p>
 </div>
 </section>
 <!-- Application Scenarios -->

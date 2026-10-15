@@ -298,10 +298,10 @@
 <!-- System Architecture -->
 <section class="section-container">
 <h2 class="section-title">Architecture du Système</h2>
-<div class="architecture-container" style="background:var(--color-bg-elevated);border-radius:var(--radius-lg);border:1px solid var(--color-line-soft);padding:32px 24px;">
+<div class="architecture-container tech-grid-bg" style="background:var(--color-bg-elevated);border-radius:var(--radius-lg);border:1px solid var(--color-line-soft);padding:32px 24px;">
 <h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">Architecture du Système</h3>
-<img alt="Système de Gestion des Matériaux Architecture du Système" decoding="async" height="1121" loading="lazy" src="../../images/software-warehouse-arch-v30.fr.webp" style="width:100%;max-width:900px;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
-<p style="text-align:center;color:#8aa0b8;font-size:14px;margin-top:12px;">Architecture entrepôt complet + moteurs d'exploitation : cinq types de terminaux terrain (PDA, lecteurs RFID, terminaux embarqués, balances électroniques, imprimantes). La couche moteur d'exploitation indépendante couvre quatre moteurs (entrée, sortie, interne, picking par vague). Le service code-barres/RFID capture les données en temps réel ; le service inventaire utilise Redis Cluster pour la déduction à haute concurrence ; le service de transfert s'appuie sur DotNetCore.CAP pour la cohérence des transactions distribuées.</p>
+<img alt="Système de Gestion des Matériaux Architecture du Système" decoding="async" height="1121" loading="lazy" src="../../images/software-warehouse-arch-v30.fr.webp" style="width:100%;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
+<p style="text-align:center;color:var(--color-text-muted);font-size:14px;margin-top:12px;">Architecture entrepôt complet + moteurs d'exploitation : cinq types de terminaux terrain (PDA, lecteurs RFID, terminaux embarqués, balances électroniques, imprimantes). La couche moteur d'exploitation indépendante couvre quatre moteurs (entrée, sortie, interne, picking par vague). Le service code-barres/RFID capture les données en temps réel ; le service inventaire utilise Redis Cluster pour la déduction à haute concurrence ; le service de transfert s'appuie sur DotNetCore.CAP pour la cohérence des transactions distribuées.</p>
 </div>
 </section>
 <!-- Application Scenarios -->
