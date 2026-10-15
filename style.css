@@ -69,3 +69,29 @@
 }
 .software-page main>section:first-child>p{text-align:left!important;text-indent:2em}
 .software-page .capability-desc{text-align:left;text-indent:2em}
+
+/* ===== 阶段一追加：三列布局（优势与保障） ===== */
+.triple-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1200px;margin:32px auto 0}
+.triple-col-title{display:flex;align-items:center;gap:10px;font-size:1.15rem;font-weight:600;color:var(--color-text-strong);margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--color-line-soft)}
+.triple-col-left .triple-col-title{border-bottom-color:rgba(56,189,248,0.3)}
+.triple-col-center .triple-col-title{border-bottom-color:rgba(167,139,250,0.3)}
+.triple-col-right .triple-col-title{border-bottom-color:rgba(34,211,238,0.3)}
+.col-icon{width:32px;height:32px;border-radius:8px;background:rgba(56,189,248,0.1);color:var(--color-brand);display:inline-flex;align-items:center;justify-content:center}
+.triple-col-center .col-icon{background:rgba(167,139,250,0.1);color:var(--color-accent)}
+.triple-col-right .col-icon{background:rgba(34,211,238,0.1);color:var(--color-accent-2)}
+.triple-card{background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);border-radius:var(--radius);padding:20px;margin-bottom:16px;transition:transform 0.2s,box-shadow 0.2s,border-color 0.2s}
+.triple-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-card-hover);border-color:var(--color-brand)}
+.triple-card h4{font-size:1rem;color:var(--color-text-strong);margin-bottom:8px}
+.triple-card p{font-size:0.9rem;color:var(--color-text-muted);line-height:1.6;margin:0}
+@media (max-width:991px){.triple-grid{grid-template-columns:1fr;gap:32px}}
+
+/* ===== 阶段一追加：spec-table 参数项加粗 ===== */
+.spec-table td:first-child{font-weight:600;color:var(--color-text-strong);white-space:nowrap;width:25%}
+
+/* ===== 阶段一追加：统一段落样式 ===== */
+.section-lead{text-align:center;max-width:900px;margin:0 auto 40px;color:var(--color-text-muted);font-size:1.05rem;line-height:1.8}
+.section-paragraph{max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8}
+.section-caption{text-align:center;color:var(--color-text-muted);font-size:14px;margin-top:12px}
+
+/* ===== 阶段一追加：page-image 容器 ===== */
+.page-image-container{max-width:900px;margin:30px auto;padding:0 20px}
