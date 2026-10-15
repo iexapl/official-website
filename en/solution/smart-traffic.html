@@ -8,13 +8,13 @@
 <link href="/official-website/fr/solution/smart-traffic.html" hreflang="fr" rel="alternate"/>
 <link href="/official-website/en/solution/smart-traffic.html" hreflang="x-default" rel="alternate"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="AXLTeco Smart Traffic Solution provides an integrated platform for signal control, flow monitoring and violation capture for traffic management departments." name="description">
+<meta content="For urban traffic management authorities and transport infrastructure builders, a full-scenario intelligent traffic management solution covering signal control, video surveillance, violation detection, flow analysis and guidance publishing that addresses the core pain points of severe intersection congestion, frequent traffic violations and underutilized traffic data, improving road capacity and traffic safety." name="description">
 <title>Smart Traffic Solution | AXLTeco Limited</title>
 <link href="../../style.css" rel="stylesheet"/>
 <script defer="" src="../../assets/lucide/lucide.min.js"></script>
 <link href="https://iexapl.github.io/official-website/en/solution/smart-traffic.html" rel="canonical">
 <meta content="Smart Traffic Solution | AXLTeco Limited" property="og:title">
-<meta content="AXLTeco Smart Traffic Solution provides an integrated platform for signal control, flow monitoring and violation capture for traffic management departments." property="og:description"/>
+<meta content="For urban traffic management authorities and transport infrastructure builders, a full-scenario intelligent traffic management solution covering signal control, video surveillance, violation detection, flow analysis and guidance publishing that addresses the core pain points of severe intersection congestion, frequent traffic violations and underutilized traffic data, improving road capacity and traffic safety." property="og:description"/>
 <meta content="https://iexapl.github.io/official-website/images/home-extra-strength.webp" property="og:image"/>
 <meta content="https://iexapl.github.io/official-website/en/solution/smart-traffic.html" property="og:url"/>
 <meta content="en_US" property="og:locale"/>
@@ -22,7 +22,7 @@
 <meta content="AXLTeco Limited" property="og:site_name"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Smart Traffic Solution | AXLTeco Limited" name="twitter:title"/>
-<meta content="AXLTeco Smart Traffic Solution provides an integrated platform for signal control, flow monitoring and violation capture for traffic management departments." name="twitter:description"/>
+<meta content="For urban traffic management authorities and transport infrastructure builders, a full-scenario intelligent traffic management solution covering signal control, video surveillance, violation detection, flow analysis and guidance publishing that addresses the core pain points of severe intersection congestion, frequent traffic violations and underutilized traffic data, improving road capacity and traffic safety." name="twitter:description"/>
 <meta content="https://iexapl.github.io/official-website/images/home-extra-strength.webp" name="twitter:image"/>
 <script type="application/ld+json">
 {
@@ -250,57 +250,84 @@
 
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
-<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">In urban traffic management, normalized intersection congestion, frequent violations and weak public transport service are the three chronic ills constraining city efficiency.</p>
-<ul>
-<li><strong>Severe intersection congestion</strong>: Fixed signal timing cannot adapt to flow changes, causing long peak-hour queues</li>
-<li><strong>Frequent violations</strong>: Red-light running, speeding and wrong-way driving rely on manual enforcement with limited coverage</li>
-<li><strong>Dormant traffic data</strong>: Intersection flow data is underused, leaving optimization decisions without data support</li>
-<li><strong>Weak public transport</strong>: Buses get no priority passage, punctuality is low and the passenger experience is poor</li>
-</ul>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Typical Scenarios: </strong>Morning and evening peak signal optimization, automatic violation capture, real-time traffic information publishing, bus priority passage.</p>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Intended Users: </strong>Traffic engineers, traffic police command staff, road maintenance staff.</p>
+<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">In urban traffic management, customers often face chronic intersection congestion, frequent violations and weak public transport services, and urgently need a full-scenario, data-driven solution compatible with existing signal infrastructure.</p>
+<div class="grid-auto">
+<div class="capability-card"><div class="capability-icon"><i data-lucide="traffic-cone"></i></div><h3 class="capability-title">Severe intersection congestion</h3><p class="capability-desc">Fixed signal timing cannot adapt to changing flows; queues stretch long at peaks.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="siren"></i></div><h3 class="capability-title">Frequent violations</h3><p class="capability-desc">Red-light running, speeding and wrong-way driving rely on manual enforcement with limited coverage.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="database"></i></div><h3 class="capability-title">Dormant traffic data</h3><p class="capability-desc">Intersection flow data goes unused, leaving optimization decisions without support.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Weak public transport</h3><p class="capability-desc">Buses get no priority, run late and deliver a poor passenger experience.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">Compatibility with existing systems</h3><p class="capability-desc">Mainstream signal controller brands must be supported to protect investments.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="radio"></i></div><h3 class="capability-title">Open data interfaces</h3><p class="capability-desc">Open interfaces are needed for command centers and map service providers.</p></div>
+</div>
+<p style="max-width:900px;margin:28px auto 0;color:var(--color-text);line-height:1.8;"><strong>Typical Scenarios: </strong><span class="scenario-tags" style="display:inline-flex;flex-wrap:wrap;justify-content:flex-start;gap:8px;margin-left:12px;vertical-align:middle;"><span class="scenario-tag">Peak-hour signal optimization</span><span class="scenario-tag">Automatic violation capture</span><span class="scenario-tag">Real-time road information publishing</span><span class="scenario-tag">Bus priority</span></span></p>
+<p style="max-width:900px;margin:12px auto 0;color:var(--color-text);line-height:1.8;"><strong>Target Roles: </strong>Traffic engineers, traffic police commanders, road maintenance staff.</p>
 </section>
 
-<section class="architecture-container" id="architecture">
+<section class="section-container" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">Adopts a three-tier architecture of intersection sensing, area coordination and central control, achieving real-time flow monitoring and signal optimization.</p>
-<ol>
-<li><strong>Intersection layer</strong>: Video detectors, radar detectors, signal controllers, AI edge analysis units and automated enforcement cameras</li>
-<li><strong>Road segment layer</strong>: Guidance screens publishing real-time traffic information; bus priority detection automatically extends green phases</li>
-<li><strong>Central layer</strong>: The signal control platform shows real-time flow, signal status and congestion index per intersection for remote adjustment</li>
-</ol>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Integration Capabilities: </strong></p>
-<ul>
-<li>Compatible with mainstream domestic and international signal controller brands</li>
-<li>AI video analytics without pavement cutting</li>
-<li>Open data interfaces support connection to city traffic command centers and map service providers</li>
+<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">Built on a three-tier “intersection sensing - area coordination - central control” architecture covering signal control, video surveillance, violation detection, flow analysis and guidance publishing, compatible with mainstream signal controller brands and open to command center integration.</p>
+<div style="max-width:900px;margin:0 auto 8px;display:flex;flex-direction:column;"><div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);border-radius:var(--radius);padding:14px 20px;"><strong style="min-width:128px;color:var(--color-brand);font-size:0.95rem;">Center</strong><span class="tech-pill">Signal control platform</span><span class="tech-pill">Flow/congestion index overview</span><span class="tech-pill">Remote adjustment</span></div><div aria-hidden="true" style="text-align:center;color:var(--color-brand);font-size:13px;line-height:1;margin:4px 0;">&#9660;</div><div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);border-radius:var(--radius);padding:14px 20px;"><strong style="min-width:128px;color:var(--color-brand);font-size:0.95rem;">Segments</strong><span class="tech-pill tech-pill-purple">Guidance screens</span><span class="tech-pill tech-pill-purple">Bus priority detection</span></div><div aria-hidden="true" style="text-align:center;color:var(--color-brand);font-size:13px;line-height:1;margin:4px 0;">&#9660;</div><div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);border-radius:var(--radius);padding:14px 20px;"><strong style="min-width:128px;color:var(--color-brand);font-size:0.95rem;">Intersections</strong><span class="tech-pill">Video/radar detectors</span><span class="tech-pill">Signal controllers</span><span class="tech-pill">AI edge analysis boxes</span><span class="tech-pill">Red-light cameras</span></div></div>
+<p style="text-align:center;color:#8aa0b8;font-size:14px;margin:8px auto 0;">Intersections sense flow and violations in real time; segments publish guidance and grant bus priority; the center aggregates intersection status for area coordination and remote control.</p>
+<h3 style="text-align:center;color:var(--color-text-strong);margin:32px auto 20px;font-size:var(--fs-h3);">Core Modules</h3>
+<div class="grid-auto">
+<div class="capability-card"><div class="capability-icon"><i data-lucide="traffic-cone"></i></div><h3 class="capability-title">Signal control</h3><p class="capability-desc">Compatible with mainstream domestic and international signal controller brands, with remote timing control.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">AI video analytics</h3><p class="capability-desc">Flow and violation detection without pavement-cutting loops — short construction periods.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="siren"></i></div><h3 class="capability-title">Violation detection</h3><p class="capability-desc">Automatic capture and evidence for red-light running, speeding and wrong-way driving.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="radio"></i></div><h3 class="capability-title">Guidance publishing</h3><p class="capability-desc">Road information published in real time via guidance screens and open interfaces.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="bus"></i></div><h3 class="capability-title">Bus priority</h3><p class="capability-desc">Bus detection automatically extends green time, improving punctuality.</p></div>
+</div>
+<p style="max-width:900px;margin:28px auto 0;color:var(--color-text);line-height:1.8;"><strong>Integration Capabilities:</strong></p>
+<ul style="max-width:900px;margin:12px auto 0;color:var(--color-text);line-height:1.9;">
+<li>Compatible with mainstream domestic and international signal controller brands</li><li>AI video analytics require no pavement-cutting loops</li><li>Open data interfaces for city traffic command centers and map service providers</li>
 </ul>
 </section>
 
 <section class="section-container" id="advantages">
 <h2 class="section-title">Advantages & Delivery</h2>
-<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">With AI video analytics at its core, AXLTeco provides African cities with highly compatible, construction-friendly and data-open smart traffic solutions.</p>
-<p style="max-width:900px;margin:0 auto;color:var(--color-text);line-height:1.8;"><strong>Key Differentiators: </strong></p>
-<ul>
-<li>Compatible with mainstream domestic and international signal controller brands, protecting existing investments</li>
-<li>AI video analytics need no pavement-cutting loops, shortening construction and lowering maintenance costs</li>
-<li>Open data interfaces connect to city traffic command centers and map service providers</li>
-<li>Participated in the Lagos Mile 2 transport interchange, Lagos Light Rail Blue Line Phase V and Kano railway station projects</li>
-</ul>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Customer Value: </strong>Higher road capacity, fewer accidents and better public transport services, providing data support and decision basis for urban traffic management.</p>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Implementation Process: </strong></p>
-<p>Requirements research → Site survey → Equipment installation → Platform deployment → Signal tuning → Training and handover.</p>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Service Assurance: </strong>One-year warranty, continuous signal timing optimization, remote technical support.</p>
+<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">With AI video analytics and multi-brand compatibility, we deliver higher road capacity and data-driven decision support for cities, implemented through site survey, signal tuning and continuous optimization services.</p>
+<h3 style="text-align:center;color:var(--color-text-strong);margin:32px auto 20px;font-size:var(--fs-h3);">Differentiating Advantages</h3>
+<div class="grid-auto">
+<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">High compatibility</h3><p class="capability-desc">Works with mainstream domestic and international signal controller brands, protecting existing investments.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">Quick, non-invasive construction</h3><p class="capability-desc">AI analytics need no pavement-cutting loops — short construction, low maintenance cost.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="radio"></i></div><h3 class="capability-title">Open data</h3><p class="capability-desc">Open interfaces connect to city traffic command centers and map providers.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="hard-hat"></i></div><h3 class="capability-title">Engineering track record</h3><p class="capability-desc">Participated in the Lagos Mile 2 transport interchange, Lagos Light Rail Blue Line Phase V and Kano railway station projects.</p></div>
+</div>
+<p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;"><strong>Customer Value: </strong>Higher road capacity, fewer accidents, better public transport services, and a data foundation for urban traffic decisions.</p>
+<h3 style="text-align:center;color:var(--color-text-strong);margin:32px auto 20px;font-size:var(--fs-h3);">Implementation Process</h3>
+<div class="process-steps"><div class="step-card"><div class="step-number">1</div><div class="step-content"><h3>Requirements research</h3><p>Map intersection status and management goals.</p></div></div><div class="step-connector"></div><div class="step-card"><div class="step-number">2</div><div class="step-content"><h3>Site survey</h3><p>Locate detection, signal and guidance points.</p></div></div><div class="step-connector"></div><div class="step-card"><div class="step-number">3</div><div class="step-content"><h3>Equipment installation</h3><p>Install detectors, signal controllers and guidance screens.</p></div></div><div class="step-connector"></div><div class="step-card"><div class="step-number">4</div><div class="step-content"><h3>Platform deployment</h3><p>Deploy and configure the signal control platform.</p></div></div><div class="step-connector"></div><div class="step-card"><div class="step-number">5</div><div class="step-content"><h3>Signal tuning</h3><p>Optimize timing plans from flow data.</p></div></div><div class="step-connector"></div><div class="step-card"><div class="step-number">6</div><div class="step-content"><h3>Training & handover</h3><p>Train management staff and go live.</p></div></div></div>
+<p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;"><strong>Service Assurance: </strong>One-year warranty, continuous signal timing optimization, remote technical support.</p>
 </section>
 
 <section class="case-section section-container" id="cases">
 <h2 class="section-title">Customer Cases</h2>
-<ul>
-<li>Project: Lagos Mile 2 transport interchange, Lagos Light Rail Blue Line Phase V and Kano railway station</li>
-<li>Outcomes: Participated in low-voltage and intelligent systems construction, accumulating engineering experience in the transport sector</li>
-
-</ul>
+<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">The following projects built the transport-sector engineering experience behind this solution.</p>
+<div class="grid-auto">
+<div class="case-card">
+<h3 style="color:var(--color-text-strong);margin-bottom:12px;font-size:var(--fs-h3);">Lagos Mile 2 Transport Interchange</h3>
+<p class="case-desc"><strong>Background: </strong>The Mile 2 transport interchange construction project in Lagos, Nigeria.</p>
+<p class="case-desc"><strong>Challenge: </strong>The hub handles heavy, complex traffic and needs integrated intelligent systems for support.</p>
+<p class="case-desc"><strong>Solution: </strong>Participated in low-voltage and intelligent systems construction.</p>
+<p class="case-desc"><strong>Results: </strong>Intelligent systems completed at the hub, adding large-scale transport engineering experience.</p>
+</div>
+<div class="case-card">
+<h3 style="color:var(--color-text-strong);margin-bottom:12px;font-size:var(--fs-h3);">Lagos Light Rail Blue Line Phase V</h3>
+<p class="case-desc"><strong>Background: </strong>The Phase V project of the Lagos Light Rail Blue Line, Nigeria.</p>
+<p class="case-desc"><strong>Challenge: </strong>Rail projects involve many complex intelligent subsystems with demanding integration requirements.</p>
+<p class="case-desc"><strong>Solution: </strong>Participated in low-voltage and intelligent systems construction.</p>
+<p class="case-desc"><strong>Results: </strong>Delivered on schedule, extending the company's rail transit track record.</p>
+</div>
+<div class="case-card">
+<h3 style="color:var(--color-text-strong);margin-bottom:12px;font-size:var(--fs-h3);">Kano Railway Station</h3>
+<p class="case-desc"><strong>Background: </strong>The Kano railway station construction project in Nigeria.</p>
+<p class="case-desc"><strong>Challenge: </strong>The station concentrates passenger and vehicle flows and needs comprehensive intelligent management.</p>
+<p class="case-desc"><strong>Solution: </strong>Participated in low-voltage and intelligent systems construction.</p>
+<p class="case-desc"><strong>Results: </strong>Systems delivered, establishing transport-hub implementation capability.</p>
+</div>
+</div>
 </section>
+
+
+
 
 <section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>

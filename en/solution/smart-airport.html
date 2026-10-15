@@ -8,13 +8,13 @@
 <link href="/official-website/fr/solution/smart-airport.html" hreflang="fr" rel="alternate"/>
 <link href="/official-website/en/solution/smart-airport.html" hreflang="x-default" rel="alternate"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="AXLTeco Smart Airport Solution provides an integrated management platform for passenger service, security monitoring and operations scheduling for airports." name="description">
+<meta content="For airport operators and aviation authorities, a full-scenario intelligent solution covering passenger services, security, operations and energy management that addresses the core pain points of low passenger processing efficiency, manual-dependent security screening and suboptimal resource utilization, improving passenger satisfaction and airport operational efficiency." name="description">
 <title>Smart Airport Solution | AXLTeco Limited</title>
 <link href="../../style.css" rel="stylesheet"/>
 <script defer="" src="../../assets/lucide/lucide.min.js"></script>
 <link href="https://iexapl.github.io/official-website/en/solution/smart-airport.html" rel="canonical">
 <meta content="Smart Airport Solution | AXLTeco Limited" property="og:title">
-<meta content="AXLTeco Smart Airport Solution provides an integrated management platform for passenger service, security monitoring and operations scheduling for airports." property="og:description"/>
+<meta content="For airport operators and aviation authorities, a full-scenario intelligent solution covering passenger services, security, operations and energy management that addresses the core pain points of low passenger processing efficiency, manual-dependent security screening and suboptimal resource utilization, improving passenger satisfaction and airport operational efficiency." property="og:description"/>
 <meta content="https://iexapl.github.io/official-website/images/home-extra-strength.webp" property="og:image"/>
 <meta content="https://iexapl.github.io/official-website/en/solution/smart-airport.html" property="og:url"/>
 <meta content="en_US" property="og:locale"/>
@@ -22,7 +22,7 @@
 <meta content="AXLTeco Limited" property="og:site_name"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="Smart Airport Solution | AXLTeco Limited" name="twitter:title"/>
-<meta content="AXLTeco Smart Airport Solution provides an integrated management platform for passenger service, security monitoring and operations scheduling for airports." name="twitter:description"/>
+<meta content="For airport operators and aviation authorities, a full-scenario intelligent solution covering passenger services, security, operations and energy management that addresses the core pain points of low passenger processing efficiency, manual-dependent security screening and suboptimal resource utilization, improving passenger satisfaction and airport operational efficiency." name="twitter:description"/>
 <meta content="https://iexapl.github.io/official-website/images/home-extra-strength.webp" name="twitter:image"/>
 <script type="application/ld+json">
 {
@@ -250,58 +250,70 @@
 
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
-<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">In airport operations, high passenger volumes, strict security standards and complex resource coordination put traditional operating models under dual pressure of efficiency and safety.</p>
-<ul>
-<li><strong>Low passenger processing efficiency</strong>: Long queues at check-in, screening and boarding hurt the passenger experience</li>
-<li><strong>Manual-dependent screening</strong>: Manual image judgment is slow and inconsistent, posing safety risks</li>
-<li><strong>Unsynchronized flight information</strong>: Subsystem information silos mean passengers and staff learn of flight changes late</li>
-<li><strong>Difficult ground resource coordination</strong>: Stand allocation and vehicle dispatching rely on manual experience, resulting in unbalanced resource use</li>
-</ul>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Typical Scenarios: </strong>Peak-hour high-volume passenger processing, multi-currency settlement for international flights, cargo area tracking, flight delay contingency handling.</p>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Intended Users: </strong>Airport operations staff, screening staff, ground handling staff, passenger service staff.</p>
+<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">In airport operations, customers often face low passenger processing efficiency, manual-dependent screening and complex resource coordination, and urgently need a full-scenario intelligent system built to ICAO standards, deployable in phases, with unified data convergence.</p>
+<div class="grid-auto">
+<div class="capability-card"><div class="capability-icon"><i data-lucide="users"></i></div><h3 class="capability-title">Low processing efficiency</h3><p class="capability-desc">Long queues at check-in, screening and boarding hurt the passenger experience.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-line"></i></div><h3 class="capability-title">Manual-dependent screening</h3><p class="capability-desc">Manual image review is slow and inconsistent, creating security risk.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="refresh-cw-off"></i></div><h3 class="capability-title">Flight info out of sync</h3><p class="capability-desc">Subsystem silos delay flight updates reaching passengers and staff.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Unbalanced ground resources</h3><p class="capability-desc">Stand allocation and vehicle dispatching rely on experience; peak-hour shortages coexist with idle capacity, pressuring turnaround efficiency.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="plane-takeoff"></i></div><h3 class="capability-title">Self-service passenger flow</h3><p class="capability-desc">Self-service check-in, bag drop and boarding are needed to cut queues.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">Intelligent resource scheduling</h3><p class="capability-desc">Smart stand allocation and ground vehicle dispatching are needed to balance utilization.</p></div>
+</div>
+<p style="max-width:900px;margin:28px auto 0;color:var(--color-text);line-height:1.8;"><strong>Typical Scenarios: </strong><span class="scenario-tags" style="display:inline-flex;flex-wrap:wrap;justify-content:flex-start;gap:8px;margin-left:12px;vertical-align:middle;"><span class="scenario-tag">Peak-hour high-volume processing</span><span class="scenario-tag">Multi-currency settlement for international flights</span><span class="scenario-tag">Cargo area tracking</span><span class="scenario-tag">Flight delay contingency</span></span></p>
+<p style="max-width:900px;margin:12px auto 0;color:var(--color-text);line-height:1.8;"><strong>Target Roles: </strong>Airport operations staff, screening officers, ground handlers, passenger service staff.</p>
 </section>
 
-<section class="architecture-container" id="architecture">
+<section class="section-container" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">Adopts a terminal-apron-cargo area collaborative architecture covering passenger services, security, operations and energy management.</p>
-<ol>
-<li><strong>Terminal layer</strong>: Self-service check-in/bag drop, X-ray/screening portals/face recognition, flight information displays and face recognition boarding gates</li>
-<li><strong>Apron layer</strong>: Intelligent stand allocation, ground vehicle dispatching, aircraft trajectory monitoring and perimeter security</li>
-<li><strong>Cargo area layer</strong>: Cargo tracking and positioning, warehouse environment monitoring and security linkage management</li>
-<li><strong>Operations center layer</strong>: The AOC monitors flight dynamics, passenger flows and security status in real time on command screens</li>
-</ol>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Integration Capabilities: </strong></p>
-<ul>
-<li>Real-time synchronization of subsystem data to the AOC operations center</li>
-<li>Automatic alerting of responsible departments on anomalies</li>
-<li>Multi-language and multi-currency adaptation</li>
+<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">Built on a “terminal-apron-cargo area” collaborative architecture covering passenger services, security screening, cargo management and AOC operations control, with multi-language and multi-currency support and real-time data convergence across subsystems.</p>
+<div style="max-width:900px;margin:0 auto 8px;display:flex;flex-direction:column;"><div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);border-radius:var(--radius);padding:14px 20px;"><strong style="min-width:128px;color:var(--color-brand);font-size:0.95rem;">Operations Center</strong><span class="tech-pill">AOC airport operations control center</span><span class="tech-pill">Command dashboard</span><span class="tech-pill">Flight dynamics monitoring</span><span class="tech-pill">Passenger flow monitoring</span><span class="tech-pill">Security status monitoring</span></div><div aria-hidden="true" style="text-align:center;color:var(--color-brand);font-size:13px;line-height:1;margin:4px 0;">&#9660;</div><div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);border-radius:var(--radius);padding:14px 20px;"><strong style="min-width:128px;color:var(--color-brand);font-size:0.95rem;">Cargo Area</strong><span class="tech-pill tech-pill-purple">Cargo tracking</span><span class="tech-pill tech-pill-purple">Warehouse environment monitoring</span><span class="tech-pill tech-pill-purple">Security linkage management</span></div><div aria-hidden="true" style="text-align:center;color:var(--color-brand);font-size:13px;line-height:1;margin:4px 0;">&#9660;</div><div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);border-radius:var(--radius);padding:14px 20px;"><strong style="min-width:128px;color:var(--color-brand);font-size:0.95rem;">Apron</strong><span class="tech-pill">Smart stand allocation</span><span class="tech-pill">Ground vehicle dispatching</span><span class="tech-pill">Aircraft movement monitoring</span><span class="tech-pill">Perimeter security</span></div><div aria-hidden="true" style="text-align:center;color:var(--color-brand);font-size:13px;line-height:1;margin:4px 0;">&#9660;</div><div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);border-radius:var(--radius);padding:14px 20px;"><strong style="min-width:128px;color:var(--color-brand);font-size:0.95rem;">Terminal</strong><span class="tech-pill tech-pill-purple">Self-service check-in/bag drop</span><span class="tech-pill tech-pill-purple">X-ray/screening gates/face recognition</span><span class="tech-pill tech-pill-purple">Flight information displays</span><span class="tech-pill tech-pill-purple">Biometric boarding gates</span></div></div>
+<p style="text-align:center;color:#8aa0b8;font-size:14px;margin:8px auto 0;">The terminal layer gives passengers self-service processing and screening; the apron and cargo layers support ground operations and cargo management; subsystem data converges in real time at the AOC, where anomalies alert the responsible departments automatically.</p>
+<h3 style="text-align:center;color:var(--color-text-strong);margin:32px auto 20px;font-size:var(--fs-h3);">Core Modules</h3>
+<div class="grid-auto">
+<div class="capability-card"><div class="capability-icon"><i data-lucide="user-check"></i></div><h3 class="capability-title">Passenger self-service</h3><p class="capability-desc">Self-service check-in, bag drop and biometric boarding cut queues.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-line"></i></div><h3 class="capability-title">Intelligent screening</h3><p class="capability-desc">X-ray, screening gates and AI-assisted image review raise screening efficiency and consistency.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="plane"></i></div><h3 class="capability-title">Stand & vehicle dispatching</h3><p class="capability-desc">Smart stand allocation and ground vehicle dispatching balance resource utilization.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="package"></i></div><h3 class="capability-title">Cargo tracking</h3><p class="capability-desc">Cargo tracking and warehouse environment monitoring visible end to end.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">AOC operations control</h3><p class="capability-desc">The command dashboard tracks flights, passenger flow and security status in real time.</p></div>
+</div>
+<p style="max-width:900px;margin:28px auto 0;color:var(--color-text);line-height:1.8;"><strong>Integration Capabilities:</strong></p>
+<ul style="max-width:900px;margin:12px auto 0;color:var(--color-text);line-height:1.9;">
+<li>All subsystems sync data in real time to the AOC operations center</li><li>Anomalies automatically alert the responsible handling departments</li><li>Multi-language and multi-currency support</li>
 </ul>
 </section>
 
 <section class="section-container" id="advantages">
 <h2 class="section-title">Advantages & Delivery</h2>
-<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">Benchmarked against ICAO safety standards, AXLTeco provides modular and scalable smart airport solutions for African airports.</p>
-<p style="max-width:900px;margin:0 auto;color:var(--color-text);line-height:1.8;"><strong>Key Differentiators: </strong></p>
-<ul>
-<li>Compliant with ICAO international civil aviation safety standards</li>
-<li>Multi-language and multi-currency support for international hubs</li>
-<li>Modular design with phased construction to reduce investment risk</li>
-<li>Security and low-voltage systems successfully deployed at multiple Nigerian airports</li>
-</ul>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Customer Value: </strong>Higher passenger processing efficiency, stronger safety assurance, optimized resource utilization and increased commercial revenue.</p>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Implementation Process: </strong></p>
-<p>Requirements research → Solution design → Phased implementation → System integration → Commissioning and acceptance → Training and handover.</p>
-<p style="max-width:900px;margin:16px auto 0;color:var(--color-text);line-height:1.8;"><strong>Service Assurance: </strong>One-year warranty, 7x24 operations support, local spare parts stock.</p>
+<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">With ICAO safety standards and modular delivery capability, we support better passenger processing and resource utilization, implemented through phased construction, system integration, commissioning and acceptance, and ongoing operations support.</p>
+<h3 style="text-align:center;color:var(--color-text-strong);margin:32px auto 20px;font-size:var(--fs-h3);">Differentiating Advantages</h3>
+<div class="grid-auto">
+<div class="capability-card"><div class="capability-icon"><i data-lucide="badge-check"></i></div><h3 class="capability-title">ICAO-aligned</h3><p class="capability-desc">Designed and implemented to ICAO international civil aviation safety standards.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="globe"></i></div><h3 class="capability-title">Multi-language, multi-currency</h3><p class="capability-desc">Meets the international operation needs of hub airports.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="blocks"></i></div><h3 class="capability-title">Modular phased construction</h3><p class="capability-desc">Build in phases to match investment pace, reducing one-off investment risk.</p></div>
+<div class="capability-card"><div class="capability-icon"><i data-lucide="plane"></i></div><h3 class="capability-title">Multi-airport track record</h3><p class="capability-desc">Security and low-voltage systems deployed at multiple Nigerian airports.</p></div>
+</div>
+<p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;"><strong>Customer Value: </strong>Higher passenger processing efficiency, stronger safety assurance, better resource utilization and increased commercial revenue.</p>
+<h3 style="text-align:center;color:var(--color-text-strong);margin:32px auto 20px;font-size:var(--fs-h3);">Implementation Process</h3>
+<div class="process-steps"><div class="step-card"><div class="step-number">1</div><div class="step-content"><h3>Requirements research</h3><p>Map airport scale, route structure and construction phases.</p></div></div><div class="step-connector"></div><div class="step-card"><div class="step-number">2</div><div class="step-content"><h3>Solution design</h3><p>Produce a phased implementation plan by module.</p></div></div><div class="step-connector"></div><div class="step-card"><div class="step-number">3</div><div class="step-content"><h3>Phased implementation</h3><p>Build by priority: passenger services, security, then operations.</p></div></div><div class="step-connector"></div><div class="step-card"><div class="step-number">4</div><div class="step-content"><h3>System integration</h3><p>Connect subsystems into the AOC operations control center.</p></div></div><div class="step-connector"></div><div class="step-card"><div class="step-number">5</div><div class="step-content"><h3>Commissioning & acceptance</h3><p>Full-scenario integration testing and acceptance.</p></div></div><div class="step-connector"></div><div class="step-card"><div class="step-number">6</div><div class="step-content"><h3>Training & handover</h3><p>Train operations and management staff by role, then hand over.</p></div></div></div>
+<p style="max-width:900px;margin:24px auto 0;color:var(--color-text);line-height:1.8;"><strong>Service Assurance: </strong>One-year warranty, 7x24 operations support, local spare parts stock.</p>
 </section>
 
 <section class="case-section section-container" id="cases">
 <h2 class="section-title">Customer Cases</h2>
-<ul>
-<li>Project: Low-voltage intelligent systems at multiple Nigerian airports</li>
-<li>Outcomes: Covering security surveillance, access control, broadcast and other infrastructure</li>
-
-</ul>
+<p style="max-width:900px;margin:0 auto 16px;color:var(--color-text);line-height:1.8;">The following airports completed low-voltage intelligent infrastructure construction with this solution.</p>
+<div class="grid-auto">
+<div class="case-card">
+<h3 style="color:var(--color-text-strong);margin-bottom:12px;font-size:var(--fs-h3);">Low-Voltage Intelligent Systems at Multiple Nigerian Airports</h3>
+<p class="case-desc"><strong>Background: </strong>Multiple Nigerian airports are in an infrastructure upgrade cycle and need security and low-voltage systems built out as a whole.</p>
+<p class="case-desc"><strong>Challenge: </strong>Traditional airport operations relied on manual management; surveillance, access control and broadcast infrastructure was weak.</p>
+<p class="case-desc"><strong>Solution: </strong>Delivered airport low-voltage intelligent systems covering security surveillance, access control, broadcast and more.</p>
+<p class="case-desc"><strong>Results: </strong>Low-voltage intelligent infrastructure deployed at multiple airports, providing a system foundation for safe airport operations.</p>
+</div>
+</div>
 </section>
+
+
+
 
 <section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>
