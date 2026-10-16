@@ -280,7 +280,7 @@
 <h2 class="section-title">Architecture du Système</h2>
 <div class="architecture-container tech-grid-bg" style="background:var(--color-bg-elevated);border-radius:var(--radius-lg);border:1px solid var(--color-line-soft);padding:32px 24px;">
 <h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">Architecture du Système</h3>
-<img alt="Système de Gestion Intelligente du Bâtiment (IBMS) Architecture du Système" decoding="async" height="1121" loading="lazy" src="../../images/software-ibms-arch-v30.fr.webp" style="width:100%;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
+<img alt="Système de Gestion Intelligente du Bâtiment (IBMS) Architecture du Système" decoding="async" height="1121" loading="lazy" src="../../images/software-ibms-arch-v31.fr.webp" style="width:100%;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
 <p style="text-align:center;color:var(--color-text-muted);font-size:14px;margin-top:12px;">Architecture adaptation multi-protocoles + jumeau numérique : cinq sous-systèmes (BA/FA/SA/CA/OA) intégrés via passerelles multi-protocoles ; le service de contrôle lié s'appuie sur DotNetCore.CAP pour les transactions distribuées ; le service jumeau numérique fusionne BIM et IoT avec visualisation 3D WebGL ; le service d'analyse énergétique utilise une base de séries temporelles pour la surveillance temps réel et l'économie d'énergie par IA.</p>
 </div>
 </section>
@@ -330,82 +330,46 @@
 </section>
 </section>
 <!-- Advantages, Services & Client Cases -->
-<section class="advantage-section section-container">
-<h2 class="section-title">Avantages et Cas</h2>
-<div style="margin-bottom:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">Avantages Clés</h3>
-<div class="advantage-list">
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg></div>
-<div class="advantage-content">
-<h3>Architecture Ouverte</h3>
-<p>Supporte plusieurs protocoles, compatible avec la plupart des marques d'équipements, protégeant l'investissement existant.</p>
+<section class="section-container">
+<h2 class="section-title">Avantages et cas</h2>
+<div class="triple-grid">
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>
+Avantages clés
 </div>
+<div class="triple-card"><h4>Architecture ouverte multi-protocoles</h4><p>Prend en charge plusieurs protocoles de communication tels que BACnet, Modbus, OPC UA, etc., compatible avec la grande majorité des marques d’équipements du marché, protégeant les investissements existants.</p></div>
+<div class="triple-card"><h4>Visualisation de jumeau numérique</h4><p>Fusionne les données BIM et IoT, permet une visualisation 3D via le moteur WebGL, pour une gestion de l’exploitation et de la maintenance intuitive et efficace.</p></div>
+<div class="triple-card"><h4>Contrôle intelligent interconnecté</h4><p>Réalise une interconnexion intelligente inter-systèmes basée sur un moteur de transactions distribuées, avec une réponse rapide et une interconnexion fiable, pour une boucle fermée complète alerte-traitement.</p></div>
+<div class="triple-card"><h4>Optimisation énergétique par IA</h4><p>Analyse les habitudes de consommation énergétique sur la base d’une base de données chronologiques et d’algorithmes d’IA, génère automatiquement des stratégies d’économie d’énergie, réduisant les coûts d’exploitation du bâtiment.</p></div>
+<div class="triple-card"><h4>Portail unifié d’exploitation et de maintenance</h4><p>Les cinq sous-systèmes BA/FA/SA/CA/OA sont connectés de manière unifiée via une passerelle multi-protocoles, permettant de contrôler l’ensemble du système depuis une seule plateforme.</p></div>
+<div class="triple-card"><h4>Extensibilité élastique</h4><p>L’architecture microservices prend en charge l’intégration à la demande de nouveaux sous-systèmes et de nouveaux types d’équipements, pour une extension fluide avec la taille du bâtiment.</p></div>
 </div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg></div>
-<div class="advantage-content">
-<h3>Visualisation Jumeau Numérique</h3>
-<p>Fusion BIM + IoT avec visualisation 3D WebGL, MCO intuitif.</p>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>
+Garantie de livraison
 </div>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Nous étudions en profondeur l’état actuel des systèmes intelligents du bâtiment et les besoins d’exploitation et de maintenance, et structurons la liste des sous-systèmes et les priorités d’intégration.</p></div>
+<div class="triple-card"><h4>Déploiement du système</h4><p>Prend en charge le déploiement local et le déploiement sur cloud, la passerelle multi-protocoles se connecte rapidement aux équipements existants, s’adaptant à des bâtiments de différentes tailles.</p></div>
+<div class="triple-card"><h4>Formation et mise en ligne</h4><p>Nous proposons une formation différenciée pour les administrateurs et le personnel d’exploitation et de maintenance, couvrant l’utilisation de la plateforme, le traitement des alertes, l’analyse de la consommation énergétique et l’utilisation des rapports.</p></div>
+<div class="triple-card"><h4>Acceptation de mise en service</h4><p>La réception se déroule en trois étapes : tests d’interconnexion, tests de charge de performance, scan de sécurité, pour garantir la stabilité et la fiabilité du système avant la livraison officielle.</p></div>
 </div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></div>
-<div class="advantage-content">
-<h3>Contrôle Intelligent</h3>
-<p>Moteur de transactions distribuées pour un contrôle inter-systèmes fiable et rapide.</p>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="building-2"></i></span>
+Études de cas
 </div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2 2 7l10 5 10-5-10-5z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg></div>
-<div class="advantage-content">
-<h3>Optimisation Énergétique IA</h3>
-<p>Algorithmes IA générant des stratégies d'économie basées sur l'analyse des usages.</p>
-</div>
-</div>
-</div>
-</div>
-<div style="margin-bottom:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">Assurance de Livraison</h3>
-<div class="advantage-list">
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="search"></i></div>
-<div class="advantage-content">
-<h3>Analyse des Besoins</h3>
-<p>Étude des systèmes intelligents et des besoins MCO pour un plan d'intégration.</p>
-</div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="settings"></i></div>
-<div class="advantage-content">
-<h3>Déploiement</h3>
-<p>Support du déploiement sur site et cloud, adapté aux bâtiments de toutes tailles.</p>
-</div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="graduation-cap"></i></div>
-<div class="advantage-content">
-<h3>Formation &amp; Lancement</h3>
-<p>Formation échelonnée administrateurs/personnel MCO.</p>
-</div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="headset"></i></div>
-<div class="advantage-content">
-<h3>MCO Continue</h3>
-<p>Support technique 24/7 avec mises à jour régulières.</p>
-</div>
-</div>
-</div>
-</div>
-<div style="margin-top:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">Cas Clients</h3>
-<div style="background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);border-radius:var(--radius-lg);padding:24px;margin-bottom:16px;">
-<h3 style="color:var(--color-text-strong);margin-bottom:12px;">Lagos FIRS et autres projets</h3>
-<p style="color:var(--color-text);">Le système a permis la surveillance centralisée et le contrôle intelligent via l'intégration multi-sous-systèmes et la visualisation jumeau numérique, améliorant l'efficacité MCO et réduisant les coûts énergétiques.</p>
+<div class="triple-card"><h4>Système de gestion intelligente du bâtiment du Federal Inland Revenue Service (FIRS) de Lagos</h4>
+<p>Contexte : Le bâtiment du FIRS de Lagos est un grand immeuble de bureaux gouvernemental, avec un grand nombre de sous-systèmes électromécaniques et de sécurité, ce qui rend la gestion de l’exploitation et de la maintenance quotidienne complexe.</p>
+<p>Défis : Les sous-systèmes fonctionnaient indépendamment, la gestion était dispersée, il n’existait pas de vue unifiée de l’état de fonctionnement des équipements et de la consommation énergétique, et les réponses en matière d’exploitation et de maintenance étaient lentes.</p>
+<p>Solution : Déploiement du système de gestion intégrée des bâtiments intelligents IBMS, qui connecte de manière unifiée les sous-systèmes de contrôle des bâtiments, de surveillance de sécurité, d’interconnexion anti-incendie, etc. à la plateforme, pour réaliser une surveillance centralisée et une interconnexion intelligente.</p>
+<p>Résultats : Mise en place d’une gestion unifiée et d’un contrôle interconnecté des équipements du bâtiment, amélioration significative de l’efficacité de l’exploitation et de la maintenance, et réduction effective des coûts énergétiques.</p>
+<p>Témoignage client : ——</p></div>
 </div>
 </div>
 </section>
+
 </main>
 <footer class="footer">
 <div class="footer-inner">

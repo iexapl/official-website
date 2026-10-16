@@ -265,7 +265,7 @@
 <h2 class="section-title">系统架构</h2>
 <div class="architecture-container tech-grid-bg" style="background:var(--color-bg-elevated);border-radius:var(--radius-lg);border:1px solid var(--color-line-soft);padding:32px 24px;">
 <h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">系统架构</h3>
-<img alt="黑名单系统 系统架构" decoding="async" height="1121" loading="lazy" src="../../images/software-blacklist-arch-v30.zh.webp" style="width:100%;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
+<img alt="黑名单系统 系统架构" decoding="async" height="1121" loading="lazy" src="../../images/software-blacklist-arch-v31.zh.webp" style="width:100%;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
 <p style="text-align:center;color:var(--color-text-muted);font-size:14px;margin-top:12px;">系统采用多源汇聚+实时比对架构：手动录入、批量导入、API同步及人脸/车牌识别终端多路汇聚至名单管理服务；Redis Cluster缓存热点名单实现毫秒级比对；风险分级服务判定等级并触发SignalR实时告警；用工/合作/访客/门禁/停车五大场景嵌入比对引擎；RabbitMQ异步生成告警记录，MongoDB全量审计日志支撑合规追溯。</p>
 </div>
 </section>
@@ -315,80 +315,42 @@
 </section>
 </section>
 <!-- Advantages, Services & Client Cases -->
-<section class="advantage-section section-container">
+<section class="section-container">
 <h2 class="section-title">优势与保障</h2>
-<div style="margin-bottom:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">核心优势</h3>
-<div class="advantage-list">
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg></div>
-<div class="advantage-content">
-<h3>多源数据汇聚</h3>
-<p>支持手动录入、批量导入、API同步及人脸/车牌识别终端多路数据接入，构建完整黑名单数据池。</p>
+<div class="triple-grid">
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>
+核心优势
 </div>
+<div class="triple-card"><h4>多源数据汇聚</h4><p>支持手动录入、批量导入、API 同步及人脸/车牌识别终端多路数据接入，构建统一黑名单数据池。</p></div>
+<div class="triple-card"><h4>毫秒级实时比对</h4><p>基于 Redis Cluster 缓存热点名单，比对响应达毫秒级，不影响门禁、闸机正常通行效率。</p></div>
+<div class="triple-card"><h4>全场景风控嵌入</h4><p>比对引擎深度嵌入用工、合作、访客、门禁、停车五大场景，风险识别无死角。</p></div>
+<div class="triple-card"><h4>跨系统联动</h4><p>与门禁、访客、人事管理、采购等系统无缝对接，实现全业务链统一风控。</p></div>
+<div class="triple-card"><h4>数据安全合规</h4><p>数据加密存储，权限分级管控，全量审计日志支撑合规追溯与监管审查。</p></div>
+<div class="triple-card"><h4>灵活规则配置</h4><p>支持按风险等级、人员类别、时间窗口自定义告警规则，适配不同项目的管控策略。</p></div>
 </div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg></div>
-<div class="advantage-content">
-<h3>毫秒级实时比对</h3>
-<p>基于Redis Cluster缓存热点名单，比对响应时间毫秒级，不影响门禁、闸机正常通行效率。</p>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>
+交付服务
 </div>
+<div class="triple-card"><h4>需求调研</h4><p>深入了解企业风险管控需求与现有系统架构，梳理黑名单数据来源与比对场景。</p></div>
+<div class="triple-card"><h4>系统部署</h4><p>支持本地化部署与云端部署，与现有门禁/考勤设备快速对接集成。</p></div>
+<div class="triple-card"><h4>培训上线</h4><p>提供管理员与终端用户分层培训，确保名单维护、告警处理与日常操作熟练掌握。</p></div>
 </div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></div>
-<div class="advantage-content">
-<h3>跨系统集成</h3>
-<p>与门禁、访客、用工管理、采购等系统无缝对接，实现全场景统一风控。</p>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>
+服务保障
 </div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2 2 7l10 5 10-5-10-5z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg></div>
-<div class="advantage-content">
-<h3>数据安全合规</h3>
-<p>数据加密存储，权限分级管控，全量审计日志支撑合规追溯。</p>
-</div>
-</div>
-</div>
-</div>
-<div style="margin-bottom:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">交付服务</h3>
-<div class="advantage-list">
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="search"></i></div>
-<div class="advantage-content">
-<h3>需求调研</h3>
-<p>深入了解企业风险管控需求与现有系统架构，制定集成方案。</p>
-</div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="settings"></i></div>
-<div class="advantage-content">
-<h3>系统部署</h3>
-<p>支持本地化部署与云端部署，适配不同规模企业。</p>
-</div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="graduation-cap"></i></div>
-<div class="advantage-content">
-<h3>培训上线</h3>
-<p>提供管理员与终端用户分层培训，确保系统顺利上线。</p>
-</div>
-</div>
-</div>
-</div>
-<div style="margin-bottom:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">服务保障</h3>
-<div class="advantage-list">
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="headset"></i></div>
-<div class="advantage-content">
-<h3>持续运维</h3>
-<p>7×24小时技术支持，定期系统升级与功能迭代。</p>
-</div>
-</div>
+<div class="triple-card"><h4>持续运维</h4><p>7×24 小时远程技术支持，定期系统巡检与功能迭代，黑名单库同步策略持续优化。</p></div>
+<div class="triple-card"><h4>数据安全</h4><p>名单数据加密存储与传输，权限分级管控，操作日志全量记录，支撑合规审计。</p></div>
+<div class="triple-card"><h4>升级扩展</h4><p>支持新比对源、新告警通道的灵活接入，按项目需求扩展风控场景覆盖范围。</p></div>
 </div>
 </div>
 </section>
+
 </main>
 <footer class="footer">
 <div class="footer-inner">

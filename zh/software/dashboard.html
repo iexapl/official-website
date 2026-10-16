@@ -280,7 +280,7 @@
 <h2 class="section-title">系统架构</h2>
 <div class="architecture-container tech-grid-bg" style="background:var(--color-bg-elevated);border-radius:var(--radius-lg);border:1px solid var(--color-line-soft);padding:32px 24px;">
 <h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">系统架构</h3>
-<img alt="看板系统 系统架构" decoding="async" height="1121" loading="lazy" src="../../images/software-dashboard-arch-v30.zh.webp" style="width:100%;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
+<img alt="看板系统 系统架构" decoding="async" height="1121" loading="lazy" src="../../images/software-dashboard-arch-v31.zh.webp" style="width:100%;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
 <p style="text-align:center;color:var(--color-text-muted);font-size:14px;margin-top:12px;">系统采用数据集成+可视化渲染架构：标准化连接器统一汇聚多源数据；SignalR实时推送引擎实现数据变化即时刷新；大屏适配引擎自动适配多终端；支持指挥中心大屏、PC端管理驾驶舱、移动端数据查看等多场景应用。</p>
 </div>
 </section>
@@ -330,80 +330,42 @@
 </section>
 </section>
 <!-- Advantages, Services & Client Cases -->
-<section class="advantage-section section-container">
+<section class="section-container">
 <h2 class="section-title">优势与保障</h2>
-<div style="margin-bottom:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">核心优势</h3>
-<div class="advantage-list">
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg></div>
-<div class="advantage-content">
-<h3>无代码拖拽</h3>
-<p>无代码拖拽布局引擎，业务人员可自由调整图表位置、大小与层级。</p>
+<div class="triple-grid">
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>
+核心优势
 </div>
+<div class="triple-card"><h4>无代码拖拽布局</h4><p>无代码拖拽布局引擎，业务人员可自由调整图表位置、大小与层级，看板搭建零门槛。</p></div>
+<div class="triple-card"><h4>实时数据刷新</h4><p>基于 SignalR 实时推送引擎，数据变化即时刷新至看板，决策信息始终最新。</p></div>
+<div class="triple-card"><h4>多端适配</h4><p>大屏适配引擎自动适配指挥台、PC、平板和手机等多终端分辨率，一屏内容处处可用。</p></div>
+<div class="triple-card"><h4>细粒度权限</h4><p>提供页面级与数据级双重细粒度权限控制，不同角色看不同数据，安全可控。</p></div>
+<div class="triple-card"><h4>多数据源接入</h4><p>支持对接 ERP、项目管理、IoT 等多类数据源，指标口径统一汇聚。</p></div>
+<div class="triple-card"><h4>灵活告警规则</h4><p>支持按阈值、趋势、同比环比设置自动告警，异常指标第一时间触达责任人。</p></div>
 </div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg></div>
-<div class="advantage-content">
-<h3>实时数据刷新</h3>
-<p>基于SignalR实时推送引擎，数据变化即时刷新至看板。</p>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>
+交付服务
 </div>
+<div class="triple-card"><h4>需求调研</h4><p>深入了解企业数据可视化需求与数据源现状，梳理核心 KPI 与看板使用场景。</p></div>
+<div class="triple-card"><h4>系统部署</h4><p>支持本地化部署与云端部署，适配不同规模数据展示需求与网络环境。</p></div>
+<div class="triple-card"><h4>培训上线</h4><p>提供管理员与业务人员分层培训，覆盖看板搭建、数据配置、权限管理与日常操作。</p></div>
 </div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></div>
-<div class="advantage-content">
-<h3>多端适配</h3>
-<p>大屏适配引擎自动适配指挥台、PC、平板和手机等多终端分辨率。</p>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>
+服务保障
 </div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2 2 7l10 5 10-5-10-5z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg></div>
-<div class="advantage-content">
-<h3>细粒度权限</h3>
-<p>提供页面级与数据级双重细粒度权限控制，数据安全可控。</p>
-</div>
-</div>
-</div>
-</div>
-<div style="margin-bottom:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">交付服务</h3>
-<div class="advantage-list">
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="search"></i></div>
-<div class="advantage-content">
-<h3>需求调研</h3>
-<p>深入了解企业数据可视化需求与数据源现状，制定个性化实施方案。</p>
-</div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="settings"></i></div>
-<div class="advantage-content">
-<h3>系统部署</h3>
-<p>支持本地化部署与云端部署，适配不同规模数据展示需求。</p>
-</div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="graduation-cap"></i></div>
-<div class="advantage-content">
-<h3>培训上线</h3>
-<p>提供管理员与业务人员分层培训，确保系统顺利上线。</p>
-</div>
-</div>
-</div>
-</div>
-<div style="margin-bottom:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">服务保障</h3>
-<div class="advantage-list">
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="headset"></i></div>
-<div class="advantage-content">
-<h3>持续运维</h3>
-<p>7×24小时技术支持，定期系统升级与功能迭代。</p>
-</div>
-</div>
+<div class="triple-card"><h4>持续运维</h4><p>7×24 小时远程技术支持，定期系统巡检与功能迭代，数据源连接稳定性持续保障。</p></div>
+<div class="triple-card"><h4>数据安全</h4><p>看板数据加密存储与传输，权限分级管控，操作日志全量记录，支撑合规审计。</p></div>
+<div class="triple-card"><h4>升级扩展</h4><p>支持新图表组件、新数据源类型灵活接入，按企业需求扩展可视化能力。</p></div>
 </div>
 </div>
 </section>
+
 </main>
 <footer class="footer">
 <div class="footer-inner">

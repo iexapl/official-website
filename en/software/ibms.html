@@ -280,7 +280,7 @@
 <h2 class="section-title">System Architecture</h2>
 <div class="architecture-container tech-grid-bg" style="background:var(--color-bg-elevated);border-radius:var(--radius-lg);border:1px solid var(--color-line-soft);padding:32px 24px;">
 <h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">System Architecture</h3>
-<img alt="IBMS Intelligent Building Management System System Architecture" decoding="async" height="1121" loading="lazy" src="../../images/software-ibms-arch-v30.en.webp" style="width:100%;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
+<img alt="IBMS Intelligent Building Management System System Architecture" decoding="async" height="1121" loading="lazy" src="../../images/software-ibms-arch-v31.en.webp" style="width:100%;display:block;margin:0 auto;border-radius:12px;" width="1600"/>
 <p style="text-align:center;color:var(--color-text-muted);font-size:14px;margin-top:12px;">The system adopts a multi-protocol adaptation plus digital-twin architecture: five subsystems (BA/FA/SA/CA/OA) are integrated via multi-protocol gateways; the linkage service runs on DotNetCore.CAP for distributed transactions; the digital-twin service fuses BIM and IoT data with WebGL 3D visualisation; the energy analysis service is based on a time-series database for real-time water/electric monitoring and AI energy-saving.</p>
 </div>
 </section>
@@ -330,82 +330,46 @@
 </section>
 </section>
 <!-- Advantages, Services & Client Cases -->
-<section class="advantage-section section-container">
+<section class="section-container">
 <h2 class="section-title">Advantages &amp; Cases</h2>
-<div style="margin-bottom:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">Core Advantages</h3>
-<div class="advantage-list">
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg></div>
-<div class="advantage-content">
-<h3>Open Architecture</h3>
-<p>Supports multiple communication protocols, compatible with most equipment brands, protecting existing investment.</p>
+<div class="triple-grid">
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>
+Core Advantages
 </div>
+<div class="triple-card"><h4>Open Multi-protocol Architecture</h4><p>Supports multiple communication protocols such as BACnet, Modbus, and OPC UA, compatible with most brands of equipment on the market, protecting existing investments.</p></div>
+<div class="triple-card"><h4>Digital Twin Visualization</h4><p>Integrates BIM and IoT data, and realizes 3D visualization via the WebGL engine, making operation and maintenance management intuitive and efficient.</p></div>
+<div class="triple-card"><h4>Intelligent Linkage Control</h4><p>Realizes cross-system intelligent linkage based on the distributed transaction engine, with timely response and reliable linkage, forming a complete alarm-disposal closed loop.</p></div>
+<div class="triple-card"><h4>AI Energy Saving Optimization</h4><p>Analyzes energy consumption patterns based on time-series databases and AI algorithms, automatically generates energy saving strategies, and reduces building operation costs.</p></div>
+<div class="triple-card"><h4>Unified Operation and Maintenance Entry</h4><p>The five subsystems of BA/FA/SA/CA/OA are uniformly accessed via the multi-protocol gateway, enabling global control on one platform.</p></div>
+<div class="triple-card"><h4>Elastic Expansion</h4><p>The microservices architecture supports on-demand access to new subsystems and new equipment types, allowing smooth expansion as the building scale grows.</p></div>
 </div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg></div>
-<div class="advantage-content">
-<h3>Digital-Twin Visualisation</h3>
-<p>Fuses BIM and IoT data with WebGL 3D visualisation, making O&amp;M intuitive.</p>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>
+Delivery Guarantee
 </div>
+<div class="triple-card"><h4>Requirement Research</h4><p>Gain in-depth understanding of the current status of the building intelligent system and operation and maintenance requirements, and sort out the list of subsystems and integration priorities.</p></div>
+<div class="triple-card"><h4>System Deployment</h4><p>Supports local deployment and cloud deployment, and the multi-protocol gateway can quickly connect with existing equipment, adapting to buildings of different scales.</p></div>
+<div class="triple-card"><h4>Training and Launch</h4><p>Provides tiered training for administrators and operation and maintenance personnel, covering platform operation, alarm processing, energy consumption analysis, and report use.</p></div>
+<div class="triple-card"><h4>Launch Acceptance</h4><p>Acceptance is carried out in three stages: linkage testing, performance stress testing, and security scanning, to ensure the system is stable and reliable before official delivery.</p></div>
 </div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></div>
-<div class="advantage-content">
-<h3>Intelligent Linkage</h3>
-<p>Distributed transaction engine enables timely and reliable cross-system linkage.</p>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="building-2"></i></span>
+Client Cases
 </div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2 2 7l10 5 10-5-10-5z"></path><path d="m2 17 10 5 10-5"></path><path d="m2 12 10 5 10-5"></path></svg></div>
-<div class="advantage-content">
-<h3>AI Energy Optimisation</h3>
-<p>Time-series database and AI algorithms analyse usage patterns and generate energy-saving strategies, reducing operating costs.</p>
-</div>
-</div>
-</div>
-</div>
-<div style="margin-bottom:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">Delivery Assurance</h3>
-<div class="advantage-list">
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="search"></i></div>
-<div class="advantage-content">
-<h3>Requirement Analysis</h3>
-<p>In-depth study of building intelligence systems and O&amp;M needs to design an integration plan.</p>
-</div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="settings"></i></div>
-<div class="advantage-content">
-<h3>System Deployment</h3>
-<p>Supports on-premise and cloud deployment, adapted to different building scales.</p>
-</div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="graduation-cap"></i></div>
-<div class="advantage-content">
-<h3>Training &amp; Go-Live</h3>
-<p>Tiered training for administrators and O&amp;M staff ensures smooth go-live.</p>
-</div>
-</div>
-<div class="advantage-item">
-<div class="advantage-icon"><i data-lucide="headset"></i></div>
-<div class="advantage-content">
-<h3>Ongoing O&amp;M</h3>
-<p>7×24 technical support with regular system upgrades and feature iterations.</p>
-</div>
-</div>
-</div>
-</div>
-<div style="margin-top:32px;">
-<h3 style="text-align:center;color:var(--color-text-strong);margin-bottom:24px;font-size:var(--fs-h3);">Client Cases</h3>
-<div style="background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);border-radius:var(--radius-lg);padding:24px;margin-bottom:16px;">
-<h3 style="color:var(--color-text-strong);margin-bottom:12px;">Lagos FIRS and other projects</h3>
-<p style="color:var(--color-text);">The system achieved centralised monitoring and intelligent linkage through multi-subsystem integration and digital-twin visualisation, improving O&amp;M efficiency and reducing energy costs.</p>
+<div class="triple-card"><h4>Intelligent Building Management System for the Lagos Federal Inland Revenue Service (FIRS) Building</h4>
+<p>Background: The Lagos Federal Inland Revenue Service (FIRS) Building is a large government office building with a large number of building electromechanical and security subsystems, making daily operation and maintenance management complex.</p>
+<p>Challenges: Each subsystem operates independently with decentralized management, there is a lack of a unified view of equipment operation status and energy consumption, and operation and maintenance responses are lagging.</p>
+<p>Solution: Deploy the IBMS (Intelligent Building Management System), uniformly access subsystems such as building automation, security monitoring, and fire linkage to the platform, and realize centralized monitoring and intelligent linkage.</p>
+<p>Result Data: Realized unified management and collaborative control of building equipment, significantly improved operation and maintenance efficiency, and effectively reduced energy consumption costs.</p>
+<p>Customer Testimonial: ——</p></div>
 </div>
 </div>
 </section>
+
 </main>
 <footer class="footer">
 <div class="footer-inner">
