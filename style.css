@@ -95,3 +95,11 @@
 
 /* ===== 阶段一追加：page-image 容器 ===== */
 .page-image-container{max-width:900px;margin:30px auto;padding:0 20px}
+
+/* ===== 阶段三追加：实施流程编号小卡片 + 案例标题 ===== */
+.step-mini{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;background:var(--color-bg-elevated);border-radius:var(--radius);border:1px solid var(--color-line-soft);margin-bottom:12px;transition:transform 0.2s,box-shadow 0.2s,border-color 0.2s}
+.step-mini:hover{transform:translateY(-3px);box-shadow:var(--shadow-card-hover);border-color:var(--color-accent)}
+.step-mini .step-num{width:28px;height:28px;border-radius:50%;background:var(--gradient-cta);color:var(--color-bg);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;flex-shrink:0}
+.step-mini h4{font-size:0.95rem;color:var(--color-text-strong);margin-bottom:4px}
+.step-mini p{font-size:0.85rem;color:var(--color-text-muted);line-height:1.5;margin:0}
+.case-title{font-size:var(--fs-h3);color:var(--color-text-strong);margin-bottom:12px}
