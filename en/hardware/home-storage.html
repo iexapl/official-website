@@ -6,7 +6,7 @@
 <link href="/official-website/zh/hardware/home-storage.html" hreflang="zh" rel="alternate"/>
 <link href="/official-website/en/hardware/home-storage.html" hreflang="en" rel="alternate"/>
 <link href="/official-website/fr/hardware/home-storage.html" hreflang="fr" rel="alternate"/>
-<link href="/official-website/en/product-software-hr.html" hreflang="x-default" rel="alternate"/>
+<link href="/official-website/en/software/hrms.html" hreflang="x-default" rel="alternate"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="AXLTeco residential energy storage adopts modular LFP battery design with 5kWh per module, expandable to 25kWh, cycle life exceeding 6000 times, suppo..." name="description">
 <title>Residential Storage | AXLTeco Limited</title>
@@ -50,7 +50,7 @@
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
-<button aria-label="菜单" class="menu-toggle">☰</button>
+<button aria-label="Menu" class="menu-toggle">☰</button>
 <nav class="nav">
 <a href="../index.html">Home</a>
 <div class="nav-dropdown has-mega-menu">
@@ -83,7 +83,7 @@
 </ul></div>
 <div class="menu-col"><h4>Others</h4><ul>
 <li><a href="../software/bim.html">BIM Lightweight System</a></li>
-<li><a href="../software/mixing-station.html">Mixing Station Management</a></li>
+<li><a href="../software/mixing-station.html">Mixing Station Management System</a></li>
 <li><a href="../software/budget.html">Engineering Budget System</a></li>
 <li><a href="../software/dashboard.html">Dashboard System</a></li>
 <li><a href="../software/info-display.html">Information Display System</a></li>
@@ -95,7 +95,7 @@
 <div class="mega-menu mega-menu-hardware">
 <div class="mega-menu-inner">
 <div class="menu-col"><h4>Security & Access</h4><ul>
-<li><a href="../hardware/camera.html">Video Surveillance</a></li>
+<li><a href="../hardware/camera.html">Video Surveillance Equipment</a></li>
 <li><a href="../hardware/attendance.html">Access Control & Attendance</a></li>
 <li><a href="../hardware/gate.html">Vehicle Barrier Gate</a></li>
 <li><a href="../hardware/passage.html">Pedestrian Turnstile</a></li>
@@ -159,8 +159,10 @@
 </nav>
 </div>
 </header>
-<div class="page-hero"><h1>Residential Storage</h1><p>LFP Battery · 5–25kWh Modular · Solar-Storage-Charging · Backup</p>
-<img alt="Home Energy Storage" decoding="async" height="675" src="../../images/visual-hardware-home-storage-hero.webp" class="axlt-card-accent" width="1200"/>
+<div class="breadcrumb"><a href="../index.html">Home</a><span> / </span><a href="../hardware/">Hardware</a><span> / </span><span>Residential Storage</span></div>
+
+<div class="page-hero"><h1>Residential Storage</h1>
+<p>Residential Energy Storage covers multiple categories and models to meet dive...</p>
 </div>
 <div class="page-image axlt-container-pad" >
 <img alt="Residential Storage" decoding="async" height="675" src="../../images/visual-hardware-home-storage-hero.webp" class="axlt-card-accent" width="1200"/>
@@ -368,8 +370,16 @@
 <section class="section-container">
 <h2 class="section-title">Application Solutions</h2>
 <p class="axlt-lead-text">Residential Energy Storage can be deeply integrated with AXLTeco software systems and industry solutions to deliver synergistic value.</p>
-<h3 class="axlt-my-40-20">Solutions</h3>
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>Solar &amp; Storage</h4><div class="axlt-flex-tags"><span class="scenario-tag">Energy</span><span class="scenario-tag">Industrial</span></div><p class="axlt-text-muted-md">Integrated PV generation, storage dispatch, load management, and grid export.</p><p style="font-size:0.85rem;color:var(--color-text-secondary);margin-top:8px;"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Reduced electricity costs</li><li>Higher renewable share</li><li>Emergency backup</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/solar-energy.html" >View Details</a></div></div></div>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software','home-storage')" id="tab-software-home-storage">Software Systems</button>
+<button class="tab-btn" onclick="switchTab('solutions','home-storage')" id="tab-solutions-home-storage">Solutions</button>
+</div>
+<div class="tab-content active" id="content-software-home-storage">
+<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">Integrated building management platform for unified monitoring and control.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Building</span><span class="scenario-tag">Park</span></div><p style="font-size:0.85rem;color:var(--color-text-secondary);margin-top:8px;"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>System interconnectivity</li><li>Reduced O&M costs</li><li>Improved management</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>Dashboard System</h4><p class="axlt-text-muted-md">Real-time data visualization with multi-source integration and custom reports.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Manufacturing</span><span class="scenario-tag">Office</span></div><p style="font-size:0.85rem;color:var(--color-text-secondary);margin-top:8px;"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Clear data visibility</li><li>Decision support</li><li>Operational transparency</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/dashboard.html" >View Details</a></div></div></div>
+</div>
+<div class="tab-content" id="content-solutions-home-storage" style="display:none;">
+<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>Solar &amp; Storage</h4><div class="axlt-flex-tags"><span class="scenario-tag">Energy</span><span class="scenario-tag">Industrial</span></div>
+</div>
 </section>
 
 <!-- 7. Advantages & Guarantee -->
@@ -424,11 +434,11 @@
 <a href="../software/quality.html">Quality Management System</a>
 <a href="../software/ibms.html">IBMS</a>
 <a href="../software/bim.html">BIM Lightweight System</a>
-<a href="../software/mixing-station.html">Mixing Station Management</a>
+<a href="../software/mixing-station.html">Mixing Station Management System</a>
 <a href="../software/budget.html">Engineering Budget System</a>
 <a href="../software/dashboard.html">Dashboard System</a>
 <a href="../software/info-display.html">Information Display System</a>
-<a href="../hardware/camera.html">Video Surveillance</a>
+<a href="../hardware/camera.html">Video Surveillance Equipment</a>
 <a href="../hardware/attendance.html">Access Control & Attendance</a>
 <a href="../hardware/gate.html">Vehicle Barrier Gate</a>
 <a href="../hardware/passage.html">Pedestrian Turnstile</a>

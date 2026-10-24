@@ -50,7 +50,7 @@
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
-<button aria-label="菜单" class="menu-toggle">☰</button>
+<button aria-label="Menu" class="menu-toggle">☰</button>
 <nav class="nav">
 <a href="../index.html">Home</a>
 <div class="nav-dropdown has-mega-menu">
@@ -83,7 +83,7 @@
 </ul></div>
 <div class="menu-col"><h4>Others</h4><ul>
 <li><a href="../software/bim.html">BIM Lightweight System</a></li>
-<li><a href="../software/mixing-station.html">Mixing Station Management</a></li>
+<li><a href="../software/mixing-station.html">Mixing Station Management System</a></li>
 <li><a href="../software/budget.html">Engineering Budget System</a></li>
 <li><a href="../software/dashboard.html">Dashboard System</a></li>
 <li><a href="../software/info-display.html">Information Display System</a></li>
@@ -95,7 +95,7 @@
 <div class="mega-menu mega-menu-hardware">
 <div class="mega-menu-inner">
 <div class="menu-col"><h4>Security & Access</h4><ul>
-<li><a href="../hardware/camera.html">Video Surveillance</a></li>
+<li><a href="../hardware/camera.html">Video Surveillance Equipment</a></li>
 <li><a href="../hardware/attendance.html">Access Control & Attendance</a></li>
 <li><a href="../hardware/gate.html">Vehicle Barrier Gate</a></li>
 <li><a href="../hardware/passage.html">Pedestrian Turnstile</a></li>
@@ -159,9 +159,11 @@
 </nav>
 </div>
 </header>
+<div class="breadcrumb"><a href="../index.html">Home</a><span> / </span><a href="../hardware/">Hardware</a><span> / </span><span>Vehicle GPS Tracker</span></div>
+
 <div class="page-hero">
 <h1>Vehicle GPS Tracker</h1>
-<p>BeiDou/GPS Dual-Mode · 4G Real-Time · Geo-Fence · Track Replay</p>
+<p>Vehicle GPS Tracking Sensor covers multiple categories and models to meet div...</p>
 </div>
 <div class="page-image axlt-container-pad" >
 <img alt="Vehicle GPS" decoding="async" height="675" src="../../images/visual-dataflow-fleet-hero.webp" class="axlt-card-accent" width="1200"/>
@@ -371,10 +373,16 @@
 <section class="section-container">
 <h2 class="section-title">Application Solutions</h2>
 <p class="axlt-lead-text">Vehicle GPS Tracking Sensor can be deeply integrated with AXLTeco software systems and industry solutions to deliver synergistic value.</p>
-<h3 class="axlt-mb-20">Software Systems</h3>
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>Materials Management</h4><p class="axlt-text-muted-md">Digital management of inbound, outbound, inventory, and stock alerts.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Logistics</span><span class="scenario-tag">Manufacturing</span></div><p style="font-size:0.85rem;color:var(--color-text-secondary);margin-top:8px;"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Inventory visibility</li><li>Reduced losses</li><li>Improved turnover</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/warehouse.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>Safety Management</h4><p class="axlt-text-muted-md">Full-process management covering hazard inspection, training, incident reporting, and tracking.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Construction</span><span class="scenario-tag">Factory</span></div><p style="font-size:0.85rem;color:var(--color-text-secondary);margin-top:8px;"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Reduced incident rates</li><li>Compliant processes</li><li>Traceable data</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/safety.html" >View Details</a></div></div></div>
-<h3 class="axlt-my-40-20">Solutions</h3>
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>Smart Construction</h4><div class="axlt-flex-tags"><span class="scenario-tag">Construction</span></div><p class="axlt-text-muted-md">Personnel access, hard-hat detection, perimeter protection, crane monitoring, dust linkage.</p><p style="font-size:0.85rem;color:var(--color-text-secondary);margin-top:8px;"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Enhanced site safety</li><li>Real-name management</li><li>Traceable data</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-construction.html" >View Details</a></div></div></div>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software','gps')" id="tab-software-gps">Software Systems</button>
+<button class="tab-btn" onclick="switchTab('solutions','gps')" id="tab-solutions-gps">Solutions</button>
+</div>
+<div class="tab-content active" id="content-software-gps">
+<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">Integrated building management platform for unified monitoring and control.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Building</span><span class="scenario-tag">Park</span></div><p style="font-size:0.85rem;color:var(--color-text-secondary);margin-top:8px;"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>System interconnectivity</li><li>Reduced O&M costs</li><li>Improved management</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>Dashboard System</h4><p class="axlt-text-muted-md">Real-time data visualization with multi-source integration and custom reports.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Manufacturing</span><span class="scenario-tag">Office</span></div><p style="font-size:0.85rem;color:var(--color-text-secondary);margin-top:8px;"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Clear data visibility</li><li>Decision support</li><li>Operational transparency</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/dashboard.html" >View Details</a></div></div></div>
+</div>
+<div class="tab-content" id="content-solutions-gps" style="display:none;">
+<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>Smart Construction</h4><div class="axlt-flex-tags"><span class="scenario-tag">Construction</span></div>
+</div>
 </section>
 
 <!-- 7. Advantages & Guarantee -->
@@ -429,11 +437,11 @@
 <a href="../software/quality.html">Quality Management System</a>
 <a href="../software/ibms.html">IBMS</a>
 <a href="../software/bim.html">BIM Lightweight System</a>
-<a href="../software/mixing-station.html">Mixing Station Management</a>
+<a href="../software/mixing-station.html">Mixing Station Management System</a>
 <a href="../software/budget.html">Engineering Budget System</a>
 <a href="../software/dashboard.html">Dashboard System</a>
 <a href="../software/info-display.html">Information Display System</a>
-<a href="../hardware/camera.html">Video Surveillance</a>
+<a href="../hardware/camera.html">Video Surveillance Equipment</a>
 <a href="../hardware/attendance.html">Access Control & Attendance</a>
 <a href="../hardware/gate.html">Vehicle Barrier Gate</a>
 <a href="../hardware/passage.html">Pedestrian Turnstile</a>
