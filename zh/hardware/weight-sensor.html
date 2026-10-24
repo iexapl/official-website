@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>车载载重传感器 | AXLTeco Limited</title>
+<meta content="M6 车载载重传感器，通过测量车辆悬挂形变角度变化，精准计算货物重量，支持静态与动态高精度称重，IP68 防水，适用于物流、工程、矿山等车载称重场景。" name="description"/>
+<link href="../../style.css" rel="stylesheet"/>
+<script defer="" src="../../assets/lucide/lucide.min.js"></script>
+<style>
+.tab-btn{background:transparent;border:1px solid var(--color-line-soft);color:var(--color-text-muted);padding:8px 24px;border-radius:var(--radius);cursor:pointer;transition:all 0.2s;font-size:0.95rem;}
+.tab-btn.active,.tab-btn:hover{background:var(--color-brand);color:var(--color-bg);border-color:var(--color-brand);}
+.tab-content{display:none;}
+.tab-content.active{display:block;}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="header-inner">
+<a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
+<button aria-label="菜单" class="menu-toggle">☰</button>
+<nav class="nav">
+<a href="../index.html">首页</a>
+<div class="nav-dropdown has-mega-menu">
+<a href="../service/software-dev.html">服务</a>
+<div class="mega-menu mega-menu-service">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>软件定制研发</h4><ul><li><a href="../service/software-dev.html">软件定制研发</a></li></ul></div>
+<div class="menu-col"><h4>AI 智能体研发</h4><ul><li><a href="../service/ai-agent.html">AI 智能体研发</a></li></ul></div>
+<div class="menu-col"><h4>城市建模服务</h4><ul><li><a href="../service/city-modeling.html">城市建模服务</a></li></ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a href="../software/hrms.html">软件</a>
+<div class="mega-menu mega-menu-software">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>用工管理</h4><ul>
+<li><a href="../software/hrms.html">人事管理系统</a></li>
+<li><a href="../software/blacklist.html">黑名单系统</a></li>
+</ul></div>
+<div class="menu-col"><h4>物资管理</h4><ul>
+<li><a href="../software/warehouse.html">物资管理系统</a></li>
+<li><a href="../software/procurement.html">采购管理系统</a></li>
+</ul></div>
+<div class="menu-col"><h4>安全与质量管理</h4><ul>
+<li><a href="../software/safety.html">安全管理系统</a></li>
+<li><a href="../software/quality.html">质量管理系统</a></li>
+</ul></div>
+<div class="menu-col"><h4>建筑智能化软件</h4><ul>
+<li><a href="../software/ibms.html">IBMS</a></li>
+</ul></div>
+<div class="menu-col"><h4>其他</h4><ul>
+<li><a href="../software/bim.html">BIM 轻量化系统</a></li>
+<li><a href="../software/mixing-station.html">搅拌站管理系统</a></li>
+<li><a href="../software/budget.html">工程预算管理系统</a></li>
+<li><a href="../software/dashboard.html">看板系统</a></li>
+<li><a href="../software/info-display.html">信息公示系统</a></li>
+</ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a class="active" href="../hardware/camera.html">硬件</a>
+<div class="mega-menu mega-menu-hardware">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>安防与通行</h4><ul>
+<li><a href="../hardware/camera.html">视频监控设备</a></li>
+<li><a href="../hardware/attendance.html">门禁与考勤设备</a></li>
+<li><a href="../hardware/gate.html">车辆道闸</a></li>
+<li><a href="../hardware/passage.html">人行通道闸机</a></li>
+</ul></div>
+<div class="menu-col"><h4>商用显示</h4><ul>
+<li><a href="../hardware/splicing.html">拼接屏</a></li>
+<li><a href="../hardware/adscreen.html">广告屏</a></li>
+<li><a href="../hardware/led.html">户外 LED 屏</a></li>
+</ul></div>
+<div class="menu-col"><h4>车载智能设备</h4><ul>
+<li><a href="../hardware/gps.html">车辆定位终端</a></li>
+<li><a href="../hardware/oil.html">车辆油耗传感器</a></li>
+<li><a href="../hardware/weight-sensor.html">车载载重传感器</a></li>
+<li><a href="../hardware/dashcam.html">车载行车记录仪</a></li>
+</ul></div>
+<div class="menu-col"><h4>新能源设备</h4><ul>
+<li><a href="../hardware/industrial-storage.html">工商储</a></li>
+<li><a href="../hardware/home-storage.html">户储</a></li>
+<li><a href="../hardware/solar-storage.html">光伏</a></li>
+</ul></div>
+<div class="menu-col"><h4>其他设备</h4><ul>
+<li><a href="../hardware/ai-server.html">AI 服务器</a></li>
+<li><a href="../hardware/drone.html">重载无人机</a></li>
+</ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a href="../solution/smart-construction.html">解决方案</a>
+<div class="mega-menu mega-menu-solution">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>智慧建筑</h4><ul>
+<li><a href="../solution/smart-construction.html">智慧工地</a></li>
+<li><a href="../solution/smart-building.html">智慧楼宇</a></li>
+<li><a href="../solution/smart-community.html">智慧社区</a></li>
+<li><a href="../solution/smart-campus.html">智慧校园</a></li>
+</ul></div>
+<div class="menu-col"><h4>交通与出行</h4><ul>
+<li><a href="../solution/smart-traffic.html">智慧交通</a></li>
+<li><a href="../solution/smart-parking.html">智慧停车场</a></li>
+<li><a href="../solution/smart-airport.html">智慧机场</a></li>
+</ul></div>
+<div class="menu-col"><h4>城市治理</h4><ul>
+<li><a href="../solution/smart-city.html">智慧城市</a></li>
+<li><a href="../solution/city-eagle.html">城市鹰眼</a></li>
+<li><a href="../solution/patrol.html">电子巡更</a></li>
+</ul></div>
+<div class="menu-col"><h4>基础设施</h4><ul>
+<li><a href="../solution/data-center.html">机房与网络</a></li>
+<li><a href="../solution/fire-alarm.html">火灾自动报警</a></li>
+<li><a href="../solution/solar-energy.html">光伏储能</a></li>
+</ul></div>
+<div class="menu-col"><h4>音视频与广播</h4><ul>
+<li><a href="../solution/av-conference.html">音视频会议</a></li>
+<li><a href="../solution/broadcast.html">广播及背景音乐</a></li>
+<li><a href="../solution/iptv.html">酒店/社区 IPTV</a></li>
+</ul></div>
+
+</div></div></div>
+<a href="../about.html">企业介绍</a>
+<a href="../contact.html">联系我们</a>
+</nav>
+</div>
+</header>
+<main class="page-content">
+<section class="page-hero">
+<h1>车载载重传感器</h1>
+<p>M6 车载载重传感器，通过测量车辆悬挂形变角度变化，精准计算货物重量，支持静态与动态高精度称重，IP68 防水，适用于物流、工程、矿山等车载称重场景。</p>
+</section>
+<section class="section-container">
+<h2 class="section-title">产品概述</h2>
+<div class="intro-section">
+<div><p>M6 车载载重传感器由载重主机与载重传感器两部分组成，通过安装在车辆悬挂拱形弹簧板上，实时监测空车与重车状态下的悬挂形变角度变化，经 MCU 计算换算出当前车辆实际载货重量，以数字信号输出。适用于物流运输、工程车辆、矿山车辆等需要实时载重监测的场景。</p>
+<div class="feature-list">
+<div class="feature-item"><h4>高精度称重</h4><p>角度分辨率 0.001°，单个数据对应重量仅零点几千克，动态波动小。</p></div>
+<div class="feature-item"><h4>安装简便</h4><p>无需焊接，无需单独接线，采用防水快速接头和 AB 胶粘贴固定。</p></div>
+<div class="feature-item"><h4>全防水设计</h4><p>主机 IP68 防水，内部完全封胶处理，适应户外恶劣环境。</p></div>
+<div class="feature-item"><h4>工业级可靠</h4><p>工作温度 -40°C ~ 80°C，工业级模块，故障率低，使用寿命长。</p></div>
+<div class="feature-item"><h4>模块化维护</h4><p>直接输出重量数据无需现场标定，模块化组网，定位问题直接更换。</p></div>
+</div></div>
+<div class="intro-image"><img alt="车载载重传感器" src="../../images/placeholder-weight-sensor.webp"/></div>
+</div>
+</section>
+<section class="section-container">
+<h2 class="section-title">型号选型</h2>
+<p>根据精度要求与通信需求选择合适的载重传感器型号。</p>
+<table class="spec-table">
+<thead><tr><th>参数</th><th>M6 标准版</th><th>M6 Pro</th></tr></thead>
+<tbody>
+<tr><td>测量原理</td><td>角度变化换算</td><td>角度变化换算 + 温度补偿</td></tr>
+<tr><td>角度分辨率</td><td>0.001°</td><td>0.001°</td></tr>
+<tr><td>静态精度</td><td>±1%</td><td>±0.5%</td></tr>
+<tr><td>动态精度</td><td>±3%</td><td>±2%</td></tr>
+<tr><td>工作温度</td><td>-40°C ~ 80°C</td><td>-40°C ~ 80°C</td></tr>
+<tr><td>防护等级</td><td>IP68</td><td>IP68</td></tr>
+<tr><td>通信接口</td><td>RS485 / CAN</td><td>RS485 / CAN / 4G</td></tr>
+<tr><td>供电电压</td><td>9-36V DC</td><td>9-36V DC</td></tr>
+<tr><td>安装方式</td><td>AB 胶粘贴 + 快速接头</td><td>AB 胶粘贴 + 快速接头</td></tr>
+</tbody>
+</table>
+</section>
+<section class="section-container">
+<h2 class="section-title">接口兼容</h2>
+<div class="tech-grid">
+<div class="tech-card"><h4>RS485</h4><p>Modbus RTU 协议，对接车载终端、PLC、工控机。</p></div>
+<div class="tech-card"><h4>CAN 总线</h4><p>符合 J1939 协议，直连车载 ECU 与综合管理系统。</p></div>
+<div class="tech-card"><h4>4G 传输（Pro）</h4><p>内置 Cat.1 模块，实时上传载重数据至云平台。</p></div>
+<div class="tech-card"><h4>平台对接</h4><p>支持接入 AXLTeco 车辆管理平台、第三方 TMS/WMS。</p></div>
+</div>
+</section>
+<section class="section-container">
+<h2 class="section-title">应用方案</h2>
+<div class="tab-group">
+<div class="tab-nav"><button class="tab-btn active">软件系统</button><button class="tab-btn">解决方案</button></div>
+<div class="tab-content active">
+<div class="card-grid">
+<div class="card"><h4>车辆管理平台</h4><p>实时监控载重、位置、轨迹，超载告警，载重报表统计。</p></div>
+<div class="card"><h4>TMS 运输管理</h4><p>载重数据对接运输管理系统，自动核算运费与装载率。</p></div>
+</div>
+</div>
+<div class="tab-content">
+<div class="card-grid">
+<div class="card"><h4>智慧物流</h4><p>物流车队载重实时监控，防止超载与偷卸，提升运输安全。</p></div>
+<div class="card"><h4>工程车辆管理</h4><p>渣土车、混凝土搅拌车载重监测，精准计量，防止超载。</p></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-container">
+<h2 class="section-title">优势保障</h2>
+<div class="triple-grid">
+<div class="triple-col-left">
+<div class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>核心优势</div>
+<div class="triple-card"><h4>高精度</h4><p>0.001° 角度分辨率，静态精度 ±1%，动态精度 ±3%。</p></div>
+<div class="triple-card"><h4>易安装</h4><p>无需焊接，AB 胶粘贴 + 防水快速接头，30 分钟完成单轴安装。</p></div>
+<div class="triple-card"><h4>高可靠</h4><p>IP68 防水，-40°C~80°C 工作温度，工业级模块寿命超 5 年。</p></div>
+</div>
+<div class="triple-col-center">
+<div class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>交付服务</div>
+<div class="triple-card"><h4>现场标定</h4><p>工程师现场完成空车/重车标定，确保称重精度。</p></div>
+<div class="triple-card"><h4>平台接入</h4><p>协助接入车辆管理平台，配置告警规则与报表。</p></div>
+<div class="triple-card"><h4>培训交付</h4><p>培训运维人员日常使用、故障排查与数据读取。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</div>
+<div class="triple-card"><h4>质保承诺</h4><p>整机质保一年，核心传感器延保两年。</p></div>
+<div class="triple-card"><h4>本地响应</h4><p>尼日利亚本地团队，48 小时内现场响应。</p></div>
+<div class="triple-card"><h4>远程支持</h4><p>7×24 远程技术支持，设备状态实时监控。</p></div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="footer-inner">
+<div>
+<h4>深圳市安信联科技有限公司</h4>
+<p class="axlt-text-muted">AXLTeco Limited</p>
+<p class="axlt-text-muted-sm">连接中国技术 · 服务非洲建设</p>
+</div>
+<div>
+<h4>服务</h4>
+<a href="../service/software-dev.html">软件定制研发</a>
+<a href="../service/ai-agent.html">AI 智能体研发</a>
+<a href="../service/city-modeling.html">城市建模服务</a>
+</div>
+<div>
+<h4>软件 + 硬件</h4>
+<a href="../software/hrms.html">人事管理系统</a>
+<a href="../software/blacklist.html">黑名单系统</a>
+<a href="../software/warehouse.html">物资管理系统</a>
+<a href="../software/procurement.html">采购管理系统</a>
+<a href="../software/safety.html">安全管理系统</a>
+<a href="../software/quality.html">质量管理系统</a>
+<a href="../software/ibms.html">IBMS</a>
+<a href="../software/bim.html">BIM 轻量化系统</a>
+<a href="../software/mixing-station.html">搅拌站管理系统</a>
+<a href="../software/budget.html">工程预算管理系统</a>
+<a href="../software/dashboard.html">看板系统</a>
+<a href="../software/info-display.html">信息公示系统</a>
+<a href="../hardware/camera.html">视频监控设备</a>
+<a href="../hardware/attendance.html">门禁与考勤设备</a>
+<a href="../hardware/gate.html">车辆道闸</a>
+<a href="../hardware/passage.html">人行通道闸机</a>
+<a href="../hardware/splicing.html">拼接屏</a>
+<a href="../hardware/adscreen.html">广告屏</a>
+<a href="../hardware/led.html">户外 LED 屏</a>
+<a href="../hardware/gps.html">车辆定位终端</a>
+<a href="../hardware/oil.html">车辆油耗传感器</a>
+<a href="../hardware/weight-sensor.html">车载载重传感器</a>
+<a href="../hardware/dashcam.html">车载行车记录仪</a>
+<a href="../hardware/industrial-storage.html">工商储</a>
+<a href="../hardware/home-storage.html">户储</a>
+<a href="../hardware/solar-storage.html">光伏</a>
+<a href="../hardware/ai-server.html">AI 服务器</a>
+<a href="../hardware/drone.html">重载无人机</a>
+</div>
+<div>
+<h4>解决方案</h4>
+<a href="../solution/smart-construction.html">智慧工地</a>
+<a href="../solution/smart-building.html">智慧楼宇</a>
+<a href="../solution/smart-traffic.html">智慧交通</a>
+<a href="../solution/smart-city.html">智慧城市</a>
+<a href="../solution/smart-parking.html">智慧停车场</a>
+<a href="../solution/smart-campus.html">智慧校园</a>
+<a href="../solution/data-center.html">机房与网络</a>
+<a href="../solution/city-eagle.html">城市鹰眼</a>
+<a href="../solution/fire-alarm.html">火灾自动报警</a>
+<a href="../solution/av-conference.html">音视频会议</a>
+<a href="../solution/smart-community.html">智慧社区</a>
+<a href="../solution/solar-energy.html">光伏储能</a>
+<a href="../solution/patrol.html">电子巡更</a>
+<a href="../solution/smart-airport.html">智慧机场</a>
+<a href="../solution/broadcast.html">广播及背景音乐</a>
+<a href="../solution/iptv.html">酒店/社区 IPTV</a>
+</div>
+<div>
+<h4>企业介绍</h4>
+<a href="../about.html">企业介绍</a>
+<a href="../contact.html">联系我们</a>
+
+<a href="https://wa.me/09110215649" target="_blank">WhatsApp: 09110215649</a>
+<a href="mailto:service@axlteco.com">Email: service@axlteco.com</a>
+<p class="axlt-text-muted-sm">Lagos, Nigeria</p>
+</div>
+</div>
+<div class="footer-bottom">© 2026 深圳市安信联科技有限公司 版权所有</div>
+</footer>
+<script src="../../main.js"></script>
+<script>
+function switchTab(tabName) {
+  document.querySelectorAll('.tab-btn').forEach(function(btn){ btn.classList.remove('active'); });
+  document.querySelectorAll('.tab-content').forEach(function(c){ c.classList.remove('active'); c.style.display='none'; });
+  document.getElementById('tab-'+tabName).classList.add('active');
+  var content = document.getElementById('content-'+tabName);
+  content.classList.add('active'); content.style.display='block';
+}
+document.querySelectorAll('.tab-btn').forEach(function(btn, idx){
+  btn.onclick = function(){ switchTab(idx===0?'sw':'sol'); };
+});
+</script>
+</body>
+</html>

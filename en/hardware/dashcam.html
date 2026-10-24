@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vehicle Dashcam | AXLTeco Limited</title>
+<meta content="H6-4G Vehicle Dashcam with real-time 4G video, AI analytics, Beidou/GPS dual-mode positioning, infrared night vision and emergency upload." name="description"/>
+<link href="../../style.css" rel="stylesheet"/>
+<script defer="" src="../../assets/lucide/lucide.min.js"></script>
+<style>
+.tab-btn{background:transparent;border:1px solid var(--color-line-soft);color:var(--color-text-muted);padding:8px 24px;border-radius:var(--radius);cursor:pointer;transition:all 0.2s;font-size:0.95rem;}
+.tab-btn.active,.tab-btn:hover{background:var(--color-brand);color:var(--color-bg);border-color:var(--color-brand);}
+.tab-content{display:none;}
+.tab-content.active{display:block;}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="header-inner">
+<a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
+<button aria-label="菜单" class="menu-toggle">☰</button>
+<nav class="nav">
+<a href="../index.html">Home</a>
+<div class="nav-dropdown has-mega-menu">
+<a href="../service/software-dev.html">Services</a>
+<div class="mega-menu mega-menu-service">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>Custom Software Development</h4><ul><li><a href="../service/software-dev.html">Custom Software Development</a></li></ul></div>
+<div class="menu-col"><h4>AI Agent Development</h4><ul><li><a href="../service/ai-agent.html">AI Agent Development</a></li></ul></div>
+<div class="menu-col"><h4>City Modeling Services</h4><ul><li><a href="../service/city-modeling.html">City Modeling Services</a></li></ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a href="../software/hrms.html">Software</a>
+<div class="mega-menu mega-menu-software">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>Workforce Management</h4><ul>
+<li><a href="../software/hrms.html">HR Management System</a></li>
+<li><a href="../software/blacklist.html">Blacklist System</a></li>
+</ul></div>
+<div class="menu-col"><h4>Material Management</h4><ul>
+<li><a href="../software/warehouse.html">Warehouse Management System</a></li>
+<li><a href="../software/procurement.html">Procurement Management System</a></li>
+</ul></div>
+<div class="menu-col"><h4>Safety & Quality</h4><ul>
+<li><a href="../software/safety.html">Safety Management System</a></li>
+<li><a href="../software/quality.html">Quality Management System</a></li>
+</ul></div>
+<div class="menu-col"><h4>Building Intelligence</h4><ul>
+<li><a href="../software/ibms.html">IBMS</a></li>
+</ul></div>
+<div class="menu-col"><h4>Others</h4><ul>
+<li><a href="../software/bim.html">BIM Lightweight System</a></li>
+<li><a href="../software/mixing-station.html">Mixing Station Management</a></li>
+<li><a href="../software/budget.html">Engineering Budget System</a></li>
+<li><a href="../software/dashboard.html">Dashboard System</a></li>
+<li><a href="../software/info-display.html">Information Display System</a></li>
+</ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a class="active" href="../hardware/camera.html">Hardware</a>
+<div class="mega-menu mega-menu-hardware">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>Security & Access</h4><ul>
+<li><a href="../hardware/camera.html">Video Surveillance</a></li>
+<li><a href="../hardware/attendance.html">Access Control & Attendance</a></li>
+<li><a href="../hardware/gate.html">Vehicle Barrier Gate</a></li>
+<li><a href="../hardware/passage.html">Pedestrian Turnstile</a></li>
+</ul></div>
+<div class="menu-col"><h4>Commercial Display</h4><ul>
+<li><a href="../hardware/splicing.html">Video Wall</a></li>
+<li><a href="../hardware/adscreen.html">Digital Signage</a></li>
+<li><a href="../hardware/led.html">Outdoor LED Display</a></li>
+</ul></div>
+<div class="menu-col"><h4>Vehicle Intelligence</h4><ul>
+<li><a href="../hardware/gps.html">Vehicle GPS Tracker</a></li>
+<li><a href="../hardware/oil.html">Fuel Consumption Sensor</a></li>
+<li><a href="../hardware/weight-sensor.html">Vehicle Load Sensor</a></li>
+<li><a href="../hardware/dashcam.html">Vehicle Dashcam</a></li>
+</ul></div>
+<div class="menu-col"><h4>Energy Storage</h4><ul>
+<li><a href="../hardware/industrial-storage.html">Industrial & Commercial Storage</a></li>
+<li><a href="../hardware/home-storage.html">Residential Storage</a></li>
+<li><a href="../hardware/solar-storage.html">Solar PV</a></li>
+</ul></div>
+<div class="menu-col"><h4>Others</h4><ul>
+<li><a href="../hardware/ai-server.html">AI Server</a></li>
+<li><a href="../hardware/drone.html">Heavy-lift Drone</a></li>
+</ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a href="../solution/smart-construction.html">Solutions</a>
+<div class="mega-menu mega-menu-solution">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>Smart Building</h4><ul>
+<li><a href="../solution/smart-construction.html">Smart Construction</a></li>
+<li><a href="../solution/smart-building.html">Smart Building</a></li>
+<li><a href="../solution/smart-community.html">Smart Community</a></li>
+<li><a href="../solution/smart-campus.html">Smart Campus</a></li>
+</ul></div>
+<div class="menu-col"><h4>Transportation</h4><ul>
+<li><a href="../solution/smart-traffic.html">Smart Traffic</a></li>
+<li><a href="../solution/smart-parking.html">Smart Parking</a></li>
+<li><a href="../solution/smart-airport.html">Smart Airport</a></li>
+</ul></div>
+<div class="menu-col"><h4>City Governance</h4><ul>
+<li><a href="../solution/smart-city.html">Smart City</a></li>
+<li><a href="../solution/city-eagle.html">City Eagle Eye</a></li>
+<li><a href="../solution/patrol.html">Electronic Patrol</a></li>
+</ul></div>
+<div class="menu-col"><h4>Infrastructure</h4><ul>
+<li><a href="../solution/data-center.html">Data Center & Network</a></li>
+<li><a href="../solution/fire-alarm.html">Fire Alarm System</a></li>
+<li><a href="../solution/solar-energy.html">Solar Energy Storage</a></li>
+</ul></div>
+<div class="menu-col"><h4>AV & Broadcast</h4><ul>
+<li><a href="../solution/av-conference.html">AV Conference</a></li>
+<li><a href="../solution/broadcast.html">PA & Background Music</a></li>
+<li><a href="../solution/iptv.html">Hotel/Community IPTV</a></li>
+</ul></div>
+
+</div></div></div>
+<a href="../about.html">About Us</a>
+<a href="../contact.html">Contact Us</a>
+</nav>
+</div>
+</header>
+<main class="page-content">
+<section class="page-hero">
+<h1>Vehicle Dashcam</h1>
+<p>H6-4G Vehicle Dashcam with real-time 4G video, AI analytics, Beidou/GPS dual-mode positioning, infrared night vision and emergency upload.</p>
+</section>
+<section class="section-container">
+<h2 class="section-title">产品概述</h2>
+<div class="intro-section">
+<div><p>The H6-4G Vehicle Dashcam integrates 4G real-time video transmission, AI intelligent analysis and Beidou/GPS dual-mode positioning. With a 2MP sensor supporting 1080P HD recording, H.265 compression, infrared night vision and smart white light, it enables real-time tracking, live video, driving behavior analysis and automatic emergency event reporting.</p>
+<div class="feature-list">
+<div class="feature-item"><h4>4G Real-time</h4><p>LTE Cat.1 communication for real-time video upload, trajectory playback and remote monitoring.</p></div>
+<div class="feature-item"><h4>AI Analytics</h4><p>Human detection, abnormal behavior recognition, automatic alerts during parking monitoring.</p></div>
+<div class="feature-item"><h4>Dual-mode Positioning</h4><p>GPS + Beidou dual-mode, 64 channels, <2m accuracy, AGPS support.</p></div>
+<div class="feature-item"><h4>HD Night Vision</h4><p>Infrared night vision + smart white light for clear images day and night.</p></div>
+<div class="feature-item"><h4>Large Storage</h4><p>TF card up to 512GB, H.265 compression saves storage space.</p></div>
+</div></div>
+<div class="intro-image"><img alt="Vehicle Dashcam" src="../../images/placeholder-dashcam.webp"/></div>
+</div>
+</section>
+<section class="section-container">
+<h2 class="section-title">型号选型</h2>
+<p>根据定位精度与通信需求选择合适的行车记录仪型号。</p>
+<table class="spec-table">
+<thead><tr><th>Parameter</th><th>H6-4G Standard</th><th>H6-4G Pro</th></tr></thead>
+<tbody>
+<tr><td>Resolution</td><td>1080P (1920×1080)</td><td>1080P (1920×1080)</td></tr>
+<tr><td>Compression</td><td>H.265 / H.264</td><td>H.265 / H.264</td></tr>
+<tr><td>Frame Rate</td><td>25FPS</td><td>25FPS</td></tr>
+<tr><td>Lens</td><td>3.6mm</td><td>3.6mm</td></tr>
+<tr><td>FOV</td><td>96° (horizontal)</td><td>96° (horizontal)</td></tr>
+<tr><td>Positioning</td><td>GPS + Beidou</td><td>GPS + GLONASS + GALILEO + Beidou</td></tr>
+<tr><td>Communication</td><td>LTE Cat.1</td><td>LTE Cat.1 + WiFi</td></tr>
+<tr><td>Storage</td><td>TF Card Max 512GB</td><td>TF Card Max 512GB</td></tr>
+<tr><td>Power</td><td>10-60V DC</td><td>10-60V DC</td></tr>
+<tr><td>Protection</td><td>IP67</td><td>IP67</td></tr>
+<tr><td>Temperature</td><td>-25°C ~ +70°C</td><td>-25°C ~ +70°C</td></tr>
+</tbody>
+</table>
+</section>
+<section class="section-container">
+<h2 class="section-title">接口兼容</h2>
+<div class="tech-grid">
+<div class="tech-card"><h4>4G Network</h4><p>LTE FDD/TDD full bands for real-time video streaming and remote commands.</p></div>
+<div class="tech-card"><h4>RS485</h4><p>Connects to fuel sensors, load sensors, temperature and humidity sensors.</p></div>
+<div class="tech-card"><h4>Platform</h4><p>Supports AXLTeco vehicle management platform and GB/T 32960 standard.</p></div>
+<div class="tech-card"><h4>API</h4><p>REST APIs for location query, video retrieval, alert subscription and playback.</p></div>
+</div>
+</section>
+<section class="section-container">
+<h2 class="section-title">应用方案</h2>
+<div class="tab-group">
+<div class="tab-nav"><button class="tab-btn active">Software</button><button class="tab-btn">Solutions</button></div>
+<div class="tab-content active">
+<div class="card-grid">
+<div class="card"><h4>Vehicle Management</h4><p>Real-time video, trajectory playback, alert management and fleet overview.</p></div>
+<div class="card"><h4>ADAS</h4><p>Lane departure and forward collision warnings for improved driving safety.</p></div>
+</div>
+</div>
+<div class="tab-content">
+<div class="card-grid">
+<div class="card"><h4>Smart Logistics</h4><p>Full-process video monitoring for cargo security and dispute evidence.</p></div>
+<div class="card"><h4>Public Transport</h4><p>Real-time monitoring for buses and coaches ensuring passenger safety.</p></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-container">
+<h2 class="section-title">优势保障</h2>
+<div class="triple-grid">
+<div class="triple-col-left">
+<div class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Core Advantages</div>
+<div class="triple-card"><h4>HD Quality</h4><p>1080P full HD with H.265 compression, saving 50% storage at same quality.</p></div>
+<div class="triple-card"><h4>Full Scene</h4><p>Infrared night vision + smart white light for clear recording day and night.</p></div>
+<div class="triple-card"><h4>Precision Positioning</h4><p>Multi-system multi-frequency positioning stable even in urban canyons.</p></div>
+</div>
+<div class="triple-col-center">
+<div class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Delivery Services</div>
+<div class="triple-card"><h4>Installation</h4><p>Professional engineers complete device installation and platform integration.</p></div>
+<div class="triple-card"><h4>Platform Config</h4><p>Configure geo-fences, alert rules, video storage policies and permissions.</p></div>
+<div class="triple-card"><h4>Training</h4><p>Train managers on platform operation, video retrieval and alert handling.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee</div>
+<div class="triple-card"><h4>Warranty</h4><p>1-year warranty, core module extended warranty available.</p></div>
+<div class="triple-card"><h4>Local Response</h4><p>Nigeria local team, on-site response within 48 hours.</p></div>
+<div class="triple-card"><h4>Remote Support</h4><p>24/7 remote technical support, OTA firmware upgrades.</p></div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="footer-inner">
+<div>
+<h4>AXLTeco Limited</h4>
+<p class="axlt-text-muted">AXLTeco Limited</p>
+<p class="axlt-text-muted-sm">Connecting Chinese Technology · Serving African Development</p>
+</div>
+<div>
+<h4>Services</h4>
+<a href="../service/software-dev.html">Custom Software Development</a>
+<a href="../service/ai-agent.html">AI Agent Development</a>
+<a href="../service/city-modeling.html">City Modeling Services</a>
+</div>
+<div>
+<h4>Software + Hardware</h4>
+<a href="../software/hrms.html">HR Management System</a>
+<a href="../software/blacklist.html">Blacklist System</a>
+<a href="../software/warehouse.html">Warehouse Management System</a>
+<a href="../software/procurement.html">Procurement Management System</a>
+<a href="../software/safety.html">Safety Management System</a>
+<a href="../software/quality.html">Quality Management System</a>
+<a href="../software/ibms.html">IBMS</a>
+<a href="../software/bim.html">BIM Lightweight System</a>
+<a href="../software/mixing-station.html">Mixing Station Management</a>
+<a href="../software/budget.html">Engineering Budget System</a>
+<a href="../software/dashboard.html">Dashboard System</a>
+<a href="../software/info-display.html">Information Display System</a>
+<a href="../hardware/camera.html">Video Surveillance</a>
+<a href="../hardware/attendance.html">Access Control & Attendance</a>
+<a href="../hardware/gate.html">Vehicle Barrier Gate</a>
+<a href="../hardware/passage.html">Pedestrian Turnstile</a>
+<a href="../hardware/splicing.html">Video Wall</a>
+<a href="../hardware/adscreen.html">Digital Signage</a>
+<a href="../hardware/led.html">Outdoor LED Display</a>
+<a href="../hardware/gps.html">Vehicle GPS Tracker</a>
+<a href="../hardware/oil.html">Fuel Consumption Sensor</a>
+<a href="../hardware/weight-sensor.html">Vehicle Load Sensor</a>
+<a href="../hardware/dashcam.html">Vehicle Dashcam</a>
+<a href="../hardware/industrial-storage.html">Industrial & Commercial Storage</a>
+<a href="../hardware/home-storage.html">Residential Storage</a>
+<a href="../hardware/solar-storage.html">Solar PV</a>
+<a href="../hardware/ai-server.html">AI Server</a>
+<a href="../hardware/drone.html">Heavy-lift Drone</a>
+</div>
+<div>
+<h4>Solutions</h4>
+<a href="../solution/smart-construction.html">Smart Construction</a>
+<a href="../solution/smart-building.html">Smart Building</a>
+<a href="../solution/smart-traffic.html">Smart Traffic</a>
+<a href="../solution/smart-city.html">Smart City</a>
+<a href="../solution/smart-parking.html">Smart Parking</a>
+<a href="../solution/smart-campus.html">Smart Campus</a>
+<a href="../solution/data-center.html">Data Center & Network</a>
+<a href="../solution/city-eagle.html">City Eagle Eye</a>
+<a href="../solution/fire-alarm.html">Fire Alarm System</a>
+<a href="../solution/av-conference.html">AV Conference</a>
+<a href="../solution/smart-community.html">Smart Community</a>
+<a href="../solution/solar-energy.html">Solar Energy Storage</a>
+<a href="../solution/patrol.html">Electronic Patrol</a>
+<a href="../solution/smart-airport.html">Smart Airport</a>
+<a href="../solution/broadcast.html">PA & Background Music</a>
+<a href="../solution/iptv.html">Hotel/Community IPTV</a>
+</div>
+<div>
+<h4>About Us</h4>
+<a href="../about.html">About Us</a>
+<a href="../contact.html">Contact Us</a>
+
+<a href="https://wa.me/09110215649" target="_blank">WhatsApp: 09110215649</a>
+<a href="mailto:service@axlteco.com">Email: service@axlteco.com</a>
+<p class="axlt-text-muted-sm">Lagos, Nigeria</p>
+</div>
+</div>
+<div class="footer-bottom">© 2026 AXLTeco Limited. All rights reserved.</div>
+</footer>
+<script src="../../main.js"></script>
+<script>
+function switchTab(tabName) {
+  document.querySelectorAll('.tab-btn').forEach(function(btn){ btn.classList.remove('active'); });
+  document.querySelectorAll('.tab-content').forEach(function(c){ c.classList.remove('active'); c.style.display='none'; });
+  document.getElementById('tab-'+tabName).classList.add('active');
+  var content = document.getElementById('content-'+tabName);
+  content.classList.add('active'); content.style.display='block';
+}
+document.querySelectorAll('.tab-btn').forEach(function(btn, idx){
+  btn.onclick = function(){ switchTab(idx===0?'sw':'sol'); };
+});
+</script>
+</body>
+</html>

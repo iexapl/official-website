@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>车载行车记录仪 | AXLTeco Limited</title>
+<meta content="H6-4G 车载行车记录仪，集 4G 实时视频、AI 智能分析、北斗/GPS 双模定位于一体，支持红外夜视、人体探测与紧急视频上传，适用于物流车队、工程车辆与公共交通监管。" name="description"/>
+<link href="../../style.css" rel="stylesheet"/>
+<script defer="" src="../../assets/lucide/lucide.min.js"></script>
+<style>
+.tab-btn{background:transparent;border:1px solid var(--color-line-soft);color:var(--color-text-muted);padding:8px 24px;border-radius:var(--radius);cursor:pointer;transition:all 0.2s;font-size:0.95rem;}
+.tab-btn.active,.tab-btn:hover{background:var(--color-brand);color:var(--color-bg);border-color:var(--color-brand);}
+.tab-content{display:none;}
+.tab-content.active{display:block;}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="header-inner">
+<a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
+<button aria-label="菜单" class="menu-toggle">☰</button>
+<nav class="nav">
+<a href="../index.html">首页</a>
+<div class="nav-dropdown has-mega-menu">
+<a href="../service/software-dev.html">服务</a>
+<div class="mega-menu mega-menu-service">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>软件定制研发</h4><ul><li><a href="../service/software-dev.html">软件定制研发</a></li></ul></div>
+<div class="menu-col"><h4>AI 智能体研发</h4><ul><li><a href="../service/ai-agent.html">AI 智能体研发</a></li></ul></div>
+<div class="menu-col"><h4>城市建模服务</h4><ul><li><a href="../service/city-modeling.html">城市建模服务</a></li></ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a href="../software/hrms.html">软件</a>
+<div class="mega-menu mega-menu-software">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>用工管理</h4><ul>
+<li><a href="../software/hrms.html">人事管理系统</a></li>
+<li><a href="../software/blacklist.html">黑名单系统</a></li>
+</ul></div>
+<div class="menu-col"><h4>物资管理</h4><ul>
+<li><a href="../software/warehouse.html">物资管理系统</a></li>
+<li><a href="../software/procurement.html">采购管理系统</a></li>
+</ul></div>
+<div class="menu-col"><h4>安全与质量管理</h4><ul>
+<li><a href="../software/safety.html">安全管理系统</a></li>
+<li><a href="../software/quality.html">质量管理系统</a></li>
+</ul></div>
+<div class="menu-col"><h4>建筑智能化软件</h4><ul>
+<li><a href="../software/ibms.html">IBMS</a></li>
+</ul></div>
+<div class="menu-col"><h4>其他</h4><ul>
+<li><a href="../software/bim.html">BIM 轻量化系统</a></li>
+<li><a href="../software/mixing-station.html">搅拌站管理系统</a></li>
+<li><a href="../software/budget.html">工程预算管理系统</a></li>
+<li><a href="../software/dashboard.html">看板系统</a></li>
+<li><a href="../software/info-display.html">信息公示系统</a></li>
+</ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a class="active" href="../hardware/camera.html">硬件</a>
+<div class="mega-menu mega-menu-hardware">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>安防与通行</h4><ul>
+<li><a href="../hardware/camera.html">视频监控设备</a></li>
+<li><a href="../hardware/attendance.html">门禁与考勤设备</a></li>
+<li><a href="../hardware/gate.html">车辆道闸</a></li>
+<li><a href="../hardware/passage.html">人行通道闸机</a></li>
+</ul></div>
+<div class="menu-col"><h4>商用显示</h4><ul>
+<li><a href="../hardware/splicing.html">拼接屏</a></li>
+<li><a href="../hardware/adscreen.html">广告屏</a></li>
+<li><a href="../hardware/led.html">户外 LED 屏</a></li>
+</ul></div>
+<div class="menu-col"><h4>车载智能设备</h4><ul>
+<li><a href="../hardware/gps.html">车辆定位终端</a></li>
+<li><a href="../hardware/oil.html">车辆油耗传感器</a></li>
+<li><a href="../hardware/weight-sensor.html">车载载重传感器</a></li>
+<li><a href="../hardware/dashcam.html">车载行车记录仪</a></li>
+</ul></div>
+<div class="menu-col"><h4>新能源设备</h4><ul>
+<li><a href="../hardware/industrial-storage.html">工商储</a></li>
+<li><a href="../hardware/home-storage.html">户储</a></li>
+<li><a href="../hardware/solar-storage.html">光伏</a></li>
+</ul></div>
+<div class="menu-col"><h4>其他设备</h4><ul>
+<li><a href="../hardware/ai-server.html">AI 服务器</a></li>
+<li><a href="../hardware/drone.html">重载无人机</a></li>
+</ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a href="../solution/smart-construction.html">解决方案</a>
+<div class="mega-menu mega-menu-solution">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>智慧建筑</h4><ul>
+<li><a href="../solution/smart-construction.html">智慧工地</a></li>
+<li><a href="../solution/smart-building.html">智慧楼宇</a></li>
+<li><a href="../solution/smart-community.html">智慧社区</a></li>
+<li><a href="../solution/smart-campus.html">智慧校园</a></li>
+</ul></div>
+<div class="menu-col"><h4>交通与出行</h4><ul>
+<li><a href="../solution/smart-traffic.html">智慧交通</a></li>
+<li><a href="../solution/smart-parking.html">智慧停车场</a></li>
+<li><a href="../solution/smart-airport.html">智慧机场</a></li>
+</ul></div>
+<div class="menu-col"><h4>城市治理</h4><ul>
+<li><a href="../solution/smart-city.html">智慧城市</a></li>
+<li><a href="../solution/city-eagle.html">城市鹰眼</a></li>
+<li><a href="../solution/patrol.html">电子巡更</a></li>
+</ul></div>
+<div class="menu-col"><h4>基础设施</h4><ul>
+<li><a href="../solution/data-center.html">机房与网络</a></li>
+<li><a href="../solution/fire-alarm.html">火灾自动报警</a></li>
+<li><a href="../solution/solar-energy.html">光伏储能</a></li>
+</ul></div>
+<div class="menu-col"><h4>音视频与广播</h4><ul>
+<li><a href="../solution/av-conference.html">音视频会议</a></li>
+<li><a href="../solution/broadcast.html">广播及背景音乐</a></li>
+<li><a href="../solution/iptv.html">酒店/社区 IPTV</a></li>
+</ul></div>
+
+</div></div></div>
+<a href="../about.html">企业介绍</a>
+<a href="../contact.html">联系我们</a>
+</nav>
+</div>
+</header>
+<main class="page-content">
+<section class="page-hero">
+<h1>车载行车记录仪</h1>
+<p>H6-4G 车载行车记录仪，集 4G 实时视频、AI 智能分析、北斗/GPS 双模定位于一体，支持红外夜视、人体探测与紧急视频上传，适用于物流车队、工程车辆与公共交通监管。</p>
+</section>
+<section class="section-container">
+<h2 class="section-title">产品概述</h2>
+<div class="intro-section">
+<div><p>H6-4G 车载行车记录仪是一款集成了 4G 实时视频传输、AI 智能分析、北斗/GPS 双模定位的高性能车载终端。采用 200 万像素传感器，支持 1080P 高清录像、H.265 视频压缩、红外夜视与智能白光，可实现实时位置追踪、视频直播、驾驶行为分析与紧急事件自动上报。</p>
+<div class="feature-list">
+<div class="feature-item"><h4>4G 实时传输</h4><p>LTE Cat.1 通信，支持实时视频上传、轨迹回放与远程监控。</p></div>
+<div class="feature-item"><h4>AI 智能分析</h4><p>人体探测、异常行为识别，停车监控时自动触发告警。</p></div>
+<div class="feature-item"><h4>双模定位</h4><p>GPS + 北斗双模，64 通道，定位精度 <2m，支持 AGPS 辅助定位。</p></div>
+<div class="feature-item"><h4>高清夜视</h4><p>红外夜视 + 智能白光，夜间行车与停车监控画面清晰。</p></div>
+<div class="feature-item"><h4>大容量存储</h4><p>TF 卡最大支持 512GB，H.265 压缩节省存储空间。</p></div>
+</div></div>
+<div class="intro-image"><img alt="车载行车记录仪" src="../../images/placeholder-dashcam.webp"/></div>
+</div>
+</section>
+<section class="section-container">
+<h2 class="section-title">型号选型</h2>
+<p>根据定位精度与通信需求选择合适的行车记录仪型号。</p>
+<table class="spec-table">
+<thead><tr><th>参数</th><th>H6-4G 标准版</th><th>H6-4G Pro</th></tr></thead>
+<tbody>
+<tr><td>分辨率</td><td>1080P (1920×1080)</td><td>1080P (1920×1080)</td></tr>
+<tr><td>视频压缩</td><td>H.265 / H.264</td><td>H.265 / H.264</td></tr>
+<tr><td>帧率</td><td>25FPS</td><td>25FPS</td></tr>
+<tr><td>镜头</td><td>3.6mm</td><td>3.6mm</td></tr>
+<tr><td>视角</td><td>96°（水平）</td><td>96°（水平）</td></tr>
+<tr><td>定位系统</td><td>GPS + 北斗</td><td>GPS + GLONASS + GALILEO + 北斗</td></tr>
+<tr><td>通信</td><td>LTE Cat.1</td><td>LTE Cat.1 + WiFi</td></tr>
+<tr><td>存储</td><td>TF 卡 Max 512GB</td><td>TF 卡 Max 512GB</td></tr>
+<tr><td>供电</td><td>10-60V DC</td><td>10-60V DC</td></tr>
+<tr><td>防护等级</td><td>IP67</td><td>IP67</td></tr>
+<tr><td>工作温度</td><td>-25°C ~ +70°C</td><td>-25°C ~ +70°C</td></tr>
+</tbody>
+</table>
+</section>
+<section class="section-container">
+<h2 class="section-title">接口兼容</h2>
+<div class="tech-grid">
+<div class="tech-card"><h4>4G 网络</h4><p>LTE FDD/TDD 全频段，支持实时视频流、数据上传与远程指令下发。</p></div>
+<div class="tech-card"><h4>RS485</h4><p>可接入油耗传感器、载重传感器、温湿度传感器等车载外设。</p></div>
+<div class="tech-card"><h4>平台对接</h4><p>支持 AXLTeco 车辆管理平台、国标 GB/T 32960 平台对接。</p></div>
+<div class="tech-card"><h4>API 接口</h4><p>提供位置查询、视频调阅、告警订阅、轨迹回放等 REST API。</p></div>
+</div>
+</section>
+<section class="section-container">
+<h2 class="section-title">应用方案</h2>
+<div class="tab-group">
+<div class="tab-nav"><button class="tab-btn active">软件系统</button><button class="tab-btn">解决方案</button></div>
+<div class="tab-content active">
+<div class="card-grid">
+<div class="card"><h4>车辆管理平台</h4><p>实时视频、轨迹回放、告警管理、报表统计，一屏掌握车队动态。</p></div>
+<div class="card"><h4>ADAS 辅助驾驶</h4><p>车道偏离、前车碰撞预警，提升驾驶安全。</p></div>
+</div>
+</div>
+<div class="tab-content">
+<div class="card-grid">
+<div class="card"><h4>智慧物流</h4><p>物流车队全程视频监管，货物安全可追溯，纠纷有据可查。</p></div>
+<div class="card"><h4>公共交通</h4><p>公交、客运车辆实时监控，保障乘客安全与服务质量。</p></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-container">
+<h2 class="section-title">优势保障</h2>
+<div class="triple-grid">
+<div class="triple-col-left">
+<div class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>核心优势</div>
+<div class="triple-card"><h4>高清画质</h4><p>1080P 全高清，H.265 压缩，同等画质节省 50% 存储空间。</p></div>
+<div class="triple-card"><h4>全场景覆盖</h4><p>红外夜视 + 智能白光，白天黑夜、车内车外全场景清晰记录。</p></div>
+<div class="triple-card"><h4>精准定位</h4><p>多系统多频定位，城市峡谷与复杂环境定位依然稳定。</p></div>
+</div>
+<div class="triple-col-center">
+<div class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>交付服务</div>
+<div class="triple-card"><h4>现场安装</h4><p>专业工程师完成设备安装、线路布设与平台接入调试。</p></div>
+<div class="triple-card"><h4>平台配置</h4><p>配置电子围栏、告警规则、视频存储策略与权限管理。</p></div>
+<div class="triple-card"><h4>培训交付</h4><p>培训管理人员平台操作、视频调阅与告警处理。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</div>
+<div class="triple-card"><h4>质保承诺</h4><p>整机质保一年，核心模块延保可选。</p></div>
+<div class="triple-card"><h4>本地响应</h4><p>尼日利亚本地服务团队，48 小时现场响应。</p></div>
+<div class="triple-card"><h4>远程运维</h4><p>7×24 远程技术支持，固件 OTA 升级。</p></div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="footer-inner">
+<div>
+<h4>深圳市安信联科技有限公司</h4>
+<p class="axlt-text-muted">AXLTeco Limited</p>
+<p class="axlt-text-muted-sm">连接中国技术 · 服务非洲建设</p>
+</div>
+<div>
+<h4>服务</h4>
+<a href="../service/software-dev.html">软件定制研发</a>
+<a href="../service/ai-agent.html">AI 智能体研发</a>
+<a href="../service/city-modeling.html">城市建模服务</a>
+</div>
+<div>
+<h4>软件 + 硬件</h4>
+<a href="../software/hrms.html">人事管理系统</a>
+<a href="../software/blacklist.html">黑名单系统</a>
+<a href="../software/warehouse.html">物资管理系统</a>
+<a href="../software/procurement.html">采购管理系统</a>
+<a href="../software/safety.html">安全管理系统</a>
+<a href="../software/quality.html">质量管理系统</a>
+<a href="../software/ibms.html">IBMS</a>
+<a href="../software/bim.html">BIM 轻量化系统</a>
+<a href="../software/mixing-station.html">搅拌站管理系统</a>
+<a href="../software/budget.html">工程预算管理系统</a>
+<a href="../software/dashboard.html">看板系统</a>
+<a href="../software/info-display.html">信息公示系统</a>
+<a href="../hardware/camera.html">视频监控设备</a>
+<a href="../hardware/attendance.html">门禁与考勤设备</a>
+<a href="../hardware/gate.html">车辆道闸</a>
+<a href="../hardware/passage.html">人行通道闸机</a>
+<a href="../hardware/splicing.html">拼接屏</a>
+<a href="../hardware/adscreen.html">广告屏</a>
+<a href="../hardware/led.html">户外 LED 屏</a>
+<a href="../hardware/gps.html">车辆定位终端</a>
+<a href="../hardware/oil.html">车辆油耗传感器</a>
+<a href="../hardware/weight-sensor.html">车载载重传感器</a>
+<a href="../hardware/dashcam.html">车载行车记录仪</a>
+<a href="../hardware/industrial-storage.html">工商储</a>
+<a href="../hardware/home-storage.html">户储</a>
+<a href="../hardware/solar-storage.html">光伏</a>
+<a href="../hardware/ai-server.html">AI 服务器</a>
+<a href="../hardware/drone.html">重载无人机</a>
+</div>
+<div>
+<h4>解决方案</h4>
+<a href="../solution/smart-construction.html">智慧工地</a>
+<a href="../solution/smart-building.html">智慧楼宇</a>
+<a href="../solution/smart-traffic.html">智慧交通</a>
+<a href="../solution/smart-city.html">智慧城市</a>
+<a href="../solution/smart-parking.html">智慧停车场</a>
+<a href="../solution/smart-campus.html">智慧校园</a>
+<a href="../solution/data-center.html">机房与网络</a>
+<a href="../solution/city-eagle.html">城市鹰眼</a>
+<a href="../solution/fire-alarm.html">火灾自动报警</a>
+<a href="../solution/av-conference.html">音视频会议</a>
+<a href="../solution/smart-community.html">智慧社区</a>
+<a href="../solution/solar-energy.html">光伏储能</a>
+<a href="../solution/patrol.html">电子巡更</a>
+<a href="../solution/smart-airport.html">智慧机场</a>
+<a href="../solution/broadcast.html">广播及背景音乐</a>
+<a href="../solution/iptv.html">酒店/社区 IPTV</a>
+</div>
+<div>
+<h4>企业介绍</h4>
+<a href="../about.html">企业介绍</a>
+<a href="../contact.html">联系我们</a>
+
+<a href="https://wa.me/09110215649" target="_blank">WhatsApp: 09110215649</a>
+<a href="mailto:service@axlteco.com">Email: service@axlteco.com</a>
+<p class="axlt-text-muted-sm">Lagos, Nigeria</p>
+</div>
+</div>
+<div class="footer-bottom">© 2026 深圳市安信联科技有限公司 版权所有</div>
+</footer>
+<script src="../../main.js"></script>
+<script>
+function switchTab(tabName) {
+  document.querySelectorAll('.tab-btn').forEach(function(btn){ btn.classList.remove('active'); });
+  document.querySelectorAll('.tab-content').forEach(function(c){ c.classList.remove('active'); c.style.display='none'; });
+  document.getElementById('tab-'+tabName).classList.add('active');
+  var content = document.getElementById('content-'+tabName);
+  content.classList.add('active'); content.style.display='block';
+}
+document.querySelectorAll('.tab-btn').forEach(function(btn, idx){
+  btn.onclick = function(){ switchTab(idx===0?'sw':'sol'); };
+});
+</script>
+</body>
+</html>
