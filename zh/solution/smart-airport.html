@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在机场运营管理中，客户常面临旅客通关效率低、安检依赖人工、资源协调复杂的问题，亟需符合 ICAO 标准、可分阶段建设且数据统一汇聚的全场景智能化系统。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="users"></i></div><h3 class="capability-title">旅客通关效率低</h3><p class="capability-desc">值机、安检、登机各环节排队时间长，旅客体验差。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-line"></i></div><h3 class="capability-title">安检依赖人工</h3><p class="capability-desc">人工判图效率低、标准不一致，存在安全风险。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="refresh-cw-off"></i></div><h3 class="capability-title">航班信息不同步</h3><p class="capability-desc">各子系统信息孤立，航班变更时旅客与工作人员获取信息不及时。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">地面资源利用不均衡</h3><p class="capability-desc">机位分配与车辆调度依赖人工经验，高峰时段资源紧张与闲置并存，航班保障效率承压。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="plane-takeoff"></i></div><h3 class="capability-title">自助化旅客服务</h3><p class="capability-desc">需要自助值机、托运与登机减少排队等待。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">运营资源智能调度</h3><p class="capability-desc">需要智能机位分配与地面车辆调度优化资源利用。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="users"></i></div><h3>旅客通关效率低</h3><p>值机、安检、登机各环节排队时间长，旅客体验差。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="scan-line"></i></div><h3>安检依赖人工</h3><p>人工判图效率低、标准不一致，存在安全风险。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="refresh-cw-off"></i></div><h3>航班信息不同步</h3><p>各子系统信息孤立，航班变更时旅客与工作人员获取信息不及时。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>地面资源利用不均衡</h3><p>机位分配与车辆调度依赖人工经验，高峰时段资源紧张与闲置并存，航班保障效率承压。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><h3>航班保障与旅客体验承压</h3><p>通关慢、信息滞后、资源错配叠加，高峰期航班保障延误风险上升，机场服务口碑受到影响。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="plane-takeoff"></i></div><h3>自助化旅客服务</h3><p>需要自助值机、托运与登机减少排队等待。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="gauge"></i></div><h3>运营资源智能调度</h3><p>需要智能机位分配与地面车辆调度优化资源利用。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">高峰时段大流量通关</span><span class="scenario-tag">国际航班多币种结算</span><span class="scenario-tag">货运区货物追踪</span><span class="scenario-tag">航班延误应急处理</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>机场运营管理人员、安检人员、地勤人员、旅客服务人员。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">高峰时段大流量通关</span><span class="scenario-tag">国际航班多币种结算</span><span class="scenario-tag">货运区货物追踪</span><span class="scenario-tag">航班延误应急处理</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>机场运营管理人员、安检人员、地勤人员、旅客服务人员。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用“航站楼-停机坪-货区”协同架构，覆盖旅客服务、安检安防、货运管理与 AOC 运行控制核心模块，支持多语言多币种适配与各子系统数据实时汇聚。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-airport-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">航站楼层面向旅客提供自助化通关与安检，停机坪层与货区层保障地面作业与货物管理，各子系统数据实时同步至 AOC 运营中心，异常事件自动告警至对应处置部门。</p>
+<p class="axlt-paragraph">智慧机场采用五层业务拓扑：机场运行中心、安防指挥室等在各自办公室通过航班保障、安防监控等应用开展业务，依托平台层统一调度；航站楼机房、站坪监控点等边缘设备部署于现场，就近接入摄像机、旅客计数等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="智慧机场解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-airport-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为机场运行中心、安防指挥室等管理办公室；应用层承载日常业务功能；平台层提供机场数据平台、视频管理等能力；边缘与网络层为航站楼机房、站坪监控点等现场接入位置；感知层为摄像机、旅客计数等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="user-check"></i></div><h3 class="capability-title">旅客自助服务</h3><p class="capability-desc">自助值机、托运与人脸识别登机，减少排队等待。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-line"></i></div><h3 class="capability-title">智能安检</h3><p class="capability-desc">X 光机、安检门与 AI 判图辅助，提升安检效率与一致性。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="plane"></i></div><h3 class="capability-title">机位与车辆调度</h3><p class="capability-desc">智能机位分配与地面车辆调度，均衡资源利用。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="package"></i></div><h3 class="capability-title">货运追踪管理</h3><p class="capability-desc">货物追踪定位与仓库环境监测全流程可视。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">AOC 运行控制</h3><p class="capability-desc">指挥大屏实时监控航班动态、旅客流量与安防状态。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="user-check"></i></div><h3>旅客自助服务</h3><p>自助值机、托运与人脸识别登机，减少排队等待。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-line"></i></div><h3>智能安检</h3><p>X 光机、安检门与 AI 判图辅助，提升安检效率与一致性。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="plane"></i></div><h3>机位与车辆调度</h3><p>智能机位分配与地面车辆调度，均衡资源利用。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="package"></i></div><h3>货运追踪管理</h3><p>货物追踪定位与仓库环境监测全流程可视。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="gauge"></i></div><h3>AOC 运行控制</h3><p>指挥大屏实时监控航班动态、旅客流量与安防状态。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">
@@ -224,7 +226,7 @@
 <div class="triple-card"><h4>符合 ICAO 标准</h4><p>按国际民航组织安全标准设计与实施，安防与弱电系统合规达标。</p></div>
 <div class="triple-card"><h4>多语言多币种</h4><p>满足国际枢纽的国际化运营需求，旅客服务无障碍。</p></div>
 <div class="triple-card"><h4>模块化分阶段建设</h4><p>按投资节奏分期实施，降低一次性投入风险，建设节奏灵活可控。</p></div>
-<div class="triple-card"><h4>多机场实践</h4><p>已在尼日利亚多个机场部署安防与弱电系统，项目经验丰富，交付风险低。</p></div>
+<div class="triple-card"><h4>大型交通设施交付经验</h4><p>依托 Mile 2 综合交通枢纽、卡诺火车站等大型交通基础设施项目的弱电与安防交付经验，同类场景复用性强，交付风险低。</p></div>
 <div class="triple-card"><h4>AOC 统一集成</h4><p>各子系统接入机场运行控制中心（AOC），统一指挥调度，运营协同高效。</p></div>
 <div class="triple-card"><h4>旅客体验优化</h4><p>自助值机、智能引导、信息发布一体化，旅客通关效率提升。</p></div>
 </div>
@@ -248,18 +250,7 @@
 </div>
 </section>
 
-<section class="case-section section-container" id="cases">
-<h2 class="section-title">客户案例</h2>
-<div class="grid-auto">
-<div class="case-card">
-<h3 class="case-title">尼日利亚多个机场弱电智能化系统</h3>
-<p class="case-desc"><strong>背景：</strong>尼日利亚多个机场处于基础设施升级周期，安防与弱电系统需要整体补齐。</p>
-<p class="case-desc"><strong>挑战：</strong>机场传统运营依赖人工管理，安防监控、门禁与广播等基础设施薄弱。</p>
-<p class="case-desc"><strong>方案：</strong>提供涵盖安防监控、门禁管理、广播系统等的机场弱电智能化系统建设。</p>
-<p class="case-desc"><strong>成果：</strong>完成多个机场弱电智能化基础设施部署，为机场安全运营提供系统支撑。</p>
-</div>
-</div>
-</section>
+
 
 
 

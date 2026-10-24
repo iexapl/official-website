@@ -184,30 +184,31 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">Operating hotels and residential communities, customers often face high TV cabling costs, non-customizable content and missing value-added services, and urgently need an IP-based, customizable TV and information platform that can carry value-added services.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="cable"></i></div><h3 class="capability-title">High cabling cost</h3><p class="capability-desc">Traditional cable TV needs separate coaxial cabling — complex construction and costly maintenance.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="layout-template"></i></div><h3 class="capability-title">No content customization</h3><p class="capability-desc">Fixed channel lineups leave no room for hotel branding or service guides.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="package-x"></i></div><h3 class="capability-title">Missing value-added services</h3><p class="capability-desc">The TV cannot reach room service, wake-up calls or bill queries.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Per-room management drags operations</h3><p class="capability-desc">TVs configured one by one are hard to manage centrally; guest experience and operating efficiency both suffer.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="tv"></i></div><h3 class="capability-title">IP multi-screen TV service</h3><p class="capability-desc">IP-network delivery should cover TV, phone and tablet.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="sparkles"></i></div><h3 class="capability-title">Branded content operation</h3><p class="capability-desc">Brand placement, custom welcome pages and value-added service entries are needed.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="cable"></i></div><h3>High cabling cost</h3><p>Traditional cable TV needs separate coaxial cabling — complex construction and costly maintenance.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="layout-template"></i></div><h3>No content customization</h3><p>Fixed channel lineups leave no room for hotel branding or service guides.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="package-x"></i></div><h3>Missing value-added services</h3><p>The TV cannot reach room service, wake-up calls or bill queries.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>Per-room management drags operations</h3><p>TVs configured one by one are hard to manage centrally; guest experience and operating efficiency both suffer.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="tv"></i></div><h3>IP multi-screen TV service</h3><p>IP-network delivery should cover TV, phone and tablet.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="sparkles"></i></div><h3>Branded content operation</h3><p>Brand placement, custom welcome pages and value-added service entries are needed.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Hotel guest-room entertainment</span><span class="scenario-tag">Community announcements</span><span class="scenario-tag">Apartment information services</span><span class="scenario-tag">Care content for nursing homes</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Hotel operations managers, community property managers, IT operations staff.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Hotel guest-room entertainment</span><span class="scenario-tag">Community announcements</span><span class="scenario-tag">Apartment information services</span><span class="scenario-tag">Care content for nursing homes</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Hotel operations managers, community property managers, IT operations staff.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a four-layer “content-transmission-platform-terminal” architecture covering content management, multi-terminal delivery and guest-service integration, with support for hotel PMS integration and cloud or local deployment.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-iptv-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">Satellite, cable and OTT signals are encoded into the content library; the local server hosts branded content; the IP network and CDN distribute streams to every terminal; the platform layer schedules content and manages tenants.</p>
+<p class="axlt-paragraph">Hotel/Community IPTV follows a five-layer business topology: Front Desk, Room Service and other offices run daily applications such as Live TV and VOD, coordinated by the platform layer; edge devices like Building MDF and Access Network sit on site, linking perception devices such as Room TV and Lobby TV — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="Hotel/Community IPTV Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-iptv-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (Front Desk, Room Service…); the application layer carries daily functions; the platform layer provides IPTV Platform and Content Mgmt; the edge and network layer marks on-site equipment positions (Building MDF, Access Network…); perception devices are deployed at Room TV, Lobby TV and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="tv"></i></div><h3 class="capability-title">Multi-source content</h3><p class="capability-desc">Satellite, cable and OTT signals unified with flexible channel scheduling.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="layout-template"></i></div><h3 class="capability-title">Branded content</h3><p class="capability-desc">Hotel brand placement, personalized welcome pages and service guides.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="concierge-bell"></i></div><h3 class="capability-title">Guest service entry</h3><p class="capability-desc">Room ordering, wake-up calls, laundry, taxi and bill queries on the TV.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="building"></i></div><h3 class="capability-title">Central multi-room management</h3><p class="capability-desc">Per-room configuration, batch management and status monitoring.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="cloud"></i></div><h3 class="capability-title">Cloud or local deployment</h3><p class="capability-desc">Choose the deployment model that fits the property's scale.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="tv"></i></div><h3>Multi-source content</h3><p>Satellite, cable and OTT signals unified with flexible channel scheduling.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="layout-template"></i></div><h3>Branded content</h3><p>Hotel brand placement, personalized welcome pages and service guides.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="concierge-bell"></i></div><h3>Guest service entry</h3><p>Room ordering, wake-up calls, laundry, taxi and bill queries on the TV.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="building"></i></div><h3>Central multi-room management</h3><p>Per-room configuration, batch management and status monitoring.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="cloud"></i></div><h3>Cloud or local deployment</h3><p>Choose the deployment model that fits the property's scale.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">

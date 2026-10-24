@@ -183,30 +183,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Défis Métier</h2>
 <p class="axlt-paragraph">Dans la gouvernance urbaine, les clients font souvent face à des silos de données sévères, un état de fonctionnement flou et des décisions sans support de données ; ils ont besoin d'une plateforme de gouvernance intelligente à socle numérique unifié, à perception à l'échelle de la ville et pilotage par la donnée.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="database"></i></div><h3 class="capability-title">Silos de données sévères</h3><p class="capability-desc">Les données des affaires, de la circulation, de l'environnement et de l'énergie appartiennent à des services séparés et ne peuvent être partagées.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="eye-off"></i></div><h3 class="capability-title">État de fonctionnement flou</h3><p class="capability-desc">Aucune vue unifiée de la ville ; les problèmes se découvrent à l'expérience et se traitent manuellement.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Ressources publiques mal allouées</h3><p class="capability-desc">Circulation, énergie et services publics se répartissent sans données, créant un décalage entre l'offre et la demande.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map"></i></div><h3 class="capability-title">Risque de planification élevé</h3><p class="capability-desc">Les grands projets urbains manquent de répétition et de vérification, accroissant le risque de construction et le coût des décisions.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="boxes"></i></div><h3 class="capability-title">Socle numérique 3D</h3><p class="capability-desc">Un socle de modèle d'information urbaine CIM+BIM+GIS est nécessaire.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">Convergence multi-sources</h3><p class="capability-desc">Les données publiques, IoT et d'internet doivent être gouvernées et échangées en partage.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Douleur</span><div class="icon-box"><i data-lucide="database"></i></div><h3>Silos de données sévères</h3><p>Les données des affaires, de la circulation, de l'environnement et de l'énergie appartiennent à des services séparés et ne peuvent être partagées.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Douleur</span><div class="icon-box"><i data-lucide="eye-off"></i></div><h3>État de fonctionnement flou</h3><p>Aucune vue unifiée de la ville ; les problèmes se découvrent à l'expérience et se traitent manuellement.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Douleur</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>Ressources publiques mal allouées</h3><p>Circulation, énergie et services publics se répartissent sans données, créant un décalage entre l'offre et la demande.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Douleur</span><div class="icon-box"><i data-lucide="map"></i></div><h3>Risque de planification élevé</h3><p>Les grands projets urbains manquent de répétition et de vérification, accroissant le risque de construction et le coût des décisions.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><h3>Décisions tardives, coûts croissants</h3><p>Données cloisonnées et visibilité absente : détections tardives, coordinations lentes ; les mauvaises allocations et les reprises se paient à l'échelle urbaine.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Besoin</span><div class="icon-box"><i data-lucide="boxes"></i></div><h3>Socle numérique 3D</h3><p>Un socle de modèle d'information urbaine CIM+BIM+GIS est nécessaire.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Besoin</span><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>Convergence multi-sources</h3><p>Les données publiques, IoT et d'internet doivent être gouvernées et échangées en partage.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Scénarios typiques : </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Optimisation du trafic urbain</span><span class="scenario-tag">Surveillance environnementale et alerte</span><span class="scenario-tag">Commandement d'urgence</span><span class="scenario-tag">Amélioration des services publics</span><span class="scenario-tag">Répétition de la planification urbaine</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Rôles concernés : </strong>Administrateurs municipaux, ingénieurs circulation, agents environnement, commandants d'urgence.</p>
+<p class="axlt-paragraph-lead"><strong>Scénarios typiques : </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Optimisation du trafic urbain</span><span class="scenario-tag">Surveillance environnementale et alerte</span><span class="scenario-tag">Commandement d'urgence</span><span class="scenario-tag">Amélioration des services publics</span><span class="scenario-tag">Répétition de la planification urbaine</span></span></p><p class="axlt-paragraph-follow"><strong>Rôles concernés : </strong>Administrateurs municipaux, ingénieurs circulation, agents environnement, commandants d'urgence.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Architecture</h2>
-<p class="axlt-paragraph">Conçue sur une architecture en trois couches « réseau de perception urbain – plateforme de données – applications intelligentes » avec un socle numérique de modèle d'information urbaine (CIM), couvrant la perception IoT, la gouvernance des données et l'analyse situationnelle par IA, et supportant l'intégration multi-domaines et l'extension élastique entre trafic, environnement, services municipaux et sûreté.</p>
-<img alt="Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-city-arch-v31.fr.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">Les capteurs couvrent routes, ponts, réseaux et espaces publics ; les nœuds de bordure prétraitent les données localement ; la plateforme fait converger données publiques, IoT et d'internet ; les applications appuient l'analyse situationnelle et la répétition de planification sur le socle 3D.</p>
+<p class="axlt-paragraph">Ville Intelligente repose sur une topologie métier à cinq couches : Centre Ops Ville, Salle District et autres bureaux utilisent les applications quotidiennes comme Monitoring et Urgences, coordonnés par la couche plateforme ; les équipements de périphérie (Points Route, Patrouille) sur site raccordent les équipements de perception (Caméras, Capteurs Env.) : les données montent vers la plateforme et les commandes descendent jusqu'au terrain.</p>
+<div class="architecture-container">
+<img alt="Diagramme d'architecture de la solution Ville Intelligente" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-city-arch-v50.fr.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Disposition métier : la couche utilisateur regroupe les bureaux (Centre Ops Ville, Salle District…) ; la couche application porte les fonctions quotidiennes ; la plateforme fournit Hub Données et Vidéo Partagée ; la couche périphérie et réseau situe les équipements sur site (Points Route, Patrouille…) ; les équipements de perception sont déployés sur Caméras, Capteurs Env. et le terrain.</p>
 <h3 class="axlt-heading-h3-center">Modules clés</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="boxes"></i></div><h3 class="capability-title">Socle numérique CIM</h3><p class="capability-desc">La modélisation fusionnée CIM+BIM+GIS met la ville en correspondance entre espace physique et virtuel.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">Partage & échange de données</h3><p class="capability-desc">Données multi-sources convergées, gouvernées et partagées entre services.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">Suivi opérationnel</h3><p class="capability-desc">Analyse IA du fonctionnement urbain avec alertes automatiques sur anomalies.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map"></i></div><h3 class="capability-title">Répétition de planification</h3><p class="capability-desc">Les grands plans se répètent dans l'espace virtuel pour réduire le risque de construction.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">Optimisation des ressources</h3><p class="capability-desc">Ajustement par la donnée de l'offre et de la demande en trafic, énergie et services publics.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="boxes"></i></div><h3>Socle numérique CIM</h3><p>La modélisation fusionnée CIM+BIM+GIS met la ville en correspondance entre espace physique et virtuel.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>Partage & échange de données</h3><p>Données multi-sources convergées, gouvernées et partagées entre services.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-eye"></i></div><h3>Suivi opérationnel</h3><p>Analyse IA du fonctionnement urbain avec alertes automatiques sur anomalies.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="map"></i></div><h3>Répétition de planification</h3><p>Les grands plans se répètent dans l'espace virtuel pour réduire le risque de construction.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="gauge"></i></div><h3>Optimisation des ressources</h3><p>Ajustement par la donnée de l'offre et de la demande en trafic, énergie et services publics.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Capacités d'intégration :</strong></p>
 <ul class="axlt-paragraph-follow-2">
@@ -247,18 +249,7 @@
 </div>
 </section>
 
-<section class="case-section section-container" id="cases">
-<h2 class="section-title">Études de cas</h2>
-<div class="grid-auto">
-<div class="case-card">
-<h3 class="case-title">Trafic intelligent, vidéosurveillance et infrastructures ELV à Lagos et dans d'autres villes</h3>
-<p class="case-desc"><strong>Contexte : </strong>Lagos et d'autres villes africaines accélèrent leur numérisation : besoins concentrés en trafic, sécurité et ELV.</p>
-<p class="case-desc"><strong>Défi : </strong>Congestion, sécurité publique et niveau d'intelligence des infrastructures exigent une montée en gamme systémique.</p>
-<p class="case-desc"><strong>Solution : </strong>Participation à la construction de trafic intelligent, de vidéosurveillance et d'infrastructures ELV intelligentes.</p>
-<p class="case-desc"><strong>Résultats : </strong>Riche expérience de projets à l'échelle urbaine acquise, posant les bases des futurs projets de ville intelligente.</p>
-</div>
-</div>
-</section>
+
 
 
 

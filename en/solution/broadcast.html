@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">Operating office towers, malls, schools and hospitals, customers often struggle with fragmented PA setups, audio degradation and missing fire linkage, and urgently need an IP network PA system with fine-grained zoning and deep fire-protection integration.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="layers"></i></div><h3 class="capability-title">Redundant parallel systems</h3><p class="capability-desc">Background music, business PA and fire broadcast run on separate systems with duplicated equipment and high cost.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="volume-x"></i></div><h3 class="capability-title">Analog audio degradation</h3><p class="capability-desc">Traditional analog PA loses quality over long distances, with unbalanced volume.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="grid-3x3"></i></div><h3 class="capability-title">Coarse zoning</h3><p class="capability-desc">No independent volume or content control per floor or zone.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Emergency response risk</h3><p class="capability-desc">Fire requires manual switching to evacuation broadcast, delaying evacuation and creating a safety hazard.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="sitemap"></i></div><h3 class="capability-title">One integrated PA platform</h3><p class="capability-desc">One system should carry daily broadcast, background music and emergency evacuation.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="flame"></i></div><h3 class="capability-title">Deep fire linkage</h3><p class="capability-desc">Fire signals should trigger automatic switchover to evacuation broadcast without human intervention.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="layers"></i></div><h3>Redundant parallel systems</h3><p>Background music, business PA and fire broadcast run on separate systems with duplicated equipment and high cost.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="volume-x"></i></div><h3>Analog audio degradation</h3><p>Traditional analog PA loses quality over long distances, with unbalanced volume.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="grid-3x3"></i></div><h3>Coarse zoning</h3><p>No independent volume or content control per floor or zone.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>Emergency response risk</h3><p>Fire requires manual switching to evacuation broadcast, delaying evacuation and creating a safety hazard.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><h3>Emergency delays create safety hazards</h3><p>Manual broadcast switching misses the best evacuation window during fires, putting daily operations and emergency safety at risk.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="sitemap"></i></div><h3>One integrated PA platform</h3><p>One system should carry daily broadcast, background music and emergency evacuation.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="flame"></i></div><h3>Deep fire linkage</h3><p>Fire signals should trigger automatic switchover to evacuation broadcast without human intervention.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Mall background music</span><span class="scenario-tag">School bell schedules</span><span class="scenario-tag">Fire evacuation broadcast</span><span class="scenario-tag">Airport flight announcements</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Property managers, fire duty staff, PA administrators.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Mall background music</span><span class="scenario-tag">School bell schedules</span><span class="scenario-tag">Fire evacuation broadcast</span><span class="scenario-tag">Airport flight announcements</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Property managers, fire duty staff, PA administrators.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a four-layer “source-transmission-playback-control” IP network architecture, the solution covers zoned playback, scheduled tasks and emergency broadcast, with deep linkage to fire alarm systems and remote control from PC and mobile.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-broadcast-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">The source layer feeds programs and fire signals; audio travels digitally over the IP network to zoned speakers; the control layer handles programming, schedules and permissions; on fire alarm the whole chain switches to evacuation broadcast automatically.</p>
+<p class="axlt-paragraph">PA &amp; Background Music follows a five-layer business topology: PA Control Room, Property Office and other offices run daily applications such as Programming and Zone Paging, coordinated by the platform layer; edge devices like Amp Room and Zone Control sit on site, linking perception devices such as Sound Column and Ceiling Speaker — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="PA &amp; Background Music Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-broadcast-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (PA Control Room, Property Office…); the application layer carries daily functions; the platform layer provides PA Platform and Source Mgmt; the edge and network layer marks on-site equipment positions (Amp Room, Zone Control…); perception devices are deployed at Sound Column, Ceiling Speaker and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="radio"></i></div><h3 class="capability-title">Network source management</h3><p class="capability-desc">The audio server manages all program sources with remote broadcast control.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="grid-3x3"></i></div><h3 class="capability-title">256-zone fine control</h3><p class="capability-desc">Independent volume and content per floor or zone without mutual interference.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="flame"></i></div><h3 class="capability-title">Fire linkage switchover</h3><p class="capability-desc">Fire signals trigger evacuation broadcast at the highest priority automatically.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="timer"></i></div><h3 class="capability-title">Schedules & one-touch broadcast</h3><p class="capability-desc">Bell schedules and timed programs run automatically; emergencies broadcast with one touch.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="smartphone"></i></div><h3 class="capability-title">Remote management</h3><p class="capability-desc">Control from PC and mobile anytime, anywhere.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="radio"></i></div><h3>Network source management</h3><p>The audio server manages all program sources with remote broadcast control.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="grid-3x3"></i></div><h3>256-zone fine control</h3><p>Independent volume and content per floor or zone without mutual interference.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="flame"></i></div><h3>Fire linkage switchover</h3><p>Fire signals trigger evacuation broadcast at the highest priority automatically.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="timer"></i></div><h3>Schedules & one-touch broadcast</h3><p>Bell schedules and timed programs run automatically; emergencies broadcast with one touch.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="smartphone"></i></div><h3>Remote management</h3><p>Control from PC and mobile anytime, anywhere.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">

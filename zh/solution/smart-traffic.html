@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在城市交通管理中，客户常面临路口拥堵常态化、违法行为频发、公共交通服务弱的顽疾，亟需一套兼容已有信号设施、以数据驱动的全场景交通管理方案。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="traffic-cone"></i></div><h3 class="capability-title">路口拥堵严重</h3><p class="capability-desc">固定信号配时无法适应流量变化，高峰时段车辆排队长。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="siren"></i></div><h3 class="capability-title">违法行为频发</h3><p class="capability-desc">闯红灯、超速、逆行依赖人工执法，覆盖面有限。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="database"></i></div><h3 class="capability-title">交通数据沉睡</h3><p class="capability-desc">路口流量数据未充分利用，优化决策缺乏数据支撑。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">公共交通弱势</h3><p class="capability-desc">公交车辆无法优先通行，准点率低，乘客体验差。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">兼容已有设施</h3><p class="capability-desc">需要兼容多种主流信号机品牌，保护已有投资。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="radio"></i></div><h3 class="capability-title">数据开放对接</h3><p class="capability-desc">需要开放数据接口，与指挥中心、地图服务商对接共享。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="traffic-cone"></i></div><h3>路口拥堵严重</h3><p>固定信号配时无法适应流量变化，高峰时段车辆排队长。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="siren"></i></div><h3>违法行为频发</h3><p>闯红灯、超速、逆行依赖人工执法，覆盖面有限。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="database"></i></div><h3>交通数据沉睡</h3><p>路口流量数据未充分利用，优化决策缺乏数据支撑。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>公共交通弱势</h3><p>公交车辆无法优先通行，准点率低，乘客体验差。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><h3>通行效率与执法覆盖双降</h3><p>信号配时脱离实际流量、违法取证依赖人工，高峰拥堵加剧、事件处理与执法效率下降，市民出行体验持续恶化。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>兼容已有设施</h3><p>需要兼容多种主流信号机品牌，保护已有投资。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="radio"></i></div><h3>数据开放对接</h3><p>需要开放数据接口，与指挥中心、地图服务商对接共享。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">早晚高峰路口信号优化</span><span class="scenario-tag">违章行为自动抓拍</span><span class="scenario-tag">路况信息实时发布</span><span class="scenario-tag">公交优先通行</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>交通工程师、交警指挥人员、道路运维人员。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">早晚高峰路口信号优化</span><span class="scenario-tag">违章行为自动抓拍</span><span class="scenario-tag">路况信息实时发布</span><span class="scenario-tag">公交优先通行</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>交通工程师、交警指挥人员、道路运维人员。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用“路口感知-区域协调-中心管控”三级架构，覆盖信号控制、视频监控、违章检测、流量分析与诱导发布，支持兼容多种主流信号机品牌并开放数据接口对接指挥中心。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-traffic-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">路口端实时感知流量与违法行为，路段端发布诱导信息并执行公交优先，中心端汇总各路口状态，进行区域协调与远程调控。</p>
+<p class="axlt-paragraph">智慧交通采用五层业务拓扑：交通指挥中心、信号配时室等在各自办公室通过信号控制、交通诱导等应用开展业务，依托平台层统一调度；路口信号机、卡口相机等边缘设备部署于现场，就近接入地磁传感器、交通摄像机等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="智慧交通解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-traffic-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为交通指挥中心、信号配时室等管理办公室；应用层承载日常业务功能；平台层提供交通大数据、视频管理等能力；边缘与网络层为路口信号机、卡口相机等现场接入位置；感知层为地磁传感器、交通摄像机等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="traffic-cone"></i></div><h3 class="capability-title">信号控制</h3><p class="capability-desc">兼容多种国内外主流信号机品牌，支持远程配时调控。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">AI 视频分析</h3><p class="capability-desc">无需破坏路面埋设线圈即可检测流量与违章，施工周期短。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="siren"></i></div><h3 class="capability-title">违章检测</h3><p class="capability-desc">闯红灯、超速、逆行自动抓拍取证，扩展执法覆盖面。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="radio"></i></div><h3 class="capability-title">诱导发布</h3><p class="capability-desc">路况信息经诱导屏与对外接口实时发布。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="bus"></i></div><h3 class="capability-title">公交优先</h3><p class="capability-desc">公交车辆检测自动延长绿灯，提升准点率。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="traffic-cone"></i></div><h3>信号控制</h3><p>兼容多种国内外主流信号机品牌，支持远程配时调控。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-eye"></i></div><h3>AI 视频分析</h3><p>无需破坏路面埋设线圈即可检测流量与违章，施工周期短。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="siren"></i></div><h3>违章检测</h3><p>闯红灯、超速、逆行自动抓拍取证，扩展执法覆盖面。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="radio"></i></div><h3>诱导发布</h3><p>路况信息经诱导屏与对外接口实时发布。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="bus"></i></div><h3>公交优先</h3><p>公交车辆检测自动延长绿灯，提升准点率。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">

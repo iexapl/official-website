@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在办公楼、商场、学校、医院等公共建筑运营中，客户常面临广播系统建设分散、音质衰减、消防联动缺失的问题，亟需一套可分区精细控制且与消防系统深度联动的 IP 网络广播系统。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="layers"></i></div><h3 class="capability-title">多套系统重复建设</h3><p class="capability-desc">背景音乐、业务广播、消防广播各自独立，设备冗余、成本高昂。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="volume-x"></i></div><h3 class="capability-title">模拟传输音质衰减</h3><p class="capability-desc">传统模拟广播长距离传输后音质下降，音量不均衡。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="grid-3x3"></i></div><h3 class="capability-title">分区控制粗放</h3><p class="capability-desc">无法实现按楼层、按区域的独立音量与内容控制。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">应急响应存在风险</h3><p class="capability-desc">火灾发生时需人工切换广播模式，延误疏散时机，构成安全隐患。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="sitemap"></i></div><h3 class="capability-title">一体化广播平台</h3><p class="capability-desc">需要一套系统同时承载日常广播、背景音乐与应急疏散。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="flame"></i></div><h3 class="capability-title">消防深度联动</h3><p class="capability-desc">需要火灾信号触发时自动切换疏散广播，无需人工干预。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="layers"></i></div><h3>多套系统重复建设</h3><p>背景音乐、业务广播、消防广播各自独立，设备冗余、成本高昂。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="volume-x"></i></div><h3>模拟传输音质衰减</h3><p>传统模拟广播长距离传输后音质下降，音量不均衡。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="grid-3x3"></i></div><h3>分区控制粗放</h3><p>无法实现按楼层、按区域的独立音量与内容控制。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>应急响应存在风险</h3><p>火灾发生时需人工切换广播模式，延误疏散时机，构成安全隐患。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><h3>应急延误构成安全隐患</h3><p>火灾等紧急场景下人工切换广播模式会错过最佳疏散时机，日常运营与应急安全同时面临风险。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="sitemap"></i></div><h3>一体化广播平台</h3><p>需要一套系统同时承载日常广播、背景音乐与应急疏散。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="flame"></i></div><h3>消防深度联动</h3><p>需要火灾信号触发时自动切换疏散广播，无需人工干预。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">商场背景音乐</span><span class="scenario-tag">学校上下课铃声</span><span class="scenario-tag">火灾应急疏散广播</span><span class="scenario-tag">机场航班信息播报</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>物业管理人员、消防值班人员、广播管理员。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">商场背景音乐</span><span class="scenario-tag">学校上下课铃声</span><span class="scenario-tag">火灾应急疏散广播</span><span class="scenario-tag">机场航班信息播报</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>物业管理人员、消防值班人员、广播管理员。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用“音源-传输-播放-控制”四层网络架构，覆盖分区播放、定时任务与紧急广播核心模块，支持与消防报警系统深度联动及 PC/手机远程控制。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-broadcast-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">音源层提供节目与消防信号入口，经 IP 网络数字传输至各分区扬声器，控制层可视化编排节目、定时任务与分级权限，火灾信号触发时全链路自动切换为疏散广播。</p>
+<p class="axlt-paragraph">广播及背景音乐采用五层业务拓扑：广播控制室、物业办公室等在各自办公室通过节目播出、分区广播等应用开展业务，依托平台层统一调度；功放机房、分区控制器等边缘设备部署于现场，就近接入室外音柱、吸顶喇叭等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="广播及背景音乐解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-broadcast-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为广播控制室、物业办公室等管理办公室；应用层承载日常业务功能；平台层提供广播管理平台、音源管理等能力；边缘与网络层为功放机房、分区控制器等现场接入位置；感知层为室外音柱、吸顶喇叭等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="radio"></i></div><h3 class="capability-title">网络音源管理</h3><p class="capability-desc">音频服务器统一管理节目源，支持远程播控。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="grid-3x3"></i></div><h3 class="capability-title">256 分区精细控制</h3><p class="capability-desc">按楼层、区域独立控制音量与内容，互不干扰。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="flame"></i></div><h3 class="capability-title">消防联动切换</h3><p class="capability-desc">火灾信号自动触发疏散广播，抢占最高优先级。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="timer"></i></div><h3 class="capability-title">定时任务与一键广播</h3><p class="capability-desc">上下课铃声、定时节目自动执行，突发事件一键全呼。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="smartphone"></i></div><h3 class="capability-title">远程管理</h3><p class="capability-desc">PC 端与手机端远程控制，随时随地管理广播。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="radio"></i></div><h3>网络音源管理</h3><p>音频服务器统一管理节目源，支持远程播控。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="grid-3x3"></i></div><h3>256 分区精细控制</h3><p>按楼层、区域独立控制音量与内容，互不干扰。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="flame"></i></div><h3>消防联动切换</h3><p>火灾信号自动触发疏散广播，抢占最高优先级。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="timer"></i></div><h3>定时任务与一键广播</h3><p>上下课铃声、定时节目自动执行，突发事件一键全呼。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="smartphone"></i></div><h3>远程管理</h3><p>PC 端与手机端远程控制，随时随地管理广播。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">

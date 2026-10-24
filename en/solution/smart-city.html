@@ -183,30 +183,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">In urban governance, customers often face severe data silos, unclear operational status and decisions without data support, and urgently need an intelligent governance platform with a unified digital base, city-wide sensing and data-driven operation.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="database"></i></div><h3 class="capability-title">Severe data silos</h3><p class="capability-desc">Government affairs, traffic, environment and energy data sit in separate departments and cannot be shared.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="eye-off"></i></div><h3 class="capability-title">Unclear operational status</h3><p class="capability-desc">No unified view of city operations; problems are found by experience and handled manually.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Suboptimal public resources</h3><p class="capability-desc">Traffic, energy and public services are allocated without data, mismatching supply and demand.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map"></i></div><h3 class="capability-title">High planning risk</h3><p class="capability-desc">Major urban projects lack rehearsal and verification, raising construction risk and decision cost.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="boxes"></i></div><h3 class="capability-title">3D digital base</h3><p class="capability-desc">A CIM+BIM+GIS city information model base is needed.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">Multi-source data convergence</h3><p class="capability-desc">Government, IoT and internet data need governance and shared exchange.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="database"></i></div><h3>Severe data silos</h3><p>Government affairs, traffic, environment and energy data sit in separate departments and cannot be shared.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="eye-off"></i></div><h3>Unclear operational status</h3><p>No unified view of city operations; problems are found by experience and handled manually.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>Suboptimal public resources</h3><p>Traffic, energy and public services are allocated without data, mismatching supply and demand.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="map"></i></div><h3>High planning risk</h3><p>Major urban projects lack rehearsal and verification, raising construction risk and decision cost.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><h3>Delayed decisions inflate governance cost</h3><p>Siloed data and no unified operating view mean late detection and slow coordination; misallocated public resources and rework costs compound at city scale.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="boxes"></i></div><h3>3D digital base</h3><p>A CIM+BIM+GIS city information model base is needed.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>Multi-source data convergence</h3><p>Government, IoT and internet data need governance and shared exchange.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Urban traffic optimization</span><span class="scenario-tag">Environment monitoring and early warning</span><span class="scenario-tag">Emergency command</span><span class="scenario-tag">Public service improvement</span><span class="scenario-tag">Urban planning rehearsal</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>City administrators, traffic engineers, environment staff, emergency commanders.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Urban traffic optimization</span><span class="scenario-tag">Environment monitoring and early warning</span><span class="scenario-tag">Emergency command</span><span class="scenario-tag">Public service improvement</span><span class="scenario-tag">Urban planning rehearsal</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>City administrators, traffic engineers, environment staff, emergency commanders.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a three-layer “city sensing network - data platform - intelligent applications” architecture with a City Information Model (CIM) digital base, covering IoT sensing, data governance and AI situational analytics, and supporting multi-domain data integration and elastic scaling across traffic, environment, municipal services and security.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-city-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">Sensors cover roads, bridges, utilities and parks; edge nodes preprocess data locally; the platform converges government, IoT and internet data; applications support situational analysis and planning rehearsal on the 3D digital base.</p>
+<p class="axlt-paragraph">Smart City follows a five-layer business topology: City Ops Center, District Room and other offices run daily applications such as City Monitor and Emergency, coordinated by the platform layer; edge devices like Roadside Point and Patrol Vehicle sit on site, linking perception devices such as City Camera and Env Sensors — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="Smart City Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-city-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (City Ops Center, District Room…); the application layer carries daily functions; the platform layer provides City Data Hub and Video Share; the edge and network layer marks on-site equipment positions (Roadside Point, Patrol Vehicle…); perception devices are deployed at City Camera, Env Sensors and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="boxes"></i></div><h3 class="capability-title">CIM digital base</h3><p class="capability-desc">CIM+BIM+GIS fused modeling maps the city between physical and virtual spaces.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">Data sharing & exchange</h3><p class="capability-desc">Multi-source data converged, governed and shared across departments.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">Operational monitoring</h3><p class="capability-desc">AI analytics of city operations with automatic anomaly alerts.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map"></i></div><h3 class="capability-title">Planning rehearsal</h3><p class="capability-desc">Major plans rehearsed in virtual space to lower construction risk.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">Resource optimization</h3><p class="capability-desc">Data-driven matching of traffic, energy and public service supply and demand.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="boxes"></i></div><h3>CIM digital base</h3><p>CIM+BIM+GIS fused modeling maps the city between physical and virtual spaces.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>Data sharing & exchange</h3><p>Multi-source data converged, governed and shared across departments.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-eye"></i></div><h3>Operational monitoring</h3><p>AI analytics of city operations with automatic anomaly alerts.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="map"></i></div><h3>Planning rehearsal</h3><p>Major plans rehearsed in virtual space to lower construction risk.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="gauge"></i></div><h3>Resource optimization</h3><p>Data-driven matching of traffic, energy and public service supply and demand.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">
@@ -247,18 +249,7 @@
 </div>
 </section>
 
-<section class="case-section section-container" id="cases">
-<h2 class="section-title">Case Studies</h2>
-<div class="grid-auto">
-<div class="case-card">
-<h3 class="case-title">Smart Traffic, Security Surveillance and ELV Infrastructure in Lagos and Other Cities</h3>
-<p class="case-desc"><strong>Background: </strong>Lagos and other African cities are accelerating digitalization, with concentrated needs in traffic, security and ELV infrastructure.</p>
-<p class="case-desc"><strong>Challenge: </strong>Traffic congestion, public safety and infrastructure intelligence all call for systematic upgrading.</p>
-<p class="case-desc"><strong>Solution: </strong>Participated in building smart traffic, security surveillance and ELV intelligent infrastructure.</p>
-<p class="case-desc"><strong>Results: </strong>Accumulated rich city-level implementation experience, laying groundwork for future smart-city projects.</p>
-</div>
-</div>
-</section>
+
 
 
 

@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">In daily community management, customers often face hard-to-control access, parking disorder and slow property services, and urgently need an intelligent community system on a unified platform with frictionless access and proactive hazard detection.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="door-closed"></i></div><h3 class="capability-title">Hard-to-control access</h3><p class="capability-desc">Traditional cards are easy to copy or lend; strangers slip in and visitor management is tedious.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="car-front"></i></div><h3 class="capability-title">Parking disorder</h3><p class="capability-desc">Temporary vehicles occupy spaces, monthly parking is chaotic and fee settlement is slow.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="wrench"></i></div><h3 class="capability-title">Slow property services</h3><p class="capability-desc">Slow repair response, inconvenient fee payment, low notice reach.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Elder care & safety gaps</h3><p class="capability-desc">Anomalies among seniors living alone are hard to detect and emergencies get slow response, hurting both safety and well-being.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-face"></i></div><h3 class="capability-title">Frictionless smart access</h3><p class="capability-desc">Face-recognition entry and license-plate frictionless payment are needed.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">Proactive AI security</h3><p class="capability-desc">Video analytics should proactively detect falling objects and intrusions.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="door-closed"></i></div><h3>Hard-to-control access</h3><p>Traditional cards are easy to copy or lend; strangers slip in and visitor management is tedious.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="car-front"></i></div><h3>Parking disorder</h3><p>Temporary vehicles occupy spaces, monthly parking is chaotic and fee settlement is slow.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="wrench"></i></div><h3>Slow property services</h3><p>Slow repair response, inconvenient fee payment, low notice reach.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>Elder care & safety gaps</h3><p>Anomalies among seniors living alone are hard to detect and emergencies get slow response, hurting both safety and well-being.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><h3>Resident experience and safety decline</h3><p>Poor access, parking and repair experiences plus unmonitored elderly residents erode property reputation and community safety.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="scan-face"></i></div><h3>Frictionless smart access</h3><p>Face-recognition entry and license-plate frictionless payment are needed.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="scan-eye"></i></div><h3>Proactive AI security</h3><p>Video analytics should proactively detect falling objects and intrusions.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Daily resident access</span><span class="scenario-tag">Visitor temporary access</span><span class="scenario-tag">Vehicle entry and payment</span><span class="scenario-tag">Online repair requests</span><span class="scenario-tag">Elderly SOS calls</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Property managers, security guards, residents, visitors.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Daily resident access</span><span class="scenario-tag">Visitor temporary access</span><span class="scenario-tag">Vehicle entry and payment</span><span class="scenario-tag">Online repair requests</span><span class="scenario-tag">Elderly SOS calls</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Property managers, security guards, residents, visitors.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a cloud-edge-device architecture covering access control, in-community IoT facilities, resident services and property management, unifying access, parking, surveillance and property subsystems on one platform.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-community-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">Entrances give people and vehicles frictionless passage via face and plate recognition; in-community facilities include parcel lockers, chargers and elder-care sensors; the resident app bundles living services; the property center handles repairs, payments and notices.</p>
+<p class="axlt-paragraph">Smart Community follows a five-layer business topology: Property Center, Committee Office and other offices run daily applications such as Surveillance and Access Control, coordinated by the platform layer; edge devices like Main Entrance and Unit Doors sit on site, linking perception devices such as Camera and Face Access — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="Smart Community Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-community-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (Property Center, Committee Office…); the application layer carries daily functions; the platform layer provides Community Hub and Video Mgmt; the edge and network layer marks on-site equipment positions (Main Entrance, Unit Doors…); perception devices are deployed at Camera, Face Access and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-face"></i></div><h3 class="capability-title">Frictionless access</h3><p class="capability-desc">Face-recognition access and license-plate gates for smooth entry and exit.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">AI video security</h3><p class="capability-desc">Proactive detection of falling objects, intrusions and other hazards.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="heart-pulse"></i></div><h3 class="capability-title">Elder care</h3><p class="capability-desc">In-home sensors and SOS calls link anomalies to families and property staff.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="smartphone"></i></div><h3 class="capability-title">One-stop resident app</h3><p class="capability-desc">Access, parking, payments, repairs and complaints in one app.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="building"></i></div><h3 class="capability-title">Online property operations</h3><p class="capability-desc">Repair handling, fee collection, notices and complaints digitized.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-face"></i></div><h3>Frictionless access</h3><p>Face-recognition access and license-plate gates for smooth entry and exit.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-eye"></i></div><h3>AI video security</h3><p>Proactive detection of falling objects, intrusions and other hazards.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="heart-pulse"></i></div><h3>Elder care</h3><p>In-home sensors and SOS calls link anomalies to families and property staff.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="smartphone"></i></div><h3>One-stop resident app</h3><p>Access, parking, payments, repairs and complaints in one app.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="building"></i></div><h3>Online property operations</h3><p>Repair handling, fee collection, notices and complaints digitized.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">

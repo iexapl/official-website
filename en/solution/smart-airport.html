@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">In airport operations, customers often face low passenger processing efficiency, manual-dependent screening and complex resource coordination, and urgently need a full-scenario intelligent system built to ICAO standards, deployable in phases, with unified data convergence.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="users"></i></div><h3 class="capability-title">Low processing efficiency</h3><p class="capability-desc">Long queues at check-in, screening and boarding hurt the passenger experience.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-line"></i></div><h3 class="capability-title">Manual-dependent screening</h3><p class="capability-desc">Manual image review is slow and inconsistent, creating security risk.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="refresh-cw-off"></i></div><h3 class="capability-title">Flight info out of sync</h3><p class="capability-desc">Subsystem silos delay flight updates reaching passengers and staff.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Unbalanced ground resources</h3><p class="capability-desc">Stand allocation and vehicle dispatching rely on experience; peak-hour shortages coexist with idle capacity, pressuring turnaround efficiency.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="plane-takeoff"></i></div><h3 class="capability-title">Self-service passenger flow</h3><p class="capability-desc">Self-service check-in, bag drop and boarding are needed to cut queues.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">Intelligent resource scheduling</h3><p class="capability-desc">Smart stand allocation and ground vehicle dispatching are needed to balance utilization.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="users"></i></div><h3>Low processing efficiency</h3><p>Long queues at check-in, screening and boarding hurt the passenger experience.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="scan-line"></i></div><h3>Manual-dependent screening</h3><p>Manual image review is slow and inconsistent, creating security risk.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="refresh-cw-off"></i></div><h3>Flight info out of sync</h3><p>Subsystem silos delay flight updates reaching passengers and staff.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>Unbalanced ground resources</h3><p>Stand allocation and vehicle dispatching rely on experience; peak-hour shortages coexist with idle capacity, pressuring turnaround efficiency.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><h3>Flight service and passenger experience strained</h3><p>Slow processing, lagging information and misallocated ground resources raise delay risk at peak and hurt airport service reputation.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="plane-takeoff"></i></div><h3>Self-service passenger flow</h3><p>Self-service check-in, bag drop and boarding are needed to cut queues.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="gauge"></i></div><h3>Intelligent resource scheduling</h3><p>Smart stand allocation and ground vehicle dispatching are needed to balance utilization.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Peak-hour high-volume processing</span><span class="scenario-tag">Multi-currency settlement for international flights</span><span class="scenario-tag">Cargo area tracking</span><span class="scenario-tag">Flight delay contingency</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Airport operations staff, screening officers, ground handlers, passenger service staff.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Peak-hour high-volume processing</span><span class="scenario-tag">Multi-currency settlement for international flights</span><span class="scenario-tag">Cargo area tracking</span><span class="scenario-tag">Flight delay contingency</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Airport operations staff, screening officers, ground handlers, passenger service staff.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a “terminal-apron-cargo area” collaborative architecture covering passenger services, security screening, cargo management and AOC operations control, with multi-language and multi-currency support and real-time data convergence across subsystems.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-airport-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">The terminal layer gives passengers self-service processing and screening; the apron and cargo layers support ground operations and cargo management; subsystem data converges in real time at the AOC, where anomalies alert the responsible departments automatically.</p>
+<p class="axlt-paragraph">Smart Airport follows a five-layer business topology: Airport Ops, Security Command and other offices run daily applications such as Flight Support and Surveillance, coordinated by the platform layer; edge devices like Terminal MDF and Apron Camera sit on site, linking perception devices such as Camera and Counting — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="Smart Airport Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-airport-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (Airport Ops, Security Command…); the application layer carries daily functions; the platform layer provides Airport Data and Video Mgmt; the edge and network layer marks on-site equipment positions (Terminal MDF, Apron Camera…); perception devices are deployed at Camera, Counting and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="user-check"></i></div><h3 class="capability-title">Passenger self-service</h3><p class="capability-desc">Self-service check-in, bag drop and biometric boarding cut queues.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-line"></i></div><h3 class="capability-title">Intelligent screening</h3><p class="capability-desc">X-ray, screening gates and AI-assisted image review raise screening efficiency and consistency.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="plane"></i></div><h3 class="capability-title">Stand & vehicle dispatching</h3><p class="capability-desc">Smart stand allocation and ground vehicle dispatching balance resource utilization.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="package"></i></div><h3 class="capability-title">Cargo tracking</h3><p class="capability-desc">Cargo tracking and warehouse environment monitoring visible end to end.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">AOC operations control</h3><p class="capability-desc">The command dashboard tracks flights, passenger flow and security status in real time.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="user-check"></i></div><h3>Passenger self-service</h3><p>Self-service check-in, bag drop and biometric boarding cut queues.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-line"></i></div><h3>Intelligent screening</h3><p>X-ray, screening gates and AI-assisted image review raise screening efficiency and consistency.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="plane"></i></div><h3>Stand & vehicle dispatching</h3><p>Smart stand allocation and ground vehicle dispatching balance resource utilization.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="package"></i></div><h3>Cargo tracking</h3><p>Cargo tracking and warehouse environment monitoring visible end to end.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="gauge"></i></div><h3>AOC operations control</h3><p>The command dashboard tracks flights, passenger flow and security status in real time.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">
@@ -224,7 +226,7 @@
 <div class="triple-card"><h4>ICAO-Compliant</h4><p>Designed and implemented to ICAO safety standards; security and ELV systems meet compliance.</p></div>
 <div class="triple-card"><h4>Multilingual &amp; Multi-Currency</h4><p>Meets the international operations needs of global hubs with barrier-free passenger services.</p></div>
 <div class="triple-card"><h4>Modular Phased Construction</h4><p>Build in phases at your investment pace, lowering one-time risk with flexible control.</p></div>
-<div class="triple-card"><h4>Multi-Airport Track Record</h4><p>Security and ELV systems deployed across multiple Nigerian airports; rich experience, low delivery risk.</p></div>
+<div class="triple-card"><h4>Transport Infrastructure Experience</h4><p>Built on ELV and security delivery experience from major transport projects such as the Mile 2 transport hub and Kano Railway Station — strong reuse across similar scenarios, low delivery risk.</p></div>
 <div class="triple-card"><h4>Unified AOC Integration</h4><p>All subsystems connect to the Airport Operations Center for unified command and efficient coordination.</p></div>
 <div class="triple-card"><h4>Better Passenger Experience</h4><p>Self-service check-in, smart guidance and information release integrated, speeding passenger flows.</p></div>
 </div>
@@ -248,18 +250,7 @@
 </div>
 </section>
 
-<section class="case-section section-container" id="cases">
-<h2 class="section-title">Case Studies</h2>
-<div class="grid-auto">
-<div class="case-card">
-<h3 class="case-title">ELV Intelligent Systems for Multiple Nigerian Airports</h3>
-<p class="case-desc"><strong>Background: </strong>Multiple Nigerian airports are in an infrastructure upgrade cycle and need security and ELV systems built out.</p>
-<p class="case-desc"><strong>Challenge: </strong>Traditional airport operations rely on manual management; surveillance, access control and PA infrastructure is weak.</p>
-<p class="case-desc"><strong>Solution: </strong>Delivered airport ELV intelligent systems covering surveillance, access control and public address.</p>
-<p class="case-desc"><strong>Results: </strong>Completed ELV intelligent infrastructure at multiple airports, underpinning safe airport operations.</p>
-</div>
-</div>
-</section>
+
 
 
 

@@ -176,7 +176,7 @@
 <li>Modular design flexibly configured to school size</li>
 <li>Unified platform lowers multi-system maintenance costs</li>
 <li>Open APIs for integration with existing academic systems</li>
-<li>Successfully deployed at multiple Nigerian schools</li>
+<li>Backed by large-project delivery experience such as FIRS and Mile 2</li>
 </ul>
 <p class="axlt-paragraph-gap"><strong>Benefits: </strong>Higher campus safety management, optimized teaching resource allocation, lower energy consumption, and greater satisfaction for students and staff.</p>
 </section>
@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">In daily school management, customers often face safety hazards, difficult resource allocation and inefficient logistics, and urgently need a smart campus system on a unified platform with open APIs and flexible configuration for any school size.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="shield-alert"></i></div><h3 class="capability-title">Safety hazards</h3><p class="capability-desc">Weak perimeter defense, easy entry by strangers and coarse management of student entry and exit.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="presentation"></i></div><h3 class="capability-title">Chaotic teaching resource management</h3><p class="capability-desc">Multimedia equipment status unknown, classroom comfort uncontrollable, attendance taken by hand.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="utensils"></i></div><h3 class="capability-title">Inefficient logistics</h3><p class="capability-desc">Paper-based dormitory registration, slow canteen settlement, lengthy repair workflows.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Home-school information gap</h3><p class="capability-desc">Parents cannot track arrivals; school notices reach few people; both emergency response and daily communication suffer.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="shield-check"></i></div><h3 class="capability-title">Full-scenario safety defense</h3><p class="capability-desc">Access control, surveillance, perimeter defense and one-touch alarms should form a closed loop.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="link"></i></div><h3 class="capability-title">Real-time home-school link</h3><p class="capability-desc">Student entries and exits should notify parents automatically; campus updates should reach them precisely.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="shield-alert"></i></div><h3>Safety hazards</h3><p>Weak perimeter defense, easy entry by strangers and coarse management of student entry and exit.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="presentation"></i></div><h3>Chaotic teaching resource management</h3><p>Multimedia equipment status unknown, classroom comfort uncontrollable, attendance taken by hand.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="utensils"></i></div><h3>Inefficient logistics</h3><p>Paper-based dormitory registration, slow canteen settlement, lengthy repair workflows.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>Home-school information gap</h3><p>Parents cannot track arrivals; school notices reach few people; both emergency response and daily communication suffer.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><h3>Safety and teaching experience eroded</h3><p>Lagging perimeter, access and attendance information slows incident response and undermines parent trust and campus efficiency.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="shield-check"></i></div><h3>Full-scenario safety defense</h3><p>Access control, surveillance, perimeter defense and one-touch alarms should form a closed loop.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="link"></i></div><h3>Real-time home-school link</h3><p>Student entries and exits should notify parents automatically; campus updates should reach them precisely.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Student arrival and departure management</span><span class="scenario-tag">Classroom attendance statistics</span><span class="scenario-tag">Dormitory late-return management</span><span class="scenario-tag">Campus emergency response</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>School leadership, teachers, security staff, logistics staff, parents.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Student arrival and departure management</span><span class="scenario-tag">Classroom attendance statistics</span><span class="scenario-tag">Dormitory late-return management</span><span class="scenario-tag">Campus emergency response</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>School leadership, teachers, security staff, logistics staff, parents.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a four-in-one “campus security - teaching management - logistics services - home-school interaction” architecture covering access and attendance, smart classrooms, dormitory and canteen services and parent communication, on a unified platform with API integration to academic systems.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-campus-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">The security layer guards entries, exits and the perimeter; the teaching and logistics layers digitize classrooms, dormitories and the canteen; the interaction layer pushes student updates to parents in real time; one platform manages security, academics, logistics and assets.</p>
+<p class="axlt-paragraph">Smart Campus follows a five-layer business topology: Campus Center, Academic Office and other offices run daily applications such as Surveillance and Dorm Mgmt, coordinated by the platform layer; edge devices like Dorm Gateway and Building Server sit on site, linking perception devices such as Camera and Card Reader — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="Smart Campus Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-campus-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (Campus Center, Academic Office…); the application layer carries daily functions; the platform layer provides Campus Data and Video Mgmt; the edge and network layer marks on-site equipment positions (Dorm Gateway, Building Server…); perception devices are deployed at Camera, Card Reader and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="shield-check"></i></div><h3 class="capability-title">Campus security system</h3><p class="capability-desc">Face-recognition access, full-coverage surveillance, perimeter defense and one-touch alarm linkage.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="presentation"></i></div><h3 class="capability-title">Smart classrooms</h3><p class="capability-desc">Environment control, multimedia device management and attendance statistics.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="bed"></i></div><h3 class="capability-title">Smart dormitory management</h3><p class="capability-desc">Access management and late-return statistics with automatic alerts on anomalies.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="utensils"></i></div><h3 class="capability-title">Canteen & logistics</h3><p class="capability-desc">Spending statistics, repair ticket workflow and energy control.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="smartphone"></i></div><h3 class="capability-title">Home-school interaction</h3><p class="capability-desc">Entry/exit notifications, visitor booking approval and campus updates for parents.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="shield-check"></i></div><h3>Campus security system</h3><p>Face-recognition access, full-coverage surveillance, perimeter defense and one-touch alarm linkage.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="presentation"></i></div><h3>Smart classrooms</h3><p>Environment control, multimedia device management and attendance statistics.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="bed"></i></div><h3>Smart dormitory management</h3><p>Access management and late-return statistics with automatic alerts on anomalies.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="utensils"></i></div><h3>Canteen & logistics</h3><p>Spending statistics, repair ticket workflow and energy control.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="smartphone"></i></div><h3>Home-school interaction</h3><p>Entry/exit notifications, visitor booking approval and campus updates for parents.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">
@@ -224,7 +226,7 @@
 <div class="triple-card"><h4>Modular Flexible Selection</h4><p>Tiered deployment from kindergartens to universities; select modules on demand for flexible investment.</p></div>
 <div class="triple-card"><h4>Unified Platform</h4><p>Security, teaching and logistics integrated in one platform, avoiding silos and cutting maintenance cost.</p></div>
 <div class="triple-card"><h4>Open API Integration</h4><p>Seamless connection to existing academic systems protects prior investment with shared data.</p></div>
-<div class="triple-card"><h4>Multi-Campus Experience</h4><p>Successfully deployed in multiple Nigerian schools, verified across campus scales.</p></div>
+<div class="triple-card"><h4>Large-Project Delivery Experience</h4><p>Backed by intelligent-system delivery on large projects such as the Lagos FIRS project and the Mile 2 transport hub — a mature, reliable delivery path for campus scenarios.</p></div>
 <div class="triple-card"><h4>Holiday-Window Maintenance</h4><p>Centralized maintenance in summer and winter breaks without disturbing teaching.</p></div>
 <div class="triple-card"><h4>Safety and Learning Together</h4><p>Face-recognition access secures the campus; multimedia systems improve teaching quality.</p></div>
 </div>

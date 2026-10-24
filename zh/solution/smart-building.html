@@ -184,30 +184,31 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在现代建筑运营中，客户常面临子系统各自为政、能耗管理粗放、运维响应滞后的问题，亟需统一集成、数据互通、智能联动的楼宇综合管理平台。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="unlink"></i></div><h3 class="capability-title">子系统各自为政</h3><p class="capability-desc">楼宇自控、安防、消防、门禁、停车等系统独立运行，数据不互通。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">能耗管理粗放</h3><p class="capability-desc">水电气分项计量缺失，用能规律不明，节能措施缺乏数据支撑。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="wrench"></i></div><h3 class="capability-title">运维响应滞后</h3><p class="capability-desc">设备故障发现靠人工巡检，被动维修成本高。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">信息孤岛推高运营成本</h3><p class="capability-desc">管理分散导致能耗居高不下、租户体验不佳，楼宇运营成本与资产价值双双承压。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">统一集成管理</h3><p class="capability-desc">需要统一平台打通各子系统数据与联动。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="leaf"></i></div><h3 class="capability-title">数据驱动节能</h3><p class="capability-desc">需要 AI 算法分析能耗模式并输出优化策略。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="unlink"></i></div><h3>子系统各自为政</h3><p>楼宇自控、安防、消防、门禁、停车等系统独立运行，数据不互通。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="gauge"></i></div><h3>能耗管理粗放</h3><p>水电气分项计量缺失，用能规律不明，节能措施缺乏数据支撑。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="wrench"></i></div><h3>运维响应滞后</h3><p>设备故障发现靠人工巡检，被动维修成本高。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>信息孤岛推高运营成本</h3><p>管理分散导致能耗居高不下、租户体验不佳，楼宇运营成本与资产价值双双承压。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>统一集成管理</h3><p>需要统一平台打通各子系统数据与联动。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="leaf"></i></div><h3>数据驱动节能</h3><p>需要 AI 算法分析能耗模式并输出优化策略。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">写字楼日常运营</span><span class="scenario-tag">酒店客房服务</span><span class="scenario-tag">医院手术室环境监控</span><span class="scenario-tag">商业综合体多业态管理</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>物业经理、运维工程师、安保主管、行政管理人员。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">写字楼日常运营</span><span class="scenario-tag">酒店客房服务</span><span class="scenario-tag">医院手术室环境监控</span><span class="scenario-tag">商业综合体多业态管理</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>物业经理、运维工程师、安保主管、行政管理人员。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用以 IBMS 集成管理平台为核心的“楼宇设备层-楼宇管理层-用户服务层”三层架构，覆盖设备监控、能耗优化与租户服务核心模块，支持集成 BA、安防、消防、门禁、停车、能源等 20 余个子系统。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-building-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">设备层的传感器与控制器采集楼宇运行数据，IBMS 管理平台统一监控设备状态、能耗与安防告警并输出 AI 优化策略，用户服务层面向租户与访客提供移动化服务。</p>
+<p class="axlt-paragraph">智慧楼宇采用五层业务拓扑：物业管理中心、楼宇办公室等在各自办公室通过空调管理、照明控制等应用开展业务，依托平台层统一调度；楼层控制器、电梯监测等边缘设备部署于现场，就近接入温湿度传感器、电表水表等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="智慧楼宇解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-building-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为物业管理中心、楼宇办公室等管理办公室；应用层承载日常业务功能；平台层提供楼宇自控、视频管理等能力；边缘与网络层为楼层控制器、电梯监测等现场接入位置；感知层为温湿度传感器、电表水表等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">IBMS 统一集成</h3><p class="capability-desc">集成 BA、安防、消防、门禁、停车、能源等 20 余个子系统。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="boxes"></i></div><h3 class="capability-title">BIM+IoT 数字孪生</h3><p class="capability-desc">融合 BIM 与 IoT 数据，建筑全生命周期三维可视化管理。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="leaf"></i></div><h3 class="capability-title">AI 能耗优化</h3><p class="capability-desc">算法分析用能模式，输出能耗优化策略，可降低建筑能耗 15%-25%。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="flame"></i></div><h3 class="capability-title">消防智能联动</h3><p class="capability-desc">消防报警自动触发门禁释放、广播切换、电梯归首、排烟启动。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="smartphone"></i></div><h3 class="capability-title">租户移动服务</h3><p class="capability-desc">访客预约、会议室预订、报修申请一站办理。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>IBMS 统一集成</h3><p>集成 BA、安防、消防、门禁、停车、能源等 20 余个子系统。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="boxes"></i></div><h3>BIM+IoT 数字孪生</h3><p>融合 BIM 与 IoT 数据，建筑全生命周期三维可视化管理。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="leaf"></i></div><h3>AI 能耗优化</h3><p>算法分析用能模式，输出能耗优化策略，可降低建筑能耗 15%-25%。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="flame"></i></div><h3>消防智能联动</h3><p>消防报警自动触发门禁释放、广播切换、电梯归首、排烟启动。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="smartphone"></i></div><h3>租户移动服务</h3><p>访客预约、会议室预订、报修申请一站办理。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">

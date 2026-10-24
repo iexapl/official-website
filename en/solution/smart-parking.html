@@ -176,36 +176,38 @@
 <li>Raises parking turnover by more than 30%</li>
 <li>Cuts labor costs by 60%</li>
 <li>Average space hunting time shortened to under 2 minutes</li>
-<li>Running stably for over 24 months across multiple Lagos projects</li>
+<li>Vehicle-access components proven across a mature product line</li>
 </ul>
 </section>
 
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">In parking lot operations, customers often face peak-hour congestion, rising labor costs and poor driver experience, and urgently need an unmanned, entry-to-exit parking management system.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="car-front"></i></div><h3 class="capability-title">Slow entry</h3><p class="capability-desc">Manual ticketing and registration take time; queues form at entrances during peaks.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map-pin"></i></div><h3 class="capability-title">Hard space hunting</h3><p class="capability-desc">Drivers wander looking for free spaces; vehicles circulate chaotically inside.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="credit-card"></i></div><h3 class="capability-title">Long payment queues</h3><p class="capability-desc">Manual exit collection is slow; lines back up badly at peak times.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">High management cost</h3><p class="capability-desc">Every exit needs a fee collector; labor is costly and error-prone.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="bar-chart-3"></i></div><h3 class="capability-title">Data transparency</h3><p class="capability-desc">Real-time statistics on space utilization and revenue are needed for operating decisions.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="zap"></i></div><h3 class="capability-title">Fully unmanned flow</h3><p class="capability-desc">Recognition, guidance, billing and payment should run automatically end to end.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="car-front"></i></div><h3>Slow entry</h3><p>Manual ticketing and registration take time; queues form at entrances during peaks.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="map-pin"></i></div><h3>Hard space hunting</h3><p>Drivers wander looking for free spaces; vehicles circulate chaotically inside.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="credit-card"></i></div><h3>Long payment queues</h3><p>Manual exit collection is slow; lines back up badly at peak times.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>High management cost</h3><p>Every exit needs a fee collector; labor is costly and error-prone.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><h3>Queues and staffing squeeze margins</h3><p>Entrance queues plus manual payment drive away drivers and cut stall turnover; revenue and labor costs stay out of balance.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="bar-chart-3"></i></div><h3>Data transparency</h3><p>Real-time statistics on space utilization and revenue are needed for operating decisions.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="zap"></i></div><h3>Fully unmanned flow</h3><p>Recognition, guidance, billing and payment should run automatically end to end.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Mall weekend peaks</span><span class="scenario-tag">Residential morning/evening peaks</span><span class="scenario-tag">Airport long-stay parking</span><span class="scenario-tag">Roadside temporary parking</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Parking operators, property management staff, drivers.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Mall weekend peaks</span><span class="scenario-tag">Residential morning/evening peaks</span><span class="scenario-tag">Airport long-stay parking</span><span class="scenario-tag">Roadside temporary parking</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Parking operators, property management staff, drivers.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a three-tier “entrances - lot interior - management platform” architecture covering plate recognition, space guidance, reverse car finding and automatic billing, with linkage to building management and fire systems and a choice of cloud or local deployment.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-parking-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">Entrances handle recognition, gate lifting and billing; the interior detects spaces in real time and guides drivers; the management layer remotely monitors multiple lots.</p>
+<p class="axlt-paragraph">Smart Parking follows a five-layer business topology: Parking Center, Toll Office and other offices run daily applications such as Space Guide and Tolling, coordinated by the platform layer; edge devices like Lane Gate and Booth Term sit on site, linking perception devices such as Magnetic and Cam Detect — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="Smart Parking Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-parking-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (Parking Center, Toll Office…); the application layer carries daily functions; the platform layer provides Parking Data and Payment; the edge and network layer marks on-site equipment positions (Lane Gate, Booth Term…); perception devices are deployed at Magnetic, Cam Detect and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-line"></i></div><h3 class="capability-title">Plate recognition</h3><p class="capability-desc">Recognition rate above 99% across multiple plate formats; gates lift automatically on entry.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map-pin"></i></div><h3 class="capability-title">Guidance & reverse finding</h3><p class="capability-desc">Real-time guidance to free spaces; enter a plate number to find where the car is.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="credit-card"></i></div><h3 class="capability-title">Frictionless payment</h3><p class="capability-desc">Hourly/per-use/monthly billing modes with automatic settlement at exit.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="bar-chart-3"></i></div><h3 class="capability-title">Operating data management</h3><p class="capability-desc">Real-time statistics on space utilization and revenue supporting operating decisions.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-line"></i></div><h3>Plate recognition</h3><p>Recognition rate above 99% across multiple plate formats; gates lift automatically on entry.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="map-pin"></i></div><h3>Guidance & reverse finding</h3><p>Real-time guidance to free spaces; enter a plate number to find where the car is.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="credit-card"></i></div><h3>Frictionless payment</h3><p>Hourly/per-use/monthly billing modes with automatic settlement at exit.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="bar-chart-3"></i></div><h3>Operating data management</h3><p>Real-time statistics on space utilization and revenue supporting operating decisions.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">
@@ -222,7 +224,7 @@
 <div class="triple-card"><h4>Accurate Recognition</h4><p>High LPR accuracy across plate formats; plate-less cars pass via QR code, keeping entries smooth.</p></div>
 <div class="triple-card"><h4>Flexible Deployment</h4><p>Cloud or on-premises management on demand, fitting lots of any size and budget.</p></div>
 <div class="triple-card"><h4>System Linkage</h4><p>Links with building management systems so parking data flows into overall operations.</p></div>
-<div class="triple-card"><h4>Battle-Tested</h4><p>Deployed across Lagos commercial complexes and residential communities with long stable uptime.</p></div>
+<div class="triple-card"><h4>Mature Vehicle-Access Components</h4><p>Barrier gates, plate recognition and space guidance are proven product lines, combinable for commercial complexes and residential communities of any scale, with reliable long-term operation.</p></div>
 <div class="triple-card"><h4>Space Guidance</h4><p>Real-time occupancy display and guidance shorten search time and raise turnover.</p></div>
 <div class="triple-card"><h4>Unattended Operation</h4><p>Unattended fee collection effectively solves high labor cost.</p></div>
 </div>
@@ -246,18 +248,7 @@
 </div>
 </section>
 
-<section class="case-section section-container" id="cases">
-<h2 class="section-title">Case Studies</h2>
-<div class="grid-auto">
-<div class="case-card">
-<h3 class="case-title">Smart Parking Systems for Lagos Complexes and Communities</h3>
-<p class="case-desc"><strong>Background: </strong>Parking lots of multiple commercial complexes and residential communities in Lagos, Nigeria.</p>
-<p class="case-desc"><strong>Challenge: </strong>Manual collection was costly, entrances jammed at peak hours, and occupancy lacked data support.</p>
-<p class="case-desc"><strong>Solution: </strong>Deployed LPR gates, space guidance and a cloud-based centralized management system.</p>
-<p class="case-desc"><strong>Results: </strong>Unattended fee collection and remote centralized management achieved, with long stable uptime.</p>
-</div>
-</div>
-</section>
+
 
 
 

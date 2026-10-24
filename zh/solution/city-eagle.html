@@ -183,29 +183,30 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在城市公共安全管理中，客户常面临监控覆盖不足、人工盯屏效率低、事件响应链条长的问题，亟需大范围覆盖、AI 自动预警与快速处置联动的立体防控体系。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="eye-off"></i></div><h3 class="capability-title">监控覆盖不足</h3><p class="capability-desc">普通摄像机单点覆盖范围小，城市制高点与大面积区域盲区多。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="user-x"></i></div><h3 class="capability-title">人工盯屏效率低</h3><p class="capability-desc">海量视频画面依赖人工监视，疲劳度高、漏报率高。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="clock"></i></div><h3 class="capability-title">事件响应链条长</h3><p class="capability-desc">从发现异常到调度处置涉及多个环节，信息传递慢。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">立体感知缺失拖累处置</h3><p class="capability-desc">地面监控无法覆盖高空视角，大型活动与突发事件缺乏立体感知，处置决策缺少现场全局信息。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="binoculars"></i></div><h3 class="capability-title">高空大范围瞭望</h3><p class="capability-desc">需要以极少量设备覆盖半径数公里的重点区域。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="crosshair"></i></div><h3 class="capability-title">AI 预警快速闭环</h3><p class="capability-desc">需要异常事件自动发现、自动定位并联动处置资源。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="eye-off"></i></div><h3>监控覆盖不足</h3><p>普通摄像机单点覆盖范围小，城市制高点与大面积区域盲区多。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="user-x"></i></div><h3>人工盯屏效率低</h3><p>海量视频画面依赖人工监视，疲劳度高、漏报率高。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="clock"></i></div><h3>事件响应链条长</h3><p>从发现异常到调度处置涉及多个环节，信息传递慢。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>立体感知缺失拖累处置</h3><p>地面监控无法覆盖高空视角，大型活动与突发事件缺乏立体感知，处置决策缺少现场全局信息。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="binoculars"></i></div><h3>高空大范围瞭望</h3><p>需要以极少量设备覆盖半径数公里的重点区域。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="crosshair"></i></div><h3>AI 预警快速闭环</h3><p>需要异常事件自动发现、自动定位并联动处置资源。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">城市广场聚集监测</span><span class="scenario-tag">车辆违停识别</span><span class="scenario-tag">火灾烟雾预警</span><span class="scenario-tag">大型活动安保</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>公安指挥中心人员、安保管理人员、应急调度人员。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">城市广场聚集监测</span><span class="scenario-tag">车辆违停识别</span><span class="scenario-tag">火灾烟雾预警</span><span class="scenario-tag">大型活动安保</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>公安指挥中心人员、安保管理人员、应急调度人员。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用“高空瞭望-低点补盲-空中巡逻”三层立体防控架构，覆盖全景监控、AI 智能分析与指挥调度核心模块，支持与公安指挥平台和无人机系统联动。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-city-eagle-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">高空层单台设备覆盖半径 3-5 公里形成“天眼”，低点层卡口补齐盲区，空中层接警后自动起飞赴现场补充侦查，指挥中心汇聚全景视频与 AI 告警，完成“发现-定位-处置”闭环。</p>
+<p class="axlt-paragraph">城市鹰眼采用五层业务拓扑：公安指挥中心、视频侦查室等在各自办公室通过视频巡逻、目标追踪等应用开展业务，依托平台层统一调度；制高点机位、街面球机等边缘设备部署于现场，就近接入高空瞭望、人脸抓拍等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="城市鹰眼解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-city-eagle-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为公安指挥中心、视频侦查室等管理办公室；应用层承载日常业务功能；平台层提供视频联网平台、图像存储等能力；边缘与网络层为制高点机位、街面球机等现场接入位置；感知层为高空瞭望、人脸抓拍等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="binoculars"></i></div><h3 class="capability-title">高空瞭望监控</h3><p class="capability-desc">城市制高点长焦云台与 360° 全景摄像机，一台覆盖半径 3-5 公里。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">AI 智能识别</h3><p class="capability-desc">自动识别人员聚集、车辆违停、火灾烟雾等异常事件，告警准确率超 95%。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="plane"></i></div><h3 class="capability-title">无人机联动巡逻</h3><p class="capability-desc">接警后自动起飞赴现场，实时回传画面补充侦查。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map"></i></div><h3 class="capability-title">告警地图与指挥调度</h3><p class="capability-desc">告警点位上图，视频墙复核，一键调度处置资源。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="binoculars"></i></div><h3>高空瞭望监控</h3><p>城市制高点长焦云台与 360° 全景摄像机，一台覆盖半径 3-5 公里。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-eye"></i></div><h3>AI 智能识别</h3><p>自动识别人员聚集、车辆违停、火灾烟雾等异常事件，告警准确率超 95%。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="plane"></i></div><h3>无人机联动巡逻</h3><p>接警后自动起飞赴现场，实时回传画面补充侦查。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="map"></i></div><h3>告警地图与指挥调度</h3><p>告警点位上图，视频墙复核，一键调度处置资源。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">

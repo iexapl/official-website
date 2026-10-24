@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在建筑消防安全管理中，客户常面临火灾发现不及时、联动响应脱节、误报频繁的问题，亟需早期预警、智能联动且便于合规监管的火灾自动报警系统。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="clock"></i></div><h3 class="capability-title">火灾发现不及时</h3><p class="capability-desc">传统人工巡查无法 24 小时覆盖，初期火情易被忽视。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="unlink"></i></div><h3 class="capability-title">联动响应脱节</h3><p class="capability-desc">报警后各消防子系统需人工逐一启动，延误最佳处置时机。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="bell-off"></i></div><h3 class="capability-title">误报频繁</h3><p class="capability-desc">传统探测器对灰尘、蒸汽敏感，误报率高导致“狼来了”效应。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">合规台账难应付检查</h3><p class="capability-desc">巡检记录分散，政府检查时难以快速提供完整台账，合规风险与整改成本并存。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="flame"></i></div><h3 class="capability-title">早期精准预警</h3><p class="capability-desc">需要高灵敏度探测与智能算法，早发现、少误报。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="workflow"></i></div><h3 class="capability-title">全链条自动联动</h3><p class="capability-desc">需要报警确认后自动执行喷淋、排烟、疏散广播等消防预案。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="clock"></i></div><h3>火灾发现不及时</h3><p>传统人工巡查无法 24 小时覆盖，初期火情易被忽视。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="unlink"></i></div><h3>联动响应脱节</h3><p>报警后各消防子系统需人工逐一启动，延误最佳处置时机。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="bell-off"></i></div><h3>误报频繁</h3><p>传统探测器对灰尘、蒸汽敏感，误报率高导致“狼来了”效应。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>合规台账难应付检查</h3><p>巡检记录分散，政府检查时难以快速提供完整台账，合规风险与整改成本并存。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><h3>处置延误放大火灾风险</h3><p>火情发现晚、联动脱节、误报干扰叠加，处置错过黄金时间，小火酿成大灾的系统性风险被持续放大。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="flame"></i></div><h3>早期精准预警</h3><p>需要高灵敏度探测与智能算法，早发现、少误报。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="workflow"></i></div><h3>全链条自动联动</h3><p>需要报警确认后自动执行喷淋、排烟、疏散广播等消防预案。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">商业综合体客流密集区</span><span class="scenario-tag">工业厂房夜间无人值守区</span><span class="scenario-tag">医院病房区</span><span class="scenario-tag">学校宿舍区</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>消防值班人员、物业管理人员、安全主管、政府消防检查人员。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">商业综合体客流密集区</span><span class="scenario-tag">工业厂房夜间无人值守区</span><span class="scenario-tag">医院病房区</span><span class="scenario-tag">学校宿舍区</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>消防值班人员、物业管理人员、安全主管、政府消防检查人员。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用“探测-报警-联动-管理”分布式架构，覆盖火灾探测、报警控制、联动执行与联网监管核心模块，支持与喷淋、防排烟、应急照明、门禁、广播等系统联动及城市消防远程监控平台接入。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-fire-alarm-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">探测层多类型探测器全天候感知火情，控制主机完成信号处理与分区确认，联动执行层自动启动喷淋、排烟、卷帘、照明、广播、门禁与电梯归首，管理层图形化定位火警并支持联网监管。</p>
+<p class="axlt-paragraph">火灾自动报警采用五层业务拓扑：消防控制室、楼宇管理处等在各自办公室通过火警监控、联动控制等应用开展业务，依托平台层统一调度；火灾报警主机、消防泵控制柜等边缘设备部署于现场，就近接入感烟探测器、感温探测器等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="火灾自动报警解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-fire-alarm-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为消防控制室、楼宇管理处等管理办公室；应用层承载日常业务功能；平台层提供消防物联网平台、报警信息管理等能力；边缘与网络层为火灾报警主机、消防泵控制柜等现场接入位置；感知层为感烟探测器、感温探测器等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="flame"></i></div><h3 class="capability-title">火灾探测</h3><p class="capability-desc">光电感烟、感温、火焰、可燃气体探测器组合，早期发现火情。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="cpu"></i></div><h3 class="capability-title">报警控制主机</h3><p class="capability-desc">信号处理与分区确认，智能算法降低误报率。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="workflow"></i></div><h3 class="capability-title">联动控制</h3><p class="capability-desc">报警确认后自动执行全链条消防预案，无需人工干预。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map"></i></div><h3 class="capability-title">图形化管理</h3><p class="capability-desc">图形显示装置直观查看火警位置，一目了然。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="share-2"></i></div><h3 class="capability-title">联网监管</h3><p class="capability-desc">接入城市消防远程监控平台，巡检台账数字化。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="flame"></i></div><h3>火灾探测</h3><p>光电感烟、感温、火焰、可燃气体探测器组合，早期发现火情。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="cpu"></i></div><h3>报警控制主机</h3><p>信号处理与分区确认，智能算法降低误报率。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="workflow"></i></div><h3>联动控制</h3><p>报警确认后自动执行全链条消防预案，无需人工干预。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="map"></i></div><h3>图形化管理</h3><p>图形显示装置直观查看火警位置，一目了然。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="share-2"></i></div><h3>联网监管</h3><p>接入城市消防远程监控平台，巡检台账数字化。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">

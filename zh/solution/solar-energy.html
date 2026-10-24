@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在非洲的能源环境下，客户常面临电力供应不稳定、电费成本高、能源结构单一的挑战，亟需一套发电、储能、管理一体化的绿色能源方案。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="zap-off"></i></div><h3 class="capability-title">电力供应不稳定</h3><p class="capability-desc">频繁停电影响生产运营，备用发电机燃油成本高、噪音大。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">电费成本高</h3><p class="capability-desc">工商业电价高，峰谷电价差大，用电成本占运营支出比例高。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="fuel"></i></div><h3 class="capability-title">能源结构单一</h3><p class="capability-desc">过度依赖电网和柴油发电，清洁能源占比低。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map-pin-off"></i></div><h3 class="capability-title">离网地区缺电</h3><p class="capability-desc">偏远村落、基站等离网场景无稳定电力供应。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="battery-charging"></i></div><h3 class="capability-title">光储一体化</h3><p class="capability-desc">需要光伏发电与储能协同，实现自发自用与备用保障。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">能源可视可控</h3><p class="capability-desc">需要实时监控发电、储电、用电与收益，让能源管理有数据可依。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="zap-off"></i></div><h3>电力供应不稳定</h3><p>频繁停电影响生产运营，备用发电机燃油成本高、噪音大。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>电费成本高</h3><p>工商业电价高，峰谷电价差大，用电成本占运营支出比例高。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="fuel"></i></div><h3>能源结构单一</h3><p>过度依赖电网和柴油发电，清洁能源占比低。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="map-pin-off"></i></div><h3>离网地区缺电</h3><p>偏远村落、基站等离网场景无稳定电力供应。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><h3>停电与电费侵蚀经营效益</h3><p>频繁停电打断生产、燃油备用成本攀升，高电费与不稳定供电持续侵蚀企业收益与居民生活质量。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="battery-charging"></i></div><h3>光储一体化</h3><p>需要光伏发电与储能协同，实现自发自用与备用保障。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="gauge"></i></div><h3>能源可视可控</h3><p>需要实时监控发电、储电、用电与收益，让能源管理有数据可依。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">工厂白天生产用电</span><span class="scenario-tag">商业建筑峰谷套利</span><span class="scenario-tag">离网村落独立供电</span><span class="scenario-tag">基站备电保障</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>企业能源管理人员、设施运维人员、园区运营方、基站维护人员。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">工厂白天生产用电</span><span class="scenario-tag">商业建筑峰谷套利</span><span class="scenario-tag">离网村落独立供电</span><span class="scenario-tag">基站备电保障</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>企业能源管理人员、设施运维人员、园区运营方、基站维护人员。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用“发电-储能-管理-用电”四层架构，覆盖光伏发电、电池储能与能量管理，支持并网售电与离网独立运行双模式及充电桩光储充一体化。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-solar-energy-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">发电层将直流转为交流，储能层由 BMS 与 PCS 控制充放电，管理层经 EMS 优化调度策略，用电层优先本地消纳、余电上网并接入充电桩。</p>
+<p class="axlt-paragraph">光伏储能采用五层业务拓扑：电站监控室、运维办公室等在各自办公室通过发电监测、储能调度等应用开展业务，依托平台层统一调度；光伏阵列区、储能集装箱等边缘设备部署于现场，就近接入光伏组件、电池组等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="光伏储能解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-solar-energy-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为电站监控室、运维办公室等管理办公室；应用层承载日常业务功能；平台层提供能源管理平台、远程运维平台等能力；边缘与网络层为光伏阵列区、储能集装箱等现场接入位置；感知层为光伏组件、电池组等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="sun"></i></div><h3 class="capability-title">光伏发电</h3><p class="capability-desc">屋顶/地面高效光伏组件，转换效率经实测处于较高水平。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="battery-charging"></i></div><h3 class="capability-title">储能系统</h3><p class="capability-desc">锂电池组模块化设计，灵活扩容，温控保障寿命。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="cpu"></i></div><h3 class="capability-title">EMS 能量管理</h3><p class="capability-desc">智能算法优化充放电策略，最大化自发自用比例。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="plug-zap"></i></div><h3 class="capability-title">光储充一体化</h3><p class="capability-desc">充电桩接入，清洁电力优先供给车辆充电。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="monitor"></i></div><h3 class="capability-title">远程监控</h3><p class="capability-desc">发电量、储电量、用电量与收益实时可视，支持远程运维。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="sun"></i></div><h3>光伏发电</h3><p>屋顶/地面高效光伏组件，转换效率经实测处于较高水平。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="battery-charging"></i></div><h3>储能系统</h3><p>锂电池组模块化设计，灵活扩容，温控保障寿命。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="cpu"></i></div><h3>EMS 能量管理</h3><p>智能算法优化充放电策略，最大化自发自用比例。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="plug-zap"></i></div><h3>光储充一体化</h3><p>充电桩接入，清洁电力优先供给车辆充电。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="monitor"></i></div><h3>远程监控</h3><p>发电量、储电量、用电量与收益实时可视，支持远程运维。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">

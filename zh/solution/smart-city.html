@@ -183,30 +183,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在城市治理中，客户常面临数据孤岛严重、运行态势不明、决策缺乏数据支撑的问题，亟需统一数字底座、全城感知与数据驱动的智能化治理平台。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="database"></i></div><h3 class="capability-title">数据孤岛严重</h3><p class="capability-desc">政务、交通、环境、能源等数据分散在不同部门，难以共享。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="eye-off"></i></div><h3 class="capability-title">运行态势不明</h3><p class="capability-desc">缺乏统一的城市运行监测视图，问题发现靠经验、处置靠人工。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">公共资源配置不优</h3><p class="capability-desc">交通、能源、公共服务等资源配置缺乏数据支撑，供需错配。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map"></i></div><h3 class="capability-title">规划决策风险高</h3><p class="capability-desc">重大城市建设项目缺乏预演验证手段，实际建设风险大，决策成本居高不下。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="boxes"></i></div><h3 class="capability-title">三维数字底座</h3><p class="capability-desc">需要 CIM+BIM+GIS 融合的城市信息模型底座。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">多源数据汇聚</h3><p class="capability-desc">需要政务、物联、互联网多源数据的治理与共享交换。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="database"></i></div><h3>数据孤岛严重</h3><p>政务、交通、环境、能源等数据分散在不同部门，难以共享。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="eye-off"></i></div><h3>运行态势不明</h3><p>缺乏统一的城市运行监测视图，问题发现靠经验、处置靠人工。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>公共资源配置不优</h3><p>交通、能源、公共服务等资源配置缺乏数据支撑，供需错配。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="map"></i></div><h3>规划决策风险高</h3><p>重大城市建设项目缺乏预演验证手段，实际建设风险大，决策成本居高不下。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><h3>决策滞后放大治理成本</h3><p>数据不通、态势不清，跨部门事项发现晚、协调慢，公共资源错配与返工成本在城市尺度上被持续放大。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="boxes"></i></div><h3>三维数字底座</h3><p>需要 CIM+BIM+GIS 融合的城市信息模型底座。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>多源数据汇聚</h3><p>需要政务、物联、互联网多源数据的治理与共享交换。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">城市交通优化</span><span class="scenario-tag">环境监测预警</span><span class="scenario-tag">应急指挥调度</span><span class="scenario-tag">公共服务提升</span><span class="scenario-tag">城市规划仿真</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>城市管理者、交通工程师、环保人员、应急指挥人员。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">城市交通优化</span><span class="scenario-tag">环境监测预警</span><span class="scenario-tag">应急指挥调度</span><span class="scenario-tag">公共服务提升</span><span class="scenario-tag">城市规划仿真</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>城市管理者、交通工程师、环保人员、应急指挥人员。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用以城市信息模型（CIM）为数字底座的“城市感知网-数据平台-智能应用”三层架构，覆盖物联感知、数据治理与 AI 态势分析核心模块，支持交通、环境、市政、安防等多领域数据整合与弹性扩展。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-city-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">感知层在城市道路、桥梁、管网与公园部署传感设备，边缘节点就近预处理数据，平台层汇聚政务、物联与互联网多源数据，应用层以三维数字底座与 AI 算法支撑城市态势研判与规划预演。</p>
+<p class="axlt-paragraph">智慧城市采用五层业务拓扑：城市运营中心、区级指挥室等在各自办公室通过城市监测、应急指挥等应用开展业务，依托平台层统一调度；道路监控点、街面巡逻车等边缘设备部署于现场，就近接入城市摄像机、环境传感器等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="智慧城市解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-city-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为城市运营中心、区级指挥室等管理办公室；应用层承载日常业务功能；平台层提供城市数据中台、视频共享平台等能力；边缘与网络层为道路监控点、街面巡逻车等现场接入位置；感知层为城市摄像机、环境传感器等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="boxes"></i></div><h3 class="capability-title">CIM 数字底座</h3><p class="capability-desc">CIM+BIM+GIS 融合建模，城市“虚实映射”。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">数据共享交换</h3><p class="capability-desc">多源数据汇聚治理，跨部门共享交换。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">运行态势监测</h3><p class="capability-desc">AI 算法分析城市运行态势，异常自动预警。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map"></i></div><h3 class="capability-title">规划仿真预演</h3><p class="capability-desc">重大规划方案在虚拟空间预演，降低建设风险。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">资源配置优化</h3><p class="capability-desc">数据驱动交通、能源与公共服务供需匹配。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="boxes"></i></div><h3>CIM 数字底座</h3><p>CIM+BIM+GIS 融合建模，城市“虚实映射”。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>数据共享交换</h3><p>多源数据汇聚治理，跨部门共享交换。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-eye"></i></div><h3>运行态势监测</h3><p>AI 算法分析城市运行态势，异常自动预警。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="map"></i></div><h3>规划仿真预演</h3><p>重大规划方案在虚拟空间预演，降低建设风险。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="gauge"></i></div><h3>资源配置优化</h3><p>数据驱动交通、能源与公共服务供需匹配。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">
@@ -247,18 +249,7 @@
 </div>
 </section>
 
-<section class="case-section section-container" id="cases">
-<h2 class="section-title">客户案例</h2>
-<div class="grid-auto">
-<div class="case-card">
-<h3 class="case-title">拉各斯等城市智慧交通、安防监控与弱电智能化基础设施</h3>
-<p class="case-desc"><strong>背景：</strong>拉各斯等非洲城市正处于数字化建设加速期，交通、安防与弱电基础设施需求集中。</p>
-<p class="case-desc"><strong>挑战：</strong>城市交通拥堵、公共安全防控与基础设施智能化水平亟待系统性提升。</p>
-<p class="case-desc"><strong>方案：</strong>参与智慧交通、安防监控与弱电智能化基础设施的建设实施。</p>
-<p class="case-desc"><strong>成果：</strong>积累了丰富的城市级项目实施经验，为后续智慧城市方案落地奠定基础。</p>
-</div>
-</div>
-</section>
+
 
 
 

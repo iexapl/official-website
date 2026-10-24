@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">In urban traffic management, customers often face chronic intersection congestion, frequent violations and weak public transport services, and urgently need a full-scenario, data-driven solution compatible with existing signal infrastructure.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="traffic-cone"></i></div><h3 class="capability-title">Severe intersection congestion</h3><p class="capability-desc">Fixed signal timing cannot adapt to changing flows; queues stretch long at peaks.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="siren"></i></div><h3 class="capability-title">Frequent violations</h3><p class="capability-desc">Red-light running, speeding and wrong-way driving rely on manual enforcement with limited coverage.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="database"></i></div><h3 class="capability-title">Dormant traffic data</h3><p class="capability-desc">Intersection flow data goes unused, leaving optimization decisions without support.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Weak public transport</h3><p class="capability-desc">Buses get no priority, run late and deliver a poor passenger experience.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">Compatibility with existing systems</h3><p class="capability-desc">Mainstream signal controller brands must be supported to protect investments.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="radio"></i></div><h3 class="capability-title">Open data interfaces</h3><p class="capability-desc">Open interfaces are needed for command centers and map service providers.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="traffic-cone"></i></div><h3>Severe intersection congestion</h3><p>Fixed signal timing cannot adapt to changing flows; queues stretch long at peaks.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="siren"></i></div><h3>Frequent violations</h3><p>Red-light running, speeding and wrong-way driving rely on manual enforcement with limited coverage.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="database"></i></div><h3>Dormant traffic data</h3><p>Intersection flow data goes unused, leaving optimization decisions without support.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>Weak public transport</h3><p>Buses get no priority, run late and deliver a poor passenger experience.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><h3>Worsening mobility and enforcement</h3><p>Signal timing ignores real flows and violations rely on manual enforcement: congestion deepens at peak, incident and penalty handling slows, and commuter experience keeps degrading.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>Compatibility with existing systems</h3><p>Mainstream signal controller brands must be supported to protect investments.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="radio"></i></div><h3>Open data interfaces</h3><p>Open interfaces are needed for command centers and map service providers.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Peak-hour signal optimization</span><span class="scenario-tag">Automatic violation capture</span><span class="scenario-tag">Real-time road information publishing</span><span class="scenario-tag">Bus priority</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Traffic engineers, traffic police commanders, road maintenance staff.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Peak-hour signal optimization</span><span class="scenario-tag">Automatic violation capture</span><span class="scenario-tag">Real-time road information publishing</span><span class="scenario-tag">Bus priority</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Traffic engineers, traffic police commanders, road maintenance staff.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a three-tier “intersection sensing - area coordination - central control” architecture covering signal control, video surveillance, violation detection, flow analysis and guidance publishing, compatible with mainstream signal controller brands and open to command center integration.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-traffic-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">Intersections sense flow and violations in real time; segments publish guidance and grant bus priority; the center aggregates intersection status for area coordination and remote control.</p>
+<p class="axlt-paragraph">Smart Traffic follows a five-layer business topology: Traffic Command, Signal Timing and other offices run daily applications such as Signal Control and Guidance, coordinated by the platform layer; edge devices like Signal Cabinet and Checkpoint Cam sit on site, linking perception devices such as Magnetic Sensor and Traffic Camera — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="Smart Traffic Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-traffic-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (Traffic Command, Signal Timing…); the application layer carries daily functions; the platform layer provides Traffic Data and Video Mgmt; the edge and network layer marks on-site equipment positions (Signal Cabinet, Checkpoint Cam…); perception devices are deployed at Magnetic Sensor, Traffic Camera and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="traffic-cone"></i></div><h3 class="capability-title">Signal control</h3><p class="capability-desc">Compatible with mainstream domestic and international signal controller brands, with remote timing control.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">AI video analytics</h3><p class="capability-desc">Flow and violation detection without pavement-cutting loops — short construction periods.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="siren"></i></div><h3 class="capability-title">Violation detection</h3><p class="capability-desc">Automatic capture and evidence for red-light running, speeding and wrong-way driving.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="radio"></i></div><h3 class="capability-title">Guidance publishing</h3><p class="capability-desc">Road information published in real time via guidance screens and open interfaces.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="bus"></i></div><h3 class="capability-title">Bus priority</h3><p class="capability-desc">Bus detection automatically extends green time, improving punctuality.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="traffic-cone"></i></div><h3>Signal control</h3><p>Compatible with mainstream domestic and international signal controller brands, with remote timing control.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-eye"></i></div><h3>AI video analytics</h3><p>Flow and violation detection without pavement-cutting loops — short construction periods.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="siren"></i></div><h3>Violation detection</h3><p>Automatic capture and evidence for red-light running, speeding and wrong-way driving.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="radio"></i></div><h3>Guidance publishing</h3><p>Road information published in real time via guidance screens and open interfaces.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="bus"></i></div><h3>Bus priority</h3><p>Bus detection automatically extends green time, improving punctuality.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">

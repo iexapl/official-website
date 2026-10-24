@@ -184,30 +184,31 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在非洲运营的企业与机构中，客户常面临机房建设标准低、网络架构老旧、安全防护薄弱的问题，亟需符合国际标准、高可用且可统一运维的 IT 基础环境。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="zap-off"></i></div><h3 class="capability-title">机房建设标准低</h3><p class="capability-desc">供电不稳定、温湿度控制差、消防措施不足，服务器宕机风险高。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="network"></i></div><h3 class="capability-title">网络架构老旧</h3><p class="capability-desc">核心-汇聚-接入层设计不合理，带宽瓶颈突出，扩展困难。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="shield-off"></i></div><h3 class="capability-title">安全防护薄弱</h3><p class="capability-desc">缺乏防火墙、入侵检测等安全设备，数据泄露风险大。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">故障定位慢业务受损</h3><p class="capability-desc">各系统独立管理，故障定位慢、缺乏统一监控视角，业务连续性风险随规模扩大持续累积。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="badge-check"></i></div><h3 class="capability-title">国际标准合规</h3><p class="capability-desc">需要符合 TIA-942 与 ISO27001 等国际标准的机房与安全体系。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="activity"></i></div><h3 class="capability-title">统一运维可视</h3><p class="capability-desc">需要统一运维平台实时掌握机房环境、网络流量与服务器状态。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="zap-off"></i></div><h3>机房建设标准低</h3><p>供电不稳定、温湿度控制差、消防措施不足，服务器宕机风险高。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="network"></i></div><h3>网络架构老旧</h3><p>核心-汇聚-接入层设计不合理，带宽瓶颈突出，扩展困难。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="shield-off"></i></div><h3>安全防护薄弱</h3><p>缺乏防火墙、入侵检测等安全设备，数据泄露风险大。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>故障定位慢业务受损</h3><p>各系统独立管理，故障定位慢、缺乏统一监控视角，业务连续性风险随规模扩大持续累积。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="badge-check"></i></div><h3>国际标准合规</h3><p>需要符合 TIA-942 与 ISO27001 等国际标准的机房与安全体系。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="activity"></i></div><h3>统一运维可视</h3><p>需要统一运维平台实时掌握机房环境、网络流量与服务器状态。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">企业数据中心新建</span><span class="scenario-tag">办公网络升级</span><span class="scenario-tag">校园网络部署</span><span class="scenario-tag">分支互联改造</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>IT 主管、网络工程师、运维工程师、安全管理员。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">企业数据中心新建</span><span class="scenario-tag">办公网络升级</span><span class="scenario-tag">校园网络部署</span><span class="scenario-tag">分支互联改造</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>IT 主管、网络工程师、运维工程师、安全管理员。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用“基础设施-网络架构-安全防护-运维管理”四层架构，覆盖机房动力环境、三层网络、纵深防御与统一运维核心模块，支持服务器、存储、虚拟化与灾备一体化部署。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-data-center-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">基础设施层保障供电制冷与物理环境，网络架构层以三层设计承载业务流量，安全防护层构建纵深防御，运维管理层统一监控机房环境、网络流量与服务器状态。</p>
+<p class="axlt-paragraph">机房与网络采用五层业务拓扑：运维监控中心、IT 办公室等在各自办公室通过动环监控、网络管理等应用开展业务，依托平台层统一调度；列头柜、UPS 电源等边缘设备部署于现场，就近接入温湿度传感器、电度表等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="机房与网络解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-data-center-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为运维监控中心、IT 办公室等管理办公室；应用层承载日常业务功能；平台层提供集中监控平台、运维数据平台等能力；边缘与网络层为列头柜、UPS 电源等现场接入位置；感知层为温湿度传感器、电度表等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="server"></i></div><h3 class="capability-title">机房基础设施</h3><p class="capability-desc">UPS、精密空调、发电机与机柜 PDU 构成高可用动力环境。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="network"></i></div><h3 class="capability-title">三层网络架构</h3><p class="capability-desc">核心-汇聚-接入分层设计，SDN 实现网络自动化编排。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="shield"></i></div><h3 class="capability-title">纵深安全防御</h3><p class="capability-desc">防火墙、入侵检测、漏洞扫描与堡垒机层层设防。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">统一运维监控</h3><p class="capability-desc">可视化运维大屏实时呈现环境、流量与服务器状态。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="database"></i></div><h3 class="capability-title">一体化部署</h3><p class="capability-desc">服务器集群、存储阵列、虚拟化与灾备统一规划。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="server"></i></div><h3>机房基础设施</h3><p>UPS、精密空调、发电机与机柜 PDU 构成高可用动力环境。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="network"></i></div><h3>三层网络架构</h3><p>核心-汇聚-接入分层设计，SDN 实现网络自动化编排。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="shield"></i></div><h3>纵深安全防御</h3><p>防火墙、入侵检测、漏洞扫描与堡垒机层层设防。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="gauge"></i></div><h3>统一运维监控</h3><p>可视化运维大屏实时呈现环境、流量与服务器状态。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="database"></i></div><h3>一体化部署</h3><p>服务器集群、存储阵列、虚拟化与灾备统一规划。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">

@@ -184,30 +184,31 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">In modern building operations, customers often face subsystem silos, coarse-grained energy management and slow maintenance response, and urgently need a unified, data-connected and intelligently linked building management platform.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="unlink"></i></div><h3 class="capability-title">Subsystems in silos</h3><p class="capability-desc">BAS, security, fire, access control and parking run independently without shared data.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gauge"></i></div><h3 class="capability-title">Coarse energy management</h3><p class="capability-desc">No sub-metering for utilities; usage patterns are unclear and energy-saving measures lack data support.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="wrench"></i></div><h3 class="capability-title">Slow maintenance response</h3><p class="capability-desc">Faults are found through manual inspection; reactive repairs are costly.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">Information silos inflate operating cost</h3><p class="capability-desc">Fragmented management keeps energy bills high and tenant experience poor; operating cost and asset value both suffer.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">Unified integrated management</h3><p class="capability-desc">One platform should connect subsystem data and cross-system linkage.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="leaf"></i></div><h3 class="capability-title">Data-driven energy saving</h3><p class="capability-desc">AI algorithms should analyze energy patterns and produce optimization strategies.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="unlink"></i></div><h3>Subsystems in silos</h3><p>BAS, security, fire, access control and parking run independently without shared data.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="gauge"></i></div><h3>Coarse energy management</h3><p>No sub-metering for utilities; usage patterns are unclear and energy-saving measures lack data support.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="wrench"></i></div><h3>Slow maintenance response</h3><p>Faults are found through manual inspection; reactive repairs are costly.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>Information silos inflate operating cost</h3><p>Fragmented management keeps energy bills high and tenant experience poor; operating cost and asset value both suffer.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>Unified integrated management</h3><p>One platform should connect subsystem data and cross-system linkage.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="leaf"></i></div><h3>Data-driven energy saving</h3><p>AI algorithms should analyze energy patterns and produce optimization strategies.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Daily office building operations</span><span class="scenario-tag">Hotel guest-room services</span><span class="scenario-tag">Hospital operating-room environment monitoring</span><span class="scenario-tag">Multi-format complex management</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Property managers, operations engineers, security directors, administrative staff.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Daily office building operations</span><span class="scenario-tag">Hotel guest-room services</span><span class="scenario-tag">Hospital operating-room environment monitoring</span><span class="scenario-tag">Multi-format complex management</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Property managers, operations engineers, security directors, administrative staff.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a three-layer “building equipment - building management - tenant services” architecture centered on an IBMS integration platform, covering equipment monitoring, energy optimization and tenant services, and integrating more than 20 subsystems including BAS, security, fire, access control, parking and energy.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-building-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">Sensors and controllers on the equipment layer collect building data; the IBMS platform monitors equipment, energy and security and produces AI optimization strategies; the service layer gives tenants and visitors mobile services.</p>
+<p class="axlt-paragraph">Smart Building follows a five-layer business topology: Property Center, Building Office and other offices run daily applications such as HVAC and Lighting, coordinated by the platform layer; edge devices like Floor Control and Elevator sit on site, linking perception devices such as Temp/Humidity and Meters — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="Smart Building Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-building-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (Property Center, Building Office…); the application layer carries daily functions; the platform layer provides BAS Platform and Video Mgmt; the edge and network layer marks on-site equipment positions (Floor Control, Elevator…); perception devices are deployed at Temp/Humidity, Meters and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="git-merge"></i></div><h3 class="capability-title">IBMS integration</h3><p class="capability-desc">Integrates BAS, security, fire, access control, parking, energy and 20+ subsystems.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="boxes"></i></div><h3 class="capability-title">BIM+IoT digital twin</h3><p class="capability-desc">BIM and IoT data fused for full life-cycle 3D visualized building management.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="leaf"></i></div><h3 class="capability-title">AI energy optimization</h3><p class="capability-desc">Algorithms analyze usage patterns and cut building energy use by 15%-25%.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="flame"></i></div><h3 class="capability-title">Intelligent fire linkage</h3><p class="capability-desc">Fire alarms automatically release access, switch broadcast, recall elevators and start smoke exhaust.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="smartphone"></i></div><h3 class="capability-title">Tenant mobile services</h3><p class="capability-desc">Visitor booking, meeting room reservation and repair requests in one place.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="git-merge"></i></div><h3>IBMS integration</h3><p>Integrates BAS, security, fire, access control, parking, energy and 20+ subsystems.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="boxes"></i></div><h3>BIM+IoT digital twin</h3><p>BIM and IoT data fused for full life-cycle 3D visualized building management.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="leaf"></i></div><h3>AI energy optimization</h3><p>Algorithms analyze usage patterns and cut building energy use by 15%-25%.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="flame"></i></div><h3>Intelligent fire linkage</h3><p>Fire alarms automatically release access, switch broadcast, recall elevators and start smoke exhaust.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="smartphone"></i></div><h3>Tenant mobile services</h3><p>Visitor booking, meeting room reservation and repair requests in one place.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">
@@ -252,11 +253,11 @@
 <h2 class="section-title">Case Studies</h2>
 <div class="grid-auto">
 <div class="case-card">
-<h3 class="case-title">Government Office Building Management System</h3>
-<p class="case-desc"><strong>Background: </strong>A large government office with numerous mechanical, electrical and security systems.</p>
+<h3 class="case-title">Lagos Federal Inland Revenue Service (FIRS) Project Intelligent Building Management System</h3>
+<p class="case-desc"><strong>Background: </strong>The Lagos Federal Inland Revenue Service (FIRS) project is a large government office building with numerous mechanical, electrical and security systems.</p>
 <p class="case-desc"><strong>Challenge: </strong>Subsystems ran independently with scattered management and no unified view of equipment status or energy use.</p>
 <p class="case-desc"><strong>Solution: </strong>Deployed an integrated building management system covering BAS, security surveillance and fire linkage.</p>
-<p class="case-desc"><strong>Results: </strong>Achieved unified equipment management and coordinated control, a benchmark for intelligent government building operations.</p>
+<p class="case-desc"><strong>Results: </strong>Achieved unified equipment management and coordinated control, a benchmark for intelligent government building operation.</p>
 </div>
 </div>
 </section>

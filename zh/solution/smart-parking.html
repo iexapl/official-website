@@ -176,36 +176,38 @@
 <li>提升停车场周转率 30% 以上</li>
 <li>减少人工成本 60%</li>
 <li>车主平均寻位时间缩短至 2 分钟以内</li>
-<li>已在拉各斯多个项目稳定运行超 24 个月</li>
+<li>车行场景组件经成熟产品线验证</li>
 </ul>
 </section>
 
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在停车场运营中，客户常面临高峰时段拥堵、人工成本攀升、车主体验差的痛点，亟需一套从进场到出场全流程无人化的停车管理系统。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="car-front"></i></div><h3 class="capability-title">入场效率低</h3><p class="capability-desc">人工取卡登记耗时长，高峰时段入口排长队。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map-pin"></i></div><h3 class="capability-title">寻位困难</h3><p class="capability-desc">车主进场后盲目寻找空位，场内车辆无序流动。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="credit-card"></i></div><h3 class="capability-title">缴费排队久</h3><p class="capability-desc">出口人工收费效率低，高峰期排队严重。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">管理成本高</h3><p class="capability-desc">每个出入口需配备收费人员，人力成本高且易出错。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="bar-chart-3"></i></div><h3 class="capability-title">数据透明化</h3><p class="capability-desc">需要车位利用率、收入数据的实时统计，让运营决策有据可依。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="zap"></i></div><h3 class="capability-title">全流程无人化</h3><p class="capability-desc">需要识别、引导、计费、支付全流程自动化的无人值守体系。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="car-front"></i></div><h3>入场效率低</h3><p>人工取卡登记耗时长，高峰时段入口排长队。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="map-pin"></i></div><h3>寻位困难</h3><p>车主进场后盲目寻找空位，场内车辆无序流动。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="credit-card"></i></div><h3>缴费排队久</h3><p>出口人工收费效率低，高峰期排队严重。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>管理成本高</h3><p>每个出入口需配备收费人员，人力成本高且易出错。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><h3>排队与人力推高运营成本</h3><p>出入口排队与人工收费叠加，车主体验差、车位周转率低，停车场收入与人力成本长期失衡。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="bar-chart-3"></i></div><h3>数据透明化</h3><p>需要车位利用率、收入数据的实时统计，让运营决策有据可依。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="zap"></i></div><h3>全流程无人化</h3><p>需要识别、引导、计费、支付全流程自动化的无人值守体系。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">购物中心周末高峰</span><span class="scenario-tag">住宅小区早晚高峰</span><span class="scenario-tag">机场长时停车</span><span class="scenario-tag">路侧临时停车</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>停车场运营方、物业管理人员、车主。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">购物中心周末高峰</span><span class="scenario-tag">住宅小区早晚高峰</span><span class="scenario-tag">机场长时停车</span><span class="scenario-tag">路侧临时停车</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>停车场运营方、物业管理人员、车主。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用“出入口-车场内部-管理平台”三级架构，覆盖车牌识别、车位引导、反向寻车与自动计费，支持与楼宇管理系统、消防系统联动及云端/本地两种部署模式。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-parking-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">出入口层完成识别抬杆与计费结算，车场内部层实时监测车位并引导车主，管理层对多个停车场实现远程集中监控。</p>
+<p class="axlt-paragraph">智慧停车场采用五层业务拓扑：车场管理中心、收费管理处等在各自办公室通过车位引导、出口收费等应用开展业务，依托平台层统一调度；车道闸机、岗亭终端等边缘设备部署于现场，就近接入地磁车检、视频车检等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="智慧停车场解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-parking-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为车场管理中心、收费管理处等管理办公室；应用层承载日常业务功能；平台层提供停车数据平台、支付对接等能力；边缘与网络层为车道闸机、岗亭终端等现场接入位置；感知层为地磁车检、视频车检等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-line"></i></div><h3 class="capability-title">车牌识别</h3><p class="capability-desc">车牌识别率 >99%，支持多种车牌格式，入场自动抬杆。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map-pin"></i></div><h3 class="capability-title">车位引导与反向寻车</h3><p class="capability-desc">空余车位实时引导，输入车牌即可查询停车位置。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="credit-card"></i></div><h3 class="capability-title">无感支付</h3><p class="capability-desc">按时/按次/月租多种收费模式，出场自动结算。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="bar-chart-3"></i></div><h3 class="capability-title">运营数据管理</h3><p class="capability-desc">车位利用率、收入数据实时统计，支撑运营决策。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-line"></i></div><h3>车牌识别</h3><p>车牌识别率 >99%，支持多种车牌格式，入场自动抬杆。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="map-pin"></i></div><h3>车位引导与反向寻车</h3><p>空余车位实时引导，输入车牌即可查询停车位置。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="credit-card"></i></div><h3>无感支付</h3><p>按时/按次/月租多种收费模式，出场自动结算。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="bar-chart-3"></i></div><h3>运营数据管理</h3><p>车位利用率、收入数据实时统计，支撑运营决策。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">
@@ -222,7 +224,7 @@
 <div class="triple-card"><h4>识别精准</h4><p>车牌识别率高，支持多种车牌格式，无牌车扫码通行，出入口通行顺畅。</p></div>
 <div class="triple-card"><h4>部署灵活</h4><p>云端管理与本地部署按需选择，适配不同规模与预算的停车场。</p></div>
 <div class="triple-card"><h4>系统联动</h4><p>支持与楼宇管理系统联动，融入楼宇整体管理，数据互通共享。</p></div>
-<div class="triple-card"><h4>经受过实战检验</h4><p>已在拉各斯多个商业综合体和住宅社区部署，系统稳定运行时间长，可靠性经实践验证。</p></div>
+<div class="triple-card"><h4>车行场景组件成熟</h4><p>道闸、车牌识别、车位引导等组件均为成熟产品线，可组合适配商业综合体与住宅社区不同规模，长期稳定运行有保障。</p></div>
 <div class="triple-card"><h4>车位引导</h4><p>实时车位状态显示与引导，车主寻位时间缩短，周转率提升。</p></div>
 <div class="triple-card"><h4>无人值守</h4><p>支持无人值守收费模式，人工成本高的问题有效解决。</p></div>
 </div>
@@ -246,18 +248,7 @@
 </div>
 </section>
 
-<section class="case-section section-container" id="cases">
-<h2 class="section-title">客户案例</h2>
-<div class="grid-auto">
-<div class="case-card">
-<h3 class="case-title">拉各斯商业综合体与住宅社区智能停车系统</h3>
-<p class="case-desc"><strong>背景：</strong>尼日利亚拉各斯多个商业综合体和住宅社区停车场。</p>
-<p class="case-desc"><strong>挑战：</strong>人工收费人力成本高，高峰时段出入口拥堵，车位利用率缺乏数据支撑。</p>
-<p class="case-desc"><strong>方案：</strong>部署车牌识别道闸、车位引导与云平台集中管理系统。</p>
-<p class="case-desc"><strong>成果：</strong>实现无人值守收费与远程集中管理，系统稳定运行时间长。</p>
-</div>
-</div>
-</section>
+
 
 
 

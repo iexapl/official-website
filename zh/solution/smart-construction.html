@@ -183,31 +183,33 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在土木工程施工现场，客户常面临人员管理混乱、安全隐患多、质量追溯难、进度不透明的难题，亟需一套覆盖人员、安全、质量、进度、物料、环境六大维度的统一管理平台。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="users"></i></div><h3 class="capability-title">人员管理混乱</h3><p class="capability-desc">工人流动性大，实名制落实难，考勤统计繁琐，工资发放纠纷多。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="shield-alert"></i></div><h3 class="capability-title">安全隐患多</h3><p class="capability-desc">深基坑、高支模、塔吊等危大工程风险高，巡检靠纸质记录，隐患整改难跟踪。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="clipboard-check"></i></div><h3 class="capability-title">质量追溯难</h3><p class="capability-desc">工序验收资料分散，质量问题责任界定不清，整改闭环缺乏追踪。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">进度不透明</h3><p class="capability-desc">施工进度依赖人工汇报，与实际偏差难以发现，工期延误风险大。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="layers"></i></div><h3 class="capability-title">六大维度统一管理</h3><p class="capability-desc">需要将人员、安全、质量、进度、物料、环境纳入一个平台统一管控。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">现场数字化感知</h3><p class="capability-desc">需要 AI 视觉与环境监测实时感知现场状态，让隐患可发现、可闭环。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="users"></i></div><h3>人员管理混乱</h3><p>工人流动性大，实名制落实难，考勤统计繁琐，工资发放纠纷多。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="shield-alert"></i></div><h3>安全隐患多</h3><p>深基坑、高支模、塔吊等危大工程风险高，巡检靠纸质记录，隐患整改难跟踪。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="clipboard-check"></i></div><h3>质量追溯难</h3><p>工序验收资料分散，质量问题责任界定不清，整改闭环缺乏追踪。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>进度不透明</h3><p>施工进度依赖人工汇报，与实际偏差难以发现，工期延误风险大。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><h3>管理粗放拖累工期成本</h3><p>人员、安全、质量、进度信息分散在纸质台账与各部门之间，隐患整改不及时、工期与成本偏差难以追责，项目管控风险持续累积。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="layers"></i></div><h3>六大维度统一管理</h3><p>需要将人员、安全、质量、进度、物料、环境纳入一个平台统一管控。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="scan-eye"></i></div><h3>现场数字化感知</h3><p>需要 AI 视觉与环境监测实时感知现场状态，让隐患可发现、可闭环。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">工人实名制进场</span><span class="scenario-tag">塔吊安全监测</span><span class="scenario-tag">深基坑位移监测</span><span class="scenario-tag">扬尘噪声监测</span><span class="scenario-tag">质量巡检闭环</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>项目经理、安全员、质检员、工长、监理工程师。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">工人实名制进场</span><span class="scenario-tag">塔吊安全监测</span><span class="scenario-tag">深基坑位移监测</span><span class="scenario-tag">扬尘噪声监测</span><span class="scenario-tag">质量巡检闭环</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>项目经理、安全员、质检员、工长、监理工程师。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用“指挥中心-项目现场-作业面”三级管理架构，覆盖人员、安全、质量、进度、物料、环境六大管理维度，支持与 BIM 系统及视频监控、门禁考勤等子系统集成联动。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-smart-construction-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">三级架构自下而上汇聚：作业面完成日常报工与巡检上报，项目现场采集人员出入、车辆与环境数据，指挥中心统一查看各工地进度、安全告警与人员出勤。</p>
+<p class="axlt-paragraph">智慧工地采用五层业务拓扑：项目指挥部、现场办公室等在各自办公室通过现场管理、人员考勤等应用开展业务，依托平台层统一调度；塔吊监测、升降机监测等边缘设备部署于现场，就近接入摄像机、闸机等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="智慧工地解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-smart-construction-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为项目指挥部、现场办公室等管理办公室；应用层承载日常业务功能；平台层提供IoT 接入、视频管理等能力；边缘与网络层为塔吊监测、升降机监测等现场接入位置；感知层为摄像机、闸机等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="users"></i></div><h3 class="capability-title">人员实名制管理</h3><p class="capability-desc">人脸识别门禁与考勤统计一体，落实实名制，减少工资纠纷。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="shield-alert"></i></div><h3 class="capability-title">安全管理</h3><p class="capability-desc">AI 摄像头识别违规行为自动告警，隐患整改全程闭环跟踪。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="clipboard-check"></i></div><h3 class="capability-title">质量管理</h3><p class="capability-desc">工序巡检、首件验收与整改闭环数字化，质量责任可追溯。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="gantt-chart"></i></div><h3 class="capability-title">进度管理</h3><p class="capability-desc">实际进度与计划对比实时可见，偏差及时预警。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="boxes"></i></div><h3 class="capability-title">物料管理</h3><p class="capability-desc">材料进场、领用、消耗数字化管控，减少浪费。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="wind"></i></div><h3 class="capability-title">环境管理</h3><p class="capability-desc">扬尘噪声在线监测，超标自动联动喷淋降尘。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="users"></i></div><h3>人员实名制管理</h3><p>人脸识别门禁与考勤统计一体，落实实名制，减少工资纠纷。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="shield-alert"></i></div><h3>安全管理</h3><p>AI 摄像头识别违规行为自动告警，隐患整改全程闭环跟踪。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="clipboard-check"></i></div><h3>质量管理</h3><p>工序巡检、首件验收与整改闭环数字化，质量责任可追溯。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="gantt-chart"></i></div><h3>进度管理</h3><p>实际进度与计划对比实时可见，偏差及时预警。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="boxes"></i></div><h3>物料管理</h3><p>材料进场、领用、消耗数字化管控，减少浪费。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="wind"></i></div><h3>环境管理</h3><p>扬尘噪声在线监测，超标自动联动喷淋降尘。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">

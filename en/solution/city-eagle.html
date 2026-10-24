@@ -183,29 +183,30 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">In urban public security management, customers often face insufficient camera coverage, low manual-monitoring efficiency and long response chains, and urgently need a three-dimensional defense system with wide-area coverage, automatic AI alerts and rapid coordinated response.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="eye-off"></i></div><h3 class="capability-title">Insufficient coverage</h3><p class="capability-desc">Ordinary cameras cover little per unit; urban vantage points and large areas leave many blind spots.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="user-x"></i></div><h3 class="capability-title">Low manual monitoring efficiency</h3><p class="capability-desc">Massive video feeds watched by people lead to fatigue and missed events.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="clock"></i></div><h3 class="capability-title">Long response chains</h3><p class="capability-desc">From spotting an anomaly to dispatching response, information passes through many slow links.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">No vertical view hampers response</h3><p class="capability-desc">Ground-level cameras cannot see from above; large events and emergencies lack an overall scene view, slowing decisions.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="binoculars"></i></div><h3 class="capability-title">Wide-area high-altitude watch</h3><p class="capability-desc">A handful of devices should cover key areas with a radius of several kilometers.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="crosshair"></i></div><h3 class="capability-title">AI alerting with fast closed loop</h3><p class="capability-desc">Anomalies should be detected and located automatically and linked to response resources.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="eye-off"></i></div><h3>Insufficient coverage</h3><p>Ordinary cameras cover little per unit; urban vantage points and large areas leave many blind spots.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="user-x"></i></div><h3>Low manual monitoring efficiency</h3><p>Massive video feeds watched by people lead to fatigue and missed events.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="clock"></i></div><h3>Long response chains</h3><p>From spotting an anomaly to dispatching response, information passes through many slow links.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>No vertical view hampers response</h3><p>Ground-level cameras cannot see from above; large events and emergencies lack an overall scene view, slowing decisions.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="binoculars"></i></div><h3>Wide-area high-altitude watch</h3><p>A handful of devices should cover key areas with a radius of several kilometers.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="crosshair"></i></div><h3>AI alerting with fast closed loop</h3><p>Anomalies should be detected and located automatically and linked to response resources.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Crowd gathering watch in urban plazas</span><span class="scenario-tag">Illegal parking detection</span><span class="scenario-tag">Fire smoke early warning</span><span class="scenario-tag">Large event security</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Public security command center staff, security managers, emergency dispatchers.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Crowd gathering watch in urban plazas</span><span class="scenario-tag">Illegal parking detection</span><span class="scenario-tag">Fire smoke early warning</span><span class="scenario-tag">Large event security</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Public security command center staff, security managers, emergency dispatchers.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a three-layer “high-altitude watch - low-point gap filling - aerial patrol” architecture covering panoramic monitoring, AI analytics and command dispatch, with support for integration with public security command platforms and drone systems.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-city-eagle-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">A single high-altitude unit covers a 3-5 km radius as the “sky eye”; low-point checkpoints fill the gaps; drones take off automatically after alerts to add live views; the command center converges panoramic video and AI alerts to close the detect-locate-respond loop.</p>
+<p class="axlt-paragraph">City Eagle Eye follows a five-layer business topology: Police Command, Investigation and other offices run daily applications such as Video Patrol and Tracking, coordinated by the platform layer; edge devices like High-Point Cam and Street Dome sit on site, linking perception devices such as Tower View and Face Capture — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="City Eagle Eye Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-city-eagle-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (Police Command, Investigation…); the application layer carries daily functions; the platform layer provides Video Network and Image Store; the edge and network layer marks on-site equipment positions (High-Point Cam, Street Dome…); perception devices are deployed at Tower View, Face Capture and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="binoculars"></i></div><h3 class="capability-title">High-altitude watch</h3><p class="capability-desc">Long-zoom PTZ and 360° panoramic cameras on urban vantage points; one unit covers a 3-5 km radius.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="scan-eye"></i></div><h3 class="capability-title">AI recognition</h3><p class="capability-desc">Automatic detection of crowd gathering, illegal parking and fire smoke, with alarm accuracy above 95%.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="plane"></i></div><h3 class="capability-title">Drone-linked patrol</h3><p class="capability-desc">Drones take off automatically after alerts and stream live video from the scene.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map"></i></div><h3 class="capability-title">Alert map & dispatch</h3><p class="capability-desc">Alerts plotted on the map, verified on the video wall, response resources dispatched in one click.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="binoculars"></i></div><h3>High-altitude watch</h3><p>Long-zoom PTZ and 360° panoramic cameras on urban vantage points; one unit covers a 3-5 km radius.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="scan-eye"></i></div><h3>AI recognition</h3><p>Automatic detection of crowd gathering, illegal parking and fire smoke, with alarm accuracy above 95%.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="plane"></i></div><h3>Drone-linked patrol</h3><p>Drones take off automatically after alerts and stream live video from the scene.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="map"></i></div><h3>Alert map & dispatch</h3><p>Alerts plotted on the map, verified on the video wall, response resources dispatched in one click.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">

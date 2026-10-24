@@ -184,30 +184,31 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">业务挑战</h2>
 <p class="axlt-paragraph">在酒店与社区运营中，客户常面临电视线路成本高、内容无法定制、增值服务缺失的问题，亟需一套 IP 化、可定制、能承载增值服务的电视娱乐与信息发布平台。</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="cable"></i></div><h3 class="capability-title">线路成本高</h3><p class="capability-desc">传统有线电视需单独铺设同轴电缆，施工复杂、维护成本高。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="layout-template"></i></div><h3 class="capability-title">内容无法定制</h3><p class="capability-desc">频道固定，无法植入酒店品牌、服务指南等个性化内容。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="package-x"></i></div><h3 class="capability-title">增值服务缺失</h3><p class="capability-desc">电视端无法接入点餐、叫早、账单查询等服务。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">多房间管理拖累运营</h3><p class="capability-desc">电视需逐一配置、集中管理困难，住客体验与运营效率双双受限。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="tv"></i></div><h3 class="capability-title">IP 化多屏电视服务</h3><p class="capability-desc">需要基于 IP 网络传输，覆盖电视、手机、平板多终端。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="sparkles"></i></div><h3 class="capability-title">品牌化内容运营</h3><p class="capability-desc">需要支持品牌植入、欢迎页定制与增值服务入口。</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="cable"></i></div><h3>线路成本高</h3><p>传统有线电视需单独铺设同轴电缆，施工复杂、维护成本高。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="layout-template"></i></div><h3>内容无法定制</h3><p>频道固定，无法植入酒店品牌、服务指南等个性化内容。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">痛点</span><div class="icon-box"><i data-lucide="package-x"></i></div><h3>增值服务缺失</h3><p>电视端无法接入点餐、叫早、账单查询等服务。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">影响</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>多房间管理拖累运营</h3><p>电视需逐一配置、集中管理困难，住客体验与运营效率双双受限。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="tv"></i></div><h3>IP 化多屏电视服务</h3><p>需要基于 IP 网络传输，覆盖电视、手机、平板多终端。</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">需求</span><div class="icon-box"><i data-lucide="sparkles"></i></div><h3>品牌化内容运营</h3><p>需要支持品牌植入、欢迎页定制与增值服务入口。</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">酒店客房娱乐</span><span class="scenario-tag">社区公告发布</span><span class="scenario-tag">长租公寓信息服务</span><span class="scenario-tag">养老院关怀内容推送</span></span></p>
-<p class="axlt-paragraph-follow"><strong>适用角色：</strong>酒店运营经理、社区物业管理人员、IT 运维人员。</p>
+<p class="axlt-paragraph-lead"><strong>典型场景：</strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">酒店客房娱乐</span><span class="scenario-tag">社区公告发布</span><span class="scenario-tag">长租公寓信息服务</span><span class="scenario-tag">养老院关怀内容推送</span></span></p><p class="axlt-paragraph-follow"><strong>适用角色：</strong>酒店运营经理、社区物业管理人员、IT 运维人员。</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">方案架构</h2>
-<p class="axlt-paragraph">采用“内容源-传输-平台-终端”四层架构，覆盖内容管理、多终端覆盖与客房服务集成核心模块，支持与酒店 PMS 系统对接及云端/本地双模式部署。</p>
-<img alt="方案架构" decoding="async" height="1121" loading="lazy" src="../../images/solution-iptv-arch-v31.zh.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">卫星、有线与 OTT 信号经编码转码注入内容库，本地服务器承载品牌定制内容，IP 网络与 CDN 分发音视频流至各终端，平台层完成内容编排与多租户精细化运营。</p>
+<p class="axlt-paragraph">酒店/社区 IPTV采用五层业务拓扑：酒店前台、客房服务等在各自办公室通过直播频道、点播服务等应用开展业务，依托平台层统一调度；楼宇机房、接入网络等边缘设备部署于现场，就近接入客房电视、大堂电视等感知设备，数据逐层汇聚、指令逐层下达，实现从管理办公室到现场设备的全链路贯通。</p>
+<div class="architecture-container">
+<img alt="酒店/社区 IPTV解决方案架构图" decoding="async" height="681" loading="lazy" src="../../images/solution-iptv-arch-v50.zh.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">业务化布局：用户层为酒店前台、客房服务等管理办公室；应用层承载日常业务功能；平台层提供IPTV 平台、内容管理等能力；边缘与网络层为楼宇机房、接入网络等现场接入位置；感知层为客房电视、大堂电视等现场部署的设备。父子层级上下贯通，兄弟节点左右并列。</p>
 <h3 class="axlt-heading-h3-center">核心模块</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="tv"></i></div><h3 class="capability-title">多源内容集成</h3><p class="capability-desc">卫星/有线/OTT 信号统一接入，频道灵活编排。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="layout-template"></i></div><h3 class="capability-title">品牌内容定制</h3><p class="capability-desc">酒店品牌植入、个性化欢迎页与服务指南展示。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="concierge-bell"></i></div><h3 class="capability-title">客房服务入口</h3><p class="capability-desc">电视端集成点餐、叫早、洗衣、叫车与账单查询。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="building"></i></div><h3 class="capability-title">多房间集中管理</h3><p class="capability-desc">多房间独立配置、批量管理与状态监控。</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="cloud"></i></div><h3 class="capability-title">云端/本地双部署</h3><p class="capability-desc">按规模选择部署模式，适应不同体量需求。</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="tv"></i></div><h3>多源内容集成</h3><p>卫星/有线/OTT 信号统一接入，频道灵活编排。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="layout-template"></i></div><h3>品牌内容定制</h3><p>酒店品牌植入、个性化欢迎页与服务指南展示。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="concierge-bell"></i></div><h3>客房服务入口</h3><p>电视端集成点餐、叫早、洗衣、叫车与账单查询。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="building"></i></div><h3>多房间集中管理</h3><p>多房间独立配置、批量管理与状态监控。</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="cloud"></i></div><h3>云端/本地双部署</h3><p>按规模选择部署模式，适应不同体量需求。</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>集成能力：</strong></p>
 <ul class="axlt-paragraph-follow-2">

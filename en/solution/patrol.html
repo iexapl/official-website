@@ -184,30 +184,32 @@
 <section class="section-container" id="challenges">
 <h2 class="section-title">Business Challenges</h2>
 <p class="axlt-paragraph">Managing security in compounds, parks and venues, customers often face unverifiable patrol execution, slow anomaly reporting and unmeasurable quality, and urgently need digital guard tour management with verifiable routes, instant reporting and video linkage.</p>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="route-off"></i></div><h3 class="capability-title">Unverifiable patrol execution</h3><p class="capability-desc">Whether guards follow routes and reach checkpoints on time cannot be verified.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="phone-off"></i></div><h3 class="capability-title">Slow anomaly reporting</h3><p class="capability-desc">Issues found on patrol are reported by phone or radio — slow and easily missed.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="clipboard-x"></i></div><h3 class="capability-title">Unmeasurable patrol quality</h3><p class="capability-desc">Without data, patrol effectiveness cannot be evaluated or routes optimized.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="trending-down"></i></div><h3 class="capability-title">People and technology disconnected</h3><p class="capability-desc">Patrols and video surveillance run separately; missed-patrol risk and safety hazards persist.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map-pin"></i></div><h3 class="capability-title">Multi-method checkpoints</h3><p class="capability-desc">NFC/QR/Bluetooth/GPS check-ins are needed to fit different environments.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="link"></i></div><h3 class="capability-title">Patrol-video linkage</h3><p class="capability-desc">Check-ins should pull up nearby cameras automatically, and anomalies should trigger linked verification.</p></div>
+<div class="card-grid">
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="route-off"></i></div><h3>Unverifiable patrol execution</h3><p>Whether guards follow routes and reach checkpoints on time cannot be verified.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="phone-off"></i></div><h3>Slow anomaly reporting</h3><p>Issues found on patrol are reported by phone or radio — slow and easily missed.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="clipboard-x"></i></div><h3>Unmeasurable patrol quality</h3><p>Without data, patrol effectiveness cannot be evaluated or routes optimized.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-danger)"><div class="card-body"><span class="tech-chip">Pain</span><div class="icon-box"><i data-lucide="trending-down"></i></div><h3>People and technology disconnected</h3><p>Patrols and video surveillance run separately; missed-patrol risk and safety hazards persist.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-accent)"><div class="card-body"><span class="tech-chip">Impact</span><h3>Missed checks and slow responses compound</h3><p>Unverifiable patrols and slow reporting push incident handling past the critical window, leaving a structural hole in the safety net.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="map-pin"></i></div><h3>Multi-method checkpoints</h3><p>NFC/QR/Bluetooth/GPS check-ins are needed to fit different environments.</p></div></div>
+<div class="card" style="border-left:3px solid var(--color-success)"><div class="card-body"><span class="tech-chip">Need</span><div class="icon-box"><i data-lucide="link"></i></div><h3>Patrol-video linkage</h3><p>Check-ins should pull up nearby cameras automatically, and anomalies should trigger linked verification.</p></div></div>
 </div>
-<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Night-time park patrols</span><span class="scenario-tag">Pre/post-opening sweeps of commercial complexes</span><span class="scenario-tag">Campus safety sweeps</span><span class="scenario-tag">Hospital key-area inspection</span></span></p>
-<p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Security guards, property managers, security directors, operations staff.</p>
+<p class="axlt-paragraph-lead"><strong>Typical Scenarios: </strong><span class="scenario-tags axlt-flex-inline" ><span class="scenario-tag">Night-time park patrols</span><span class="scenario-tag">Pre/post-opening sweeps of commercial complexes</span><span class="scenario-tag">Campus safety sweeps</span><span class="scenario-tag">Hospital key-area inspection</span></span></p><p class="axlt-paragraph-follow"><strong>Target Roles: </strong>Security guards, property managers, security directors, operations staff.</p>
 </section>
 
 <section class="section-container tech-grid-bg" id="architecture">
 <h2 class="section-title">Solution Architecture</h2>
-<p class="axlt-paragraph">Built on a four-layer “checkpoints-mobile terminals-management platform-linked response” architecture covering point check-in, real-time positioning, anomaly reporting and video linkage, with support for linkage with video surveillance, access control and alarm systems plus offline data sync.</p>
-<img alt="Solution Architecture" decoding="async" height="1121" loading="lazy" src="../../images/solution-patrol-arch-v31.en.webp" class="axlt-card-accent" width="1600"/>
-<p class="axlt-caption-center">NFC tags, QR codes, beacons or geofences mark checkpoints; patrol devices check in and record tracks; the platform tracks patrols live; anomalies automatically trigger video verification and ticket-based handling.</p>
+<p class="axlt-paragraph">Electronic Patrol follows a five-layer business topology: Security Center, Dispatch Room and other offices run daily applications such as Patrol Plan and Check-in, coordinated by the platform layer; edge devices like Checkpoints and Entrance Post sit on site, linking perception devices such as Checkpoint Tag and QR Code — data flows upward and commands flow downward across the full chain.</p>
+<div class="architecture-container">
+<img alt="Electronic Patrol Solution architecture diagram" decoding="async" height="681" loading="lazy" src="../../images/solution-patrol-arch-v50.en.webp" width="1092"/>
+</div>
+<p class="axlt-caption-center">Business layout: the user layer holds management offices (Security Center, Dispatch Room…); the application layer carries daily functions; the platform layer provides Patrol Platform and Analytics; the edge and network layer marks on-site equipment positions (Checkpoints, Entrance Post…); perception devices are deployed at Checkpoint Tag, QR Code and other field locations.</p>
 <h3 class="axlt-heading-h3-center">Core Modules</h3>
-<div class="grid-auto">
-<div class="capability-card"><div class="capability-icon"><i data-lucide="map-pin"></i></div><h3 class="capability-title">Multi-method check-in</h3><p class="capability-desc">NFC/QR/Bluetooth/GPS — four methods covering indoor and outdoor scenarios.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="navigation"></i></div><h3 class="capability-title">Live positioning & track playback</h3><p class="capability-desc">Patrol status visible at a glance, every check-in traceable.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="megaphone"></i></div><h3 class="capability-title">Instant anomaly reporting</h3><p class="capability-desc">Photo evidence and voice notes pushed to responsible staff immediately.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="cctv"></i></div><h3 class="capability-title">Linked video verification</h3><p class="capability-desc">Check-ins pull up nearby camera views; anomalies are verified automatically.</p></div>
-<div class="capability-card"><div class="capability-icon"><i data-lucide="bar-chart"></i></div><h3 class="capability-title">Patrol quality statistics</h3><p class="capability-desc">Missed patrols, on-time rates and anomaly handling quantified for assessment.</p></div>
+<div class="card-grid">
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="map-pin"></i></div><h3>Multi-method check-in</h3><p>NFC/QR/Bluetooth/GPS — four methods covering indoor and outdoor scenarios.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="navigation"></i></div><h3>Live positioning & track playback</h3><p>Patrol status visible at a glance, every check-in traceable.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="megaphone"></i></div><h3>Instant anomaly reporting</h3><p>Photo evidence and voice notes pushed to responsible staff immediately.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="cctv"></i></div><h3>Linked video verification</h3><p>Check-ins pull up nearby camera views; anomalies are verified automatically.</p></div></div>
+<div class="card"><div class="card-body"><div class="icon-box"><i data-lucide="bar-chart"></i></div><h3>Patrol quality statistics</h3><p>Missed patrols, on-time rates and anomaly handling quantified for assessment.</p></div></div>
 </div>
 <p class="axlt-paragraph-lead"><strong>Integration Capabilities:</strong></p>
 <ul class="axlt-paragraph-follow-2">
