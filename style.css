@@ -159,3 +159,35 @@
 .axlt-card-wide { border: 1px solid rgba(56,189,248,0.15); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); display: block; margin: 24px auto; max-width: 1000px; width: 100%; }
 .axlt-caption-center-md { color: var(--color-text-muted); font-size: 14px; text-align: center; }
 .axlt-card-accent-lg { border: 1px solid rgba(56,189,248,0.1); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); width: 100%; }
+
+/* AXLT Utility Classes — Batch additions */
+.axlt-border-danger { border-left: 3px solid var(--color-danger) }
+.axlt-border-success { border-left: 3px solid var(--color-success) }
+.axlt-border-accent { border-left: 3px solid var(--color-accent) }
+.axlt-tag-blue { background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.3); border-radius: 8px; color: #38bdf8; font-weight: 600; min-width: 120px; padding: 12px 16px; text-align: center }
+.axlt-tag-purple { background: rgba(167,139,250,0.1); border: 1px solid rgba(167,139,250,0.3); border-radius: 8px; color: #a78bfa; font-weight: 600; min-width: 110px; padding: 12px 16px; text-align: center }
+
+/* AXLT Utility Classes — Batch additions */
+.axlt-overflow-auto { overflow-x: auto }
+.axlt-display-none { display: none }
+.axlt-reset-border { border: none; padding: 0 }
+
+/* AXLT Utility Classes — Batch additions */
+.axlt-badge-number { align-items: center; background: var(--color-brand); border-radius: 50%; color: #fff; display: flex; flex-shrink: 0; font-weight: 700; height: 32px; justify-content: center; width: 32px }
+.axlt-icon-brand-md { color: var(--color-brand); height: 32px; width: 32px }
+.axlt-icon-box { height: 56px; margin: 0 auto 12px; width: 56px }
+.axlt-icon-sm { height: 28px; width: 28px }
+
+/* AXLT Utility Classes — Batch additions */
+.axlt-card-soft { background: var(--color-bg-elevated); border: 1px solid var(--color-line-soft); border-radius: var(--radius); padding: 20px }
+.axlt-card-center { background: var(--color-bg-elevated); border: 1px solid var(--color-line-soft); border-radius: var(--radius); padding: 24px; text-align: center }
+.axlt-flex-card { align-items: flex-start; background: var(--color-bg-elevated); border: 1px solid var(--color-line-soft); border-radius: var(--radius); display: flex; gap: 16px; padding: 16px }
+.axlt-section-elevated { background: var(--color-bg-elevated) }
+
+/* AXLT Utility Classes — Batch additions */
+.axlt-text-secondary-sm { color: var(--color-text-secondary); font-size: 0.85rem; margin-top: 8px }
+.axlt-text-muted-sm-alt { color: var(--color-text-muted); font-size: 0.9rem }
+.axlt-text-muted-sm-v2 { color: var(--color-text-muted); font-size: 0.85rem }
+.axlt-text-strong { color: var(--color-text-strong); font-weight: 600 }
+.axlt-heading-brand { color: var(--color-brand); margin-bottom: 12px }
+.axlt-list-clean { line-height: 1.8; margin: 0; padding-left: 18px }
