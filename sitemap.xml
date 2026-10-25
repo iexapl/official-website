@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/about.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/about.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/contact.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/adscreen.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/adscreen.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/adscreen.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/ai-server.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/ai-server.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/ai-server.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/attendance.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/attendance.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/attendance.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/camera.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/camera.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/camera.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/drone.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/drone.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/drone.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/gate.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/gate.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/gate.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/gps.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/gps.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/gps.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/home-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/home-storage.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/home-storage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/industrial-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/industrial-storage.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/industrial-storage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/led.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/led.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/led.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/oil.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/oil.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/oil.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/passage.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/passage.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/passage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/solar-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/solar-storage.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/solar-storage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/hardware/splicing.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/splicing.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/splicing.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/index.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/service/ai-agent.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/service/ai-agent.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/service/ai-agent.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/service/city-modeling.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/service/city-modeling.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/service/city-modeling.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/service/software-dev.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/service/software-dev.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/service/software-dev.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/bim.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/bim.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/bim.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/blacklist.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/blacklist.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/blacklist.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/budget.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/budget.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/budget.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/dashboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/dashboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/dashboard.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/hrms.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/hrms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/hrms.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/ibms.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/ibms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/ibms.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/info-display.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/info-display.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/info-display.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/mixing-station.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/mixing-station.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/mixing-station.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/procurement.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/procurement.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/procurement.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/quality.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/quality.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/quality.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/safety.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/safety.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/safety.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/software/warehouse.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/warehouse.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/warehouse.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/av-conference.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/av-conference.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/av-conference.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/broadcast.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/broadcast.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/broadcast.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/city-eagle.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/city-eagle.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/city-eagle.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/data-center.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/data-center.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/data-center.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/fire-alarm.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/fire-alarm.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/fire-alarm.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/iptv.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/iptv.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/iptv.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/patrol.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/patrol.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/patrol.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/smart-airport.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-airport.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-airport.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/smart-building.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-building.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-building.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/smart-campus.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-campus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-campus.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/smart-city.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-city.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-city.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/smart-community.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-community.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-community.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/smart-construction.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-construction.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-construction.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/smart-parking.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-parking.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-parking.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/smart-traffic.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-traffic.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-traffic.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/en/solution/solar-energy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/solar-energy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/solar-energy.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/about.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/about.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/contact.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/adscreen.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/adscreen.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/adscreen.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/ai-server.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/ai-server.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/ai-server.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/attendance.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/attendance.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/attendance.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/camera.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/camera.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/camera.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/drone.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/drone.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/drone.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/gate.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/gate.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/gate.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/gps.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/gps.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/gps.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/home-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/home-storage.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/home-storage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/industrial-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/industrial-storage.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/industrial-storage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/led.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/led.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/led.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/oil.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/oil.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/oil.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/passage.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/passage.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/passage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/solar-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/solar-storage.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/solar-storage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/hardware/splicing.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/hardware/splicing.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/splicing.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/index.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/service/ai-agent.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/service/ai-agent.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/service/ai-agent.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/service/city-modeling.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/service/city-modeling.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/service/city-modeling.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/service/software-dev.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/service/software-dev.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/service/software-dev.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/bim.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/bim.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/bim.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/blacklist.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/blacklist.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/blacklist.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/budget.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/budget.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/budget.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/dashboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/dashboard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/dashboard.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/hrms.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/hrms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/hrms.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/ibms.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/ibms.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/ibms.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/info-display.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/info-display.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/info-display.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/mixing-station.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/mixing-station.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/mixing-station.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/procurement.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/procurement.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/procurement.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/quality.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/quality.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/quality.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/safety.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/safety.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/safety.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/software/warehouse.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/software/warehouse.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/warehouse.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/av-conference.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/av-conference.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/av-conference.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/broadcast.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/broadcast.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/broadcast.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/city-eagle.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/city-eagle.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/city-eagle.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/data-center.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/data-center.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/data-center.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/fire-alarm.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/fire-alarm.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/fire-alarm.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/iptv.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/iptv.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/iptv.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/patrol.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/patrol.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/patrol.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/smart-airport.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-airport.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-airport.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/smart-building.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-building.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-building.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/smart-campus.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-campus.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-campus.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/smart-city.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-city.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-city.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/smart-community.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-community.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-community.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/smart-construction.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-construction.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-construction.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/smart-parking.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-parking.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-parking.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/smart-traffic.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/smart-traffic.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-traffic.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/fr/solution/solar-energy.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://iexapl.github.io/official-website/zh/solution/solar-energy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/solar-energy.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/about.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/contact.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/contact.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/adscreen.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/adscreen.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/adscreen.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/ai-server.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/ai-server.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/ai-server.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/attendance.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/attendance.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/attendance.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/camera.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/camera.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/camera.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/drone.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/drone.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/drone.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/gate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/gate.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/gate.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/gps.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/gps.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/gps.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/home-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/home-storage.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/home-storage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/industrial-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/industrial-storage.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/industrial-storage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/led.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/led.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/led.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/oil.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/oil.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/oil.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/passage.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/passage.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/passage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/solar-storage.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/solar-storage.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/solar-storage.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/hardware/splicing.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/hardware/splicing.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/hardware/splicing.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/index.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/service/ai-agent.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/service/ai-agent.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/service/ai-agent.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/service/city-modeling.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/service/city-modeling.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/service/city-modeling.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/service/software-dev.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/service/software-dev.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/service/software-dev.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/bim.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/bim.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/bim.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/blacklist.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/blacklist.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/blacklist.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/budget.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/budget.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/budget.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/dashboard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/dashboard.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/dashboard.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/hrms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/hrms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/hrms.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/ibms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/ibms.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/ibms.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/info-display.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/info-display.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/info-display.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/mixing-station.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/mixing-station.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/mixing-station.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/procurement.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/procurement.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/procurement.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/quality.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/quality.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/quality.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/safety.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/safety.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/safety.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/software/warehouse.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/software/warehouse.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/software/warehouse.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/av-conference.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/av-conference.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/av-conference.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/broadcast.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/broadcast.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/broadcast.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/city-eagle.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/city-eagle.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/city-eagle.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/data-center.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/data-center.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/data-center.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/fire-alarm.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/fire-alarm.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/fire-alarm.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/iptv.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/iptv.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/iptv.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/patrol.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/patrol.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/patrol.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/smart-airport.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-airport.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-airport.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/smart-building.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-building.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-building.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/smart-campus.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-campus.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-campus.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/smart-city.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-city.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-city.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/smart-community.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-community.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-community.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/smart-construction.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-construction.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-construction.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/smart-parking.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-parking.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-parking.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/smart-traffic.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/smart-traffic.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/smart-traffic.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://iexapl.github.io/official-website/zh/solution/solar-energy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://iexapl.github.io/official-website/en/solution/solar-energy.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://iexapl.github.io/official-website/fr/solution/solar-energy.html" />
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
