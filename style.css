@@ -185,9 +185,9 @@
 .axlt-section-elevated { background: var(--color-bg-elevated) }
 
 /* AXLT Utility Classes — Batch additions */
-.axlt-text-secondary-sm { color: var(--color-text-secondary); font-size: 0.85rem; margin-top: 8px }
+.axlt-text-secondary-sm { color: var(--color-text-secondary) !important; font-size: 0.85rem !important; margin-top: 8px !important }
 .axlt-text-muted-sm-alt { color: var(--color-text-muted); font-size: 0.9rem }
-.axlt-text-muted-sm-v2 { color: var(--color-text-muted); font-size: 0.85rem }
+.axlt-text-muted-sm-v2 { color: var(--color-text-muted) !important; font-size: 0.85rem !important }
 .axlt-text-strong { color: var(--color-text-strong); font-weight: 600 }
 .axlt-heading-brand { color: var(--color-brand); margin-bottom: 12px }
-.axlt-list-clean { line-height: 1.8; margin: 0; padding-left: 18px }
+.axlt-list-clean { line-height: 1.8 !important; margin: 0 !important; padding-left: 18px !important }
