@@ -50,7 +50,7 @@
 .tab-btn.active,.tab-btn:hover{background:var(--color-brand);color:var(--color-bg);border-color:var(--color-brand);}
 </style>
 </head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -212,17 +212,17 @@
 </div>
 
 <!-- 3. 类别型号 -->
-<section class="section-container tech-grid-bg">
+<section class="section-container">
   <h2 class="section-title">型号选型</h2>
   <p class="axlt-lead-text">拼接屏涵盖多种类别与型号，满足不同场景与预算需求。</p>
   <div class="grid-3">
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="46英寸拼接屏" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-splicing-1.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>46英寸拼接屏</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>拼缝1.7mm/3.5mm</li>
           <li>亮度500cd/m²</li>
           <li>适合中小监控室</li>
@@ -230,13 +230,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="49英寸拼接屏" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-splicing-2.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>49英寸拼接屏</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>拼缝1.8mm/3.5mm</li>
           <li>亮度500–700cd/m²</li>
           <li>适合会议室/展厅</li>
@@ -244,13 +244,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="55英寸拼接屏" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-splicing-3.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>55英寸拼接屏</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>拼缝0.88mm/1.7mm/3.5mm</li>
           <li>亮度500–700cd/m²</li>
           <li>适合指挥中心</li>
@@ -258,13 +258,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="图像处理控制器" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-splicing-4.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>图像处理控制器</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>4K输入输出</li>
           <li>画面分割/漫游</li>
           <li>支持16屏联动</li>
@@ -277,9 +277,9 @@
         <img alt="型号选型对比" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/splicing-matrix.png" width="1200" height="675"/>
       </div>
       <div class="axlt-container-mt">
-        <h3 style="text-align:center;margin-bottom:20px;">选型速览</h3>
+        <h3>选型速览</h3>
         <div class="axlt-overflow-auto">
-          <table class="spec-table axlt-table-responsive" >
+          <table class="axlt-table-responsive" >
             <thead>
               <tr>
             <th>场景</th>
@@ -326,7 +326,7 @@
   <h2 class="section-title">接口与兼容</h2>
   <p class="axlt-lead-text">拼接屏支持丰富的物理接口与网络协议，兼容主流平台与第三方系统。</p>
   <div class="grid-2 axlt-grid-cards" >
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>视频输入</h3>
           <ul class="axlt-list-muted">
@@ -339,7 +339,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="network" class="axlt-icon-inline"></i>控制接口</h3>
           <ul class="axlt-list-muted">
@@ -350,7 +350,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>兼容系统</h3>
           <ul class="axlt-list-muted">
@@ -361,7 +361,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>扩展能力</h3>
           <ul class="axlt-list-muted">
@@ -384,10 +384,10 @@
 <button class="tab-btn" onclick="switchTab('solutions','splicing')" id="tab-solutions-splicing">解决方案</button>
 </div>
 <div class="tab-content active" id="content-software-splicing">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">集成建筑内各子系统的智能化综合管理平台，实现统一监控与联动控制。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">楼宇</span><span class="scenario-tag">园区</span></div><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>系统互联互通</li><li>降低运维成本</li><li>提升管理效率</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >查看详情</a></div></div><div class="card card-purple"><div class="card-body"><h4>看板系统</h4><p class="axlt-text-muted-md">实时数据可视化展示，支持多数据源接入与自定义报表。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">制造</span><span class="scenario-tag">办公</span></div><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>数据一目了然</li><li>支持决策分析</li><li>提升运营透明度</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/dashboard.html" >查看详情</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">集成建筑内各子系统的智能化综合管理平台，实现统一监控与联动控制。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">楼宇</span><span class="scenario-tag">园区</span></div><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>系统互联互通</li><li>降低运维成本</li><li>提升管理效率</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >查看详情</a></div></div><div class="card capability-card"><div class="card-body"><h4>看板系统</h4><p class="axlt-text-muted-md">实时数据可视化展示，支持多数据源接入与自定义报表。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">制造</span><span class="scenario-tag">办公</span></div><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>数据一目了然</li><li>支持决策分析</li><li>提升运营透明度</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/dashboard.html" >查看详情</a></div></div></div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-splicing">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>智慧楼宇</h4><img alt="智慧楼宇 Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/splicing-scene-1.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">办公</span><span class="scenario-tag">商业</span></div><p class="axlt-text-muted-md">电梯监控、大堂安防、停车场管理、访客联动、消防视频复核。</p><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>全方位安防覆盖</li><li>智能化运维</li><li>节能降耗</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >查看详情</a></div></div><div class="card card-purple"><div class="card-body"><h4>智慧城市</h4><img alt="智慧城市 Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/splicing-scene-2.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">政府</span><span class="scenario-tag">公共</span></div><p class="axlt-text-muted-md">城市级视频监控网络、数据汇聚平台、应急指挥调度。</p><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>城市治理数字化</li><li>应急响应提速</li><li>资源共享协同</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-city.html" >查看详情</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>智慧楼宇</h4><img alt="智慧楼宇 Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/splicing-scene-1.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">办公</span><span class="scenario-tag">商业</span></div><p class="axlt-text-muted-md">电梯监控、大堂安防、停车场管理、访客联动、消防视频复核。</p><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>全方位安防覆盖</li><li>智能化运维</li><li>节能降耗</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >查看详情</a></div></div><div class="card capability-card"><div class="card-body"><h4>智慧城市</h4><img alt="智慧城市 Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/splicing-scene-2.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">政府</span><span class="scenario-tag">公共</span></div><p class="axlt-text-muted-md">城市级视频监控网络、数据汇聚平台、应急指挥调度。</p><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>城市治理数字化</li><li>应急响应提速</li><li>资源共享协同</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-city.html" >查看详情</a></div></div></div>
 </div>
 </section>
 
@@ -455,14 +455,5 @@
 </footer>
 <script src="../../main.js"></script>
 
-<script>
-function switchTab(tabName, device) {
-  document.querySelectorAll('.tab-btn').forEach(function(btn) { btn.classList.remove('active'); });
-  document.querySelectorAll('.tab-content').forEach(function(content) { content.classList.remove('active'); content.style.display='none'; });
-  document.getElementById('tab-' + tabName + '-' + device).classList.add('active');
-  var content = document.getElementById('content-' + tabName + '-' + device);
-  content.classList.add('active'); content.style.display='block';
-}
-</script>
 </body>
 </html>

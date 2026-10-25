@@ -14,7 +14,7 @@
 .tab-content.active{display:block;}
 </style>
 </head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -135,9 +135,9 @@
 </section>
 <section class="section-container">
 <h2 class="section-title">产品概述</h2>
-<div class="intro-section">
+<div>
 <div><p>H6-4G 车载行车记录仪是一款集成了 4G 实时视频传输、AI 智能分析、北斗/GPS 双模定位的高性能车载终端。采用 200 万像素传感器，支持 1080P 高清录像、H.265 视频压缩、红外夜视与智能白光，可实现实时位置追踪、视频直播、驾驶行为分析与紧急事件自动上报。</p>
-<div class="feature-list">
+<div class="capability-list">
 <div class="feature-item"><h4>4G 实时传输</h4><p>LTE Cat.1 通信，支持实时视频上传、轨迹回放与远程监控。</p></div>
 <div class="feature-item"><h4>AI 智能分析</h4><p>人体探测、异常行为识别，停车监控时自动触发告警。</p></div>
 <div class="feature-item"><h4>双模定位</h4><p>GPS + 北斗双模，64 通道，定位精度 <2m，支持 AGPS 辅助定位。</p></div>
@@ -151,7 +151,7 @@
 <h2 class="section-title">型号选型</h2>
 <p>根据定位精度与通信需求选择合适的行车记录仪型号。</p>
 <img alt="行车记录仪型号选型对比" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/dashcam-matrix.png" width="1200" height="675"/>
-<table class="spec-table">
+<table >
 <thead><tr><th>参数</th><th>H6-4G 标准版</th><th>H6-4G Pro</th></tr></thead>
 <tbody>
 <tr><td>分辨率</td><td>1080P (1920×1080)</td><td>1080P (1920×1080)</td></tr>
@@ -244,17 +244,5 @@
 <div class="footer-bottom">© 2026 深圳市安信联科技有限公司 版权所有</div>
 </footer>
 <script src="../../main.js"></script>
-<script>
-function switchTab(tabName) {
-  document.querySelectorAll('.tab-btn').forEach(function(btn){ btn.classList.remove('active'); });
-  document.querySelectorAll('.tab-content').forEach(function(c){ c.classList.remove('active'); c.style.display='none'; });
-  document.getElementById('tab-'+tabName).classList.add('active');
-  var content = document.getElementById('content-'+tabName);
-  content.classList.add('active'); content.style.display='block';
-}
-document.querySelectorAll('.tab-btn').forEach(function(btn, idx){
-  btn.onclick = function(){ switchTab(idx===0?'sw':'sol'); };
-});
-</script>
 </body>
 </html>

@@ -50,7 +50,7 @@
 .tab-btn.active,.tab-btn:hover{background:var(--color-brand);color:var(--color-bg);border-color:var(--color-brand);}
 </style>
 </head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -212,17 +212,17 @@
 </div>
 
 <!-- 3. 类别型号 -->
-<section class="section-container tech-grid-bg">
+<section class="section-container">
   <h2 class="section-title">型号选型</h2>
   <p class="axlt-lead-text">门禁与考勤设备涵盖多种类别与型号，满足不同场景与预算需求。</p>
   <div class="grid-3">
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="桌面签到机" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-attendance-1.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>桌面签到机</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>小型桌面放置</li>
           <li>USB/网口通信</li>
           <li>适合办公室快速签到</li>
@@ -230,13 +230,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="壁挂门禁机" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-attendance-2.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>壁挂门禁机</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>标准86盒安装</li>
           <li>继电器输出控制电锁</li>
           <li>支持人脸/指纹/卡/密码</li>
@@ -244,13 +244,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="户外防水机" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-attendance-3.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>户外防水机</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>IP65防护等级</li>
           <li>-20°C至+60°C宽温</li>
           <li>适合工地、园区等户外</li>
@@ -258,13 +258,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="通道闸机联动" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-attendance-4.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>通道闸机联动</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>与人行通道闸机联动</li>
           <li>支持双向进出计数</li>
           <li>考勤+门禁+通行一体化</li>
@@ -277,9 +277,9 @@
         <img alt="考勤门禁型号选型对比" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/attendance-matrix.png" width="1200" height="675"/>
       </div>
       <div class="axlt-container-mt">
-        <h3 style="text-align:center;margin-bottom:20px;">选型速览</h3>
+        <h3>选型速览</h3>
         <div class="axlt-overflow-auto">
-          <table class="spec-table axlt-table-responsive" >
+          <table class="axlt-table-responsive" >
             <thead>
               <tr>
             <th>场景</th>
@@ -326,7 +326,7 @@
   <h2 class="section-title">接口与兼容</h2>
   <p class="axlt-lead-text">门禁与考勤设备支持丰富的物理接口与网络协议，兼容主流平台与第三方系统。</p>
   <div class="grid-2 axlt-grid-cards" >
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>物理接口</h3>
           <ul class="axlt-list-muted">
@@ -340,7 +340,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="network" class="axlt-icon-inline"></i>网络协议</h3>
           <ul class="axlt-list-muted">
@@ -352,7 +352,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>兼容平台</h3>
           <ul class="axlt-list-muted">
@@ -363,7 +363,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>第三方集成</h3>
           <ul class="axlt-list-muted">
@@ -386,10 +386,10 @@
 <button class="tab-btn" onclick="switchTab('solutions','attendance')" id="tab-solutions-attendance">解决方案</button>
 </div>
 <div class="tab-content active" id="content-software-attendance">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>人事管理系统</h4><p class="axlt-text-muted-md">集中管理员工档案、考勤、薪酬与绩效，支持多组织架构与权限分级。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">企业</span><span class="scenario-tag">工厂</span></div><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>人力资源数字化管理</li><li>提升管理效率</li><li>降低人力成本</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/hrms.html" >查看详情</a></div></div><div class="card card-purple"><div class="card-body"><h4>黑名单系统</h4><p class="axlt-text-muted-md">建立人员黑名单数据库，联动门禁系统实现自动拦截与告警。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">安防</span><span class="scenario-tag">工地</span></div><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>强化安防管控</li><li>自动拦截风险人员</li><li>实时告警推送</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/blacklist.html" >查看详情</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>人事管理系统</h4><p class="axlt-text-muted-md">集中管理员工档案、考勤、薪酬与绩效，支持多组织架构与权限分级。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">企业</span><span class="scenario-tag">工厂</span></div><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>人力资源数字化管理</li><li>提升管理效率</li><li>降低人力成本</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/hrms.html" >查看详情</a></div></div><div class="card capability-card"><div class="card-body"><h4>黑名单系统</h4><p class="axlt-text-muted-md">建立人员黑名单数据库，联动门禁系统实现自动拦截与告警。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">安防</span><span class="scenario-tag">工地</span></div><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>强化安防管控</li><li>自动拦截风险人员</li><li>实时告警推送</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/blacklist.html" >查看详情</a></div></div></div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-attendance">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>智慧工地</h4><img alt="智慧工地门禁考勤场景" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/attendance-scene-2.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">建筑</span><span class="scenario-tag">施工</span></div><p class="axlt-text-muted-md">人员进出管理、安全帽检测、周界防护、塔吊监控、扬尘联动。</p><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>提升施工安全</li><li>实名制管理</li><li>数据可追溯</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-construction.html" >查看详情</a></div></div><div class="card card-purple"><div class="card-body"><h4>智慧楼宇</h4><img alt="智慧楼宇门禁考勤场景" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/attendance-scene-1.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">办公</span><span class="scenario-tag">商业</span></div><p class="axlt-text-muted-md">电梯监控、大堂安防、停车场管理、访客联动、消防视频复核。</p><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>全方位安防覆盖</li><li>智能化运维</li><li>节能降耗</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >查看详情</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>智慧工地</h4><img alt="智慧工地门禁考勤场景" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/attendance-scene-2.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">建筑</span><span class="scenario-tag">施工</span></div><p class="axlt-text-muted-md">人员进出管理、安全帽检测、周界防护、塔吊监控、扬尘联动。</p><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>提升施工安全</li><li>实名制管理</li><li>数据可追溯</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-construction.html" >查看详情</a></div></div><div class="card capability-card"><div class="card-body"><h4>智慧楼宇</h4><img alt="智慧楼宇门禁考勤场景" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/attendance-scene-1.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">办公</span><span class="scenario-tag">商业</span></div><p class="axlt-text-muted-md">电梯监控、大堂安防、停车场管理、访客联动、消防视频复核。</p><p class="axlt-text-secondary-sm"><strong>核心价值: </strong></p><ul class="axlt-list-muted-sm"><li>全方位安防覆盖</li><li>智能化运维</li><li>节能降耗</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >查看详情</a></div></div></div>
 </div>
 </section>
 
@@ -457,14 +457,5 @@
 </footer>
 <script src="../../main.js"></script>
 
-<script>
-function switchTab(tabName, device) {
-  document.querySelectorAll('.tab-btn').forEach(function(btn) { btn.classList.remove('active'); });
-  document.querySelectorAll('.tab-content').forEach(function(content) { content.classList.remove('active'); content.style.display='none'; });
-  document.getElementById('tab-' + tabName + '-' + device).classList.add('active');
-  var content = document.getElementById('content-' + tabName + '-' + device);
-  content.classList.add('active'); content.style.display='block';
-}
-</script>
 </body>
 </html>

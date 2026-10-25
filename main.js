@@ -183,3 +183,28 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+// Unified tab switching for hardware product pages
+function switchTab(tabName, device) {
+  document.querySelectorAll('.tab-btn').forEach(function(btn) { btn.classList.remove('active'); });
+  document.querySelectorAll('.tab-content').forEach(function(content) { content.classList.remove('active'); content.style.display='none'; });
+  var tabId = device ? 'tab-' + tabName + '-' + device : 'tab-' + tabName;
+  var contentId = device ? 'content-' + tabName + '-' + device : 'content-' + tabName;
+  var tabEl = document.getElementById(tabId);
+  var contentEl = document.getElementById(contentId);
+  if (tabEl) tabEl.classList.add('active');
+  if (contentEl) { contentEl.classList.add('active'); contentEl.style.display='block'; }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Auto-bind tab buttons that don't have inline onclick
+  document.querySelectorAll('.tab-btn').forEach(function(btn, idx) {
+    if (!btn.getAttribute('onclick')) {
+      btn.addEventListener('click', function() {
+        var tabs = btn.parentElement.querySelectorAll('.tab-btn');
+        var tabIndex = Array.prototype.indexOf.call(tabs, btn);
+        var tabName = tabIndex === 0 ? 'sw' : 'sol';
+        switchTab(tabName);
+      });
+    }
+  });
+});

@@ -46,7 +46,7 @@
 }
 </script>
 </meta></link></meta></head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -209,17 +209,17 @@
 </div>
 
 <!-- 3. 类别型号 -->
-<section class="section-container tech-grid-bg">
+<section class="section-container">
   <h2 class="section-title">型号选型</h2>
   <p class="axlt-lead-text">户储涵盖多种类别与型号，满足不同场景与预算需求。</p>
   <div class="grid-3">
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="壁挂式户储" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-home-storage-1.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>壁挂式户储</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>5–10kWh</li>
           <li>超薄壁挂</li>
           <li>室内安装</li>
@@ -227,13 +227,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="落地式户储" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-home-storage-2.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>落地式户储</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>10–20kWh</li>
           <li>落地立式设计</li>
           <li>美观大方</li>
@@ -241,13 +241,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="户外柜式户储" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-home-storage-3.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>户外柜式户储</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>15–25kWh</li>
           <li>IP65防护</li>
           <li>户外安装</li>
@@ -255,13 +255,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="光储逆变一体机" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-home-storage-4.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>光储逆变一体机</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>储能+逆变集成</li>
           <li>减少设备占地</li>
           <li>安装简便</li>
@@ -274,9 +274,9 @@
         <img alt="型号选型对比" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/home-storage-matrix.png" width="1200" height="675"/>
       </div>
       <div class="axlt-container-mt">
-        <h3 style="text-align:center;margin-bottom:20px;">选型速览</h3>
+        <h3>选型速览</h3>
         <div class="axlt-overflow-auto">
-          <table class="spec-table axlt-table-responsive" >
+          <table class="axlt-table-responsive" >
             <thead>
               <tr>
             <th>场景</th>
@@ -323,7 +323,7 @@
   <h2 class="section-title">接口与兼容</h2>
   <p class="axlt-lead-text">户储支持丰富的物理接口与网络协议，兼容主流平台与第三方系统。</p>
   <div class="grid-2 axlt-grid-cards" >
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>电气接口</h3>
           <ul class="axlt-list-muted">
@@ -334,7 +334,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="network" class="axlt-icon-inline"></i>通信协议</h3>
           <ul class="axlt-list-muted">
@@ -345,7 +345,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>兼容设备</h3>
           <ul class="axlt-list-muted">
@@ -356,7 +356,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>智能功能</h3>
           <ul class="axlt-list-muted">
@@ -379,10 +379,10 @@
 <button class="tab-btn" onclick="switchTab('solutions','home-storage')" id="tab-solutions-home-storage">解决方案</button>
 </div>
 <div class="tab-content active" id="content-software-home-storage">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">建筑智能化集成管理平台，实现统一监控与联动控制。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">楼宇</span><span class="scenario-tag">园区</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>系统互联互通</li><li>降低运维成本</li><li>提升管理效率</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >查看详情</a></div></div><div class="card card-purple"><div class="card-body"><h4>看板系统</h4><p class="axlt-text-muted-md">多源数据实时可视化，支持自定义报表与驾驶舱。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">制造</span><span class="scenario-tag">办公</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>数据一目了然</li><li>辅助决策</li><li>运营透明化</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/dashboard.html" >查看详情</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">建筑智能化集成管理平台，实现统一监控与联动控制。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">楼宇</span><span class="scenario-tag">园区</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>系统互联互通</li><li>降低运维成本</li><li>提升管理效率</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >查看详情</a></div></div><div class="card capability-card"><div class="card-body"><h4>看板系统</h4><p class="axlt-text-muted-md">多源数据实时可视化，支持自定义报表与驾驶舱。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">制造</span><span class="scenario-tag">办公</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>数据一目了然</li><li>辅助决策</li><li>运营透明化</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/dashboard.html" >查看详情</a></div></div></div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-home-storage">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>光伏储能</h4><div class="axlt-flex-tags"><span class="scenario-tag">能源</span><span class="scenario-tag">工业</span></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>光伏储能</h4><div class="axlt-flex-tags"><span class="scenario-tag">能源</span><span class="scenario-tag">工业</span></div>
 </div>
 </section>
 

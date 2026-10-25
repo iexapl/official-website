@@ -46,7 +46,7 @@
 }
 </script>
 </meta></link></meta></head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -208,17 +208,17 @@
 </div>
 
 <!-- 3. 类别型号 -->
-<section class="section-container tech-grid-bg">
+<section class="section-container">
   <h2 class="section-title">型号选型</h2>
   <p class="axlt-lead-text">AI 服务器涵盖多种类别与型号，满足不同场景与预算需求。</p>
   <div class="grid-3">
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="AI训练服务器" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-edge-1.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>AI训练服务器</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>8×H100/A100 GPU</li>
           <li>2×Intel Xeon</li>
           <li>2TB内存</li>
@@ -226,13 +226,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="AI推理服务器" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-edge-2.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>AI推理服务器</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>4–8×A10/L40S</li>
           <li>高吞吐低延迟</li>
           <li>模型服务化部署</li>
@@ -240,13 +240,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="边缘AI服务器" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-edge-3.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>边缘AI服务器</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>2–4×Jetson/边缘GPU</li>
           <li>低功耗</li>
           <li>现场部署</li>
@@ -254,13 +254,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="液冷整机柜" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/product-hardware-edge-extra.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>液冷整机柜</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>32–64 GPU</li>
           <li>液冷散热</li>
           <li>预集成交付</li>
@@ -273,9 +273,9 @@
         <img alt="型号选型对比" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/ai-server-matrix.png" width="1200" height="675"/>
       </div>
       <div class="axlt-container-mt">
-        <h3 style="text-align:center;margin-bottom:20px;">选型速览</h3>
+        <h3>选型速览</h3>
         <div class="axlt-overflow-auto">
-          <table class="spec-table axlt-table-responsive" >
+          <table class="axlt-table-responsive" >
             <thead>
               <tr>
             <th>场景</th>
@@ -322,7 +322,7 @@
   <h2 class="section-title">接口与兼容</h2>
   <p class="axlt-lead-text">AI 服务器支持丰富的物理接口与网络协议，兼容主流平台与第三方系统。</p>
   <div class="grid-2 axlt-grid-cards" >
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>物理接口</h3>
           <ul class="axlt-list-muted">
@@ -334,7 +334,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="network" class="axlt-icon-inline"></i>软件生态</h3>
           <ul class="axlt-list-muted">
@@ -346,7 +346,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>集群管理</h3>
           <ul class="axlt-list-muted">
@@ -357,7 +357,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>云服务</h3>
           <ul class="axlt-list-muted">
@@ -380,10 +380,10 @@
 <button class="tab-btn" onclick="switchTab('solutions','ai-server')" id="tab-solutions-ai-server">解决方案</button>
 </div>
 <div class="tab-content active" id="content-software-ai-server">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">建筑智能化集成管理平台，实现统一监控与联动控制。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">楼宇</span><span class="scenario-tag">园区</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>系统互联互通</li><li>降低运维成本</li><li>提升管理效率</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >查看详情</a></div></div><div class="card card-purple"><div class="card-body"><h4>看板系统</h4><p class="axlt-text-muted-md">多源数据实时可视化，支持自定义报表与驾驶舱。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">制造</span><span class="scenario-tag">办公</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>数据一目了然</li><li>辅助决策</li><li>运营透明化</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/dashboard.html" >查看详情</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">建筑智能化集成管理平台，实现统一监控与联动控制。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">楼宇</span><span class="scenario-tag">园区</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>系统互联互通</li><li>降低运维成本</li><li>提升管理效率</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >查看详情</a></div></div><div class="card capability-card"><div class="card-body"><h4>看板系统</h4><p class="axlt-text-muted-md">多源数据实时可视化，支持自定义报表与驾驶舱。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">制造</span><span class="scenario-tag">办公</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>数据一目了然</li><li>辅助决策</li><li>运营透明化</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/dashboard.html" >查看详情</a></div></div></div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-ai-server">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>智慧城市</h4><div class="axlt-flex-tags"><span class="scenario-tag">政府</span><span class="scenario-tag">公共</span></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>智慧城市</h4><div class="axlt-flex-tags"><span class="scenario-tag">政府</span><span class="scenario-tag">公共</span></div>
 </div>
 </section>
 

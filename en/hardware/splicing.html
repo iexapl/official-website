@@ -50,7 +50,7 @@
 .tab-btn.active,.tab-btn:hover{background:var(--color-brand);color:var(--color-bg);border-color:var(--color-brand);}
 </style>
 </head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -212,17 +212,17 @@
 </div>
 
 <!-- 3. Model Selection -->
-<section class="section-container tech-grid-bg">
+<section class="section-container">
   <h2 class="section-title">Model Selection</h2>
   <p class="axlt-lead-text">Video Wall covers multiple categories and models to meet diverse scenario and budget requirements.</p>
   <div class="grid-3">
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="46&quot; Video Wall" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-splicing-1.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>46" Video Wall</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>Bezel 1.7mm/3.5mm</li>
           <li>Brightness 500cd/m²</li>
           <li>For small/medium control rooms</li>
@@ -230,13 +230,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="49&quot; Video Wall" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-splicing-2.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>49" Video Wall</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>Bezel 1.8mm/3.5mm</li>
           <li>Brightness 500–700cd/m²</li>
           <li>For meeting rooms/showrooms</li>
@@ -244,13 +244,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="55&quot; Video Wall" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-splicing-3.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>55" Video Wall</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>Bezel 0.88/1.7/3.5mm</li>
           <li>Brightness 500–700cd/m²</li>
           <li>For command centers</li>
@@ -258,13 +258,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Image Processor" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-splicing-4.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Image Processor</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>4K input/output</li>
           <li>Split & roaming</li>
           <li>Up to 16 screens</li>
@@ -277,9 +277,9 @@
         <img alt="Model Selection Matrix" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/splicing-matrix.png" width="1200" height="675"/>
       </div>
       <div class="axlt-container-mt">
-        <h3 style="text-align:center;margin-bottom:20px;">Quick Selection Guide</h3>
+        <h3>Quick Selection Guide</h3>
         <div class="axlt-overflow-auto">
-          <table class="spec-table axlt-table-responsive" >
+          <table class="axlt-table-responsive" >
             <thead>
               <tr>
             <th>Scenario</th>
@@ -326,7 +326,7 @@
   <h2 class="section-title">Interfaces &amp; Compatibility</h2>
   <p class="axlt-lead-text">Video Wall supports rich physical interfaces and network protocols, compatible with mainstream platforms and third-party systems.</p>
   <div class="grid-2 axlt-grid-cards" >
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>Video Inputs</h3>
           <ul class="axlt-list-muted">
@@ -339,7 +339,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="network" class="axlt-icon-inline"></i>Control Interfaces</h3>
           <ul class="axlt-list-muted">
@@ -350,7 +350,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>Compatible Systems</h3>
           <ul class="axlt-list-muted">
@@ -361,7 +361,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>Expansion</h3>
           <ul class="axlt-list-muted">
@@ -384,10 +384,10 @@
 <button class="tab-btn" onclick="switchTab('solutions','splicing')" id="tab-solutions-splicing">Solutions</button>
 </div>
 <div class="tab-content active" id="content-software-splicing">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">Integrated building management platform for unified monitoring and control.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Building</span><span class="scenario-tag">Park</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>System interconnectivity</li><li>Reduced O&amp;M costs</li><li>Improved management</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>Dashboard System</h4><p class="axlt-text-muted-md">Real-time data visualization with multi-source integration and custom reports.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Manufacturing</span><span class="scenario-tag">Office</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Clear data visibility</li><li>Decision support</li><li>Operational transparency</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/dashboard.html" >View Details</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">Integrated building management platform for unified monitoring and control.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Building</span><span class="scenario-tag">Park</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>System interconnectivity</li><li>Reduced O&amp;M costs</li><li>Improved management</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >View Details</a></div></div><div class="card capability-card"><div class="card-body"><h4>Dashboard System</h4><p class="axlt-text-muted-md">Real-time data visualization with multi-source integration and custom reports.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Manufacturing</span><span class="scenario-tag">Office</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Clear data visibility</li><li>Decision support</li><li>Operational transparency</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/dashboard.html" >View Details</a></div></div></div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-splicing">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>Smart Building</h4><img alt="Smart Building Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/splicing-scene-1.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">Office</span><span class="scenario-tag">Commercial</span></div><p class="axlt-text-muted-md">Elevator monitoring, lobby security, parking management, visitor linkage, fire video verification.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Full security coverage</li><li>Intelligent O&amp;M</li><li>Energy saving</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>Smart City</h4><img alt="Smart City Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/splicing-scene-2.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">Government</span><span class="scenario-tag">Public</span></div><p class="axlt-text-muted-md">City-level video surveillance network, data aggregation platform, emergency command dispatch.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Digital city governance</li><li>Faster emergency response</li><li>Resource sharing</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-city.html" >View Details</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>Smart Building</h4><img alt="Smart Building Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/splicing-scene-1.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">Office</span><span class="scenario-tag">Commercial</span></div><p class="axlt-text-muted-md">Elevator monitoring, lobby security, parking management, visitor linkage, fire video verification.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Full security coverage</li><li>Intelligent O&amp;M</li><li>Energy saving</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >View Details</a></div></div><div class="card capability-card"><div class="card-body"><h4>Smart City</h4><img alt="Smart City Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/splicing-scene-2.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">Government</span><span class="scenario-tag">Public</span></div><p class="axlt-text-muted-md">City-level video surveillance network, data aggregation platform, emergency command dispatch.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Digital city governance</li><li>Faster emergency response</li><li>Resource sharing</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-city.html" >View Details</a></div></div></div>
 </div>
 </section>
 
@@ -446,14 +446,5 @@
 </footer>
 <script src="../../main.js"></script>
 
-<script>
-function switchTab(tabName, device) {
-  document.querySelectorAll('.tab-btn').forEach(function(btn) { btn.classList.remove('active'); });
-  document.querySelectorAll('.tab-content').forEach(function(content) { content.classList.remove('active'); content.style.display='none'; });
-  document.getElementById('tab-' + tabName + '-' + device).classList.add('active');
-  var content = document.getElementById('content-' + tabName + '-' + device);
-  content.classList.add('active'); content.style.display='block';
-}
-</script>
 </body>
 </html>

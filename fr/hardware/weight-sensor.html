@@ -14,7 +14,7 @@
 .tab-content.active{display:block;}
 </style>
 </head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -135,9 +135,9 @@
 </section>
 <section class="section-container">
 <h2 class="section-title">Aperçu du Produit</h2>
-<div class="intro-section">
+<div>
 <div><p>Le capteur de charge M6 se compose d'un hôte de charge et de capteurs. Installé sur le ressort de suspension du véhicule, il surveille la déformation angulaire entre les états vide et chargé, calculant le poids réel de la cargaison via MCU.</p>
-<div class="feature-list">
+<div class="capability-list">
 <div class="feature-item"><h4>Haute Précision</h4><p>Résolution angulaire 0,001°, chaque point de données correspond à quelques centaines de grammes.</p></div>
 <div class="feature-item"><h4>Installation Facile</h4><p>Pas de soudure requise, connecteurs rapides étanches et fixation adhésive.</p></div>
 <div class="feature-item"><h4>Entièrement Étanche</h4><p>Hôte IP68 avec encapsulation interne complète pour environnements difficiles.</p></div>
@@ -151,7 +151,7 @@
 <h2 class="section-title">Sélection de Modèles</h2>
 <p>Choisissez le modèle de capteur de charge adapté selon la précision requise et les besoins de communication.</p>
 <img alt="Matrice de Sélection" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/weight-sensor-matrix.png" width="1200" height="675"/>
-<table class="spec-table">
+<table >
 <thead><tr><th>Paramètre</th><th>M6 Standard</th><th>M6 Pro</th></tr></thead>
 <tbody>
 <tr><td>Mesure</td><td>Conversion d'angle</td><td>Angle + compensation température</td></tr>
@@ -241,17 +241,5 @@
 <div class="footer-bottom">© 2026 AXLTeco Limited. Tous droits réservés.</div>
 </footer>
 <script src="../../main.js"></script>
-<script>
-function switchTab(tabName) {
-  document.querySelectorAll('.tab-btn').forEach(function(btn){ btn.classList.remove('active'); });
-  document.querySelectorAll('.tab-content').forEach(function(c){ c.classList.remove('active'); c.style.display='none'; });
-  document.getElementById('tab-'+tabName).classList.add('active');
-  var content = document.getElementById('content-'+tabName);
-  content.classList.add('active'); content.style.display='block';
-}
-document.querySelectorAll('.tab-btn').forEach(function(btn, idx){
-  btn.onclick = function(){ switchTab(idx===0?'sw':'sol'); };
-});
-</script>
 </body>
 </html>

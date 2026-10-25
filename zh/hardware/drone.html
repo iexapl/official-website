@@ -46,7 +46,7 @@
 }
 </script>
 </meta></link></meta></head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -208,17 +208,17 @@
 </div>
 
 <!-- 3. 类别型号 -->
-<section class="section-container tech-grid-bg">
+<section class="section-container">
   <h2 class="section-title">型号选型</h2>
   <p class="axlt-lead-text">重载无人机涵盖多种类别与型号，满足不同场景与预算需求。</p>
   <div class="grid-3">
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="重载货运型" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-drone-1.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>重载货运型</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>载重100kg</li>
           <li>航程10km</li>
           <li>货舱容积大</li>
@@ -226,13 +226,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="长航时巡检型" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-drone-2.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>长航时巡检型</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>载重30kg</li>
           <li>航程30km</li>
           <li>续航60分钟</li>
@@ -240,13 +240,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="多用途平台型" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-drone-3.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>多用途平台型</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>载重50kg</li>
           <li>模块化挂载</li>
           <li>多种任务载荷</li>
@@ -254,13 +254,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="自动换电站" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/product-drone-extra.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>自动换电站</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>3分钟换电</li>
           <li>自动起降</li>
           <li>无人值守</li>
@@ -273,9 +273,9 @@
         <img alt="型号选型对比" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/drone-matrix.png" width="1200" height="675"/>
       </div>
       <div class="axlt-container-mt">
-        <h3 style="text-align:center;margin-bottom:20px;">选型速览</h3>
+        <h3>选型速览</h3>
         <div class="axlt-overflow-auto">
-          <table class="spec-table axlt-table-responsive" >
+          <table class="axlt-table-responsive" >
             <thead>
               <tr>
             <th>场景</th>
@@ -322,7 +322,7 @@
   <h2 class="section-title">接口与兼容</h2>
   <p class="axlt-lead-text">重载无人机支持丰富的物理接口与网络协议，兼容主流平台与第三方系统。</p>
   <div class="grid-2 axlt-grid-cards" >
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>载荷接口</h3>
           <ul class="axlt-list-muted">
@@ -333,7 +333,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="network" class="axlt-icon-inline"></i>通信链路</h3>
           <ul class="axlt-list-muted">
@@ -344,7 +344,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>地面站</h3>
           <ul class="axlt-list-muted">
@@ -355,7 +355,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>任务载荷</h3>
           <ul class="axlt-list-muted">
@@ -379,7 +379,7 @@
 <button class="tab-btn" onclick="switchTab('solutions','drone')" id="tab-solutions-drone">解决方案</button>
 </div>
 <div class="tab-content active" id="content-software-drone">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>安全管理系统</h4><p class="axlt-text-muted-md">覆盖隐患排查、培训考核、事故上报与整改跟踪的全流程管理。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">建筑</span><span class="scenario-tag">工厂</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>降低事故率</li><li>合规流程</li><li>数据可追溯</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/safety.html" >查看详情</a></div></div><div class="card card-purple"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">建筑智能化集成管理平台，实现统一监控与联动控制。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">楼宇</span><span class="scenario-tag">园区</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>系统互联互通</li><li>降低运维成本</li><li>提升管理效率</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >查看详情</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>安全管理系统</h4><p class="axlt-text-muted-md">覆盖隐患排查、培训考核、事故上报与整改跟踪的全流程管理。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">建筑</span><span class="scenario-tag">工厂</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>降低事故率</li><li>合规流程</li><li>数据可追溯</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/safety.html" >查看详情</a></div></div><div class="card capability-card"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">建筑智能化集成管理平台，实现统一监控与联动控制。</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">楼宇</span><span class="scenario-tag">园区</span></div><p class="axlt-text-secondary-sm"><strong>核心价值：</strong></p><ul class="axlt-list-muted-sm"><li>系统互联互通</li><li>降低运维成本</li><li>提升管理效率</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >查看详情</a></div></div></div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-drone">
 <div class="grid-3"></div>

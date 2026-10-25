@@ -50,7 +50,7 @@
 .tab-btn.active,.tab-btn:hover{background:var(--color-brand);color:var(--color-bg);border-color:var(--color-brand);}
 </style>
 </head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -212,17 +212,17 @@
 </div>
 
 <!-- 3. Catégories & Modèles -->
-<section class="section-container tech-grid-bg">
+<section class="section-container">
   <h2 class="section-title">Sélection de modèle</h2>
   <p class="axlt-lead-text">Équipement de Vidéosurveillance couvre plusieurs catégories et modèles pour répondre à divers besoins de scénarios et budgets.</p>
   <div class="grid-3">
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Caméras Bullet / Turret Réseau" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-camera-1.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Caméras Bullet / Turret Réseau</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>2 MP–8 MP au choix</li>
           <li>Objectif fixe ou motorisé</li>
           <li>Vision nocturne IR jusqu'à 80 m</li>
@@ -230,13 +230,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Dômes Réseau / Mini-Dômes" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-camera-2.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Dômes Réseau / Mini-Dômes</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>Montage plafond ou mural</li>
           <li>Rotation horizontale 360°</li>
           <li>Anti-vandalisme IK10</li>
@@ -244,13 +244,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Dômes Rapides PTZ" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-camera-3.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Dômes Rapides PTZ</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>Rotation 360° sans fin</li>
           <li>Zoom optique 25x–40x</li>
           <li>Suivi automatique et prépositions</li>
@@ -258,13 +258,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Enregistreurs NVR" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-camera-4.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Enregistreurs NVR</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>4/8/16/32/64/128 canaux</li>
           <li>1 à 8 emplacements disque</li>
           <li>Sortie ultra-HD 4K</li>
@@ -277,9 +277,9 @@
         <img alt="Matrice des produits de surveillance vidéo" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/camera-matrix.png" width="1200" height="675"/>
       </div>
       <div class="axlt-container-mt">
-        <h3 style="text-align:center;margin-bottom:20px;">Guide de Sélection</h3>
+        <h3>Guide de Sélection</h3>
         <div class="axlt-overflow-auto">
-          <table class="spec-table axlt-table-responsive" >
+          <table class="axlt-table-responsive" >
             <thead>
               <tr>
             <th>Scénario</th>
@@ -332,7 +332,7 @@
   <h2 class="section-title">Interfaces et Compatibilité</h2>
   <p class="axlt-lead-text">Une prise en charge complète des principaux protocoles et plateformes garantit une intégration transparente avec vos systèmes existants.</p>
   <div class="grid-2 axlt-grid-cards" >
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>Interfaces Physiques</h3>
           <ul class="axlt-list-muted">
@@ -346,7 +346,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="network" class="axlt-icon-inline"></i>Protocoles Réseau</h3>
           <ul class="axlt-list-muted">
@@ -360,7 +360,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>Plateformes Compatibles</h3>
           <ul class="axlt-list-muted">
@@ -372,7 +372,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>Compatibilité Tierce</h3>
           <ul class="axlt-list-muted">
@@ -395,10 +395,10 @@
 <button class="tab-btn" onclick="switchTab('solutions','camera')" id="tab-solutions-camera">Solutions</button>
 </div>
 <div class="tab-content active" id="content-software-camera">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>Système de Liste Noire</h4><p class="axlt-text-muted-md">Base de données de liste noire avec blocage automatique lié au contrôle d'accès.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Sécurité</span><span class="scenario-tag">Construction</span></div><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Contrôle sécurisé renforcé</li><li>Blocage auto</li><li>Alertes temps réel</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/blacklist.html" >Voir les Détails</a></div></div><div class="card card-purple"><div class="card-body"><h4>Gestion de Sécurité</h4><p class="axlt-text-muted-md">Gestion complète de l'inspection des dangers, formation, rapport d'incident et suivi.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Construction</span><span class="scenario-tag">Usine</span></div><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Taux d'incidents réduit</li><li>Processus conformes</li><li>Données traçables</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/safety.html" >Voir les Détails</a></div></div><div class="card card-purple"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">Plateforme intégrée de gestion de bâtiment pour surveillance et contrôle unifiés.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Bâtiment</span><span class="scenario-tag">Parc</span></div><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Interconnexion systèmes</li><li>Coûts réduits</li><li>Gestion améliorée</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >Voir les Détails</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>Système de Liste Noire</h4><p class="axlt-text-muted-md">Base de données de liste noire avec blocage automatique lié au contrôle d'accès.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Sécurité</span><span class="scenario-tag">Construction</span></div><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Contrôle sécurisé renforcé</li><li>Blocage auto</li><li>Alertes temps réel</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/blacklist.html" >Voir les Détails</a></div></div><div class="card capability-card"><div class="card-body"><h4>Gestion de Sécurité</h4><p class="axlt-text-muted-md">Gestion complète de l'inspection des dangers, formation, rapport d'incident et suivi.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Construction</span><span class="scenario-tag">Usine</span></div><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Taux d'incidents réduit</li><li>Processus conformes</li><li>Données traçables</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/safety.html" >Voir les Détails</a></div></div><div class="card capability-card"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">Plateforme intégrée de gestion de bâtiment pour surveillance et contrôle unifiés.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Bâtiment</span><span class="scenario-tag">Parc</span></div><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Interconnexion systèmes</li><li>Coûts réduits</li><li>Gestion améliorée</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >Voir les Détails</a></div></div></div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-camera">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>Chantier Intelligent</h4><div class="axlt-flex-tags"><span class="scenario-tag">Construction</span></div><p class="axlt-text-muted-md">Gestion des accès, détection de casque, protection périmètre, surveillance grue, liaison poussière.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Sécurité chantier renforcée</li><li>Gestion nominative</li><li>Données traçables</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-construction.html" >Voir les Détails</a></div></div><div class="card card-purple"><div class="card-body"><h4>Bâtiment Intelligent</h4><div class="axlt-flex-tags"><span class="scenario-tag">Bureau</span><span class="scenario-tag">Commercial</span></div><p class="axlt-text-muted-md">Surveillance ascenseur, sécurité hall, gestion parking, liaison visiteurs, vérification vidéo incendie.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Couverture sécurité complète</li><li>Exploitation intelligente</li><li>Économie d'énergie</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >Voir les Détails</a></div></div><div class="card card-purple"><div class="card-body"><h4>Circulation Intelligente</h4><div class="axlt-flex-tags"><span class="scenario-tag">Route</span><span class="scenario-tag">Hub</span></div><p class="axlt-text-muted-md">Reconnaissance plaque, capture infraction, statistiques flux, détection incident, liaison feux.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Contrôle circulation intelligent</li><li>Décisions basées sur données</li><li>Débit amélioré</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-traffic.html" >Voir les Détails</a></div></div><div class="card card-purple"><div class="card-body"><h4>Parking Intelligent</h4><div class="axlt-flex-tags"><span class="scenario-tag">Commercial</span><span class="scenario-tag">Résidentiel</span></div><p class="axlt-text-muted-md">Guidage parking, paiement sans contact, recherche véhicule, gestion accès par plaque.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Expérience parking améliorée</li><li>Coûts réduits</li><li>Revenus augmentés</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-parking.html" >Voir les Détails</a></div></div><div class="card card-purple"><div class="card-body"><h4>Ville Intelligente</h4><div class="axlt-flex-tags"><span class="scenario-tag">Gouvernement</span><span class="scenario-tag">Public</span></div><p class="axlt-text-muted-md">Réseau vidéo urbain, plateforme agrégation données, commande urgente.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Gouvernance urbaine numérique</li><li>Réponse urgente accélérée</li><li>Partage ressources</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-city.html" >Voir les Détails</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>Chantier Intelligent</h4><div class="axlt-flex-tags"><span class="scenario-tag">Construction</span></div><p class="axlt-text-muted-md">Gestion des accès, détection de casque, protection périmètre, surveillance grue, liaison poussière.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Sécurité chantier renforcée</li><li>Gestion nominative</li><li>Données traçables</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-construction.html" >Voir les Détails</a></div></div><div class="card capability-card"><div class="card-body"><h4>Bâtiment Intelligent</h4><div class="axlt-flex-tags"><span class="scenario-tag">Bureau</span><span class="scenario-tag">Commercial</span></div><p class="axlt-text-muted-md">Surveillance ascenseur, sécurité hall, gestion parking, liaison visiteurs, vérification vidéo incendie.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Couverture sécurité complète</li><li>Exploitation intelligente</li><li>Économie d'énergie</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >Voir les Détails</a></div></div><div class="card capability-card"><div class="card-body"><h4>Circulation Intelligente</h4><div class="axlt-flex-tags"><span class="scenario-tag">Route</span><span class="scenario-tag">Hub</span></div><p class="axlt-text-muted-md">Reconnaissance plaque, capture infraction, statistiques flux, détection incident, liaison feux.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Contrôle circulation intelligent</li><li>Décisions basées sur données</li><li>Débit amélioré</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-traffic.html" >Voir les Détails</a></div></div><div class="card capability-card"><div class="card-body"><h4>Parking Intelligent</h4><div class="axlt-flex-tags"><span class="scenario-tag">Commercial</span><span class="scenario-tag">Résidentiel</span></div><p class="axlt-text-muted-md">Guidage parking, paiement sans contact, recherche véhicule, gestion accès par plaque.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Expérience parking améliorée</li><li>Coûts réduits</li><li>Revenus augmentés</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-parking.html" >Voir les Détails</a></div></div><div class="card capability-card"><div class="card-body"><h4>Ville Intelligente</h4><div class="axlt-flex-tags"><span class="scenario-tag">Gouvernement</span><span class="scenario-tag">Public</span></div><p class="axlt-text-muted-md">Réseau vidéo urbain, plateforme agrégation données, commande urgente.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Gouvernance urbaine numérique</li><li>Réponse urgente accélérée</li><li>Partage ressources</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-city.html" >Voir les Détails</a></div></div></div>
 </div>
 </section>
 
@@ -457,14 +457,5 @@
 </footer>
 <script src="../../main.js"></script>
 
-<script>
-function switchTab(tabName, device) {
-  document.querySelectorAll('.tab-btn').forEach(function(btn) { btn.classList.remove('active'); });
-  document.querySelectorAll('.tab-content').forEach(function(content) { content.classList.remove('active'); content.style.display='none'; });
-  document.getElementById('tab-' + tabName + '-' + device).classList.add('active');
-  var content = document.getElementById('content-' + tabName + '-' + device);
-  content.classList.add('active'); content.style.display='block';
-}
-</script>
 </body>
 </html>

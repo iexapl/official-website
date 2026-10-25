@@ -50,7 +50,7 @@
 .tab-btn.active,.tab-btn:hover{background:var(--color-brand);color:var(--color-bg);border-color:var(--color-brand);}
 </style>
 </head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -212,17 +212,17 @@
 </div>
 
 <!-- 3. Model Selection -->
-<section class="section-container tech-grid-bg">
+<section class="section-container">
   <h2 class="section-title">Model Selection</h2>
   <p class="axlt-lead-text">Video Surveillance Equipment covers multiple categories and models to meet diverse scenario and budget requirements.</p>
   <div class="grid-3">
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Network Bullet / Turret Cameras" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-camera-1.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Network Bullet / Turret Cameras</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>2 MP–8 MP options</li>
           <li>Fixed or motorized lens</li>
           <li>Up to 80 m IR night vision</li>
@@ -230,13 +230,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Network Dome / Mini Dome" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-camera-2.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Network Dome / Mini Dome</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>Ceiling or wall mounting</li>
           <li>360° horizontal coverage</li>
           <li>IK10 vandal-resistant</li>
@@ -244,13 +244,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="PTZ Speed Domes" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-camera-3.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>PTZ Speed Domes</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>360° endless rotation</li>
           <li>25x–40x optical zoom</li>
           <li>Auto-tracking and presets</li>
@@ -258,13 +258,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Network Video Recorders (NVR)" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-camera-4.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Network Video Recorders (NVR)</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>4/8/16/32/64/128 channels</li>
           <li>1 to 8 drive bays</li>
           <li>4K ultra-HD output</li>
@@ -277,9 +277,9 @@
         <img alt="Video Surveillance Product Matrix" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/camera-matrix.png" width="1200" height="675"/>
       </div>
       <div class="axlt-container-mt">
-        <h3 style="text-align:center;margin-bottom:20px;">Quick Selection Guide</h3>
+        <h3>Quick Selection Guide</h3>
         <div class="axlt-overflow-auto">
-          <table class="spec-table axlt-table-responsive" >
+          <table class="axlt-table-responsive" >
             <thead>
               <tr>
             <th>Scenario</th>
@@ -332,7 +332,7 @@
   <h2 class="section-title">Interfaces &amp; Compatibility</h2>
   <p class="axlt-lead-text">Video Surveillance Equipment supports rich physical interfaces and network protocols, compatible with mainstream platforms and third-party systems.</p>
   <div class="grid-2 axlt-grid-cards" >
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>Physical Interfaces</h3>
           <ul class="axlt-list-muted">
@@ -346,7 +346,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="network" class="axlt-icon-inline"></i>Network Protocols</h3>
           <ul class="axlt-list-muted">
@@ -360,7 +360,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>Compatible Platforms</h3>
           <ul class="axlt-list-muted">
@@ -372,7 +372,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>Third-Party Compatibility</h3>
           <ul class="axlt-list-muted">
@@ -395,10 +395,10 @@
 <button class="tab-btn" onclick="switchTab('solutions','camera')" id="tab-solutions-camera">Solutions</button>
 </div>
 <div class="tab-content active" id="content-software-camera">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>Blacklist System</h4><p class="axlt-text-muted-md">Personnel blacklist database with automatic blocking and alerts linked to access control.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Security</span><span class="scenario-tag">Construction</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Enhanced security control</li><li>Auto-blocking</li><li>Real-time alerts</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/blacklist.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>Safety Management</h4><p class="axlt-text-muted-md">Full-process management covering hazard inspection, training, incident reporting, and tracking.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Construction</span><span class="scenario-tag">Factory</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Reduced incident rates</li><li>Compliant processes</li><li>Traceable data</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/safety.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">Integrated building management platform for unified monitoring and control.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Building</span><span class="scenario-tag">Park</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>System interconnectivity</li><li>Reduced O&amp;M costs</li><li>Improved management</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >View Details</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>Blacklist System</h4><p class="axlt-text-muted-md">Personnel blacklist database with automatic blocking and alerts linked to access control.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Security</span><span class="scenario-tag">Construction</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Enhanced security control</li><li>Auto-blocking</li><li>Real-time alerts</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/blacklist.html" >View Details</a></div></div><div class="card capability-card"><div class="card-body"><h4>Safety Management</h4><p class="axlt-text-muted-md">Full-process management covering hazard inspection, training, incident reporting, and tracking.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Construction</span><span class="scenario-tag">Factory</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Reduced incident rates</li><li>Compliant processes</li><li>Traceable data</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/safety.html" >View Details</a></div></div><div class="card capability-card"><div class="card-body"><h4>IBMS</h4><p class="axlt-text-muted-md">Integrated building management platform for unified monitoring and control.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Building</span><span class="scenario-tag">Park</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>System interconnectivity</li><li>Reduced O&amp;M costs</li><li>Improved management</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/ibms.html" >View Details</a></div></div></div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-camera">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><img alt="Smart Construction Security Monitoring" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/camera-scene-1.png" width="800" height="450"/><h4>Smart Construction</h4><div class="axlt-flex-tags"><span class="scenario-tag">Construction</span></div><p class="axlt-text-muted-md">Personnel access, hard-hat detection, perimeter protection, crane monitoring, dust linkage.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Enhanced site safety</li><li>Real-name management</li><li>Traceable data</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-construction.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><img alt="Smart Building Entrance Monitoring" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/camera-scene-3.png" width="800" height="450"/><h4>Smart Building</h4><div class="axlt-flex-tags"><span class="scenario-tag">Office</span><span class="scenario-tag">Commercial</span></div><p class="axlt-text-muted-md">Elevator monitoring, lobby security, parking management, visitor linkage, fire video verification.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Full security coverage</li><li>Intelligent O&amp;M</li><li>Energy saving</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><img alt="Smart Traffic Intersection Monitoring" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/camera-scene-2.png" width="800" height="450"/><h4>Smart Traffic</h4><div class="axlt-flex-tags"><span class="scenario-tag">Road</span><span class="scenario-tag">Hub</span></div><p class="axlt-text-muted-md">License plate recognition, violation capture, flow statistics, incident detection, signal linkage.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Smart traffic control</li><li>Data-driven decisions</li><li>Improved throughput</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-traffic.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>Smart Parking</h4><div class="axlt-flex-tags"><span class="scenario-tag">Commercial</span><span class="scenario-tag">Residential</span></div><p class="axlt-text-muted-md">Parking guidance, contactless payment, reverse vehicle finding, license plate access management.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Improved parking experience</li><li>Reduced O&amp;M costs</li><li>Increased revenue</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-parking.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>Smart City</h4><div class="axlt-flex-tags"><span class="scenario-tag">Government</span><span class="scenario-tag">Public</span></div><p class="axlt-text-muted-md">City-level video surveillance network, data aggregation platform, emergency command dispatch.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Digital city governance</li><li>Faster emergency response</li><li>Resource sharing</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-city.html" >View Details</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><img alt="Smart Construction Security Monitoring" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/camera-scene-1.png" width="800" height="450"/><h4>Smart Construction</h4><div class="axlt-flex-tags"><span class="scenario-tag">Construction</span></div><p class="axlt-text-muted-md">Personnel access, hard-hat detection, perimeter protection, crane monitoring, dust linkage.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Enhanced site safety</li><li>Real-name management</li><li>Traceable data</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-construction.html" >View Details</a></div></div><div class="card capability-card"><div class="card-body"><img alt="Smart Building Entrance Monitoring" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/camera-scene-3.png" width="800" height="450"/><h4>Smart Building</h4><div class="axlt-flex-tags"><span class="scenario-tag">Office</span><span class="scenario-tag">Commercial</span></div><p class="axlt-text-muted-md">Elevator monitoring, lobby security, parking management, visitor linkage, fire video verification.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Full security coverage</li><li>Intelligent O&amp;M</li><li>Energy saving</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >View Details</a></div></div><div class="card capability-card"><div class="card-body"><img alt="Smart Traffic Intersection Monitoring" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/camera-scene-2.png" width="800" height="450"/><h4>Smart Traffic</h4><div class="axlt-flex-tags"><span class="scenario-tag">Road</span><span class="scenario-tag">Hub</span></div><p class="axlt-text-muted-md">License plate recognition, violation capture, flow statistics, incident detection, signal linkage.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Smart traffic control</li><li>Data-driven decisions</li><li>Improved throughput</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-traffic.html" >View Details</a></div></div><div class="card capability-card"><div class="card-body"><h4>Smart Parking</h4><div class="axlt-flex-tags"><span class="scenario-tag">Commercial</span><span class="scenario-tag">Residential</span></div><p class="axlt-text-muted-md">Parking guidance, contactless payment, reverse vehicle finding, license plate access management.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Improved parking experience</li><li>Reduced O&amp;M costs</li><li>Increased revenue</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-parking.html" >View Details</a></div></div><div class="card capability-card"><div class="card-body"><h4>Smart City</h4><div class="axlt-flex-tags"><span class="scenario-tag">Government</span><span class="scenario-tag">Public</span></div><p class="axlt-text-muted-md">City-level video surveillance network, data aggregation platform, emergency command dispatch.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Digital city governance</li><li>Faster emergency response</li><li>Resource sharing</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-city.html" >View Details</a></div></div></div>
 </div>
 </section>
 
@@ -457,14 +457,5 @@
 </footer>
 <script src="../../main.js"></script>
 
-<script>
-function switchTab(tabName, device) {
-  document.querySelectorAll('.tab-btn').forEach(function(btn) { btn.classList.remove('active'); });
-  document.querySelectorAll('.tab-content').forEach(function(content) { content.classList.remove('active'); content.style.display='none'; });
-  document.getElementById('tab-' + tabName + '-' + device).classList.add('active');
-  var content = document.getElementById('content-' + tabName + '-' + device);
-  content.classList.add('active'); content.style.display='block';
-}
-</script>
 </body>
 </html>

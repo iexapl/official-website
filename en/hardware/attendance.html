@@ -50,7 +50,7 @@
 .tab-btn.active,.tab-btn:hover{background:var(--color-brand);color:var(--color-bg);border-color:var(--color-brand);}
 </style>
 </head>
-<body>
+<body class="software-page">
 <header class="header">
 <div class="header-inner">
 <a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
@@ -212,17 +212,17 @@
 </div>
 
 <!-- 3. Model Selection -->
-<section class="section-container tech-grid-bg">
+<section class="section-container">
   <h2 class="section-title">Model Selection</h2>
   <p class="axlt-lead-text">Access Control &amp; Attendance Equipment covers multiple categories and models to meet diverse scenario and budget requirements.</p>
   <div class="grid-3">
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Desktop Check-in Terminal" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-attendance-1.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Desktop Check-in Terminal</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>Compact desktop design</li>
           <li>USB/Ethernet communication</li>
           <li>Fast office check-in</li>
@@ -230,13 +230,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Wall-Mounted Access Terminal" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-attendance-2.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Wall-Mounted Access Terminal</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>Standard 86-box mounting</li>
           <li>Relay output for electric lock</li>
           <li>Face/fingerprint/card/PIN</li>
@@ -244,13 +244,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Outdoor Waterproof Terminal" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-attendance-3.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Outdoor Waterproof Terminal</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>IP65 rating</li>
           <li>-20°C to +60°C wide temperature</li>
           <li>For sites, parks and outdoors</li>
@@ -258,13 +258,13 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple product-card">
-        <div class="product-card-img">
+      <div class="capability-card">
+        <div class="capability-card-img">
           <img alt="Lane Gate Integration" class="card-img axlt-img-cover" decoding="async" height="1949" loading="lazy" src="../../images/hw-series-attendance-4.webp"  width="4096"/>
         </div>
         <div class="card-body">
           <h3>Lane Gate Integration</h3>
-          <ul class="product-card-specs">
+          <ul class="capability-card-specs">
           <li>Links with pedestrian gates</li>
           <li>Bi-directional counting</li>
           <li>Attendance + access + passage in one</li>
@@ -277,9 +277,9 @@
         <img alt="Access Control Model Selection Matrix" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/attendance-matrix.png" width="1200" height="675"/>
       </div>
       <div class="axlt-container-mt">
-        <h3 style="text-align:center;margin-bottom:20px;">Quick Selection Guide</h3>
+        <h3>Quick Selection Guide</h3>
         <div class="axlt-overflow-auto">
-          <table class="spec-table axlt-table-responsive" >
+          <table class="axlt-table-responsive" >
             <thead>
               <tr>
             <th>Scenario</th>
@@ -326,7 +326,7 @@
   <h2 class="section-title">Interfaces &amp; Compatibility</h2>
   <p class="axlt-lead-text">Access Control &amp; Attendance Equipment supports rich physical interfaces and network protocols, compatible with mainstream platforms and third-party systems.</p>
   <div class="grid-2 axlt-grid-cards" >
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>Physical Interfaces</h3>
           <ul class="axlt-list-muted">
@@ -340,7 +340,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="network" class="axlt-icon-inline"></i>Network Protocols</h3>
           <ul class="axlt-list-muted">
@@ -352,7 +352,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>Compatible Platforms</h3>
           <ul class="axlt-list-muted">
@@ -363,7 +363,7 @@
           </ul>
         </div>
       </div>
-      <div class="card card-purple">
+      <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>Third-Party Integration</h3>
           <ul class="axlt-list-muted">
@@ -386,10 +386,10 @@
 <button class="tab-btn" onclick="switchTab('solutions','attendance')" id="tab-solutions-attendance">Solutions</button>
 </div>
 <div class="tab-content active" id="content-software-attendance">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>HR Management System</h4><p class="axlt-text-muted-md">Centralized employee records, attendance, payroll, and performance management.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Enterprise</span><span class="scenario-tag">Factory</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Digital HR management</li><li>Improved efficiency</li><li>Reduced labor costs</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/hrms.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>Blacklist System</h4><p class="axlt-text-muted-md">Personnel blacklist database with automatic blocking and alerts linked to access control.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Security</span><span class="scenario-tag">Construction</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Enhanced security control</li><li>Auto-blocking</li><li>Real-time alerts</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/blacklist.html" >View Details</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>HR Management System</h4><p class="axlt-text-muted-md">Centralized employee records, attendance, payroll, and performance management.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Enterprise</span><span class="scenario-tag">Factory</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Digital HR management</li><li>Improved efficiency</li><li>Reduced labor costs</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/hrms.html" >View Details</a></div></div><div class="card capability-card"><div class="card-body"><h4>Blacklist System</h4><p class="axlt-text-muted-md">Personnel blacklist database with automatic blocking and alerts linked to access control.</p><div class="axlt-flex-tags-alt"><span class="scenario-tag">Security</span><span class="scenario-tag">Construction</span></div><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Enhanced security control</li><li>Auto-blocking</li><li>Real-time alerts</li></ul><a class="btn btn-primary axlt-btn-inline" href="../software/blacklist.html" >View Details</a></div></div></div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-attendance">
-<div class="grid-3"><div class="card card-purple"><div class="card-body"><h4>Smart Construction</h4><img alt="Smart Construction Access Control Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/attendance-scene-2.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">Construction</span></div><p class="axlt-text-muted-md">Personnel access, hard-hat detection, perimeter protection, crane monitoring, dust linkage.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Enhanced site safety</li><li>Real-name management</li><li>Traceable data</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-construction.html" >View Details</a></div></div><div class="card card-purple"><div class="card-body"><h4>Smart Building</h4><img alt="Smart Building Access Control Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/attendance-scene-1.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">Office</span><span class="scenario-tag">Commercial</span></div><p class="axlt-text-muted-md">Elevator monitoring, lobby security, parking management, visitor linkage, fire video verification.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Full security coverage</li><li>Intelligent O&amp;M</li><li>Energy saving</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >View Details</a></div></div></div>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>Smart Construction</h4><img alt="Smart Construction Access Control Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/attendance-scene-2.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">Construction</span></div><p class="axlt-text-muted-md">Personnel access, hard-hat detection, perimeter protection, crane monitoring, dust linkage.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Enhanced site safety</li><li>Real-name management</li><li>Traceable data</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-construction.html" >View Details</a></div></div><div class="card capability-card"><div class="card-body"><h4>Smart Building</h4><img alt="Smart Building Access Control Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/attendance-scene-1.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">Office</span><span class="scenario-tag">Commercial</span></div><p class="axlt-text-muted-md">Elevator monitoring, lobby security, parking management, visitor linkage, fire video verification.</p><p class="axlt-text-secondary-sm"><strong>Core Value: </strong></p><ul class="axlt-list-muted-sm"><li>Full security coverage</li><li>Intelligent O&amp;M</li><li>Energy saving</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-building.html" >View Details</a></div></div></div>
 </div>
 </section>
 
@@ -448,14 +448,5 @@
 </footer>
 <script src="../../main.js"></script>
 
-<script>
-function switchTab(tabName, device) {
-  document.querySelectorAll('.tab-btn').forEach(function(btn) { btn.classList.remove('active'); });
-  document.querySelectorAll('.tab-content').forEach(function(content) { content.classList.remove('active'); content.style.display='none'; });
-  document.getElementById('tab-' + tabName + '-' + device).classList.add('active');
-  var content = document.getElementById('content-' + tabName + '-' + device);
-  content.classList.add('active'); content.style.display='block';
-}
-</script>
 </body>
 </html>
