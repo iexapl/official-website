@@ -128,30 +128,61 @@
 </div>
 </header>
 
-<main class="page-content">
-<section class="page-hero">
+<!-- 1. 产品摘要（结构与 camera 一致：page-hero + 概览图） -->
+<div class="page-hero">
 <h1>Vehicle Dashcam</h1>
 <p>H6-4G dashcam with real-time video, AI analytics and GPS for fleet management.</p>
-</section>
-<section class="section-container">
-<h2 class="section-title">Product Overview</h2>
-<div>
-<div><p>The H6-4G Vehicle Dashcam integrates 4G real-time video transmission, AI intelligent analysis and Beidou/GPS dual-mode positioning. With a 2MP sensor supporting 1080P HD recording, H.265 compression, infrared night vision and smart white light, it enables real-time tracking, live video, driving behavior analysis and automatic emergency event reporting.</p>
-<div class="capability-list">
-<div class="feature-item"><h4>4G Real-time</h4><p>LTE Cat.1 communication for real-time video upload, trajectory playback and remote monitoring.</p></div>
-<div class="feature-item"><h4>AI Analytics</h4><p>Human detection, abnormal behavior recognition, automatic alerts during parking monitoring.</p></div>
-<div class="feature-item"><h4>Dual-mode Positioning</h4><p>GPS + Beidou dual-mode, 64 channels, <2m accuracy, AGPS support.</p></div>
-<div class="feature-item"><h4>HD Night Vision</h4><p>Infrared night vision + smart white light for clear images day and night.</p></div>
-<div class="feature-item"><h4>Large Storage</h4><p>TF card up to 512GB, H.265 compression saves storage space.</p></div>
-</div></div>
-<div class="intro-image"><img alt="Vehicle Dashcam" src="../../images/hardware-new/dashcam-overview.png"/></div>
 </div>
-</section>
+<div class="page-image axlt-container-pad" >
+<img alt="Vehicle Dashcam" decoding="async" height="675" src="../../images/hardware-new/dashcam-overview.png" class="axlt-card-accent" width="1200"/>
+</div>
+
+<main>
+
+<!-- 2. 产品概述（camera 该区无 h2，直接导语 + grid-3 能力卡） -->
+<div class="section-container">
+<p class="axlt-lead-text-lg">
+The H6-4G Vehicle Dashcam integrates 4G real-time video transmission, AI intelligent analysis and Beidou/GPS dual-mode positioning. With a 2MP sensor supporting 1080P HD recording, H.265 compression, infrared night vision and smart white light, it enables real-time tracking, live video, driving behavior analysis and automatic emergency event reporting.
+</p>
+<div class="grid-3 axlt-mt-32">
+<div class="capability-card">
+<div class="capability-icon"><i data-lucide="signal"></i></div>
+<h3 class="capability-title">4G Real-time</h3>
+<p class="capability-desc">LTE Cat.1 communication for real-time video upload, trajectory playback and remote monitoring.</p>
+</div>
+<div class="capability-card">
+<div class="capability-icon"><i data-lucide="brain-circuit"></i></div>
+<h3 class="capability-title">AI Analytics</h3>
+<p class="capability-desc">Human detection, abnormal behavior recognition, automatic alerts during parking monitoring.</p>
+</div>
+<div class="capability-card">
+<div class="capability-icon"><i data-lucide="map-pin"></i></div>
+<h3 class="capability-title">Dual-mode Positioning</h3>
+<p class="capability-desc">GPS + Beidou dual-mode, 64 channels, <2m accuracy, AGPS support.</p>
+</div>
+<div class="capability-card">
+<div class="capability-icon"><i data-lucide="moon"></i></div>
+<h3 class="capability-title">HD Night Vision</h3>
+<p class="capability-desc">Infrared night vision + smart white light for clear images day and night.</p>
+</div>
+<div class="capability-card">
+<div class="capability-icon"><i data-lucide="hard-drive"></i></div>
+<h3 class="capability-title">Large Storage</h3>
+<p class="capability-desc">TF card up to 512GB, H.265 compression saves storage space.</p>
+</div>
+</div>
+</div>
+
+<!-- 3. 型号选型 -->
 <section class="section-container">
 <h2 class="section-title">Model Selection</h2>
-<p>Select the appropriate dashcam model based on positioning accuracy and communication requirements.</p>
-<img alt="Dashcam Model Selection Matrix" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/dashcam-matrix.png" width="1200" height="675"/>
-<table >
+<p class="axlt-lead-text">Select the appropriate dashcam model based on positioning accuracy and communication requirements.</p>
+<div class="axlt-container-mt">
+<img alt="Dashcam Model Selection Matrix" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/dashcam-matrix.png" width="1200" height="600"/>
+</div>
+<div class="axlt-container-mt">
+<div class="axlt-overflow-auto">
+<table class="axlt-table-responsive" >
 <thead><tr><th>Parameter</th><th>H6-4G Standard</th><th>H6-4G Pro</th></tr></thead>
 <tbody>
 <tr><td>Resolution</td><td>1080P (1920×1080)</td><td>1080P (1920×1080)</td></tr>
@@ -167,58 +198,106 @@
 <tr><td>Temperature</td><td>-25°C ~ +70°C</td><td>-25°C ~ +70°C</td></tr>
 </tbody>
 </table>
-</section>
-<section class="section-container">
-<h2 class="section-title">Interface Compatibility</h2>
-<div class="tech-grid">
-<div class="tech-card"><h4>4G Network</h4><p>LTE FDD/TDD full bands for real-time video streaming and remote commands.</p></div>
-<div class="tech-card"><h4>RS485</h4><p>Connects to fuel sensors, load sensors, temperature and humidity sensors.</p></div>
-<div class="tech-card"><h4>Platform</h4><p>Supports AXLTeco vehicle management platform and GB/T 32960 standard.</p></div>
-<div class="tech-card"><h4>API</h4><p>REST APIs for location query, video retrieval, alert subscription and playback.</p></div>
+</div>
 </div>
 </section>
+
+<!-- 4. 接口兼容（camera：grid-2 + capability-card/card-body + axlt-list-muted） -->
+<section class="section-container">
+<h2 class="section-title">Interface Compatibility</h2>
+<div class="grid-2 axlt-grid-cards" >
+<div class="card capability-card">
+<div class="card-body">
+<h3><i data-lucide="signal" class="axlt-icon-inline"></i>4G Network</h3>
+<ul class="axlt-list-muted">
+<li>LTE FDD/TDD full bands for real-time video streaming and remote commands.</li>
+</ul>
+</div>
+</div>
+<div class="card capability-card">
+<div class="card-body">
+<h3><i data-lucide="plug" class="axlt-icon-inline"></i>RS485</h3>
+<ul class="axlt-list-muted">
+<li>Connects to fuel sensors, load sensors, temperature and humidity sensors.</li>
+</ul>
+</div>
+</div>
+<div class="card capability-card">
+<div class="card-body">
+<h3><i data-lucide="monitor" class="axlt-icon-inline"></i>Platform</h3>
+<ul class="axlt-list-muted">
+<li>Supports AXLTeco vehicle management platform and GB/T 32960 standard.</li>
+</ul>
+</div>
+</div>
+<div class="card capability-card">
+<div class="card-body">
+<h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>API</h3>
+<ul class="axlt-list-muted">
+<li>REST APIs for location query, video retrieval, alert subscription and playback.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 5. 应用方案（tabs 绑定签名照 camera：switchTab(名字, slug)） -->
 <section class="section-container">
 <h2 class="section-title">Application Solutions</h2>
-<div class="tab-group">
-<div class="tab-nav"><button class="tab-btn active" onclick="switchTab('software','dashcam')" id="tab-software-dashcam">Software Systems</button><button class="tab-btn" onclick="switchTab('solutions','dashcam')" id="tab-solutions-dashcam">Solutions</button></div>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software','dashcam')" id="tab-software-dashcam">Software Systems</button>
+<button class="tab-btn" onclick="switchTab('solutions','dashcam')" id="tab-solutions-dashcam">Solutions</button>
+</div>
 <div class="tab-content active" id="content-software-dashcam">
-<div class="card-grid">
-<div class="card"><h4>Vehicle Management</h4><p>Real-time video, trajectory playback, alert management and fleet overview.</p></div>
-<div class="card"><h4>ADAS</h4><p>Lane departure and forward collision warnings for improved driving safety.</p></div>
+<div class="grid-3">
+<div class="card capability-card"><div class="card-body"><h4>Vehicle Management</h4><p class="axlt-text-muted-md">Real-time video, trajectory playback, alert management and fleet overview.</p></div></div>
+<div class="card capability-card"><div class="card-body"><h4>ADAS</h4><p class="axlt-text-muted-md">Lane departure and forward collision warnings for improved driving safety.</p></div></div>
 </div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-dashcam">
-<div class="card-grid">
-<div class="card"><h4>Smart Logistics</h4><img alt="Smart Logistics Dashcam Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/dashcam-scene-1.png" width="1200" height="675"/><p>Full-process video monitoring for cargo security and dispute evidence.</p></div>
-<div class="card"><h4>Public Transport</h4><img alt="Public Transport Dashcam Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/dashcam-scene-2.png" width="1200" height="675"/><p>Real-time monitoring for buses and coaches ensuring passenger safety.</p></div>
-</div>
+<div class="grid-3">
+<div class="card capability-card"><div class="card-body"><img alt="Smart Logistics Dashcam Scene" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/dashcam-scene-1.png" width="800" height="450"/><h4>Smart Logistics</h4><p class="axlt-text-muted-md">Full-process video monitoring for cargo security and dispute evidence.</p></div></div>
+<div class="card capability-card"><div class="card-body"><img alt="Public Transport Dashcam Scene" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/dashcam-scene-2.png" width="800" height="450"/><h4>Public Transport</h4><p class="axlt-text-muted-md">Real-time monitoring for buses and coaches ensuring passenger safety.</p></div></div>
 </div>
 </div>
 </section>
+
+<!-- 6. 优势与保障 -->
 <section class="section-container">
-<h2 class="section-title">Advantages & Assurance</h2>
-<div class="triple-grid">
+  <h2 class="section-title">Advantages & Assurance</h2>
+  <div class="triple-grid">
 <div class="triple-col-left">
-<div class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Core Advantages</div>
-<div class="triple-card"><h4>HD Quality</h4><p>1080P full HD with H.265 compression, saving 50% storage at same quality.</p></div>
-<div class="triple-card"><h4>Full Scene</h4><p>Infrared night vision + smart white light for clear recording day and night.</p></div>
-<div class="triple-card"><h4>Precision Positioning</h4><p>Multi-system multi-frequency positioning stable even in urban canyons.</p></div>
+  <div class="triple-col-title">
+    <span class="col-icon"><i data-lucide="zap"></i></span>
+    Core Advantages
+  </div>
+  <div class="triple-card"><h4>HD Quality</h4><p>1080P full HD with H.265 compression, saving 50% storage at same quality.</p></div>
+  <div class="triple-card"><h4>Full Scene</h4><p>Infrared night vision + smart white light for clear recording day and night.</p></div>
+  <div class="triple-card"><h4>Precision Positioning</h4><p>Multi-system multi-frequency positioning stable even in urban canyons.</p></div>
 </div>
 <div class="triple-col-center">
-<div class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Delivery Services</div>
-<div class="triple-card"><h4>Installation</h4><p>Professional engineers complete device installation and platform integration.</p></div>
-<div class="triple-card"><h4>Platform Config</h4><p>Configure geo-fences, alert rules, video storage policies and permissions.</p></div>
-<div class="triple-card"><h4>Training</h4><p>Train managers on platform operation, video retrieval and alert handling.</p></div>
+  <div class="triple-col-title">
+    <span class="col-icon"><i data-lucide="truck"></i></span>
+    Delivery Services
+  </div>
+  <div class="triple-card"><h4>Installation</h4><p>Professional engineers complete device installation and platform integration.</p></div>
+  <div class="triple-card"><h4>Platform Config</h4><p>Configure geo-fences, alert rules, video storage policies and permissions.</p></div>
+  <div class="triple-card"><h4>Training</h4><p>Train managers on platform operation, video retrieval and alert handling.</p></div>
 </div>
 <div class="triple-col-right">
-<div class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee</div>
-<div class="triple-card"><h4>Warranty</h4><p>1-year warranty, core module extended warranty available.</p></div>
-<div class="triple-card"><h4>Local Response</h4><p>Nigeria local team, on-site response within 48 hours.</p></div>
-<div class="triple-card"><h4>Remote Support</h4><p>24/7 remote technical support, OTA firmware upgrades.</p></div>
+  <div class="triple-col-title">
+    <span class="col-icon"><i data-lucide="shield-check"></i></span>
+    Service Guarantee
+  </div>
+  <div class="triple-card"><h4>Warranty</h4><p>1-year warranty, core module extended warranty available.</p></div>
+  <div class="triple-card"><h4>Local Response</h4><p>Nigeria local team, on-site response within 48 hours.</p></div>
+  <div class="triple-card"><h4>Remote Support</h4><p>24/7 remote technical support, OTA firmware upgrades.</p></div>
 </div>
 </div>
 </section>
+
 </main>
+
 <footer class="footer">
 <div class="footer-inner">
 <div>

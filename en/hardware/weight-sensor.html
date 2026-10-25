@@ -128,30 +128,61 @@
 </div>
 </header>
 
-<main class="page-content">
-<section class="page-hero">
+<!-- 1. 产品摘要（结构与 camera 一致：page-hero + 概览图） -->
+<div class="page-hero">
 <h1>Vehicle Load Sensor</h1>
 <p>Vehicle load sensor measuring cargo weight via suspension deformation.</p>
-</section>
-<section class="section-container">
-<h2 class="section-title">Product Overview</h2>
-<div>
-<div><p>The M6 Vehicle Load Sensor consists of a load host and load sensors. Installed on the vehicle suspension spring plate, it monitors the suspension deformation angle between empty and loaded states, calculating the actual cargo weight via MCU with digital signal output. Suitable for logistics, engineering vehicles and mining trucks requiring real-time load monitoring.</p>
-<div class="capability-list">
-<div class="feature-item"><h4>High Precision</h4><p>0.001° angle resolution, each data point corresponds to only a few hundred grams.</p></div>
-<div class="feature-item"><h4>Easy Installation</h4><p>No welding required, waterproof quick connectors and AB adhesive mounting.</p></div>
-<div class="feature-item"><h4>Fully Waterproof</h4><p>IP68 rated host with complete internal encapsulation for harsh outdoor environments.</p></div>
-<div class="feature-item"><h4>Industrial Grade</h4><p>Operating temperature -40°C to 80°C, industrial modules, low failure rate, long lifespan.</p></div>
-<div class="feature-item"><h4>Modular Maintenance</h4><p>Direct weight output without on-site calibration, modular networking for easy replacement.</p></div>
-</div></div>
-<div class="intro-image"><img alt="Vehicle Load Sensor" src="../../images/hardware-new/weight-sensor-overview.png"/></div>
 </div>
-</section>
+<div class="page-image axlt-container-pad" >
+<img alt="Vehicle Load Sensor" decoding="async" height="675" src="../../images/hardware-new/weight-sensor-overview.png" class="axlt-card-accent" width="1200"/>
+</div>
+
+<main>
+
+<!-- 2. 产品概述（camera 该区无 h2，直接导语 + grid-3 能力卡） -->
+<div class="section-container">
+<p class="axlt-lead-text-lg">
+The M6 Vehicle Load Sensor consists of a load host and load sensors. Installed on the vehicle suspension spring plate, it monitors the suspension deformation angle between empty and loaded states, calculating the actual cargo weight via MCU with digital signal output. Suitable for logistics, engineering vehicles and mining trucks requiring real-time load monitoring.
+</p>
+<div class="grid-3 axlt-mt-32">
+<div class="capability-card">
+<div class="capability-icon"><i data-lucide="gauge"></i></div>
+<h3 class="capability-title">High Precision</h3>
+<p class="capability-desc">0.001° angle resolution, each data point corresponds to only a few hundred grams.</p>
+</div>
+<div class="capability-card">
+<div class="capability-icon"><i data-lucide="wrench"></i></div>
+<h3 class="capability-title">Easy Installation</h3>
+<p class="capability-desc">No welding required, waterproof quick connectors and AB adhesive mounting.</p>
+</div>
+<div class="capability-card">
+<div class="capability-icon"><i data-lucide="droplets"></i></div>
+<h3 class="capability-title">Fully Waterproof</h3>
+<p class="capability-desc">IP68 rated host with complete internal encapsulation for harsh outdoor environments.</p>
+</div>
+<div class="capability-card">
+<div class="capability-icon"><i data-lucide="shield-check"></i></div>
+<h3 class="capability-title">Industrial Grade</h3>
+<p class="capability-desc">Operating temperature -40°C to 80°C, industrial modules, low failure rate, long lifespan.</p>
+</div>
+<div class="capability-card">
+<div class="capability-icon"><i data-lucide="package"></i></div>
+<h3 class="capability-title">Modular Maintenance</h3>
+<p class="capability-desc">Direct weight output without on-site calibration, modular networking for easy replacement.</p>
+</div>
+</div>
+</div>
+
+<!-- 3. 型号选型 -->
 <section class="section-container">
 <h2 class="section-title">Model Selection</h2>
-<p>Select the appropriate load sensor model based on accuracy requirements and communication needs.</p>
-<img alt="Model Selection Matrix" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/weight-sensor-matrix.png" width="1200" height="675"/>
-<table >
+<p class="axlt-lead-text">Select the appropriate load sensor model based on accuracy requirements and communication needs.</p>
+<div class="axlt-container-mt">
+<img alt="Model Selection Matrix" class="axlt-img-rounded axlt-img-cover" decoding="async" loading="lazy" src="../../images/hardware-new/weight-sensor-matrix.png" width="1200" height="600"/>
+</div>
+<div class="axlt-container-mt">
+<div class="axlt-overflow-auto">
+<table class="axlt-table-responsive" >
 <thead><tr><th>Parameter</th><th>M6 Standard</th><th>M6 Pro</th></tr></thead>
 <tbody>
 <tr><td>Measurement</td><td>Angle conversion</td><td>Angle + temperature compensation</td></tr>
@@ -164,58 +195,106 @@
 <tr><td>Power</td><td>9-36V DC</td><td>9-36V DC</td></tr>
 </tbody>
 </table>
-</section>
-<section class="section-container">
-<h2 class="section-title">Interface Compatibility</h2>
-<div class="tech-grid">
-<div class="tech-card"><h4>RS485</h4><p>Modbus RTU protocol for vehicle terminals, PLCs and industrial PCs.</p></div>
-<div class="tech-card"><h4>CAN Bus</h4><p>J1939 compliant, directly connects to vehicle ECU and management systems.</p></div>
-<div class="tech-card"><h4>4G (Pro)</h4><p>Built-in Cat.1 module for real-time load data upload to cloud platform.</p></div>
-<div class="tech-card"><h4>Platform</h4><p>Supports AXLTeco vehicle management platform and third-party TMS/WMS.</p></div>
+</div>
 </div>
 </section>
+
+<!-- 4. 接口兼容（camera：grid-2 + capability-card/card-body + axlt-list-muted） -->
+<section class="section-container">
+<h2 class="section-title">Interface Compatibility</h2>
+<div class="grid-2 axlt-grid-cards" >
+<div class="card capability-card">
+<div class="card-body">
+<h3><i data-lucide="plug" class="axlt-icon-inline"></i>RS485</h3>
+<ul class="axlt-list-muted">
+<li>Modbus RTU protocol for vehicle terminals, PLCs and industrial PCs.</li>
+</ul>
+</div>
+</div>
+<div class="card capability-card">
+<div class="card-body">
+<h3><i data-lucide="network" class="axlt-icon-inline"></i>CAN Bus</h3>
+<ul class="axlt-list-muted">
+<li>J1939 compliant, directly connects to vehicle ECU and management systems.</li>
+</ul>
+</div>
+</div>
+<div class="card capability-card">
+<div class="card-body">
+<h3><i data-lucide="signal" class="axlt-icon-inline"></i>4G (Pro)</h3>
+<ul class="axlt-list-muted">
+<li>Built-in Cat.1 module for real-time load data upload to cloud platform.</li>
+</ul>
+</div>
+</div>
+<div class="card capability-card">
+<div class="card-body">
+<h3><i data-lucide="monitor" class="axlt-icon-inline"></i>Platform</h3>
+<ul class="axlt-list-muted">
+<li>Supports AXLTeco vehicle management platform and third-party TMS/WMS.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 5. 应用方案（tabs 绑定签名照 camera：switchTab(名字, slug)） -->
 <section class="section-container">
 <h2 class="section-title">Application Solutions</h2>
-<div class="tab-group">
-<div class="tab-nav"><button class="tab-btn active" onclick="switchTab('software','weight-sensor')" id="tab-software-weight-sensor">Software Systems</button><button class="tab-btn" onclick="switchTab('solutions','weight-sensor')" id="tab-solutions-weight-sensor">Solutions</button></div>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software','weight-sensor')" id="tab-software-weight-sensor">Software Systems</button>
+<button class="tab-btn" onclick="switchTab('solutions','weight-sensor')" id="tab-solutions-weight-sensor">Solutions</button>
+</div>
 <div class="tab-content active" id="content-software-weight-sensor">
-<div class="card-grid">
-<div class="card"><h4>Vehicle Management</h4><p>Real-time load, location and trajectory monitoring with overload alerts.</p></div>
-<div class="card"><h4>TMS</h4><p>Load data integration with transport management for automatic freight calculation.</p></div>
+<div class="grid-3">
+<div class="card capability-card"><div class="card-body"><h4>Vehicle Management</h4><p class="axlt-text-muted-md">Real-time load, location and trajectory monitoring with overload alerts.</p></div></div>
+<div class="card capability-card"><div class="card-body"><h4>TMS</h4><p class="axlt-text-muted-md">Load data integration with transport management for automatic freight calculation.</p></div></div>
 </div>
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-weight-sensor">
-<div class="card-grid">
-<div class="card"><h4>Smart Logistics</h4><p>Real-time fleet load monitoring to prevent overload and theft.</p></div>
-<div class="card"><h4>Construction Vehicles</h4><p>Dump truck and mixer load monitoring for precise measurement.</p></div>
-</div>
+<div class="grid-3">
+<div class="card capability-card"><div class="card-body"><h4>Smart Logistics</h4><p class="axlt-text-muted-md">Real-time fleet load monitoring to prevent overload and theft.</p></div></div>
+<div class="card capability-card"><div class="card-body"><h4>Construction Vehicles</h4><p class="axlt-text-muted-md">Dump truck and mixer load monitoring for precise measurement.</p></div></div>
 </div>
 </div>
 </section>
+
+<!-- 6. 优势与保障 -->
 <section class="section-container">
-<h2 class="section-title">Advantages & Assurance</h2>
-<div class="triple-grid">
+  <h2 class="section-title">Advantages & Assurance</h2>
+  <div class="triple-grid">
 <div class="triple-col-left">
-<div class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Core Advantages</div>
-<div class="triple-card"><h4>High Precision</h4><p>0.001° angle resolution, ±1% static accuracy, ±3% dynamic accuracy.</p></div>
-<div class="triple-card"><h4>Easy Install</h4><p>No welding, AB adhesive + waterproof connectors, 30 min per axle.</p></div>
-<div class="triple-card"><h4>High Reliability</h4><p>IP68 waterproof, -40°C~80°C operating range, 5+ year lifespan.</p></div>
+  <div class="triple-col-title">
+    <span class="col-icon"><i data-lucide="zap"></i></span>
+    Core Advantages
+  </div>
+  <div class="triple-card"><h4>High Precision</h4><p>0.001° angle resolution, ±1% static accuracy, ±3% dynamic accuracy.</p></div>
+  <div class="triple-card"><h4>Easy Install</h4><p>No welding, AB adhesive + waterproof connectors, 30 min per axle.</p></div>
+  <div class="triple-card"><h4>High Reliability</h4><p>IP68 waterproof, -40°C~80°C operating range, 5+ year lifespan.</p></div>
 </div>
 <div class="triple-col-center">
-<div class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Delivery Services</div>
-<div class="triple-card"><h4>On-site Calibration</h4><p>Engineer performs empty/load calibration on-site for accuracy.</p></div>
-<div class="triple-card"><h4>Platform Integration</h4><p>Assist platform integration with alert rules and reports.</p></div>
-<div class="triple-card"><h4>Training</h4><p>Train operators on daily use, troubleshooting and data reading.</p></div>
+  <div class="triple-col-title">
+    <span class="col-icon"><i data-lucide="truck"></i></span>
+    Delivery Services
+  </div>
+  <div class="triple-card"><h4>On-site Calibration</h4><p>Engineer performs empty/load calibration on-site for accuracy.</p></div>
+  <div class="triple-card"><h4>Platform Integration</h4><p>Assist platform integration with alert rules and reports.</p></div>
+  <div class="triple-card"><h4>Training</h4><p>Train operators on daily use, troubleshooting and data reading.</p></div>
 </div>
 <div class="triple-col-right">
-<div class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee</div>
-<div class="triple-card"><h4>Warranty</h4><p>1-year warranty, core sensor extended to 2 years.</p></div>
-<div class="triple-card"><h4>Local Response</h4><p>Nigeria local team, on-site response within 48 hours.</p></div>
-<div class="triple-card"><h4>Remote Support</h4><p>24/7 remote technical support with real-time device monitoring.</p></div>
+  <div class="triple-col-title">
+    <span class="col-icon"><i data-lucide="shield-check"></i></span>
+    Service Guarantee
+  </div>
+  <div class="triple-card"><h4>Warranty</h4><p>1-year warranty, core sensor extended to 2 years.</p></div>
+  <div class="triple-card"><h4>Local Response</h4><p>Nigeria local team, on-site response within 48 hours.</p></div>
+  <div class="triple-card"><h4>Remote Support</h4><p>24/7 remote technical support with real-time device monitoring.</p></div>
 </div>
 </div>
 </section>
+
 </main>
+
 <footer class="footer">
 <div class="footer-inner">
 <div>
