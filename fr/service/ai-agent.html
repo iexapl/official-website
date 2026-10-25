@@ -248,26 +248,134 @@
 </section>
 <section class="section-container">
 <h2 class="section-title">Processus de Service</h2>
-<section class="scenario-section">
-<div class="scenario-image">
-<img alt="Flux du service agent IA" decoding="async" height="675" loading="lazy" src="../../images/visual-ai-agent.webp" class="axlt-img-bordered" width="1200"/>
-</div>
-<div class="scenario-text">
-<h3>Diagnostic et Validation</h3>
-<p>Diagnostic : Identifier les scénarios à haute valeur, évaluer la faisabilité technique et le ROI. Sélection : Déterminer les scénarios prioritaires, élaborer le plan POC. Validation POC : Construire rapidement un Agent minimal viable, valider les capacités core. Préparation : Gouvernance des données, parsing de documents, construction de la base de connaissances.</p>
-<div class="scenario-tags"><span class="scenario-tag">Diagnostic</span><span class="scenario-tag">Sélection</span><span class="scenario-tag">POC</span><span class="scenario-tag">Préparation</span></div>
-</div>
-</section>
-<section class="scenario-section reverse">
-<div class="scenario-image">
-<img alt="Développement et évaluation de l'agent IA" decoding="async" height="675" loading="lazy" src="../../images/visual-ai-agent-data.webp" class="axlt-img-bordered" width="1200"/>
-</div>
-<div class="scenario-text">
-<h3>Développement et Exploitation</h3>
-<p>Conception Agent : Ingénierie des prompts, conception d'outils, orchestration de workflow. Développement : Développement Agent, intégration API, interface frontend. Évaluation : Précision, rappel, taux de complétion, optimisation continue. Exploitation : Déploiement production, surveillance, collecte de feedback. Itération continue : Itération des versions du modèle et de la base de connaissances, montées en fonction, extension des scénarios, formant une boucle fermée.</p>
-<div class="scenario-tags"><span class="scenario-tag">Conception</span><span class="scenario-tag">Développement</span><span class="scenario-tag">Évaluation</span><span class="scenario-tag">Exploitation</span><span class="scenario-tag">Itération</span></div>
-</div>
-</section>
+<ol class="process-timeline" aria-label="Processus de service Développement d’agents IA, 9 étapes">
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">01</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Diagnostic</h3>
+          <p>Analyser les besoins métier, identifier les scénarios à fort valeur et évaluer la faisabilité technique et le retour sur investissement.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Rapport de diagnostic, évaluation de faisabilité, estimation du ROI</span>
+            <span class="step-meta-item"><strong>Durée</strong>1 à 2 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Chef de produit + Ingénieur ML</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">02</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Sélection</h3>
+          <p>Sélectionner les scénarios de première vague et définir le plan de POC avec des indicateurs de succès mesurables.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Liste priorisée des scénarios, plan de POC, définition des indicateurs</span>
+            <span class="step-meta-item"><strong>Durée</strong>1 semaine</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Chef de produit</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">03</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>POC</h3>
+          <p>Construire un agent minimal viable pour valider la capacité cœur, tester sur des échantillons réels et recueillir les retours.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Environnement de démonstration POC, conclusions de validation, référence d’indicateurs</span>
+            <span class="step-meta-item"><strong>Durée</strong>2 à 4 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Ingénieur ML</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">04</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Préparation</h3>
+          <p>Gouverner les données métier, analyser les documents et construire la base de connaissances vectorielle et la chaîne de recherche.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Jeu de données nettoyé, base de connaissances, jeu d’évaluation de la recherche</span>
+            <span class="step-meta-item"><strong>Durée</strong>2 à 4 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Ingénieur données</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">05</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Conception</h3>
+          <p>Définir l’ingénierie de prompts, les schémas d’outils, l’orchestration des workflows et la répartition multi-agents.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Document de conception d’agent, bibliothèque de prompts, définitions d’outils et de workflows</span>
+            <span class="step-meta-item"><strong>Durée</strong>2 à 3 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Ingénieur ML + Architecte</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">06</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Développement</h3>
+          <p>Développer le service d’agent, intégrer les API métier et réaliser le front-end et la console d’administration.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Service d’agent, API d’intégration, console d’administration, guide d’intégration</span>
+            <span class="step-meta-item"><strong>Durée</strong>4 à 8 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Équipe de développement</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">07</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Évaluation</h3>
+          <p>Évaluer en régression la précision, le rappel et le taux d’achèvement, puis itérer prompts et base de connaissances.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Rapport d’évaluation, journal d’optimisation, tableau comparatif des indicateurs</span>
+            <span class="step-meta-item"><strong>Durée</strong>2 à 3 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Équipe QA + Ingénieur ML</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">08</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Exploitation</h3>
+          <p>Déployer en production, configurer la supervision et mettre en place la collecte de retours avec reprise humaine.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Plan de mise en production, tableau de supervision, manuel d’exploitation</span>
+            <span class="step-meta-item"><strong>Durée</strong>1 à 2 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Ingénieur DevOps + Exploitation</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">09</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Itération</h3>
+          <p>Actualiser la base de connaissances au rythme des modèles et du métier, étendre les scénarios et boucler l’exploitation.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Versions itératives, liste d’extension des scénarios, rétrospective de phase</span>
+            <span class="step-meta-item"><strong>Durée</strong>Continu (trimestriel)</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Ingénieur ML + Exploitation</span>
+          </div>
+        </div>
+      </div>
+    </li>
+</ol>
 </section>
 <section class="section-container">
 <h2 class="section-title">Avantages et Garanties</h2>

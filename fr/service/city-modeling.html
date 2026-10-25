@@ -258,26 +258,162 @@
 </section>
 <section class="section-container">
 <h2 class="section-title">Processus de Service</h2>
-<section class="scenario-section">
-<div class="scenario-image">
-<img alt="Acquisition de données de modélisation" decoding="async" height="675" loading="lazy" src="../../images/visual-service-modeling-scene-1.webp" class="axlt-img-bordered" width="1200"/>
-</div>
-<div class="scenario-text">
-<h3>Phase Initiale</h3>
-<p>Besoins : Clarifier la portée, la précision, les scénarios et les standards de livraison. Collecte : Rassembler matériaux CAD, GIS, BIM, imagerie, élaborer le plan. Acquisition : Levé aérien par drone, scanning LiDAR, prises de vue complémentaires. Traitement : Correction d'images, débruitage nuages de points, triangulation aérienne.</p>
-<div class="scenario-tags"><span class="scenario-tag">Besoins</span><span class="scenario-tag">Collecte</span><span class="scenario-tag">Acquisition</span><span class="scenario-tag">Traitement</span></div>
-</div>
-</section>
-<section class="scenario-section reverse">
-<div class="scenario-image">
-<img alt="Modèle numérique 3D de la ville" decoding="async" height="675" loading="lazy" src="../../images/visual-solution-city-scene.webp" class="axlt-img-bordered" width="1200"/>
-</div>
-<div class="scenario-text">
-<h3>Phase Finale</h3>
-<p>Modélisation : Reconstruction 3D, modélisation géométrique, production blancs. Mapping textures : Dodging et équilibrage colorimétrique, application des textures et enrichissement des détails. Sémantisation/Allègement : Sémantisation des entités, classification LOD et allègement du modèle. Intégration : Plateforme 3D, interfaces API, intégration systèmes métier. Contrôle : Validation précision, vérification topologie, qualité textures. Livraison : Données modèles, rapports de précision et manuels selon contrat. Maintenance : Mises à jour régulières, réparations locales, exploitation plateforme.</p>
-<div class="scenario-tags"><span class="scenario-tag">Modélisation</span><span class="scenario-tag">Textures</span><span class="scenario-tag">Sémantisation</span><span class="scenario-tag">Intégration</span><span class="scenario-tag">Contrôle</span><span class="scenario-tag">Livraison</span><span class="scenario-tag">Maintenance</span></div>
-</div>
-</section>
+<ol class="process-timeline" aria-label="Processus de service Service de modélisation urbaine, 11 étapes">
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">01</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Besoins</h3>
+          <p>Préciser le périmètre de modélisation, la classe de précision, les cas d’usage et les standards de livraison.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Rapport de cadrage, définition du périmètre et de la précision</span>
+            <span class="step-meta-item"><strong>Durée</strong>1 à 2 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Chef de produit</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">02</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Collecte</h3>
+          <p>Rassembler les données CAD, SIG, BIM et images existantes, puis établir le plan d’acquisition.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Inventaire des données, plan d’acquisition, autorisations de vol et d’opération</span>
+            <span class="step-meta-item"><strong>Durée</strong>1 à 2 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Ingénieur topographe</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">03</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Acquisition</h3>
+          <p>Réaliser la photogrammétrie par drone, le scan LiDAR et les prises de vue au sol, puis récupérer les données brutes.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Images brutes, nuages de points, données POS, journal d’acquisition</span>
+            <span class="step-meta-item"><strong>Durée</strong>2 à 4 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Équipe de levé aérien</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">04</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Traitement</h3>
+          <p>Effectuer la correction d’images, le débruitage des nuages de points, l’appariement et l’aérotriangulation.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Résultats d’aérotriangulation, nuages débruités, fiche de contrôle préliminaire</span>
+            <span class="step-meta-item"><strong>Durée</strong>1 à 2 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Ingénieur traitement de données</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">05</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Modélisation</h3>
+          <p>Réaliser la reconstruction 3D, la modélisation géométrique et le modèle blanc pour obtenir un modèle mesurable.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Modèle 3D, modèle blanc, journal de modélisation</span>
+            <span class="step-meta-item"><strong>Durée</strong>3 à 6 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Équipe de modélisation</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">06</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Textures</h3>
+          <p>Harmoniser la colorimétrie des images, projeter les textures sur la géométrie et renforcer les détails.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Modèle texturé, bibliothèque d’atlas de textures</span>
+            <span class="step-meta-item"><strong>Durée</strong>2 à 3 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Équipe de modélisation</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">07</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Sémantisation</h3>
+          <p>Classer la sémantique des entités, définir les niveaux de LOD et alléger le modèle pour le chargement web.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Modèle sémantique, modèle multi-LOD, paquet allégé</span>
+            <span class="step-meta-item"><strong>Durée</strong>2 à 3 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Équipe de modélisation + Équipe de développement</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">08</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Intégration</h3>
+          <p>Intégrer le modèle dans la plateforme de visualisation 3D, exposer les API et raccorder les systèmes métier.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Plateforme déployée, documentation API, journal de recette d’intégration</span>
+            <span class="step-meta-item"><strong>Durée</strong>2 à 4 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Équipe de développement</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">09</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Contrôle</h3>
+          <p>Vérifier la précision, la topologie, la qualité des textures et l’intégrité du modèle.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Rapport de contrôle, relevé de vérification de précision, liste de corrections</span>
+            <span class="step-meta-item"><strong>Durée</strong>1 à 2 semaines</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Équipe qualité</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">10</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Livraison</h3>
+          <p>Livrer les données et documents conformément au contrat, et organiser la réception client.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Paquet de données modèle, rapport de précision, guide utilisateur, procès-verbal de réception</span>
+            <span class="step-meta-item"><strong>Durée</strong>1 semaine</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Chef de projet</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">11</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Maintenance</h3>
+          <p>Assurer les mises à jour périodiques et partielles, les réparations de modèle et les reprises de levé, avec le support de la plateforme.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Livrable</strong>Versions mises à jour, journal de réparation, rapport mensuel d’exploitation</span>
+            <span class="step-meta-item"><strong>Durée</strong>Continu (mises à jour annuelles)</span>
+            <span class="step-meta-item"><strong>Responsable</strong>Équipe d’exploitation + Équipe de modélisation</span>
+          </div>
+        </div>
+      </div>
+    </li>
+</ol>
 </section>
 <section class="section-container">
 <h2 class="section-title">Avantages et Garanties</h2>

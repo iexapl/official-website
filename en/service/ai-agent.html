@@ -248,26 +248,134 @@
 </section>
 <section class="section-container">
 <h2 class="section-title">Service Process</h2>
-<section class="scenario-section">
-<div class="scenario-image">
-<img alt="AI Agent Service Workflow" decoding="async" height="675" loading="lazy" src="../../images/visual-ai-agent.webp" class="axlt-img-bordered" width="1200"/>
-</div>
-<div class="scenario-text">
-<h3>Diagnosis &amp; Validation</h3>
-<p>Diagnosis: Identify high-value scenarios, assess technical feasibility and ROI, output diagnosis report. Scenario Selection: Determine first-batch landing scenarios, formulate POC validation plan and success metrics. POC Validation: Quickly build minimum viable Agent, validate core capabilities, collect feedback. Data/Knowledge Preparation: Data governance, document parsing, knowledge base construction, vector database setup.</p>
-<div class="scenario-tags"><span class="scenario-tag">Diagnosis</span><span class="scenario-tag">Selection</span><span class="scenario-tag">POC</span><span class="scenario-tag">Preparation</span></div>
-</div>
-</section>
-<section class="scenario-section reverse">
-<div class="scenario-image">
-<img alt="AI Agent Development & Evaluation" decoding="async" height="675" loading="lazy" src="../../images/visual-ai-agent-data.webp" class="axlt-img-bordered" width="1200"/>
-</div>
-<div class="scenario-text">
-<h3>Development &amp; Operations</h3>
-<p>Agent Design: Prompt engineering, tool design, workflow orchestration, multi-agent architecture design. Development: Agent development, API integration, frontend interface, admin backend. Evaluation: Accuracy, recall, task completion rate evaluation, continuous optimization of prompts and knowledge base. Operations: Production deployment, monitoring, user feedback collection. Continuous Iteration: Model and knowledge base version iteration, feature upgrades, scenario expansion, forming a closed loop.</p>
-<div class="scenario-tags"><span class="scenario-tag">Design</span><span class="scenario-tag">Development</span><span class="scenario-tag">Evaluation</span><span class="scenario-tag">Operations</span><span class="scenario-tag">Iteration</span></div>
-</div>
-</section>
+<ol class="process-timeline" aria-label="AI Agent Development service process, 9 steps">
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">01</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Diagnosis</h3>
+          <p>Interview business units, identify high-value scenarios and assess technical feasibility and ROI.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Scenario diagnosis report, feasibility assessment, ROI estimate</span>
+            <span class="step-meta-item"><strong>Duration</strong>1–2 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Product Manager + ML Engineer</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">02</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Selection</h3>
+          <p>Select the first-wave scenarios and define the POC plan with quantifiable success metrics.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Scenario priority list, POC plan, success metric definitions</span>
+            <span class="step-meta-item"><strong>Duration</strong>1 week</span>
+            <span class="step-meta-item"><strong>Owner</strong>Product Manager</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">03</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>POC</h3>
+          <p>Build a minimum viable agent to validate core capability, test with real samples and collect feedback.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>POC demo environment, validation findings, metric baseline</span>
+            <span class="step-meta-item"><strong>Duration</strong>2–4 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>ML Engineer</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">04</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Preparation</h3>
+          <p>Govern business data, parse documents and build the vector knowledge base and retrieval pipeline.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Cleaned dataset, knowledge base, retrieval evaluation set</span>
+            <span class="step-meta-item"><strong>Duration</strong>2–4 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Data Engineer</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">05</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Design</h3>
+          <p>Define prompt engineering, tool schemas, workflow orchestration and multi-agent role split.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Agent design document, prompt library, tool and workflow definitions</span>
+            <span class="step-meta-item"><strong>Duration</strong>2–3 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>ML Engineer + Architect</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">06</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Development</h3>
+          <p>Develop the agent service, integrate business APIs, and build the front end and admin console.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Agent service, integration APIs, admin console, integration guide</span>
+            <span class="step-meta-item"><strong>Duration</strong>4–8 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Engineering Team</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">07</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Evaluation</h3>
+          <p>Run regression evaluation on accuracy, recall and task completion, then iterate prompts and the knowledge base.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Evaluation report, tuning log, metric comparison table</span>
+            <span class="step-meta-item"><strong>Duration</strong>2–3 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>QA Team + ML Engineer</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">08</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Operations</h3>
+          <p>Deploy to production, configure monitoring alerts, and set up feedback collection with human fallback.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Go-live plan, monitoring dashboard, operations manual</span>
+            <span class="step-meta-item"><strong>Duration</strong>1–2 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>DevOps Engineer + Operations</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">09</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Iteration</h3>
+          <p>Keep the knowledge base current as models and business change, expand scenarios and close the operations loop.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Iteration releases, scenario expansion list, phase retrospective</span>
+            <span class="step-meta-item"><strong>Duration</strong>Ongoing (quarterly)</span>
+            <span class="step-meta-item"><strong>Owner</strong>ML Engineer + Operations</span>
+          </div>
+        </div>
+      </div>
+    </li>
+</ol>
 </section>
 <section class="section-container">
 <h2 class="section-title">Advantages &amp; Assurance</h2>

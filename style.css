@@ -210,3 +210,35 @@
 /* Triple column grid */
 .triple-col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 @media (max-width: 767px) { .triple-col { grid-template-columns: 1fr; } }
+
+/* ===== Service Timeline 服务流程时间轴 =====
+   复用 .step-card / .step-number / .step-content
+   新增：.process-timeline / .process-step / .step-meta / .step-meta-item
+   ========================================== */
+.process-timeline{max-width:860px;margin:48px auto 0;position:relative;display:flex;flex-direction:column}
+.process-step{position:relative;display:flex;gap:var(--space-6);padding:0 0 var(--space-8) 0}
+.process-step:last-child{padding-bottom:0}
+.process-step::before{content:'';position:absolute;left:23px;top:48px;bottom:0;width:2px;
+  background:linear-gradient(to bottom,var(--color-brand),rgba(56,189,248,0.1))}
+.process-step:last-child::before{display:none}
+.process-step .step-number{background:var(--color-bg-elevated);color:var(--color-brand);
+  border:2px solid var(--color-brand);box-shadow:0 0 0 4px rgba(56,189,248,0.08);position:relative;z-index:1}
+.process-step .step-card{flex:1;background:var(--color-bg-elevated);border:1px solid var(--color-line-soft);
+  border-radius:var(--radius);transition:border-color .2s ease,transform .2s ease}
+.process-step .step-card:hover{border-color:rgba(56,189,248,0.45);transform:translateY(-2px)}
+.step-meta{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-3)}
+.step-meta-item{display:inline-flex;align-items:center;gap:6px;font-size:var(--fs-caption);
+  color:var(--color-text-muted);background:rgba(56,189,248,0.08);border:1px solid var(--color-line-soft);
+  border-radius:var(--radius-sm);padding:4px 10px;line-height:1.4}
+.step-meta-item strong{color:var(--color-brand);font-weight:600}
+@media (max-width:767px){
+  .process-timeline{margin-top:var(--space-8)}
+  .process-step{gap:var(--space-4)}
+  .process-step::before{left:19px;top:40px}
+  .process-step .step-number{width:40px;height:40px;font-size:16px}
+  .process-step .step-card{padding:var(--space-4)}
+  .step-meta{gap:var(--space-1)}
+}
+@media (prefers-reduced-motion:reduce){
+  .process-step .step-card{transition:none}
+}

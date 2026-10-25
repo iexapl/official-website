@@ -258,26 +258,162 @@
 </section>
 <section class="section-container">
 <h2 class="section-title">Service Process</h2>
-<section class="scenario-section">
-<div class="scenario-image">
-<img alt="City Modeling Data Acquisition" decoding="async" height="675" loading="lazy" src="../../images/visual-service-modeling-scene-1.webp" class="axlt-img-bordered" width="1200"/>
-</div>
-<div class="scenario-text">
-<h3>Early Stage</h3>
-<p>Requirements: Clarify modeling scope, precision requirements, application scenarios and delivery standards. Data Collection: Collect existing CAD, GIS, BIM, imagery materials, formulate collection plan. Data Acquisition: Drone aerial survey, LiDAR scanning, ground supplementary shooting. Data Processing: Image correction, point cloud denoising, image matching, aerial triangulation.</p>
-<div class="scenario-tags"><span class="scenario-tag">Requirements</span><span class="scenario-tag">Collection</span><span class="scenario-tag">Acquisition</span><span class="scenario-tag">Processing</span></div>
-</div>
-</section>
-<section class="scenario-section reverse">
-<div class="scenario-image">
-<img alt="3D City Digital Model" decoding="async" height="675" loading="lazy" src="../../images/visual-solution-city-scene.webp" class="axlt-img-bordered" width="1200"/>
-</div>
-<div class="scenario-text">
-<h3>Late Stage</h3>
-<p>Modeling: 3D reconstruction, geometric modeling, white-model production. Texture Mapping: Image dodging and color balancing, texture mapping and detail enhancement. Semanticization/Lightweighting: Entity semanticization, LOD classification and model lightweighting. Platform Integration: 3D visualization platform, API interfaces, business system integration. Quality Check: Precision validation, topology check, texture quality, completeness check. Delivery: Deliver model data, precision reports and user manuals per contract. Maintenance: Regular updates, local repairs, platform operations and technical support.</p>
-<div class="scenario-tags"><span class="scenario-tag">Modeling</span><span class="scenario-tag">Texturing</span><span class="scenario-tag">Semantics</span><span class="scenario-tag">Integration</span><span class="scenario-tag">Quality Check</span><span class="scenario-tag">Delivery</span><span class="scenario-tag">Maintenance</span></div>
-</div>
-</section>
+<ol class="process-timeline" aria-label="City Modeling Service service process, 11 steps">
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">01</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Requirements</h3>
+          <p>Confirm modeling scope, accuracy class, use cases and delivery standards.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Requirements report, scope and accuracy definition</span>
+            <span class="step-meta-item"><strong>Duration</strong>1–2 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Product Manager</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">02</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Collection</h3>
+          <p>Gather existing CAD, GIS, BIM and imagery data, and prepare the acquisition plan.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Data inventory, acquisition plan, airspace and operation permits</span>
+            <span class="step-meta-item"><strong>Duration</strong>1–2 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Survey Engineer</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">03</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Acquisition</h3>
+          <p>Carry out drone photogrammetry, LiDAR scanning and ground infill capture, and recover raw data.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Raw imagery, point clouds, POS data, acquisition log</span>
+            <span class="step-meta-item"><strong>Duration</strong>2–4 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Aerial Survey Crew</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">04</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Processing</h3>
+          <p>Perform image correction, point-cloud denoising, image matching and aerial triangulation.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>AT results, denoised point clouds, preliminary QC record</span>
+            <span class="step-meta-item"><strong>Duration</strong>1–2 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Data Processing Engineer</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">05</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Modeling</h3>
+          <p>Produce the 3D reconstruction, geometric modeling and white model to obtain a measurable model.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>3D model, white model, modeling log</span>
+            <span class="step-meta-item"><strong>Duration</strong>3–6 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Modeling Team</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">06</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Texturing</h3>
+          <p>Balance image color and exposure, map textures onto geometry and enhance detail for realistic appearance.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Textured model, texture atlas library</span>
+            <span class="step-meta-item"><strong>Duration</strong>2–3 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Modeling Team</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">07</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Semantics</h3>
+          <p>Classify entity semantics, assign LOD levels and lightweight the model for web loading.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Semantic model, LOD-tiered model, lightweight package</span>
+            <span class="step-meta-item"><strong>Duration</strong>2–3 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Modeling Team + Engineering Team</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">08</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Integration</h3>
+          <p>Load the model into the 3D visualization platform, expose APIs and integrate business systems.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Deployed platform, API documentation, integration test record</span>
+            <span class="step-meta-item"><strong>Duration</strong>2–4 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>Engineering Team</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">09</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Quality Check</h3>
+          <p>Verify accuracy, topology, texture quality and model completeness.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>QC report, accuracy verification record, rectification list</span>
+            <span class="step-meta-item"><strong>Duration</strong>1–2 weeks</span>
+            <span class="step-meta-item"><strong>Owner</strong>QC Team</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">10</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Delivery</h3>
+          <p>Deliver model data and documentation per contract, and organize customer acceptance.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Model data package, accuracy report, user guide, acceptance form</span>
+            <span class="step-meta-item"><strong>Duration</strong>1 week</span>
+            <span class="step-meta-item"><strong>Owner</strong>Project Manager</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="process-step">
+      <span class="step-number" aria-hidden="true">11</span>
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Maintenance</h3>
+          <p>Carry out periodic and partial updates, model repairs and re-surveys, and provide platform operations support.</p>
+          <div class="step-meta">
+            <span class="step-meta-item"><strong>Deliverable</strong>Update releases, repair log, monthly operations report</span>
+            <span class="step-meta-item"><strong>Duration</strong>Ongoing (annual updates)</span>
+            <span class="step-meta-item"><strong>Owner</strong>Operations Team + Modeling Team</span>
+          </div>
+        </div>
+      </div>
+    </li>
+</ol>
 </section>
 <section class="section-container">
 <h2 class="section-title">Advantages &amp; Assurance</h2>
