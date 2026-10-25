@@ -177,14 +177,14 @@
 <section class="section-container">
 <h2 class="section-title">Solutions d'Application</h2>
 <div class="tab-group">
-<div class="tab-nav"><button class="tab-btn active">Logiciels</button><button class="tab-btn">Solutions</button></div>
-<div class="tab-content active">
+<div class="tab-nav"><button class="tab-btn active" onclick="switchTab('software','weight-sensor')" id="tab-software-weight-sensor">Logiciels</button><button class="tab-btn" onclick="switchTab('solutions','weight-sensor')" id="tab-solutions-weight-sensor">Solutions</button></div>
+<div class="tab-content active" id="content-software-weight-sensor">
 <div class="card-grid">
 <div class="card"><h4>Gestion Véhicules</h4><p>Monitoring temps réel charge, localisation et trajectoire avec alertes surcharge.</p></div>
 <div class="card"><h4>TMS</h4><p>Intégration données de charge pour calcul automatique fret et taux de chargement.</p></div>
 </div>
 </div>
-<div class="tab-content">
+<div class="tab-content axlt-display-none" id="content-solutions-weight-sensor">
 <div class="card-grid">
 <div class="card"><h4>Logistique Intelligente</h4><p>Monitoring temps réel flotte pour prévenir surcharge et vol.</p></div>
 <div class="card"><h4>Véhicules Chantier</h4><p>Monitoring charge bennes et malaxeurs pour mesure précise.</p></div>

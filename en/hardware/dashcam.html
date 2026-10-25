@@ -180,14 +180,14 @@
 <section class="section-container">
 <h2 class="section-title">Application Solutions</h2>
 <div class="tab-group">
-<div class="tab-nav"><button class="tab-btn active">Software Systems</button><button class="tab-btn">Solutions</button></div>
-<div class="tab-content active">
+<div class="tab-nav"><button class="tab-btn active" onclick="switchTab('software','dashcam')" id="tab-software-dashcam">Software Systems</button><button class="tab-btn" onclick="switchTab('solutions','dashcam')" id="tab-solutions-dashcam">Solutions</button></div>
+<div class="tab-content active" id="content-software-dashcam">
 <div class="card-grid">
 <div class="card"><h4>Vehicle Management</h4><p>Real-time video, trajectory playback, alert management and fleet overview.</p></div>
 <div class="card"><h4>ADAS</h4><p>Lane departure and forward collision warnings for improved driving safety.</p></div>
 </div>
 </div>
-<div class="tab-content">
+<div class="tab-content axlt-display-none" id="content-solutions-dashcam">
 <div class="card-grid">
 <div class="card"><h4>Smart Logistics</h4><img alt="Smart Logistics Dashcam Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/dashcam-scene-1.png" width="1200" height="675"/><p>Full-process video monitoring for cargo security and dispute evidence.</p></div>
 <div class="card"><h4>Public Transport</h4><img alt="Public Transport Dashcam Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/dashcam-scene-2.png" width="1200" height="675"/><p>Real-time monitoring for buses and coaches ensuring passenger safety.</p></div>

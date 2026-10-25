@@ -178,14 +178,14 @@
 <section class="section-container">
 <h2 class="section-title">应用方案</h2>
 <div class="tab-group">
-<div class="tab-nav"><button class="tab-btn active">软件系统</button><button class="tab-btn">解决方案</button></div>
-<div class="tab-content active">
+<div class="tab-nav"><button class="tab-btn active" onclick="switchTab('software','weight-sensor')" id="tab-software-weight-sensor">软件系统</button><button class="tab-btn" onclick="switchTab('solutions','weight-sensor')" id="tab-solutions-weight-sensor">解决方案</button></div>
+<div class="tab-content active" id="content-software-weight-sensor">
 <div class="card-grid">
 <div class="card"><h4>车辆管理平台</h4><p>实时监控载重、位置、轨迹，超载告警，载重报表统计。</p></div>
 <div class="card"><h4>TMS 运输管理</h4><p>载重数据对接运输管理系统，自动核算运费与装载率。</p></div>
 </div>
 </div>
-<div class="tab-content">
+<div class="tab-content axlt-display-none" id="content-solutions-weight-sensor">
 <div class="card-grid">
 <div class="card"><h4>智慧物流</h4><p>物流车队载重实时监控，防止超载与偷卸，提升运输安全。</p></div>
 <div class="card"><h4>工程车辆管理</h4><p>渣土车、混凝土搅拌车载重监测，精准计量，防止超载。</p></div>

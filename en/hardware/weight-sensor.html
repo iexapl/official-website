@@ -177,14 +177,14 @@
 <section class="section-container">
 <h2 class="section-title">Application Solutions</h2>
 <div class="tab-group">
-<div class="tab-nav"><button class="tab-btn active">Software Systems</button><button class="tab-btn">Solutions</button></div>
-<div class="tab-content active">
+<div class="tab-nav"><button class="tab-btn active" onclick="switchTab('software','weight-sensor')" id="tab-software-weight-sensor">Software Systems</button><button class="tab-btn" onclick="switchTab('solutions','weight-sensor')" id="tab-solutions-weight-sensor">Solutions</button></div>
+<div class="tab-content active" id="content-software-weight-sensor">
 <div class="card-grid">
 <div class="card"><h4>Vehicle Management</h4><p>Real-time load, location and trajectory monitoring with overload alerts.</p></div>
 <div class="card"><h4>TMS</h4><p>Load data integration with transport management for automatic freight calculation.</p></div>
 </div>
 </div>
-<div class="tab-content">
+<div class="tab-content axlt-display-none" id="content-solutions-weight-sensor">
 <div class="card-grid">
 <div class="card"><h4>Smart Logistics</h4><p>Real-time fleet load monitoring to prevent overload and theft.</p></div>
 <div class="card"><h4>Construction Vehicles</h4><p>Dump truck and mixer load monitoring for precise measurement.</p></div>
