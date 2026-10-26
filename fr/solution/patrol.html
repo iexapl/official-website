@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec une plateforme mobile de gestion des rondes et une capacité de liaison vidéo, nous aidons à fiabiliser l'exécution des rondes et à accélérer la réponse de sécurité, avec planification des points, déploiement des équipements, configuration de la plateforme et formation des équipes.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Quatre modes de pointage</h4><p>NFC, QR code, Bluetooth et GPS couvrent tous les scénarios, avec un déploiement flexible.</p></div>
 <div class="triple-card"><h4>Patrouille visible en temps réel</h4><p>Positionnement en direct et relecture des trajets : l'exécution des patrouilles est transparente.</p></div>
 <div class="triple-card"><h4>Réponse immédiate aux anomalies</h4><p>Incidents signalés instantanément et reliés automatiquement à la vérification vidéo.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>Pointage hors ligne</h4><p>Pointage hors ligne avec synchronisation : les patrouilles continuent même avec un réseau instable.</p></div>
 <div class="triple-card"><h4>Liaison avec la vidéosurveillance</h4><p>Les points d'anomalie appellent automatiquement les caméras voisines pour une vérification précise.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>Recenser le périmètre, les équipes et les exigences d'évaluation.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Planification des points</h4><p>Implanter les points et modes de pointage selon les risques.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Déploiement</h4><p>Poser les étiquettes et déployer les terminaux.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Configuration plateforme</h4><p>Parcours, équipes et règles d'alerte.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Formation</h4><p>Former les agents et administrateurs.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Mise en exploitation</h4><p>Remise officielle après réglage en phase d'essai.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Recenser le périmètre, les équipes et les exigences d'évaluation.</p></div>
+<div class="triple-card"><h4>Planification des points</h4><p>Implanter les points et modes de pointage selon les risques.</p></div>
+<div class="triple-card"><h4>Déploiement</h4><p>Poser les étiquettes et déployer les terminaux.</p></div>
+<div class="triple-card"><h4>Configuration plateforme</h4><p>Parcours, équipes et règles d'alerte.</p></div>
+<div class="triple-card"><h4>Formation</h4><p>Former les agents et administrateurs.</p></div>
+<div class="triple-card"><h4>Mise en exploitation</h4><p>Remise officielle après réglage en phase d'essai.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Les patrouilles s'exécutent conformément au plan sans omission ; la rapidité de réponse augmente et le taux d'incidents baisse ; parcours et effectifs optimisés.</p></div>
 <div class="triple-card"><h4>Garantie d'un an</h4></div>
 <div class="triple-card"><h4>Support technique à distance</h4></div>
@@ -291,17 +296,23 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/safety.html">Système de Gestion de la Sécurité (inspections sécurité et boucle de levée des dangers)</a></li>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (visualisation et statistiques des rondes)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (vérification vidéo liée aux rondes)</a></li>
 <li><a href="../hardware/attendance.html">Équipements de Pointage et Contrôle d'Accès (identification des agents de ronde)</a></li>
 <li><a href="../hardware/gps.html">Terminal de Localisation GPS (localisation des véhicules et agents de ronde)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

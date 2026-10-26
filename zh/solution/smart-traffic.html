@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">优势与交付</h2>
-<p class="axlt-paragraph">我们以 AI 视频分析与多品牌兼容能力，为城市交通提供通行能力提升与数据驱动决策的价值，并通过点位勘察、信号调优与持续优化的交付服务保障落地。</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>差异化优势</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>差异化优势
+</div>
 <div class="triple-card"><h4>兼容性强</h4><p>兼容多种国内外主流信号机品牌，保护已有投资，新旧设备无缝协作。</p></div>
 <div class="triple-card"><h4>施工便捷</h4><p>AI 视频分析无需破坏路面埋设线圈，施工周期短、维护成本低。</p></div>
 <div class="triple-card"><h4>数据开放</h4><p>开放数据接口，与城市交通指挥中心、地图服务商对接，数据价值释放。</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>信号智能调优</h4><p>基于流量数据自动优化配时方案，通行效率持续提升。</p></div>
 <div class="triple-card"><h4>多场景覆盖</h4><p>适配路口信号控制、交通监测、诱导发布、公交优先等多种交通管理场景。</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>实施流程</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>需求调研</h4><p>梳理路口现状与管理目标。</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>点位勘察</h4><p>确定检测、信号与诱导点位。</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>设备安装</h4><p>检测器、信号机、诱导屏安装。</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>平台部署</h4><p>信号控制平台部署配置。</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>信号调优</h4><p>基于流量数据优化配时方案。</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>培训交付</h4><p>管理人员培训与上线运行。</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>实施流程
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</h3>
+<div class="triple-card"><h4>需求调研</h4><p>梳理路口现状与管理目标。</p></div>
+<div class="triple-card"><h4>点位勘察</h4><p>确定检测、信号与诱导点位。</p></div>
+<div class="triple-card"><h4>设备安装</h4><p>检测器、信号机、诱导屏安装。</p></div>
+<div class="triple-card"><h4>平台部署</h4><p>信号控制平台部署配置。</p></div>
+<div class="triple-card"><h4>信号调优</h4><p>基于流量数据优化配时方案。</p></div>
+<div class="triple-card"><h4>培训交付</h4><p>管理人员培训与上线运行。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障
+</div>
 <div class="triple-card"><h4>客户价值</h4><p>道路通行能力提升，交通事故减少，公共交通服务优化，为城市交通管理提供数据支撑和决策依据。</p></div>
 <div class="triple-card"><h4>一年质保</h4></div>
 <div class="triple-card"><h4>信号配时持续优化</h4></div>
@@ -321,12 +326,17 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">看板系统（交通数据可视化、拥堵分析）</a></li>
 <li><a href="../software/blacklist.html">黑名单系统（违章车辆/人员布控）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">视频监控系统（路口/路段全覆盖监控）</a></li>
 <li><a href="../hardware/ai-server.html">AI 边缘服务器（路口 AI 分析/边缘处理）</a></li>
@@ -335,6 +345,7 @@
 <li><a href="../hardware/splicing.html">拼接屏系统（交通控制中心大屏）</a></li>
 <li><a href="../hardware/drone.html">重载无人机（交通巡查/事故勘察）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

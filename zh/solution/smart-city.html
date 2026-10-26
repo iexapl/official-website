@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">优势与交付</h2>
-<p class="axlt-paragraph">我们以数字孪生技术与城市级项目实施经验，为城市治理精细化与公共资源配置优化的提升提供支撑，并通过数字底座建设、感知网络部署、平台搭建与长期运维保障落地。</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>差异化优势</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>差异化优势
+</div>
 <div class="triple-card"><h4>虚实映射预演</h4><p>规划方案虚拟预演，建设风险提前识别，决策科学性提升。</p></div>
 <div class="triple-card"><h4>弹性分级建设</h4><p>支持从单街区到全城分级建设，投资节奏灵活，风险可控。</p></div>
 <div class="triple-card"><h4>数据驱动决策</h4><p>公共资源配置以数据为据，减少供需错配，治理精细化水平提升。</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>一网统管</h4><p>城市运行态势一屏掌握，多部门协同调度高效，应急响应提速。</p></div>
 <div class="triple-card"><h4>开放数据共享</h4><p>多源数据汇聚治理，支撑跨部门共享交换，数据价值释放。</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>实施流程</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>需求调研</h4><p>明确治理场景、数据资源与建设边界。</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>数字底座建设</h4><p>搭建 CIM+BIM+GIS 三维数字底座。</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>感知网络部署</h4><p>部署物联传感、视频与环境监测设备。</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>数据平台搭建</h4><p>多源数据汇聚、治理与共享交换。</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>智能应用开发</h4><p>按场景开发态势监测与仿真应用。</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>培训交付</h4><p>培训城市运营管理人员后交付。</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>实施流程
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</h3>
+<div class="triple-card"><h4>需求调研</h4><p>明确治理场景、数据资源与建设边界。</p></div>
+<div class="triple-card"><h4>数字底座建设</h4><p>搭建 CIM+BIM+GIS 三维数字底座。</p></div>
+<div class="triple-card"><h4>感知网络部署</h4><p>部署物联传感、视频与环境监测设备。</p></div>
+<div class="triple-card"><h4>数据平台搭建</h4><p>多源数据汇聚、治理与共享交换。</p></div>
+<div class="triple-card"><h4>智能应用开发</h4><p>按场景开发态势监测与仿真应用。</p></div>
+<div class="triple-card"><h4>培训交付</h4><p>培训城市运营管理人员后交付。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障
+</div>
 <div class="triple-card"><h4>客户价值</h4><p>城市治理精细化水平提升，政务服务效率提高，公共资源配置优化，市民生活品质改善，推动政务服务"一网通办"、城市运行"一网统管"。</p></div>
 <div class="triple-card"><h4>长期运维合作</h4></div>
 <div class="triple-card"><h4>平台持续迭代</h4></div>
@@ -291,13 +296,18 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">看板系统（城市运行数据可视化）</a></li>
 <li><a href="../software/bim.html">BIM 轻量化系统（城市建筑三维模型）</a></li>
 <li><a href="../software/info-display.html">信息公示系统（政务公开、公告发布）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">视频监控系统（城市安防监控网络）</a></li>
 <li><a href="../hardware/ai-server.html">AI 边缘服务器（城市边缘 AI 分析）</a></li>
@@ -306,6 +316,7 @@
 <li><a href="../hardware/led.html">户外 LED 大屏（路况/公共信息诱导）</a></li>
 <li><a href="../hardware/gps.html">车辆定位终端（公务车辆/环卫车辆调度）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

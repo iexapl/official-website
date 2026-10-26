@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Advantages &amp; Delivery</h2>
-<p class="axlt-paragraph">With ICAO safety standards and modular delivery capability, we support better passenger processing and resource utilization, implemented through phased construction, system integration, commissioning and acceptance, and ongoing operations support.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages
+</div>
 <div class="triple-card"><h4>ICAO-Compliant</h4><p>Designed and implemented to ICAO safety standards; security and ELV systems meet compliance.</p></div>
 <div class="triple-card"><h4>Multilingual &amp; Multi-Currency</h4><p>Meets the international operations needs of global hubs with barrier-free passenger services.</p></div>
 <div class="triple-card"><h4>Modular Phased Construction</h4><p>Build in phases at your investment pace, lowering one-time risk with flexible control.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>Unified AOC Integration</h4><p>All subsystems connect to the Airport Operations Center for unified command and efficient coordination.</p></div>
 <div class="triple-card"><h4>Better Passenger Experience</h4><p>Self-service check-in, smart guidance and information release integrated, speeding passenger flows.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Requirement Research</h4><p>Sort out airport scale, route structure and construction phases.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Solution Design</h4><p>Output phased plans by module.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Phased Implementation</h4><p>Build by priority: passenger services, security, operations.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>System Integration</h4><p>Connect all subsystems into the AOC.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Commissioning &amp; Acceptance</h4><p>Full-scenario joint testing and acceptance.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Training &amp; Handover</h4><p>Train operations and management staff by post.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee</h3>
+<div class="triple-card"><h4>Requirement Research</h4><p>Sort out airport scale, route structure and construction phases.</p></div>
+<div class="triple-card"><h4>Solution Design</h4><p>Output phased plans by module.</p></div>
+<div class="triple-card"><h4>Phased Implementation</h4><p>Build by priority: passenger services, security, operations.</p></div>
+<div class="triple-card"><h4>System Integration</h4><p>Connect all subsystems into the AOC.</p></div>
+<div class="triple-card"><h4>Commissioning &amp; Acceptance</h4><p>Full-scenario joint testing and acceptance.</p></div>
+<div class="triple-card"><h4>Training &amp; Handover</h4><p>Train operations and management staff by post.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee
+</div>
 <div class="triple-card"><h4>Client Value</h4><p>Higher passenger throughput, stronger safety assurance, optimized airport resource utilization and improved commercial revenue.</p></div>
 <div class="triple-card"><h4>One-year warranty</h4></div>
 <div class="triple-card"><h4>7×24 O&amp;M support</h4></div>
@@ -291,14 +296,19 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>
-<h3 class="axlt-heading-paragraph">Related Software Systems</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Related Software</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Related Hardware</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">HR Management System (airport staff attendance and labor management)</a></li>
 <li><a href="../software/blacklist.html">Blacklist System (passenger/staff watchlist control)</a></li>
 <li><a href="../software/dashboard.html">Dashboard System (airport operations data visualization)</a></li>
 <li><a href="../software/info-display.html">Information Display System (flight information and announcements)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Related Hardware Equipment</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Video Surveillance System (full coverage of terminal/runway/apron)</a></li>
 <li><a href="../hardware/passage.html">Pedestrian Passage Equipment (screening lanes and boarding gates)</a></li>
@@ -310,6 +320,7 @@
 <li><a href="../hardware/ai-server.html">AI Edge Server (intelligent screening image analysis/video analytics)</a></li>
 <li><a href="../hardware/drone.html">Heavy-Lift Drone (apron/runway inspection)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

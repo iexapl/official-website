@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec la technologie de jumeau numérique et une expérience de projets à l'échelle de la ville, nous aidons à une gouvernance plus fine et une meilleure allocation des ressources publiques, via la construction du socle numérique, le déploiement du réseau de perception, celui de la plateforme et un partenariat opérationnel durable.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Répétition virtuelle des plans</h4><p>Les projets sont répétés virtuellement : risques détectés tôt, décisions plus scientifiques.</p></div>
 <div class="triple-card"><h4>Construction élastique par niveaux</h4><p>D'un quartier à toute la ville, au rythme maîtrisé de l'investissement.</p></div>
 <div class="triple-card"><h4>Décisions fondées sur les données</h4><p>Les ressources publiques sont allouées selon les données, réduisant les décalages offre-demande.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>Gestion unifiée en un réseau</h4><p>Situation de la ville en un écran ; coordination inter-services et réponse d'urgence accélérées.</p></div>
 <div class="triple-card"><h4>Partage ouvert des données</h4><p>Données multi-sources gouvernées et partagées entre services : leur valeur est libérée.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>Définir les scénarios de gouvernance, les ressources de données et le périmètre.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Socle numérique</h4><p>Construire la base 3D CIM+BIM+GIS.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Réseau de capteurs</h4><p>Déployer capteurs IoT, vidéo et surveillance environnementale.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Plateforme de données</h4><p>Agréger, gouverner et partager les données multi-sources.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Applications intelligentes</h4><p>Développer suivi et simulation par scénario.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Formation et remise</h4><p>Former les exploitants municipaux avant remise.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Définir les scénarios de gouvernance, les ressources de données et le périmètre.</p></div>
+<div class="triple-card"><h4>Socle numérique</h4><p>Construire la base 3D CIM+BIM+GIS.</p></div>
+<div class="triple-card"><h4>Réseau de capteurs</h4><p>Déployer capteurs IoT, vidéo et surveillance environnementale.</p></div>
+<div class="triple-card"><h4>Plateforme de données</h4><p>Agréger, gouverner et partager les données multi-sources.</p></div>
+<div class="triple-card"><h4>Applications intelligentes</h4><p>Développer suivi et simulation par scénario.</p></div>
+<div class="triple-card"><h4>Formation et remise</h4><p>Former les exploitants municipaux avant remise.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Gouvernance plus fine, services publics plus efficaces, allocation optimisée des ressources et qualité de vie améliorée.</p></div>
 <div class="triple-card"><h4>Partenariat d'exploitation à long terme</h4></div>
 <div class="triple-card"><h4>Itération continue</h4></div>
@@ -291,13 +296,18 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (visualisation des données urbaines)</a></li>
 <li><a href="../software/bim.html">Système BIM Allégé (maquettes 3D des bâtiments de la ville)</a></li>
 <li><a href="../software/info-display.html">Système d'Affichage d'Informations (transparence administrative et annonces)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (réseau de sûreté urbain)</a></li>
 <li><a href="../hardware/ai-server.html">Serveur Edge IA (analyse IA en périphérie urbaine)</a></li>
@@ -306,6 +316,7 @@
 <li><a href="../hardware/led.html">Écrans LED Extérieurs (guidage trafic et information publique)</a></li>
 <li><a href="../hardware/gps.html">Terminal de Localisation GPS (régulation des véhicules de service et de propreté)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

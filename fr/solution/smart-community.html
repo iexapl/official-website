@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec l'intégration sur plateforme unifiée et l'analyse vidéo IA, nous aidons à élever la sécurité du quartier et l'efficacité des services immobiliers, via l'installation des équipements, le déploiement de la plateforme, l'enregistrement des habitants et la formation.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Plateforme unifiée</h4><p>Accès, barrières, vidéosurveillance et gestion immobilière au même endroit : pas de silo, exploitation efficace.</p></div>
 <div class="triple-card"><h4>Passage sans friction</h4><p>Reconnaissance faciale et paiement par plaque : des entrées fluides et rapides.</p></div>
 <div class="triple-card"><h4>Sécurité proactive par IA</h4><p>Les dangers sont détectés en amont : la sécurité passe du réactif au préventif.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>Conception adaptée aux aînés</h4><p>Veille des personnes âgées et appel d'urgence : plus d'humanité dans la communauté.</p></div>
 <div class="triple-card"><h4>Extension flexible</h4><p>Nouveaux équipements et modules de service ajoutés à la demande, au rythme de la communauté.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>Recenser la taille de la communauté, les flux d'accès et les processus.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Conception</h4><p>Conception globale : accès, intérieur, plateforme.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Installation</h4><p>Accès, barrières, capteurs et équipements d'assistance.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Déploiement plateforme</h4><p>Plateforme unifiée et application résidents en ligne.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Inscription résidents</h4><p>Acculturation des résidents et visiteurs.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Formation et remise</h4><p>Former les équipes avant l'exploitation officielle.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Recenser la taille de la communauté, les flux d'accès et les processus.</p></div>
+<div class="triple-card"><h4>Conception</h4><p>Conception globale : accès, intérieur, plateforme.</p></div>
+<div class="triple-card"><h4>Installation</h4><p>Accès, barrières, capteurs et équipements d'assistance.</p></div>
+<div class="triple-card"><h4>Déploiement plateforme</h4><p>Plateforme unifiée et application résidents en ligne.</p></div>
+<div class="triple-card"><h4>Inscription résidents</h4><p>Acculturation des résidents et visiteurs.</p></div>
+<div class="triple-card"><h4>Formation et remise</h4><p>Former les équipes avant l'exploitation officielle.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Sécurité communautaire renforcée, services immobiliers plus efficaces, confort et bien-être accrus, valeur immobilière valorisée.</p></div>
 <div class="triple-card"><h4>Garantie d'un an</h4></div>
 <div class="triple-card"><h4>Télémaintenance</h4></div>
@@ -291,14 +296,19 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">Système de Gestion RH (pointage du personnel de copropriété)</a></li>
 <li><a href="../software/blacklist.html">Système Liste Noire (fichage visiteurs/personnes indésirables)</a></li>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (visualisation des données communautaires)</a></li>
 <li><a href="../software/info-display.html">Système d'Affichage d'Informations (annonces et avis de la résidence)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (couverture sûreté totale de la résidence)</a></li>
 <li><a href="../hardware/attendance.html">Équipements de Pointage et Contrôle d'Accès (reconnaissance faciale aux entrées)</a></li>
@@ -308,6 +318,7 @@
 <li><a href="../hardware/adscreen.html">Écrans Publicitaires et d'Information (affichage des annonces de la résidence)</a></li>
 <li><a href="../hardware/ai-server.html">Serveur Edge IA (analyse IA et traitement vidéo communautaires)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

@@ -277,7 +277,11 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">人事管理系统（工人实名制、考勤薪酬）</a></li>
 <li><a href="../software/quality.html">质量管理系统（工序巡检、首件验收、质量闭环）</a></li>
@@ -290,7 +294,8 @@
 <li><a href="../software/bim.html">BIM 轻量化系统（进度模拟、三维可视化）</a></li>
 <li><a href="../software/dashboard.html">看板系统（工地数据可视化大屏）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">视频监控系统（工地安防、AI 行为识别）</a></li>
 <li><a href="../hardware/attendance.html">考勤与门禁设备（工人实名制进出）</a></li>
@@ -302,6 +307,7 @@
 <li><a href="../hardware/splicing.html">拼接屏系统（指挥中心大屏）</a></li>
 <li><a href="../hardware/drone.html">重载无人机（工地空中巡查/测绘）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

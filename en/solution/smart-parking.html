@@ -249,10 +249,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Advantages &amp; Delivery</h2>
-<p class="axlt-paragraph">With a microservice parking cloud platform and high-precision recognition, we deliver quantified value — higher turnover and lower labor cost — through flexible deployment, implementation and warranty-backed maintenance.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages
+</div>
 <div class="triple-card"><h4>Accurate Recognition</h4><p>High LPR accuracy across plate formats; plate-less cars pass via QR code, keeping entries smooth.</p></div>
 <div class="triple-card"><h4>Flexible Deployment</h4><p>Cloud or on-premises management on demand, fitting lots of any size and budget.</p></div>
 <div class="triple-card"><h4>System Linkage</h4><p>Links with building management systems so parking data flows into overall operations.</p></div>
@@ -260,17 +261,21 @@
 <div class="triple-card"><h4>Space Guidance</h4><p>Real-time occupancy display and guidance shorten search time and raise turnover.</p></div>
 <div class="triple-card"><h4>Unattended Operation</h4><p>Unattended fee collection effectively solves high labor cost.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Requirement Research</h4><p>Survey traffic flow and fee strategy.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Solution Design</h4><p>Output entrance and guidance deployment plan.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Equipment Installation</h4><p>Install LPR cameras, gates and guidance screens.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Platform Deployment</h4><p>Deploy and configure cloud or local system.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>System Commissioning</h4><p>Joint testing of recognition, billing and linkage.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Training &amp; Handover</h4><p>Train operators and go live.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee</h3>
+<div class="triple-card"><h4>Requirement Research</h4><p>Survey traffic flow and fee strategy.</p></div>
+<div class="triple-card"><h4>Solution Design</h4><p>Output entrance and guidance deployment plan.</p></div>
+<div class="triple-card"><h4>Equipment Installation</h4><p>Install LPR cameras, gates and guidance screens.</p></div>
+<div class="triple-card"><h4>Platform Deployment</h4><p>Deploy and configure cloud or local system.</p></div>
+<div class="triple-card"><h4>System Commissioning</h4><p>Joint testing of recognition, billing and linkage.</p></div>
+<div class="triple-card"><h4>Training &amp; Handover</h4><p>Train operators and go live.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee
+</div>
 <div class="triple-card"><h4>Client Value</h4><p>Higher turnover, lower labor cost, shorter average search time, better parking experience and improved revenue.</p></div>
 <div class="triple-card"><h4>One-year warranty</h4></div>
 <div class="triple-card"><h4>Remote O&amp;M support</h4></div>
@@ -281,12 +286,17 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>
-<h3 class="axlt-heading-paragraph">Related Software Systems</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Related Software</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Related Hardware</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">Dashboard System (parking operations data visualization)</a></li>
 <li><a href="../software/blacklist.html">Blacklist System (watchlist vehicle interception)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Related Hardware Equipment</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/gate.html">Vehicle Barrier Gate (parking entrance/exit barriers)</a></li>
 <li><a href="../hardware/camera.html">Video Surveillance System (parking security surveillance)</a></li>
@@ -294,6 +304,7 @@
 <li><a href="../hardware/led.html">Outdoor LED Display (parking entrance/exit information)</a></li>
 <li><a href="../hardware/ai-server.html">AI Edge Server (plate recognition/video analytics)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

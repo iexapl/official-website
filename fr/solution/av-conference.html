@@ -254,10 +254,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Forts d'une expertise audiovidéo professionnelle et d'un réseau de services local en Afrique, nous livrons une mise en œuvre clé en main qui améliore l'efficacité des réunions et réduit les coûts de déplacement, avec conception de la solution, installation et mise en service, formation, démarrage et maintenance après-vente.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Expérience immersive 4K</h4><p>Vidéo ultra-HD 4K et captation omnidirectionnelle : les réunions à distance semblent face à face.</p></div>
 <div class="triple-card"><h4>Efficacité des réunions sans papier</h4><p>Comptes rendus générés automatiquement et documents partagés en temps réel, réduisant la prise de notes manuelle et la distribution papier.</p></div>
 <div class="triple-card"><h4>Démarrage en 30 secondes</h4><p>Le contrôle intelligent démarre tous les équipements d'un seul geste, même pour les non-techniciens.</p></div>
@@ -265,16 +266,20 @@
 <div class="triple-card"><h4>Compatibilité multi-marques</h4><p>Compatible avec les principales plateformes de visioconférence et terminaux matériels, protégeant les investissements existants.</p></div>
 <div class="triple-card"><h4>Gestion unifiée des salles</h4><p>Réservation centralisée, surveillance de l'état des équipements et statistiques d'utilisation des salles.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins et relevé de site</h4><p>Comprendre les scénarios de réunion et les conditions du site ; préciser les besoins et l'environnement acoustique.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Conception et sélection des équipements</h4><p>Concevoir la solution selon l'acoustique et la visuel de la salle et sélectionner les équipements.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Installation, mise en service et intégration</h4><p>Câblage, installation, tests conjoints et intégration à la plateforme.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Formation et mise en exploitation</h4><p>Former les administrateurs et les participants par niveaux ; remettre les manuels d'exploitation.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Maintenance et inspections périodiques</h4><p>Inspections régulières pendant la garantie pour assurer la stabilité du système.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins et relevé de site</h4><p>Comprendre les scénarios de réunion et les conditions du site ; préciser les besoins et l'environnement acoustique.</p></div>
+<div class="triple-card"><h4>Conception et sélection des équipements</h4><p>Concevoir la solution selon l'acoustique et la visuel de la salle et sélectionner les équipements.</p></div>
+<div class="triple-card"><h4>Installation, mise en service et intégration</h4><p>Câblage, installation, tests conjoints et intégration à la plateforme.</p></div>
+<div class="triple-card"><h4>Formation et mise en exploitation</h4><p>Former les administrateurs et les participants par niveaux ; remettre les manuels d'exploitation.</p></div>
+<div class="triple-card"><h4>Maintenance et inspections périodiques</h4><p>Inspections régulières pendant la garantie pour assurer la stabilité du système.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Le temps de préparation des réunions est nettement réduit, le taux d'occupation des salles s'améliore, les frais de déplacement inter-régions diminuent et le bureau vert progresse.</p></div>
 <div class="triple-card"><h4>Garantie d'un an</h4></div>
 <div class="triple-card"><h4>Assistance 7×24</h4></div>
@@ -285,16 +290,22 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/info-display.html">Système d'Affichage d'Informations (publication d'avis de réunion et partage de documents)</a></li>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (statistiques de réunion et analyse d'occupation des salles)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/splicing.html">Système de Murs Vidéo (grand écran pour centres de commandement et amphithéâtres)</a></li>
 <li><a href="../hardware/adscreen.html">Écrans Publicitaires et d'Information (affichage d'informations à l'entrée des salles)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

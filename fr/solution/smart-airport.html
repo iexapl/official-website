@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec les normes de sûreté de l'OACI et une capacité de livraison modulaire, nous aidons à améliorer le traitement des passagers et l'usage des ressources, via une construction par phases, l'intégration des systèmes, la mise en service et la recette, puis un accompagnement opérationnel continu.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Conforme aux normes OACI</h4><p>Conçu et réalisé selon les normes de sécurité de l'OACI : systèmes sûrs et conformes.</p></div>
 <div class="triple-card"><h4>Multilingue et multi-devises</h4><p>Répond aux besoins d'exploitation internationale des grands hubs.</p></div>
 <div class="triple-card"><h4>Construction modulaire par phases</h4><p>Réalisation par étapes au rythme de l'investissement, avec un risque ponctuel réduit.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>Intégration AOC unifiée</h4><p>Tous les sous-systèmes rejoignent le centre d'exploitation de l'aéroport (AOC).</p></div>
 <div class="triple-card"><h4>Expérience passager améliorée</h4><p>Enregistrement libre-service, guidage intelligent et diffusion d'informations intégrés.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>Recenser la taille de l'aéroport, le réseau de lignes et les phases.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Conception</h4><p>Plans par phases et par modules.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Réalisation par phases</h4><p>Priorités : services passagers, sûreté, exploitation.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Intégration</h4><p>Raccorder les sous-systèmes au centre AOC.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Essais et réception</h4><p>Tests conjoints tous scénarios et réception.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Formation et remise</h4><p>Former le personnel d'exploitation et de gestion par poste.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Recenser la taille de l'aéroport, le réseau de lignes et les phases.</p></div>
+<div class="triple-card"><h4>Conception</h4><p>Plans par phases et par modules.</p></div>
+<div class="triple-card"><h4>Réalisation par phases</h4><p>Priorités : services passagers, sûreté, exploitation.</p></div>
+<div class="triple-card"><h4>Intégration</h4><p>Raccorder les sous-systèmes au centre AOC.</p></div>
+<div class="triple-card"><h4>Essais et réception</h4><p>Tests conjoints tous scénarios et réception.</p></div>
+<div class="triple-card"><h4>Formation et remise</h4><p>Former le personnel d'exploitation et de gestion par poste.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Débit passagers accru, sécurité renforcée, meilleure utilisation des ressources de l'aéroport et revenus commerciaux en hausse.</p></div>
 <div class="triple-card"><h4>Garantie d'un an</h4></div>
 <div class="triple-card"><h4>Exploitation 7×24</h4></div>
@@ -291,14 +296,19 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">Système de Gestion RH (pointage et gestion du personnel aéroportuaire)</a></li>
 <li><a href="../software/blacklist.html">Système Liste Noire (fichage passagers/personnel)</a></li>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (visualisation des données d'exploitation)</a></li>
 <li><a href="../software/info-display.html">Système d'Affichage d'Informations (informations de vol et annonces)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (couverture totale terminal/piste/aire de stationnement)</a></li>
 <li><a href="../hardware/passage.html">Équipements de Passage Piéton (couloirs de contrôle et portes d'embarquement)</a></li>
@@ -310,6 +320,7 @@
 <li><a href="../hardware/ai-server.html">Serveur Edge IA (analyse intelligente des images de contrôle/vidéo)</a></li>
 <li><a href="../hardware/drone.html">Drone à Forte Charge (inspection aire de stationnement/piste)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

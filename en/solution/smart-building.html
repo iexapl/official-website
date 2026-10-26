@@ -265,7 +265,11 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>
-<h3 class="axlt-heading-paragraph">Related Software Systems</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Related Software</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Related Hardware</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/ibms.html">IBMS (core integration platform)</a></li>
 <li><a href="../software/dashboard.html">Dashboard System (building operations data visualization)</a></li>
@@ -273,7 +277,8 @@
 <li><a href="../software/bim.html">BIM Lightweight System (3D building model management)</a></li>
 <li><a href="../software/blacklist.html">Blacklist System (visitor/personnel watchlist control)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Related Hardware Equipment</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Video Surveillance System (full building security coverage)</a></li>
 <li><a href="../hardware/attendance.html">Attendance &amp; Access Control Equipment (staff/visitor access management)</a></li>
@@ -283,6 +288,7 @@
 <li><a href="../hardware/ai-server.html">AI Edge Server (building AI analytics/edge processing)</a></li>
 <li><a href="../hardware/adscreen.html">Advertising &amp; Information Display (lobby and elevator information display)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">优势与交付</h2>
-<p class="axlt-paragraph">我们以模块化设计与统一平台能力，为校园安全管理水平与教学后勤效率的提升提供支撑，并通过分模块实施、系统集成、培训交付与假期集中维护保障落地。</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>差异化优势</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>差异化优势
+</div>
 <div class="triple-card"><h4>模块化灵活选配</h4><p>从小型幼儿园到大型大学分级部署，模块按需选配，投资灵活。</p></div>
 <div class="triple-card"><h4>统一平台管理</h4><p>安防、教学、后勤多系统集成一处管理，避免信息孤岛，维护成本降低。</p></div>
 <div class="triple-card"><h4>开放 API 对接</h4><p>与现有教务系统无缝对接，保护已有投资，数据互通共享。</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>假期集中维护</h4><p>利用寒暑假窗口期集中维护升级，不影响正常教学秩序。</p></div>
 <div class="triple-card"><h4>安全与学习兼顾</h4><p>人脸识别出入管理保障校园安全，多媒体教学系统提升教学质量。</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>实施流程</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>需求调研</h4><p>按学校规模梳理安防、教学、后勤需求。</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>方案设计</h4><p>输出模块选配与分期建设方案。</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>分模块实施</h4><p>按安防、教学、后勤优先级分批建设。</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>系统集成</h4><p>统一平台集成各模块与教务系统。</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>培训交付</h4><p>分层培训教职员工与管理人员。</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>持续优化</h4><p>结合运行反馈持续优化配置。</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>实施流程
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</h3>
+<div class="triple-card"><h4>需求调研</h4><p>按学校规模梳理安防、教学、后勤需求。</p></div>
+<div class="triple-card"><h4>方案设计</h4><p>输出模块选配与分期建设方案。</p></div>
+<div class="triple-card"><h4>分模块实施</h4><p>按安防、教学、后勤优先级分批建设。</p></div>
+<div class="triple-card"><h4>系统集成</h4><p>统一平台集成各模块与教务系统。</p></div>
+<div class="triple-card"><h4>培训交付</h4><p>分层培训教职员工与管理人员。</p></div>
+<div class="triple-card"><h4>持续优化</h4><p>结合运行反馈持续优化配置。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障
+</div>
 <div class="triple-card"><h4>客户价值</h4><p>校园安全管理水平提升，教学资源配置优化，能源消耗降低，师生满意度提高。</p></div>
 <div class="triple-card"><h4>一年质保</h4></div>
 <div class="triple-card"><h4>寒暑假集中维护</h4></div>
@@ -291,14 +296,19 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">人事管理系统（教职工考勤、组织架构）</a></li>
 <li><a href="../software/dashboard.html">看板系统（校园运营数据可视化）</a></li>
 <li><a href="../software/info-display.html">信息公示系统（校园公告、通知发布）</a></li>
 <li><a href="../software/blacklist.html">黑名单系统（陌生人/黑名单人员布控）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">视频监控系统（校园安防全覆盖）</a></li>
 <li><a href="../hardware/attendance.html">考勤与门禁设备（校门/宿舍人脸识别）</a></li>
@@ -307,6 +317,7 @@
 <li><a href="../hardware/adscreen.html">广告与信息显示屏（教学楼/食堂信息展示）</a></li>
 <li><a href="../hardware/ai-server.html">AI 边缘服务器（校园 AI 分析/视频处理）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

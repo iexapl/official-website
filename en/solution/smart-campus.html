@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Advantages &amp; Delivery</h2>
-<p class="axlt-paragraph">With modular design and unified platform capability, we support higher campus safety and better teaching and logistics efficiency, delivered through module-by-module implementation, system integration, training and vacation-period maintenance.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages
+</div>
 <div class="triple-card"><h4>Modular Flexible Selection</h4><p>Tiered deployment from kindergartens to universities; select modules on demand for flexible investment.</p></div>
 <div class="triple-card"><h4>Unified Platform</h4><p>Security, teaching and logistics integrated in one platform, avoiding silos and cutting maintenance cost.</p></div>
 <div class="triple-card"><h4>Open API Integration</h4><p>Seamless connection to existing academic systems protects prior investment with shared data.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>Holiday-Window Maintenance</h4><p>Centralized maintenance in summer and winter breaks without disturbing teaching.</p></div>
 <div class="triple-card"><h4>Safety and Learning Together</h4><p>Face-recognition access secures the campus; multimedia systems improve teaching quality.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Requirement Research</h4><p>Sort out security, teaching and logistics needs by school size.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Solution Design</h4><p>Output module selection and phased construction plan.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Phased Implementation</h4><p>Build by priority: security, teaching, logistics.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>System Integration</h4><p>Integrate all modules with the academic system on one platform.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Training &amp; Handover</h4><p>Train faculty and management in tiers.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Continuous Optimization</h4><p>Keep optimizing configuration based on feedback.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee</h3>
+<div class="triple-card"><h4>Requirement Research</h4><p>Sort out security, teaching and logistics needs by school size.</p></div>
+<div class="triple-card"><h4>Solution Design</h4><p>Output module selection and phased construction plan.</p></div>
+<div class="triple-card"><h4>Phased Implementation</h4><p>Build by priority: security, teaching, logistics.</p></div>
+<div class="triple-card"><h4>System Integration</h4><p>Integrate all modules with the academic system on one platform.</p></div>
+<div class="triple-card"><h4>Training &amp; Handover</h4><p>Train faculty and management in tiers.</p></div>
+<div class="triple-card"><h4>Continuous Optimization</h4><p>Keep optimizing configuration based on feedback.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee
+</div>
 <div class="triple-card"><h4>Client Value</h4><p>Campus safety improves, teaching resources are optimized, energy use drops, and satisfaction of staff and students rises.</p></div>
 <div class="triple-card"><h4>One-year warranty</h4></div>
 <div class="triple-card"><h4>Holiday-window maintenance</h4></div>
@@ -291,14 +296,19 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>
-<h3 class="axlt-heading-paragraph">Related Software Systems</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Related Software</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Related Hardware</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">HR Management System (staff attendance and organizational structure)</a></li>
 <li><a href="../software/dashboard.html">Dashboard System (campus operations data visualization)</a></li>
 <li><a href="../software/info-display.html">Information Display System (campus announcements and notices)</a></li>
 <li><a href="../software/blacklist.html">Blacklist System (stranger/watchlist control)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Related Hardware Equipment</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Video Surveillance System (full campus security coverage)</a></li>
 <li><a href="../hardware/attendance.html">Attendance &amp; Access Control Equipment (face recognition at gates and dormitories)</a></li>
@@ -307,6 +317,7 @@
 <li><a href="../hardware/adscreen.html">Advertising &amp; Information Display (teaching building and canteen information display)</a></li>
 <li><a href="../hardware/ai-server.html">AI Edge Server (campus AI analytics/video processing)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

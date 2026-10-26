@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec l'analyse vidéo IA et la compatibilité multi-marques, nous livrons aux villes une capacité routière accrue et une aide à la décision fondée sur la donnée, via des levés de site, le réglage des feux et des services d'optimisation continue.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Forte compatibilité</h4><p>Compatible avec les principales marques de contrôleurs de feux : investissements protégés.</p></div>
 <div class="triple-card"><h4>Chantier simple</h4><p>L'analyse vidéo IA évite de couper la chaussée : chantier court, maintenance économique.</p></div>
 <div class="triple-card"><h4>Données ouvertes</h4><p>Interfaces ouvertes vers les centres de commandement et les fournisseurs de cartes.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>Optimisation intelligente des feux</h4><p>Les plans de feux s'optimisent automatiquement à partir des données de flux.</p></div>
 <div class="triple-card"><h4>Couverture multi-scénarios</h4><p>Contrôle des carrefours, surveillance, guidage et priorité bus.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>État des carrefours et objectifs.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Relevé de site</h4><p>Points de détection, feux et guidage.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Installation</h4><p>Détecteurs, contrôleurs, écrans de guidage.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Déploiement plateforme</h4><p>Plateforme de régulation configurée.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Réglage des feux</h4><p>Optimisation des plans selon les flux.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Formation et remise</h4><p>Former les gestionnaires et mettre en service.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>État des carrefours et objectifs.</p></div>
+<div class="triple-card"><h4>Relevé de site</h4><p>Points de détection, feux et guidage.</p></div>
+<div class="triple-card"><h4>Installation</h4><p>Détecteurs, contrôleurs, écrans de guidage.</p></div>
+<div class="triple-card"><h4>Déploiement plateforme</h4><p>Plateforme de régulation configurée.</p></div>
+<div class="triple-card"><h4>Réglage des feux</h4><p>Optimisation des plans selon les flux.</p></div>
+<div class="triple-card"><h4>Formation et remise</h4><p>Former les gestionnaires et mettre en service.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Capacité routière accrue, accidents réduits et transports publics améliorés, avec des données à l'appui des décisions.</p></div>
 <div class="triple-card"><h4>Garantie d'un an</h4></div>
 <div class="triple-card"><h4>Optimisation continue des feux</h4></div>
@@ -321,12 +326,17 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (visualisation des données trafic et analyse de congestion)</a></li>
 <li><a href="../software/blacklist.html">Système Liste Noire (fichage véhicules/personnes en infraction)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (couverture totale carrefours/tronçons)</a></li>
 <li><a href="../hardware/ai-server.html">Serveur Edge IA (analyse IA en périphérie des carrefours)</a></li>
@@ -335,6 +345,7 @@
 <li><a href="../hardware/splicing.html">Système de Murs Vidéo (grand écran du centre de régulation)</a></li>
 <li><a href="../hardware/drone.html">Drone à Forte Charge (patrouille trafic et constat d'accident)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

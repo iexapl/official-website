@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec une plateforme de sonorisation sur IP et une liaison incendie éprouvée, nous aidons les bâtiments publics à remplacer plusieurs systèmes par un seul ; la livraison couvre relevés et conception, câblage et installation, mise en service et formation, puis une maintenance sous garantie.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Un système, trois usages</h4><p>Couvre musique de fond, appel professionnel et évacuation d'urgence dans un seul système, remplaçant plusieurs systèmes indépendants.</p></div>
 <div class="triple-card"><h4>256 zones indépendantes</h4><p>Chaque zone diffuse un contenu différent avec un contrôle par étage, adapté aux bâtiments complexes.</p></div>
 <div class="triple-card"><h4>Liaison incendie automatique</h4><p>Bascule automatiquement vers la diffusion d'évacuation en cas d'incendie, sans intervention manuelle.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>Transmission sur réseau IP</h4><p>S'appuie sur le réseau IP existant : câblage simple, extension flexible, faible coût pour de nouvelles zones.</p></div>
 <div class="triple-card"><h4>Qualité sonore haute fidélité</h4><p>Traitement audio numérique : son clair sans dégradation, musique confortable et consignes précises.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>Recenser les zones du bâtiment, les usages de diffusion et les exigences de liaison incendie.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Conception</h4><p>Produire le plan de zonage, l'implantation des points et la liste des équipements.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Câblage réseau</h4><p>Déployer les liaisons de transmission sur le réseau IP ou des lignes dédiées.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Installation des équipements</h4><p>Installer les haut-parleurs, les sources audio et les équipements de contrôle.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Mise en service</h4><p>Tests conjoints des zones, tâches planifiées et liaison incendie.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Formation et remise</h4><p>Former les gestionnaires et les agents de sécurité incendie avant la remise.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Recenser les zones du bâtiment, les usages de diffusion et les exigences de liaison incendie.</p></div>
+<div class="triple-card"><h4>Conception</h4><p>Produire le plan de zonage, l'implantation des points et la liste des équipements.</p></div>
+<div class="triple-card"><h4>Câblage réseau</h4><p>Déployer les liaisons de transmission sur le réseau IP ou des lignes dédiées.</p></div>
+<div class="triple-card"><h4>Installation des équipements</h4><p>Installer les haut-parleurs, les sources audio et les équipements de contrôle.</p></div>
+<div class="triple-card"><h4>Mise en service</h4><p>Tests conjoints des zones, tâches planifiées et liaison incendie.</p></div>
+<div class="triple-card"><h4>Formation et remise</h4><p>Former les gestionnaires et les agents de sécurité incendie avant la remise.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Un système remplace plusieurs systèmes indépendants, réduisant les coûts de construction et de maintenance ; la gestion numérique améliore l'efficacité opérationnelle ; la liaison incendie protège les vies.</p></div>
 <div class="triple-card"><h4>Garantie d'un an</h4></div>
 <div class="triple-card"><h4>Diagnostic à distance</h4></div>
@@ -291,14 +296,20 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
-<li>Aucun système logiciel directement associé.</li>
+<li>Aucun logiciel directement associé.</li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (lié à la sonorisation pour un commandement visuel)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

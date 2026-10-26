@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">优势与交付</h2>
-<p class="axlt-paragraph">我们以 IP 网络广播平台与消防联动能力，为公共建筑提供一套系统替代多套系统的建设方式，并通过勘察设计、布线安装、调试培训与质保运维保障落地。</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>差异化优势</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>差异化优势
+</div>
 <div class="triple-card"><h4>一套系统三种用途</h4><p>同时满足背景音乐、业务广播和紧急疏散需求，一套系统替代多套独立系统，建设成本降低。</p></div>
 <div class="triple-card"><h4>256 个独立分区</h4><p>不同区域播放不同内容，控制精细到楼层，满足复杂建筑的分区管理需求。</p></div>
 <div class="triple-card"><h4>消防自动联动</h4><p>火灾时自动切换疏散广播，无需人工干预，保障人员生命安全。</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>IP 网络传输</h4><p>依托现有 IP 网络传输，布线简洁，扩展灵活，新区域接入成本低。</p></div>
 <div class="triple-card"><h4>高保真音质</h4><p>数字音频处理，音质清晰无衰减，背景音乐体验舒适，广播指令传达准确。</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>实施流程</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>需求调研</h4><p>梳理建筑分区、广播用途与消防联动要求。</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>方案设计</h4><p>输出分区方案、点位设计与设备清单。</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>网络布线</h4><p>依托 IP 网络或专用线路完成传输链路铺设。</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>设备安装</h4><p>扬声器、音源与控制设备安装到位。</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>系统调试</h4><p>分区、定时任务与消防联动联调测试。</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>培训交付</h4><p>培训广播管理员与消防值班人员后交付运行。</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>实施流程
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</h3>
+<div class="triple-card"><h4>需求调研</h4><p>梳理建筑分区、广播用途与消防联动要求。</p></div>
+<div class="triple-card"><h4>方案设计</h4><p>输出分区方案、点位设计与设备清单。</p></div>
+<div class="triple-card"><h4>网络布线</h4><p>依托 IP 网络或专用线路完成传输链路铺设。</p></div>
+<div class="triple-card"><h4>设备安装</h4><p>扬声器、音源与控制设备安装到位。</p></div>
+<div class="triple-card"><h4>系统调试</h4><p>分区、定时任务与消防联动联调测试。</p></div>
+<div class="triple-card"><h4>培训交付</h4><p>培训广播管理员与消防值班人员后交付运行。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障
+</div>
 <div class="triple-card"><h4>客户价值</h4><p>一套系统替代多套独立系统，建设成本与维护成本均有效降低；数字化管理提升运营效率；消防联动保障人员生命安全。</p></div>
 <div class="triple-card"><h4>一年质保</h4></div>
 <div class="triple-card"><h4>远程诊断支持</h4></div>
@@ -291,14 +296,20 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
-<li>无直接关联软件系统。</li>
+<li>无直接关联软件。</li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">视频监控系统（与广播联动，实现可视化指挥）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

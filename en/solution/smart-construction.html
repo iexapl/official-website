@@ -275,7 +275,11 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>
-<h3 class="axlt-heading-paragraph">Related Software Systems</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Related Software</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Related Hardware</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">HR Management System (worker real-name registration, attendance and payroll)</a></li>
 <li><a href="../software/quality.html">Quality Management System (process inspection, first-article acceptance, quality closed loop)</a></li>
@@ -288,7 +292,8 @@
 <li><a href="../software/bim.html">BIM Lightweight System (schedule simulation, 3D visualization)</a></li>
 <li><a href="../software/dashboard.html">Dashboard System (site data visualization screens)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Related Hardware Equipment</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Video Surveillance System (site security and AI behavior recognition)</a></li>
 <li><a href="../hardware/attendance.html">Attendance &amp; Access Control Equipment (real-name worker entry/exit)</a></li>
@@ -300,6 +305,7 @@
 <li><a href="../hardware/splicing.html">Video Wall System (command center large screen)</a></li>
 <li><a href="../hardware/drone.html">Heavy-Lift Drone (site aerial patrol and surveying)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

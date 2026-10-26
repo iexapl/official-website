@@ -275,7 +275,11 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">Système de Gestion RH (enregistrement nominatif, pointage et paie des ouvriers)</a></li>
 <li><a href="../software/quality.html">Système de Gestion de la Qualité (inspection des tâches, première pièce, boucle qualité)</a></li>
@@ -288,7 +292,8 @@
 <li><a href="../software/bim.html">Système BIM Allégé (simulation de planning, visualisation 3D)</a></li>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (écrans de visualisation des données du chantier)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (sûreté du chantier et reconnaissance de comportements IA)</a></li>
 <li><a href="../hardware/attendance.html">Équipements de Pointage et Contrôle d'Accès (entrées/sorties nominatives des ouvriers)</a></li>
@@ -300,6 +305,7 @@
 <li><a href="../hardware/splicing.html">Système de Murs Vidéo (grand écran du centre de commandement)</a></li>
 <li><a href="../hardware/drone.html">Drone à Forte Charge (patrouille aérienne et levé topographique)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

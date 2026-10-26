@@ -254,10 +254,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">优势与交付</h2>
-<p class="axlt-paragraph">我们以专业音视频技术积累与非洲本地服务网络，为会议效率提升与差旅成本降低提供一站式交付，并通过方案设计、安装调试、培训上线与售后维护保障落地。</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>差异化优势</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>差异化优势
+</div>
 <div class="triple-card"><h4>4K 沉浸式体验</h4><p>支持 4K 超高清视频与全向拾音，异地沟通如同同室，会议体验媲美面对面。</p></div>
 <div class="triple-card"><h4>无纸化会议提效</h4><p>会议纪要自动生成，资料同步共享，减少人工记录与纸质资料分发，践行绿色办公。</p></div>
 <div class="triple-card"><h4>30 秒快速启动</h4><p>智能中控一键启动会议设备，非技术人员也能快速开会，会议室利用率提升。</p></div>
@@ -265,16 +266,20 @@
 <div class="triple-card"><h4>多品牌兼容</h4><p>兼容主流视频会议平台与硬件终端，保护既有投资，新旧设备无缝协作。</p></div>
 <div class="triple-card"><h4>会议室统一管理</h4><p>支持多会议室集中预约、设备状态监控与使用统计，空间资源优化配置。</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>实施流程</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>需求调研与会议室勘察</h4><p>了解会议场景与现场条件，明确功能需求与声学环境。</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>方案设计与设备选型</h4><p>按房间声学与视觉条件输出设计方案并完成设备选型。</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>安装调试与系统集成</h4><p>完成布线安装、设备联调与平台对接。</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>用户培训与上线运行</h4><p>分层培训管理员与参会人员，交付运行手册。</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>售后维护与定期巡检</h4><p>质保期内定期巡检，保障系统稳定运行。</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>实施流程
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</h3>
+<div class="triple-card"><h4>需求调研与会议室勘察</h4><p>了解会议场景与现场条件，明确功能需求与声学环境。</p></div>
+<div class="triple-card"><h4>方案设计与设备选型</h4><p>按房间声学与视觉条件输出设计方案并完成设备选型。</p></div>
+<div class="triple-card"><h4>安装调试与系统集成</h4><p>完成布线安装、设备联调与平台对接。</p></div>
+<div class="triple-card"><h4>用户培训与上线运行</h4><p>分层培训管理员与参会人员，交付运行手册。</p></div>
+<div class="triple-card"><h4>售后维护与定期巡检</h4><p>质保期内定期巡检，保障系统稳定运行。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障
+</div>
 <div class="triple-card"><h4>客户价值</h4><p>会议准备时间显著缩短，会议室利用率提升，跨区域差旅成本有效降低，企业绿色办公水平提升。</p></div>
 <div class="triple-card"><h4>一年质保</h4></div>
 <div class="triple-card"><h4>7×24 热线支持</h4></div>
@@ -285,16 +290,22 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/info-display.html">信息公示系统（会议通知发布、资料共享）</a></li>
 <li><a href="../software/dashboard.html">看板系统（会议数据统计、会议室利用率分析）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/splicing.html">拼接屏系统（指挥中心/报告厅大屏显示）</a></li>
 <li><a href="../hardware/adscreen.html">广告与信息显示屏（会议室门口信息展示）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

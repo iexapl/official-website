@@ -249,10 +249,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec une plateforme de services TV sur IP et la capacité d'intégration aux métiers de l'hôtellerie, nous aidons à élever la satisfaction des clients et à créer de nouveaux revenus à valeur ajoutée, avec évaluation du réseau, déploiement de la plateforme, configuration des contenus et formation.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Sans câble coaxial</h4><p>Partage l'infrastructure IP : économie de câblage dédié, idéal en rénovation d'immeubles anciens.</p></div>
 <div class="triple-card"><h4>Marque et page d'accueil</h4><p>La télévision de la chambre affiche la marque et un message de bienvenue personnalisé.</p></div>
 <div class="triple-card"><h4>Portail de revenus additionnels</h4><p>La TV devient un portail de services : restauration, blanchisserie, réservations.</p></div>
@@ -260,17 +261,21 @@
 <div class="triple-card"><h4>Gestion multi-chaînes</h4><p>Direct, à la demande, décalé et reprise : programmation flexible et maîtrisée.</p></div>
 <div class="triple-card"><h4>Intégration PMS</h4><p>Interfaces standard vers le PMS : état des chambres, facturation et fidélité synchronisés.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>Recenser les chaînes, contenus de marque et services à valeur ajoutée.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Évaluation réseau</h4><p>Évaluer la bande passante IP et les conditions d'accès des terminaux.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Déploiement plateforme</h4><p>Déployer la plateforme en mode cloud ou local.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Configuration des contenus</h4><p>Programmation des chaînes, page d'accueil et portails de services.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Installation des terminaux</h4><p>Installer et régler les terminaux des chambres et parties communes.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Formation et remise</h4><p>Former le personnel d'exploitation avant remise.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Recenser les chaînes, contenus de marque et services à valeur ajoutée.</p></div>
+<div class="triple-card"><h4>Évaluation réseau</h4><p>Évaluer la bande passante IP et les conditions d'accès des terminaux.</p></div>
+<div class="triple-card"><h4>Déploiement plateforme</h4><p>Déployer la plateforme en mode cloud ou local.</p></div>
+<div class="triple-card"><h4>Configuration des contenus</h4><p>Programmation des chaînes, page d'accueil et portails de services.</p></div>
+<div class="triple-card"><h4>Installation des terminaux</h4><p>Installer et régler les terminaux des chambres et parties communes.</p></div>
+<div class="triple-card"><h4>Formation et remise</h4><p>Former le personnel d'exploitation avant remise.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Satisfaction client et image de marque renforcées, revenus additionnels via les services, coûts de câblage et de maintenance réduits par rapport au câble classique.</p></div>
 <div class="triple-card"><h4>Garantie d'un an</h4></div>
 <div class="triple-card"><h4>Mise à jour des contenus</h4></div>
@@ -281,15 +286,21 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/info-display.html">Système d'Affichage d'Informations (annonces et informations de services hôtel/résidence)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/adscreen.html">Écrans Publicitaires et d'Information (affichage dans les halls et zones communes)</a></li>
 <li><a href="../hardware/led.html">Écrans LED Extérieurs (publication d'informations extérieures)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

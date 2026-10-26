@@ -254,18 +254,24 @@
 </section>
 </section><section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">看板系统（安防数据可视化、告警统计）</a></li>
 <li><a href="../software/blacklist.html">黑名单系统（人脸识别布控、人员准入拦截）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">视频监控系统（网络摄像头、NVR、视频管理平台）</a></li>
 <li><a href="../hardware/ai-server.html">AI 边缘服务器（边缘 AI 推理、视频预处理）</a></li>
 <li><a href="../hardware/drone.html">重载无人机（空中巡查、现场图传）</a></li>
 <li><a href="../hardware/splicing.html">拼接屏系统（指挥中心大屏显示）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

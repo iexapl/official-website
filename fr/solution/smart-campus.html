@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec une conception modulaire et une plateforme unifiée, nous aidons à élever la sécurité du campus et l'efficacité pédagogique et logistique, via une mise en œuvre module par module, l'intégration des systèmes, la formation et une maintenance pendant les vacances.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Sélection modulaire flexible</h4><p>Déploiement gradué de la maternelle à l'université ; modules à la carte, investissement souple.</p></div>
 <div class="triple-card"><h4>Plateforme unifiée</h4><p>Sécurité, pédagogie et logistique intégrées, sans silo et avec une maintenance réduite.</p></div>
 <div class="triple-card"><h4>API ouvertes</h4><p>Connexion transparente aux systèmes existants : investissements protégés, données partagées.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>Maintenance pendant les vacances</h4><p>Maintenance centralisée durant les congés, sans perturber les cours.</p></div>
 <div class="triple-card"><h4>Sécurité et pédagogie</h4><p>Accès par reconnaissance faciale et systèmes multimédias au service de la qualité d'enseignement.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>Recenser les besoins de sécurité, pédagogie et logistique selon la taille.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Conception</h4><p>Sélection des modules et plan de construction par phases.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Réalisation par modules</h4><p>Priorités : sécurité, pédagogie, logistique.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Intégration</h4><p>Unifier modules et système pédagogique sur une plateforme.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Formation et remise</h4><p>Former enseignants et encadrants par niveaux.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Optimisation continue</h4><p>Ajuster la configuration selon les retours.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Recenser les besoins de sécurité, pédagogie et logistique selon la taille.</p></div>
+<div class="triple-card"><h4>Conception</h4><p>Sélection des modules et plan de construction par phases.</p></div>
+<div class="triple-card"><h4>Réalisation par modules</h4><p>Priorités : sécurité, pédagogie, logistique.</p></div>
+<div class="triple-card"><h4>Intégration</h4><p>Unifier modules et système pédagogique sur une plateforme.</p></div>
+<div class="triple-card"><h4>Formation et remise</h4><p>Former enseignants et encadrants par niveaux.</p></div>
+<div class="triple-card"><h4>Optimisation continue</h4><p>Ajuster la configuration selon les retours.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Sécurité du campus renforcée, ressources pédagogiques optimisées, énergie réduite et satisfaction des élèves et équipes en hausse.</p></div>
 <div class="triple-card"><h4>Garantie d'un an</h4></div>
 <div class="triple-card"><h4>Maintenance pendant les congés</h4></div>
@@ -291,14 +296,19 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">Système de Gestion RH (pointage et organigramme des personnels)</a></li>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (visualisation des données du campus)</a></li>
 <li><a href="../software/info-display.html">Système d'Affichage d'Informations (annonces et avis du campus)</a></li>
 <li><a href="../software/blacklist.html">Système Liste Noire (fichage des inconnus/personnes indésirables)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (couverture sûreté totale du campus)</a></li>
 <li><a href="../hardware/attendance.html">Équipements de Pointage et Contrôle d'Accès (reconnaissance faciale portes et internats)</a></li>
@@ -307,6 +317,7 @@
 <li><a href="../hardware/adscreen.html">Écrans Publicitaires et d'Information (affichage bâtiments d'enseignement et cantine)</a></li>
 <li><a href="../hardware/ai-server.html">Serveur Edge IA (analyse IA et traitement vidéo du campus)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">优势与交付</h2>
-<p class="axlt-paragraph">我们以统一平台整合与 AI 视频分析能力，为社区安全管理与物业服务效率的提升提供支撑，并通过设备安装、平台部署、居民注册与培训交付保障落地。</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>差异化优势</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>差异化优势
+</div>
 <div class="triple-card"><h4>统一平台整合</h4><p>门禁、道闸、监控、物业多子系统一处管理，避免信息孤岛，运维高效。</p></div>
 <div class="triple-card"><h4>无感通行体验</h4><p>人脸识别出入与车牌无感支付，便捷高效，居民出入体验提升。</p></div>
 <div class="triple-card"><h4>AI 主动安防</h4><p>安全隐患主动发现，防患于未然，社区安全管理从被动响应转向主动预防。</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>适老化设计</h4><p>支持独居老人关怀与紧急求助，社区人文关怀能力增强。</p></div>
 <div class="triple-card"><h4>灵活扩展</h4><p>支持新设备、新服务模块按需接入，随社区发展平滑升级。</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>实施流程</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>需求调研</h4><p>梳理社区规模、出入动线与物业流程。</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>方案设计</h4><p>输出出入口、社区内与平台整体设计。</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>设备安装</h4><p>门禁、道闸、传感器与关怀设备安装。</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>平台部署</h4><p>统一管理平台与居民 APP 上线。</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>居民注册</h4><p>组织居民与访客完成账号开通。</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>培训交付</h4><p>培训物业人员后正式运行。</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>实施流程
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</h3>
+<div class="triple-card"><h4>需求调研</h4><p>梳理社区规模、出入动线与物业流程。</p></div>
+<div class="triple-card"><h4>方案设计</h4><p>输出出入口、社区内与平台整体设计。</p></div>
+<div class="triple-card"><h4>设备安装</h4><p>门禁、道闸、传感器与关怀设备安装。</p></div>
+<div class="triple-card"><h4>平台部署</h4><p>统一管理平台与居民 APP 上线。</p></div>
+<div class="triple-card"><h4>居民注册</h4><p>组织居民与访客完成账号开通。</p></div>
+<div class="triple-card"><h4>培训交付</h4><p>培训物业人员后正式运行。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障
+</div>
 <div class="triple-card"><h4>客户价值</h4><p>社区安全管理水平提升，物业服务效率优化，居民生活便利性和幸福感增强，房产价值与社区品牌提升。</p></div>
 <div class="triple-card"><h4>一年质保</h4></div>
 <div class="triple-card"><h4>远程运维支持</h4></div>
@@ -291,14 +296,19 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">人事管理系统（物业员工考勤管理）</a></li>
 <li><a href="../software/blacklist.html">黑名单系统（访客/人员黑名单布控）</a></li>
 <li><a href="../software/dashboard.html">看板系统（社区运营数据可视化）</a></li>
 <li><a href="../software/info-display.html">信息公示系统（社区公告、通知发布）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">视频监控系统（社区安防全覆盖）</a></li>
 <li><a href="../hardware/attendance.html">考勤与门禁设备（小区出入口人脸识别）</a></li>
@@ -308,6 +318,7 @@
 <li><a href="../hardware/adscreen.html">广告与信息显示屏（小区公告信息展示）</a></li>
 <li><a href="../hardware/ai-server.html">AI 边缘服务器（社区 AI 分析/视频处理）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

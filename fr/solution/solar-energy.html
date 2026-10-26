@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec des algorithmes EMS intelligents et une conception modulaire solaire–stockage, nous livrons de la valeur énergétique — des factures réduites et un approvisionnement fiable — via des levés de site, la réception de raccordement et une exploitation garantie sur le long terme.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Génération performante</h4><p>Modules photovoltaïques à haut rendement : plus de production au mètre carré.</p></div>
 <div class="triple-card"><h4>Dispatching intelligent</h4><p>L'EMS intelligent maximise l'autoconsommation et optimise l'arbitrage heure pleine/creuse.</p></div>
 <div class="triple-card"><h4>Extension flexible</h4><p>Stockage modulaire évoluant avec l'activité : investissement par phases, risque maîtrisé.</p></div>
@@ -270,18 +271,22 @@
 <div class="triple-card"><h4>Supervision et maintenance à distance</h4><p>Suivi en temps réel de la production, du stockage et de la consommation.</p></div>
 <div class="triple-card"><h4>Adapté à tous les scénarios</h4><p>Usines, bâtiments commerciaux, villages isolés, stations télécoms : énergie verte et secours.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>Analyser les charges et l'alimentation actuelle.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Relevé de site</h4><p>Évaluer les surfaces et conditions d'installation.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Conception</h4><p>Dimensionner photovoltaïque et stockage ; calculer le retour.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Fourniture</h4><p>Modules, stockage et équipements EMS.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Installation et mise en service</h4><p>Génération, stockage et gestion installés.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Raccordement et réception</h4><p>Essais de raccordement et de bascule.</p></div></div>
-<div class="step-mini"><div class="step-num">7</div><div class="step-body"><h4>Remise exploitation</h4><p>Monitoring en ligne et transfert.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Analyser les charges et l'alimentation actuelle.</p></div>
+<div class="triple-card"><h4>Relevé de site</h4><p>Évaluer les surfaces et conditions d'installation.</p></div>
+<div class="triple-card"><h4>Conception</h4><p>Dimensionner photovoltaïque et stockage ; calculer le retour.</p></div>
+<div class="triple-card"><h4>Fourniture</h4><p>Modules, stockage et équipements EMS.</p></div>
+<div class="triple-card"><h4>Installation et mise en service</h4><p>Génération, stockage et gestion installés.</p></div>
+<div class="triple-card"><h4>Raccordement et réception</h4><p>Essais de raccordement et de bascule.</p></div>
+<div class="triple-card"><h4>Remise exploitation</h4><p>Monitoring en ligne et transfert.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Factures réduites, émissions baissées, réseau soulage et alimentation de secours fiable dans les zones instables.</p></div>
 <div class="triple-card"><h4>Garantie système 5 ans</h4></div>
 <div class="triple-card"><h4>Garantie modules 25 ans</h4></div>
@@ -292,17 +297,23 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (visualisation des données énergétiques et analyse des revenus)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/solar-storage.html">Solaire et Stockage (équipements cœur de production et de stockage)</a></li>
 <li><a href="../hardware/industrial-storage.html">Stockage d'Énergie Industriel et Commercial (grande capacité, arbitrage et secours)</a></li>
 <li><a href="../hardware/home-storage.html">Stockage d'Énergie Résidentiel (photovoltaïque-stockage domestique)</a></li>
 <li><a href="../hardware/ai-server.html">Serveur Edge IA (informatique en périphérie pour la gestion de l'énergie)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

@@ -265,7 +265,11 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/ibms.html">IBMS 智能建筑综合管理系统（核心集成平台）</a></li>
 <li><a href="../software/dashboard.html">看板系统（楼宇运营数据可视化）</a></li>
@@ -273,7 +277,8 @@
 <li><a href="../software/bim.html">BIM 轻量化系统（建筑三维模型管理）</a></li>
 <li><a href="../software/blacklist.html">黑名单系统（访客/人员黑名单管控）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">视频监控系统（楼宇安防全覆盖）</a></li>
 <li><a href="../hardware/attendance.html">考勤与门禁设备（员工/访客出入管理）</a></li>
@@ -283,6 +288,7 @@
 <li><a href="../hardware/ai-server.html">AI 边缘服务器（楼宇 AI 分析/边缘处理）</a></li>
 <li><a href="../hardware/adscreen.html">广告与信息显示屏（大堂/电梯间信息展示）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

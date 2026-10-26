@@ -254,18 +254,24 @@
 </section>
 </section><section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>
-<h3 class="axlt-heading-paragraph">Related Software Systems</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Related Software</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Related Hardware</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">Dashboard System (security data visualization and alarm statistics)</a></li>
 <li><a href="../software/blacklist.html">Blacklist System (face recognition watchlists and access interception)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Related Hardware Equipment</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Video Surveillance System (network cameras, NVR, video management platform)</a></li>
 <li><a href="../hardware/ai-server.html">AI Edge Server (edge AI inference and video preprocessing)</a></li>
 <li><a href="../hardware/drone.html">Heavy-Lift Drone (aerial patrol and live video downlink)</a></li>
 <li><a href="../hardware/splicing.html">Video Wall System (command center large-screen display)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

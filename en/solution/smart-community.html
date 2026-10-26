@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Advantages &amp; Delivery</h2>
-<p class="axlt-paragraph">With unified platform integration and AI video analytics, we support higher community safety and property service efficiency, delivered through equipment installation, platform deployment, resident registration and training.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages
+</div>
 <div class="triple-card"><h4>Unified Platform</h4><p>Access, gates, surveillance and property management in one place — no silos, efficient O&amp;M.</p></div>
 <div class="triple-card"><h4>Seamless Access Experience</h4><p>Face-recognition entry and license-plate payment make daily access smooth and fast.</p></div>
 <div class="triple-card"><h4>AI Proactive Security</h4><p>Hazards are discovered proactively, shifting community safety from reactive to preventive.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>Elder-Friendly Design</h4><p>Care for independent seniors and emergency calls strengthen the community's humanity.</p></div>
 <div class="triple-card"><h4>Flexible Expansion</h4><p>New devices and service modules plug in on demand, upgrading smoothly with the community.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Requirement Research</h4><p>Sort out community scale, access flows and property processes.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Solution Design</h4><p>Output overall design of entrances, interior and platform.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Equipment Installation</h4><p>Install access, gates, sensors and care devices.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Platform Deployment</h4><p>Launch the management platform and resident APP.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Resident Registration</h4><p>Onboard residents and visitors.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Training &amp; Handover</h4><p>Train property staff before formal operation.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee</h3>
+<div class="triple-card"><h4>Requirement Research</h4><p>Sort out community scale, access flows and property processes.</p></div>
+<div class="triple-card"><h4>Solution Design</h4><p>Output overall design of entrances, interior and platform.</p></div>
+<div class="triple-card"><h4>Equipment Installation</h4><p>Install access, gates, sensors and care devices.</p></div>
+<div class="triple-card"><h4>Platform Deployment</h4><p>Launch the management platform and resident APP.</p></div>
+<div class="triple-card"><h4>Resident Registration</h4><p>Onboard residents and visitors.</p></div>
+<div class="triple-card"><h4>Training &amp; Handover</h4><p>Train property staff before formal operation.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee
+</div>
 <div class="triple-card"><h4>Client Value</h4><p>Stronger community safety, more efficient property services, greater convenience and well-being for residents, and higher property value and brand.</p></div>
 <div class="triple-card"><h4>One-year warranty</h4></div>
 <div class="triple-card"><h4>Remote O&amp;M support</h4></div>
@@ -291,14 +296,19 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>
-<h3 class="axlt-heading-paragraph">Related Software Systems</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Related Software</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Related Hardware</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/hrms.html">HR Management System (property staff attendance management)</a></li>
 <li><a href="../software/blacklist.html">Blacklist System (visitor/personnel watchlist control)</a></li>
 <li><a href="../software/dashboard.html">Dashboard System (community operations data visualization)</a></li>
 <li><a href="../software/info-display.html">Information Display System (community announcements and notices)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Related Hardware Equipment</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Video Surveillance System (full community security coverage)</a></li>
 <li><a href="../hardware/attendance.html">Attendance &amp; Access Control Equipment (face recognition at compound entrances)</a></li>
@@ -308,6 +318,7 @@
 <li><a href="../hardware/adscreen.html">Advertising &amp; Information Display (community notice display)</a></li>
 <li><a href="../hardware/ai-server.html">AI Edge Server (community AI analytics/video processing)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

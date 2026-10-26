@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">优势与交付</h2>
-<p class="axlt-paragraph">我们以高灵敏度探测与智能联动为核心，为人员疏散时间与火势控制能力的保障提供符合国际消防标准的系统，并通过方案设计、安装布线、消防验收与定期巡检保障落地。</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>差异化优势</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>差异化优势
+</div>
 <div class="triple-card"><h4>早期火灾预警</h4><p>高灵敏度探测器尽早发现火情，为人员疏散争取宝贵时间。</p></div>
 <div class="triple-card"><h4>智能算法降误报</h4><p>有效降低误报率，避免"狼来了"效应，值班人员信任度与响应效率提升。</p></div>
 <div class="triple-card"><h4>预案自动执行</h4><p>报警确认后全链条联动自动执行，无需人工干预，响应速度快。</p></div>
@@ -270,18 +271,22 @@
 <div class="triple-card"><h4>多系统联动</h4><p>与广播、门禁、视频监控、应急照明等系统联动，疏散与救援协同高效。</p></div>
 <div class="triple-card"><h4>合规验收</h4><p>设计、施工、验收全流程符合消防规范，配合政府消防验收，提供完整台账。</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>实施流程</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>需求调研</h4><p>梳理建筑分区、保护等级与联动需求。</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>方案设计</h4><p>探测器点位布置与联动逻辑设计。</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>设备供应</h4><p>按设计清单提供探测、控制与联动设备。</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>安装布线</h4><p>现场安装与报警总线布线。</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>系统调试</h4><p>分区测试、联动测试与误报验证。</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>消防验收</h4><p>配合政府消防验收，提供完整台账。</p></div></div>
-<div class="step-mini"><div class="step-num">7</div><div class="step-body"><h4>培训交付</h4><p>培训消防值班人员后交付运行。</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>实施流程
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</h3>
+<div class="triple-card"><h4>需求调研</h4><p>梳理建筑分区、保护等级与联动需求。</p></div>
+<div class="triple-card"><h4>方案设计</h4><p>探测器点位布置与联动逻辑设计。</p></div>
+<div class="triple-card"><h4>设备供应</h4><p>按设计清单提供探测、控制与联动设备。</p></div>
+<div class="triple-card"><h4>安装布线</h4><p>现场安装与报警总线布线。</p></div>
+<div class="triple-card"><h4>系统调试</h4><p>分区测试、联动测试与误报验证。</p></div>
+<div class="triple-card"><h4>消防验收</h4><p>配合政府消防验收，提供完整台账。</p></div>
+<div class="triple-card"><h4>培训交付</h4><p>培训消防值班人员后交付运行。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障
+</div>
 <div class="triple-card"><h4>客户价值</h4><p>第一时间发现火情并发出警报，为人员疏散争取宝贵时间；自动联动消防设备，有效控制火势蔓延；满足消防合规要求，降低法律风险。</p></div>
 <div class="triple-card"><h4>一年质保</h4></div>
 <div class="triple-card"><h4>配合消防验收</h4></div>
@@ -292,17 +297,23 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/ibms.html">IBMS 智能建筑综合管理系统（消防子系统集成与联动控制）</a></li>
 <li><a href="../software/dashboard.html">看板系统（消防监控数据可视化）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">视频监控系统（火情可视化复核）</a></li>
 <li><a href="../hardware/splicing.html">拼接屏系统（消防控制室大屏）</a></li>
 <li><a href="../hardware/adscreen.html">广告与信息显示屏（疏散引导信息发布）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

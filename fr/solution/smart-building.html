@@ -260,7 +260,11 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/ibms.html">IBMS (plateforme d'intégration cœur)</a></li>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (visualisation des données d'exploitation)</a></li>
@@ -268,7 +272,8 @@
 <li><a href="../software/bim.html">Système BIM Allégé (gestion des maquettes 3D du bâtiment)</a></li>
 <li><a href="../software/blacklist.html">Système Liste Noire (fichage visiteurs/personnel)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (couverture sûreté totale du bâtiment)</a></li>
 <li><a href="../hardware/attendance.html">Équipements de Pointage et Contrôle d'Accès (gestion des accès personnel/visiteurs)</a></li>
@@ -278,6 +283,7 @@
 <li><a href="../hardware/ai-server.html">Serveur Edge IA (analyse IA et traitement en périphérie)</a></li>
 <li><a href="../hardware/adscreen.html">Écrans Publicitaires et d'Information (affichage hall et ascenseurs)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

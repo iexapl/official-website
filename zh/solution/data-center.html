@@ -254,10 +254,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">优势与交付</h2>
-<p class="axlt-paragraph">我们以国际标准为基准的模块化与冗余设计，为 IT 基础设施可用性与安全性的提升提供完整服务，并通过机房选址、综合布线、安全加固与运维平台部署保障落地。</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>差异化优势</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>差异化优势
+</div>
 <div class="triple-card"><h4>符合国际标准</h4><p>按 TIA-942 与 ISO 27001 标准设计与验收，机房建设规范达标，合规风险低。</p></div>
 <div class="triple-card"><h4>模块化弹性扩展</h4><p>按业务增长分期扩容，保护已有投资，避免一次性过度建设。</p></div>
 <div class="triple-card"><h4>冗余高可用架构</h4><p>供电、制冷与网络链路冗余设计，单点故障不影响业务，保障业务连续性。</p></div>
@@ -265,18 +266,22 @@
 <div class="triple-card"><h4>纵深安全防护</h4><p>防火墙、入侵检测、堡垒机多层安全设备部署，构建纵深防御体系。</p></div>
 <div class="triple-card"><h4>一体化部署</h4><p>服务器集群、存储阵列、虚拟化与灾备统一规划部署，减少集成风险。</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>实施流程</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>需求调研</h4><p>梳理业务规模、可用性目标与安全合规要求。</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>机房选址与设计</h4><p>按 TIA-942 标准完成机房布局与动力环境设计。</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>综合布线</h4><p>结构化布线与桥架施工到位。</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>设备安装</h4><p>机柜、UPS、空调、网络与安全设备安装。</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>网络配置</h4><p>三层网络架构配置与 SDN 编排联调。</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>安全加固</h4><p>防火墙策略、入侵检测与堡垒机部署加固。</p></div></div>
-<div class="step-mini"><div class="step-num">7</div><div class="step-body"><h4>运维平台部署与培训交付</h4><p>运维大屏上线，培训运维人员后交付。</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>实施流程
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</h3>
+<div class="triple-card"><h4>需求调研</h4><p>梳理业务规模、可用性目标与安全合规要求。</p></div>
+<div class="triple-card"><h4>机房选址与设计</h4><p>按 TIA-942 标准完成机房布局与动力环境设计。</p></div>
+<div class="triple-card"><h4>综合布线</h4><p>结构化布线与桥架施工到位。</p></div>
+<div class="triple-card"><h4>设备安装</h4><p>机柜、UPS、空调、网络与安全设备安装。</p></div>
+<div class="triple-card"><h4>网络配置</h4><p>三层网络架构配置与 SDN 编排联调。</p></div>
+<div class="triple-card"><h4>安全加固</h4><p>防火墙策略、入侵检测与堡垒机部署加固。</p></div>
+<div class="triple-card"><h4>运维平台部署与培训交付</h4><p>运维大屏上线，培训运维人员后交付。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障
+</div>
 <div class="triple-card"><h4>客户价值</h4><p>IT 基础设施可用性提升，运维人力成本降低，业务连续性保障增强，为数字化转型奠定坚实基础。</p></div>
 <div class="triple-card"><h4>一年质保</h4></div>
 <div class="triple-card"><h4>远程技术支持</h4></div>
@@ -287,17 +292,23 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">看板系统（IT 运维监控大屏）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/splicing.html">拼接屏系统（运维监控中心大屏）</a></li>
 <li><a href="../hardware/ai-server.html">AI 边缘服务器（本地数据处理、边缘计算）</a></li>
 <li><a href="../hardware/industrial-storage.html">工商业储能（数据中心备用电源）</a></li>
 <li><a href="../hardware/solar-storage.html">光伏储能（绿色数据中心供电）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

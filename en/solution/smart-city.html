@@ -259,10 +259,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Advantages &amp; Delivery</h2>
-<p class="axlt-paragraph">With digital twin technology and city-level project experience, we support more refined governance and better public resource allocation, delivered through digital base construction, sensing network deployment, platform buildout and long-term operations partnership.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages
+</div>
 <div class="triple-card"><h4>Virtual-Physical Mapping Rehearsal</h4><p>Plans are rehearsed virtually so risks surface early and decisions are more scientific.</p></div>
 <div class="triple-card"><h4>Elastic Tiered Construction</h4><p>Build from a single block to the whole city at a controllable investment pace.</p></div>
 <div class="triple-card"><h4>Data-Driven Decisions</h4><p>Public resources are allocated on data, reducing supply-demand mismatch.</p></div>
@@ -270,17 +271,21 @@
 <div class="triple-card"><h4>One-Network Unified Management</h4><p>City operations on one screen; multi-department dispatch and faster emergency response.</p></div>
 <div class="triple-card"><h4>Open Data Sharing</h4><p>Multi-source data is governed and shared across departments, releasing its value.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Requirement Research</h4><p>Define governance scenarios, data resources and construction boundaries.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Digital Foundation</h4><p>Build the CIM+BIM+GIS 3D digital base.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Sensing Network</h4><p>Deploy IoT sensors, video and environmental monitoring.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Data Platform</h4><p>Aggregate, govern and share multi-source data.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Smart Applications</h4><p>Develop monitoring and simulation apps by scenario.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Training &amp; Handover</h4><p>Train city operations staff before handover.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee</h3>
+<div class="triple-card"><h4>Requirement Research</h4><p>Define governance scenarios, data resources and construction boundaries.</p></div>
+<div class="triple-card"><h4>Digital Foundation</h4><p>Build the CIM+BIM+GIS 3D digital base.</p></div>
+<div class="triple-card"><h4>Sensing Network</h4><p>Deploy IoT sensors, video and environmental monitoring.</p></div>
+<div class="triple-card"><h4>Data Platform</h4><p>Aggregate, govern and share multi-source data.</p></div>
+<div class="triple-card"><h4>Smart Applications</h4><p>Develop monitoring and simulation apps by scenario.</p></div>
+<div class="triple-card"><h4>Training &amp; Handover</h4><p>Train city operations staff before handover.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee
+</div>
 <div class="triple-card"><h4>Client Value</h4><p>More refined governance, more efficient government services, better public resource allocation, better living quality — driving one-network services and unified city operations.</p></div>
 <div class="triple-card"><h4>Long-term O&amp;M partnership</h4></div>
 <div class="triple-card"><h4>Continuous platform iteration</h4></div>
@@ -291,13 +296,18 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>
-<h3 class="axlt-heading-paragraph">Related Software Systems</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Related Software</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Related Hardware</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">Dashboard System (city operations data visualization)</a></li>
 <li><a href="../software/bim.html">BIM Lightweight System (city building 3D models)</a></li>
 <li><a href="../software/info-display.html">Information Display System (open government affairs and announcements)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Related Hardware Equipment</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Video Surveillance System (city security surveillance network)</a></li>
 <li><a href="../hardware/ai-server.html">AI Edge Server (city edge AI analytics)</a></li>
@@ -306,6 +316,7 @@
 <li><a href="../hardware/led.html">Outdoor LED Display (traffic and public information guidance)</a></li>
 <li><a href="../hardware/gps.html">Vehicle GPS Tracking Terminal (official and sanitation vehicle dispatching)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

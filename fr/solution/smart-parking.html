@@ -249,10 +249,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec une plateforme cloud de parking en microservices et une reconnaissance de haute précision, nous livrons de la valeur quantifiée — plus de rotations et moins de main-d'œuvre — via un déploiement flexible, la mise en œuvre et une maintenance sous garantie.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Reconnaissance précise</h4><p>Fort taux de reconnaissance des plaques ; véhicules sans plaque passent par QR code.</p></div>
 <div class="triple-card"><h4>Déploiement flexible</h4><p>Gestion cloud ou locale selon la taille et le budget du parking.</p></div>
 <div class="triple-card"><h4>Liaison système</h4><p>Intégration à la gestion technique du bâtiment : données partagées.</p></div>
@@ -260,17 +261,21 @@
 <div class="triple-card"><h4>Guidage des places</h4><p>Occupation en temps réel : temps de recherche réduit, rotation accrue.</p></div>
 <div class="triple-card"><h4>Sans surveillance</h4><p>Facturation sans agent : le coût de main-d'œuvre est maîtrisé.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>Analyser les flux et la stratégie tarifaire.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Conception</h4><p>Plan d'implantation entrées et guidage.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Installation</h4><p>Caméras LPR, barrières, écrans de guidage.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Déploiement plateforme</h4><p>Système cloud ou local configuré.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Essais</h4><p>Tests conjoints reconnaissance, facturation, liaisons.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Formation et remise</h4><p>Former les exploitants et mettre en service.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Analyser les flux et la stratégie tarifaire.</p></div>
+<div class="triple-card"><h4>Conception</h4><p>Plan d'implantation entrées et guidage.</p></div>
+<div class="triple-card"><h4>Installation</h4><p>Caméras LPR, barrières, écrans de guidage.</p></div>
+<div class="triple-card"><h4>Déploiement plateforme</h4><p>Système cloud ou local configuré.</p></div>
+<div class="triple-card"><h4>Essais</h4><p>Tests conjoints reconnaissance, facturation, liaisons.</p></div>
+<div class="triple-card"><h4>Formation et remise</h4><p>Former les exploitants et mettre en service.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Rotation accrue, coûts réduits, temps de recherche raccourci, expérience améliorée et revenus en hausse.</p></div>
 <div class="triple-card"><h4>Garantie d'un an</h4></div>
 <div class="triple-card"><h4>Télémaintenance</h4></div>
@@ -281,12 +286,17 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (visualisation des données d'exploitation du parking)</a></li>
 <li><a href="../software/blacklist.html">Système Liste Noire (interception des véhicules fichés)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/gate.html">Barrière de Parking (barrières aux accès du parking)</a></li>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (surveillance sûreté du parking)</a></li>
@@ -294,6 +304,7 @@
 <li><a href="../hardware/led.html">Écrans LED Extérieurs (informations aux accès du parking)</a></li>
 <li><a href="../hardware/ai-server.html">Serveur Edge IA (lecture de plaques/analyse vidéo)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

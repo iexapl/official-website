@@ -254,10 +254,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Advantages &amp; Delivery</h2>
-<p class="axlt-paragraph">With modular, redundant design benchmarked against international standards, we deliver complete services that raise IT availability and security, implemented through data center siting and design, structured cabling, security hardening and operations platform deployment.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Differentiated Advantages
+</div>
 <div class="triple-card"><h4>International Standards</h4><p>Designed and accepted per TIA-942 and ISO 27001, keeping compliance risk low.</p></div>
 <div class="triple-card"><h4>Modular Elastic Expansion</h4><p>Expand in phases as the business grows, protecting existing investment and avoiding over-building.</p></div>
 <div class="triple-card"><h4>Redundant High Availability</h4><p>Redundant power, cooling and network links: a single point of failure does not affect business.</p></div>
@@ -265,18 +266,22 @@
 <div class="triple-card"><h4>Defense-in-Depth Security</h4><p>Firewalls, IDS and bastion hosts form a layered defense system.</p></div>
 <div class="triple-card"><h4>Integrated Deployment</h4><p>Server clusters, storage arrays, virtualization and DR are planned and deployed together, reducing integration risk.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Requirement Research</h4><p>Sort out business scale, availability targets and compliance requirements.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Site Selection &amp; Design</h4><p>Complete layout and power-environment design per TIA-942.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Structured Cabling</h4><p>Complete structured cabling and tray construction.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Equipment Installation</h4><p>Install racks, UPS, air conditioning, network and security devices.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Network Configuration</h4><p>Configure the three-tier architecture and commission SDN orchestration.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Security Hardening</h4><p>Deploy firewall policies, IDS and bastion hosts.</p></div></div>
-<div class="step-mini"><div class="step-num">7</div><div class="step-body"><h4>O&amp;M Platform &amp; Training</h4><p>Launch the O&amp;M dashboard and train staff before handover.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Implementation Process
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee</h3>
+<div class="triple-card"><h4>Requirement Research</h4><p>Sort out business scale, availability targets and compliance requirements.</p></div>
+<div class="triple-card"><h4>Site Selection &amp; Design</h4><p>Complete layout and power-environment design per TIA-942.</p></div>
+<div class="triple-card"><h4>Structured Cabling</h4><p>Complete structured cabling and tray construction.</p></div>
+<div class="triple-card"><h4>Equipment Installation</h4><p>Install racks, UPS, air conditioning, network and security devices.</p></div>
+<div class="triple-card"><h4>Network Configuration</h4><p>Configure the three-tier architecture and commission SDN orchestration.</p></div>
+<div class="triple-card"><h4>Security Hardening</h4><p>Deploy firewall policies, IDS and bastion hosts.</p></div>
+<div class="triple-card"><h4>O&amp;M Platform &amp; Training</h4><p>Launch the O&amp;M dashboard and train staff before handover.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Service Guarantee
+</div>
 <div class="triple-card"><h4>Client Value</h4><p>Higher IT availability, lower O&amp;M labor cost and stronger business continuity lay a solid foundation for digital transformation.</p></div>
 <div class="triple-card"><h4>One-year warranty</h4></div>
 <div class="triple-card"><h4>Remote technical support</h4></div>
@@ -287,17 +292,23 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Related Products</h2>
-<h3 class="axlt-heading-paragraph">Related Software Systems</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Related Software</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Related Hardware</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">Dashboard System (IT operations monitoring dashboard)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Related Hardware Equipment</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/splicing.html">Video Wall System (operations monitoring center large screen)</a></li>
 <li><a href="../hardware/ai-server.html">AI Edge Server (local data processing and edge computing)</a></li>
 <li><a href="../hardware/industrial-storage.html">C&amp;I Energy Storage (data center backup power)</a></li>
 <li><a href="../hardware/solar-storage.html">Solar &amp; Storage (green data center power supply)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

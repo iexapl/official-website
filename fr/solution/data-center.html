@@ -254,10 +254,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">Avantages et livraison</h2>
-<p class="axlt-paragraph">Avec une conception modulaire et redondante alignée sur les normes internationales, nous livrons des prestations complètes qui relèvent la disponibilité et la sécurité du SI, via l'implantation et la conception du centre de données, le câblage structuré, le durcissement de la sécurité et le déploiement de la plateforme d'exploitation.</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>Avantages différenciants
+</div>
 <div class="triple-card"><h4>Normes internationales</h4><p>Conçu et validé selon TIA-942 et ISO 27001 : conformité garantie et risque réglementaire faible.</p></div>
 <div class="triple-card"><h4>Extension modulaire</h4><p>Extension par phases selon la croissance, protégeant l'investissement et évitant la surconstruction.</p></div>
 <div class="triple-card"><h4>Architecture redondante haute disponibilité</h4><p>Alimentation, refroidissement et liens réseau redondants : une défaillance isolée n'interrompt pas l'activité.</p></div>
@@ -265,18 +266,22 @@
 <div class="triple-card"><h4>Sécurité en profondeur</h4><p>Pare-feux, IDS et bastion forment une défense multicouche.</p></div>
 <div class="triple-card"><h4>Déploiement intégré</h4><p>Clusters, stockage, virtualisation et PRA planifiés ensemble, réduisant le risque d'intégration.</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>Étude des besoins</h4><p>Recenser la taille de l'activité, les objectifs de disponibilité et les exigences de conformité.</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>Implantation et conception</h4><p>Conception de la salle et de l'environnement électrique selon TIA-942.</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>Câblage structuré</h4><p>Câblage structuré et chemin de câbles réalisés.</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>Installation des équipements</h4><p>Baies, onduleurs, climatisation, équipements réseau et de sécurité.</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>Configuration réseau</h4><p>Architecture trois niveaux et orchestration SDN mises en service.</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>Durcissement sécurité</h4><p>Politiques de pare-feu, IDS et bastion déployés.</p></div></div>
-<div class="step-mini"><div class="step-num">7</div><div class="step-body"><h4>Plateforme d'exploitation et formation</h4><p>Écran d'exploitation mis en ligne et personnel formé avant remise.</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>Processus de mise en œuvre
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service</h3>
+<div class="triple-card"><h4>Étude des besoins</h4><p>Recenser la taille de l'activité, les objectifs de disponibilité et les exigences de conformité.</p></div>
+<div class="triple-card"><h4>Implantation et conception</h4><p>Conception de la salle et de l'environnement électrique selon TIA-942.</p></div>
+<div class="triple-card"><h4>Câblage structuré</h4><p>Câblage structuré et chemin de câbles réalisés.</p></div>
+<div class="triple-card"><h4>Installation des équipements</h4><p>Baies, onduleurs, climatisation, équipements réseau et de sécurité.</p></div>
+<div class="triple-card"><h4>Configuration réseau</h4><p>Architecture trois niveaux et orchestration SDN mises en service.</p></div>
+<div class="triple-card"><h4>Durcissement sécurité</h4><p>Politiques de pare-feu, IDS et bastion déployés.</p></div>
+<div class="triple-card"><h4>Plateforme d'exploitation et formation</h4><p>Écran d'exploitation mis en ligne et personnel formé avant remise.</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>Garantie de service
+</div>
 <div class="triple-card"><h4>Valeur client</h4><p>Disponibilité IT accrue, coûts d'exploitation réduits et continuité renforcée : une base solide pour la transformation numérique.</p></div>
 <div class="triple-card"><h4>Garantie d'un an</h4></div>
 <div class="triple-card"><h4>Support technique à distance</h4></div>
@@ -287,17 +292,23 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (écran de supervision de l'exploitation IT)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/splicing.html">Système de Murs Vidéo (grand écran du centre de supervision)</a></li>
 <li><a href="../hardware/ai-server.html">Serveur Edge IA (traitement local des données et informatique en périphérie)</a></li>
 <li><a href="../hardware/industrial-storage.html">Stockage d'Énergie Industriel et Commercial (alimentation de secours du datacenter)</a></li>
 <li><a href="../hardware/solar-storage.html">Solaire et Stockage (alimentation verte du datacenter)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

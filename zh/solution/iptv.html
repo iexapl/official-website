@@ -249,10 +249,11 @@
 </section>
 <section class="section-container" id="advantages">
 <h2 class="section-title">优势与交付</h2>
-<p class="axlt-paragraph">我们以 IP 化电视服务平台与酒店业务集成能力，为住客满意度提升与增值收入创造提供支撑，并通过网络评估、平台部署、内容配置与培训交付保障落地。</p>
 <div class="triple-grid">
-<div class="triple-col triple-col-left">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="zap"></i></span>差异化优势</h3>
+<div class="triple-col-left">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="zap"></i></span>差异化优势
+</div>
 <div class="triple-card"><h4>免同轴布线</h4><p>与网络系统共用 IP 基础设施，省去单独布线成本，旧楼改造尤其便捷。</p></div>
 <div class="triple-card"><h4>品牌植入与欢迎页</h4><p>客房电视呈现酒店品牌与个性化欢迎信息，入住体验提升，品牌形象强化。</p></div>
 <div class="triple-card"><h4>增值收入入口</h4><p>电视端客房服务入口，创造点餐、洗衣、预约等额外收入，投资回报提升。</p></div>
@@ -260,17 +261,21 @@
 <div class="triple-card"><h4>多频道内容管理</h4><p>支持直播、点播、时移、回看多种形态，内容编排灵活，运营自主可控。</p></div>
 <div class="triple-card"><h4>与酒店系统对接</h4><p>标准接口与 PMS 酒店管理系统对接，房态、账单、会员信息互通。</p></div>
 </div>
-<div class="triple-col triple-col-center">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="truck"></i></span>实施流程</h3>
-<div class="step-mini"><div class="step-num">1</div><div class="step-body"><h4>需求调研</h4><p>梳理频道需求、品牌内容与增值服务场景。</p></div></div>
-<div class="step-mini"><div class="step-num">2</div><div class="step-body"><h4>网络评估</h4><p>评估 IP 网络带宽与终端接入条件。</p></div></div>
-<div class="step-mini"><div class="step-num">3</div><div class="step-body"><h4>平台部署</h4><p>内容平台按云端或本地模式部署。</p></div></div>
-<div class="step-mini"><div class="step-num">4</div><div class="step-body"><h4>内容配置</h4><p>频道编排、品牌欢迎页与服务入口配置。</p></div></div>
-<div class="step-mini"><div class="step-num">5</div><div class="step-body"><h4>终端安装</h4><p>客房与公共区域终端安装调试。</p></div></div>
-<div class="step-mini"><div class="step-num">6</div><div class="step-body"><h4>培训交付</h4><p>培训运营人员后交付运行。</p></div></div>
+<div class="triple-col-center">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="truck"></i></span>实施流程
 </div>
-<div class="triple-col triple-col-right">
-<h3 class="triple-col-title"><span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障</h3>
+<div class="triple-card"><h4>需求调研</h4><p>梳理频道需求、品牌内容与增值服务场景。</p></div>
+<div class="triple-card"><h4>网络评估</h4><p>评估 IP 网络带宽与终端接入条件。</p></div>
+<div class="triple-card"><h4>平台部署</h4><p>内容平台按云端或本地模式部署。</p></div>
+<div class="triple-card"><h4>内容配置</h4><p>频道编排、品牌欢迎页与服务入口配置。</p></div>
+<div class="triple-card"><h4>终端安装</h4><p>客房与公共区域终端安装调试。</p></div>
+<div class="triple-card"><h4>培训交付</h4><p>培训运营人员后交付运行。</p></div>
+</div>
+<div class="triple-col-right">
+<div class="triple-col-title">
+<span class="col-icon"><i data-lucide="shield-check"></i></span>服务保障
+</div>
 <div class="triple-card"><h4>客户价值</h4><p>提升住客满意度和品牌形象，通过增值业务创造额外收入，降低传统有线电视线路与维护成本。</p></div>
 <div class="triple-card"><h4>一年质保</h4></div>
 <div class="triple-card"><h4>内容更新支持</h4></div>
@@ -281,15 +286,21 @@
 </section>
 <section class="section-container" id="related">
 <h2 class="section-title">关联产品</h2>
-<h3 class="axlt-heading-paragraph">关联软件系统</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">关联软件</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">关联硬件</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/info-display.html">信息公示系统（酒店/社区公告、服务信息发布）</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">关联硬件设备</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/adscreen.html">广告与信息显示屏（大堂/公共区域信息展示）</a></li>
 <li><a href="../hardware/led.html">户外 LED 大屏（室外信息发布）</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">

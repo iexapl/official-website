@@ -254,18 +254,24 @@
 </section>
 </section><section class="section-container" id="related">
 <h2 class="section-title">Produits associés</h2>
-<h3 class="axlt-heading-paragraph">Systèmes logiciels associés</h3>
+<div class="tabs axlt-flex-center-gap" >
+<button class="tab-btn active" onclick="switchTab('software')" id="tab-software">Logiciels associés</button>
+<button class="tab-btn" onclick="switchTab('hardware')" id="tab-hardware">Matériel associé</button>
+</div>
+<div class="tab-content active" id="content-software">
 <ul>
 <li><a href="../software/dashboard.html">Système de Tableau de Bord (visualisation des données de sécurité et statistiques d'alarme)</a></li>
 <li><a href="../software/blacklist.html">Système Liste Noire (fichage facial et interception d'accès)</a></li>
 </ul>
-<h3 class="axlt-heading-paragraph">Équipements matériels associés</h3>
+</div>
+<div class="tab-content axlt-display-none" id="content-hardware">
 <ul>
 <li><a href="../hardware/camera.html">Système de Vidéosurveillance (caméras réseau, NVR, plateforme de gestion vidéo)</a></li>
 <li><a href="../hardware/ai-server.html">Serveur Edge IA (inférence IA en périphérie et prétraitement vidéo)</a></li>
 <li><a href="../hardware/drone.html">Drone à Forte Charge (patrouille aérienne et transmission vidéo du terrain)</a></li>
 <li><a href="../hardware/splicing.html">Système de Murs Vidéo (grand écran du centre de commandement)</a></li>
 </ul>
+</div>
 </section>
 </main>
 <footer class="footer">
