@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } catch (err) {
         if (alertBox) {
           alertBox.className = 'form-alert error';
-          alertBox.textContent = (window._formLang && window._formLang.error || 'Submission failed. Please try again or contact us via WhatsApp: ') + '09110215649';
+          alertBox.textContent = (window._formLang && window._formLang.error || 'Submission failed. Please try again or contact us via WhatsApp: ') + '+234 911 021 5649';
           alertBox.style.display = 'block';
         }
         if (submitBtn) {
