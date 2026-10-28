@@ -1,158 +1,336 @@
-<div class="page-hero"><h1>Serveur d'IA</h1>
-<p>AXLTeco propose deux gammes de serveurs d'IA — serveurs d'inférence vidéo intelligente et serveurs de calcul général à architecture RISC-V — couvrant l'inférence légère en périphérie, l'analyse vidéo haute densité en rack et les clusters 42U à mille cœurs. Elles répondent aux besoins d'intelligence vidéo à grande échelle (villes intelligentes, sécurité de campus, transport, industrie) ainsi qu'à la recherche et au calcul confidentiel exigeant une base de calcul maîtrisée.</p>
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<link href="/official-website/zh/hardware/ai-server.html" hreflang="zh" rel="alternate"/>
+<link href="/official-website/en/hardware/ai-server.html" hreflang="en" rel="alternate"/>
+<link href="/official-website/fr/hardware/ai-server.html" hreflang="fr" rel="alternate"/>
+<link href="/official-website/en/hardware/ai-server.html" hreflang="x-default" rel="alternate"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Serveur IA | AXLTeco Limited</title>
+<meta content="Les serveurs IA AXLTeco sont basés sur les plateformes GPU NVIDIA H100/A100/H20, fournissant des configurations de calcul flexibles de la machine uniq..." name="description">
+<link href="../../style.css" rel="stylesheet"/>
+<script defer="" src="../../assets/lucide/lucide.min.js"></script>
+<link href="https://iexapl.github.io/official-website/fr/hardware/ai-server.html" rel="canonical">
+<meta content="Serveur IA | AXLTeco Limited" property="og:title">
+<meta content="Les serveurs IA AXLTeco sont basés sur les plateformes GPU NVIDIA H100/A100/H20, fournissant des configurations de calcul flexibles de la machine uniq..." property="og:description"/>
+<meta content="https://iexapl.github.io/official-website/images/home-extra-strength.webp" property="og:image"/>
+<meta content="https://iexapl.github.io/official-website/fr/hardware/ai-server.html" property="og:url"/>
+<meta content="fr_FR" property="og:locale"/>
+<meta content="website" property="og:type"/>
+<meta content="AXLTeco Limited" property="og:site_name"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Serveur IA | AXLTeco Limited" name="twitter:title"/>
+<meta content="Les serveurs IA AXLTeco sont basés sur les plateformes GPU NVIDIA H100/A100/H20, fournissant des configurations de calcul flexibles de la machine uniq..." name="twitter:description"/>
+<meta content="https://iexapl.github.io/official-website/images/home-extra-strength.webp" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AXLTeco Limited",
+  "alternateName": "深圳市安信联科技有限公司",
+  "url": "https://iexapl.github.io/official-website/",
+  "logo": "https://iexapl.github.io/official-website/images/home-extra-strength.webp",
+  "description": "Professional building intelligence and low-voltage systems engineering company connecting Chinese technology with African development.",
+  "sameAs": [
+    "https://wa.me/+2349110215649"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+234 911 021 5649",
+    "contactType": "customer service",
+    "areaServed": "NG",
+    "availableLanguage": ["Chinese", "English", "French"]
+  }
+}
+</script>
+</meta></link></meta></head>
+<body class="software-page">
+<header class="header">
+<div class="header-inner">
+<a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
+<button aria-label="Menu" class="menu-toggle">☰</button>
+<nav class="nav">
+<a href="../index.html">Accueil</a>
+<div class="nav-dropdown has-mega-menu">
+<a href="../service/software-dev.html">Services</a>
+<div class="mega-menu mega-menu-service">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>Développement Logiciel Sur Mesure</h4><ul><li><a href="../service/software-dev.html">Développement Logiciel Sur Mesure</a></li></ul></div>
+<div class="menu-col"><h4>Développement d'Agents IA</h4><ul><li><a href="../service/ai-agent.html">Développement d'Agents IA</a></li></ul></div>
+<div class="menu-col"><h4>Services de Modélisation Urbaine</h4><ul><li><a href="../service/city-modeling.html">Services de Modélisation Urbaine</a></li></ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a href="../software/hrms.html">Logiciels</a>
+<div class="mega-menu mega-menu-software">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>Gestion du Personnel</h4><ul>
+<li><a href="../software/hrms.html">Système de Gestion des Ressources Humaines</a></li>
+<li><a href="../software/blacklist.html">Système de Liste Noire</a></li>
+</ul></div>
+<div class="menu-col"><h4>Gestion des Matériaux</h4><ul>
+<li><a href="../software/warehouse.html">Système de Gestion des Matériaux</a></li>
+<li><a href="../software/procurement.html">Système de Gestion des Achats</a></li>
+</ul></div>
+<div class="menu-col"><h4>Sécurité & Qualité</h4><ul>
+<li><a href="../software/safety.html">Système de Gestion de la Sécurité</a></li>
+<li><a href="../software/quality.html">Système de Gestion de la Qualité</a></li>
+</ul></div>
+<div class="menu-col"><h4>Intelligence du Bâtiment</h4><ul>
+<li><a href="../software/ibms.html">IBMS</a></li>
+</ul></div>
+<div class="menu-col"><h4>Autres</h4><ul>
+<li><a href="../software/bim.html">Système BIM Allégé</a></li>
+<li><a href="../software/mixing-station.html">Système de Gestion de la Centrale à Béton</a></li>
+<li><a href="../software/budget.html">Système de Gestion de Projet</a></li>
+<li><a href="../software/dashboard.html">Système de Tableau de Bord</a></li>
+<li><a href="../software/info-display.html">Système d'Affichage d'Information</a></li>
+</ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a class="active" href="../hardware/camera.html">Matériels</a>
+<div class="mega-menu mega-menu-hardware">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>Sécurité & Accès</h4><ul>
+<li><a href="../hardware/camera.html">Équipement de Vidéosurveillance</a></li>
+<li><a href="../hardware/attendance.html">Contrôle d'Accès et Présence</a></li>
+<li><a href="../hardware/gate.html">Barrière de Parking</a></li>
+<li><a href="../hardware/passage.html">Tourniquet Piéton</a></li>
+</ul></div>
+<div class="menu-col"><h4>Affichage Commercial</h4><ul>
+<li><a href="../hardware/splicing.html">Mur d'Images</a></li>
+<li><a href="../hardware/adscreen.html">Écran Publicitaire</a></li>
+<li><a href="../hardware/led.html">Écran LED Extérieur</a></li>
+</ul></div>
+<div class="menu-col"><h4>Intelligence Véhicule</h4><ul>
+<li><a href="../hardware/gps.html">Traceur GPS Véhicule</a></li>
+<li><a href="../hardware/oil.html">Capteur de Consommation de Carburant</a></li>
+<li><a href="../hardware/weight-sensor.html">Capteur de Charge Véhicule</a></li>
+<li><a href="../hardware/dashcam.html">Dashcam Véhicule</a></li>
+</ul></div>
+<div class="menu-col"><h4>Stockage d'Énergie</h4><ul>
+<li><a href="../hardware/industrial-storage.html">Stockage Industriel et Commercial</a></li>
+<li><a href="../hardware/home-storage.html">Stockage Résidentiel</a></li>
+<li><a href="../hardware/solar-storage.html">Solaire PV</a></li>
+</ul></div>
+<div class="menu-col"><h4>Autres</h4><ul>
+<li><a href="../hardware/ai-server.html">Serveur IA</a></li>
+<li><a href="../hardware/drone.html">Drone de Charge Lourde</a></li>
+</ul></div>
+
+</div></div></div>
+<div class="nav-dropdown has-mega-menu">
+<a href="../solution/smart-construction.html">Solutions</a>
+<div class="mega-menu mega-menu-solution">
+<div class="mega-menu-inner">
+<div class="menu-col"><h4>Bâtiment Intelligent</h4><ul>
+<li><a href="../solution/smart-construction.html">Chantier Intelligent</a></li>
+<li><a href="../solution/smart-building.html">Bâtiment Intelligent</a></li>
+<li><a href="../solution/smart-community.html">Communauté Intelligente</a></li>
+<li><a href="../solution/smart-campus.html">Campus Intelligent</a></li>
+</ul></div>
+<div class="menu-col"><h4>Transport et Mobilité</h4><ul>
+<li><a href="../solution/smart-traffic.html">Circulation Intelligente</a></li>
+<li><a href="../solution/smart-parking.html">Parking Intelligent</a></li>
+<li><a href="../solution/smart-airport.html">Aéroport Intelligent</a></li>
+</ul></div>
+<div class="menu-col"><h4>Gouvernance Urbaine</h4><ul>
+<li><a href="../solution/smart-city.html">Ville Intelligente</a></li>
+<li><a href="../solution/city-eagle.html">Oeil d'Aigle Urbain</a></li>
+<li><a href="../solution/patrol.html">Ronde Électronique</a></li>
+</ul></div>
+<div class="menu-col"><h4>Infrastructure</h4><ul>
+<li><a href="../solution/data-center.html">Centre de Données et Réseau</a></li>
+<li><a href="../solution/fire-alarm.html">Système d'Alarme Incendie</a></li>
+<li><a href="../solution/solar-energy.html">Stockage Solaire</a></li>
+</ul></div>
+<div class="menu-col"><h4>Audio-Vidéo et Diffusion</h4><ul>
+<li><a href="../solution/av-conference.html">Conférence Audio-Vidéo</a></li>
+<li><a href="../solution/broadcast.html">Sonorisation et Musique d'Ambiance</a></li>
+<li><a href="../solution/iptv.html">IPTV Hôtel/Communauté</a></li>
+</ul></div>
+
+</div></div></div>
+<a href="../about.html">À Propos</a>
+<a href="../contact.html">Contactez-Nous</a>
+</nav>
+<div class="languagebox">
+<a href="javascript:void(0)" aria-label="Changer de langue"><i data-lucide="globe"></i><span>Français</span></a>
+<ul class="languagelist">
+<li><a href="../../zh/hardware/ai-server.html">简体中文</a></li>
+<li><a href="../../en/hardware/ai-server.html">English</a></li>
+<li><a href="ai-server.html" class="active">Français</a></li>
+</ul>
+</div>
+</div>
+</header>
+
+<div class="page-hero">
+<h1>Serveur IA</h1>
+<p>Serveur IA couvre plusieurs catégories et modèles pour répondre à divers beso...</p>
 </div>
 <div class="page-image axlt-container-pad" >
-<img alt="Serveur d'IA" decoding="async" height="675" src="../../images/hardware-new/ai-server-overview.png" class="axlt-card-accent" width="1200"/>
+<img alt="Serveur Edge IA" decoding="async" height="675" src="../../images/hardware-new/ai-server-overview.png" class="axlt-card-accent" width="1200"/>
 </div>
 <main>
-
 <!-- 2. Product Overview -->
 <div class="section-container">
   <p class="axlt-lead-text-lg">
-    Les serveurs d'IA forment un système à trois niveaux, organisé par densité d'inférence, format rack et échelle de cluster. Ils répondent à trois problèmes : insuffisance de calcul pour l'intelligence vidéo, coût élevé de migration entre plates-formes hétérogènes et extension difficile des clusters. Le public visé est celui des intégrateurs, des utilisateurs métier et des instituts de recherche ; la valeur centrale est un débit d'inférence prévisible dans un espace rack et un budget d'alimentation contraints, avec une pile logicielle portable.
+    AXLTeco fournit des serveurs IA et clusters d'entraînement basés sur GPU NVIDIA H100/A100/H20, prenant en charge l'entraînement de grands modèles de langage, l'inférence d'apprentissage profond, le calcul scientifique et l'analyse de données, avec refroidissement liquide et interconnexion haut débit — data centers, instituts de recherche et entreprises d'IA.
   </p>
   <div class="grid-3 axlt-mt-32">
       <div class="capability-card">
-        <div class="capability-icon"><i data-lucide="scan-eye"></i></div>
-        <h3 class="capability-title">Analyse vidéo haute densité</h3>
-        <p class="capability-desc">Un seul serveur en rack traite 288 canaux 1080P en décodage et analyse intelligente, avec plusieurs accélérateurs d'inférence par unité, réduisant l'espace rack par unité de calcul.</p>
-      </div>
-      <div class="capability-card">
-        <div class="capability-icon"><i data-lucide="thermometer"></i></div>
-        <h3 class="capability-title">Déploiement en périphérie, large plage de température</h3>
-        <p class="capability-desc">Les formats micro-serveur à refroidissement passif fonctionnent de -20 °C à +60 °C, adaptés aux locaux techniques non climatisés, aux cabines de péage et aux armoires d'usine.</p>
-      </div>
-      <div class="capability-card">
         <div class="capability-icon"><i data-lucide="cpu"></i></div>
-        <h3 class="capability-title">Base de calcul maîtrisée</h3>
-        <p class="capability-desc">La gamme de calcul général repose sur le jeu d'instructions ouvert RISC-V ; l'interconnexion double puce supporte jusqu'à 128 cœurs simultanés, sans contrainte de licence, et exécute les systèmes d'exploitation courants et domestiques.</p>
+        <h3 class="capability-title">Accélération GPU H100/A100</h3>
+        <p class="capability-desc">NVIDIA H100 SXM5 80 Go / A100 80 Go, jusqu'à 989 TFLOPS en FP16.</p>
       </div>
       <div class="capability-card">
-        <div class="capability-icon"><i data-lucide="shuffle"></i></div>
-        <h3 class="capability-title">Migration matériel-logiciel conjointe</h3>
-        <p class="capability-desc">Une chaîne d'outils d'apprentissage profond tout-en-un prend en charge la migration et le déploiement quantifié des modèles Caffe, TensorFlow, PyTorch, PaddlePaddle, MXNet et ONNX, raccourcissant la mise en production.</p>
+        <div class="capability-icon"><i data-lucide="hard-drive"></i></div>
+        <h3 class="capability-title">Entraînement de LLM</h3>
+        <p class="capability-desc">Entraînement distribué de modèles GPT/LLaMA de dix à plusieurs centaines de milliards de paramètres.</p>
       </div>
       <div class="capability-card">
-        <div class="capability-icon"><i data-lucide="network"></i></div>
-        <h3 class="capability-title">Extensibilité horizontale</h3>
-        <p class="capability-desc">Plusieurs unités forment un cluster sur Ethernet standard avec gestion unifiée ; les nœuds de stockage offrent près de 100 To pour la conservation longue durée des vidéos et des données.</p>
+        <div class="capability-icon"><i data-lucide="zap"></i></div>
+        <h3 class="capability-title">Interconnexion haut débit</h3>
+        <p class="capability-desc">NVLink + InfiniBand NDR 400 Gb/s, latence inter-GPU <1 μs.</p>
+      </div>
+      <div class="capability-card">
+        <div class="capability-icon"><i data-lucide="settings-2"></i></div>
+        <h3 class="capability-title">Refroidissement liquide</h3>
+        <p class="capability-desc">Plaques froides + CDU, PUE <1,15 — énergie et bruit du data center réduits.</p>
+      </div>
+      <div class="capability-card">
+        <div class="capability-icon"><i data-lucide="expand"></i></div>
+        <h3 class="capability-title">Architecture élastique</h3>
+        <p class="capability-desc">D'un nœud 8 GPU aux clusters de 1 000 GPU, avec Kubernetes et Slurm.</p>
+      </div>
+      <div class="capability-card">
+        <div class="capability-icon"><i data-lucide="shield-check"></i></div>
+        <h3 class="capability-title">Fiabilité entreprise</h3>
+        <p class="capability-desc">Alimentations redondantes, disques hot-swap, mémoire ECC, MTBF >100 000 heures.</p>
       </div>
   </div>
 </div>
 
-<!-- 3. Model Selection -->
+<!-- 3. Catégories & Modèles -->
 <section class="section-container">
   <h2 class="section-title">Sélection de modèle</h2>
-<p class="axlt-lead-text">Les serveurs d'IA sont organisés en catégories selon le format et le niveau de calcul ; les quatre catégories correspondent à des emplacements, des nombres de canaux et des bases de calcul différents.</p>
-<h3>Serveurs d'IA</h3>
+<p class="axlt-lead-text">Les serveurs s’organisent par forme de déploiement et mode d’extension, chacune correspondant à des conditions de salle et des charges métier différentes.</p>
+<h3>Serveurs</h3>
 <div class="grid-3">
 <div class="capability-card">
 <div class="capability-card-img">
-<img alt="Micro-serveur d'inférence en périphérie" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-01.webp" width="1200"/>
+<img alt="Micro-serveur" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-01.webp" width="1200"/>
 </div>
 <div class="card-body">
-<h3>Micro-serveur d'inférence en périphérie</h3>
-<ul class="capability-card-specs"><li>Unité d'inférence légère monobloc à refroidissement passif</li><li>Déclinée en 8 ou 16 canaux d'analyse intelligente 1080P</li><li>Pour les sites en périphérie aux points dispersés et sans climatisation ; choisir selon le nombre de canaux ; privilégier les modèles large plage de température en extérieur ou en armoire chaude</li></ul>
+<h3>Micro-serveur</h3>
+<ul class="capability-card-specs"><li>Unité de calcul unique pour déploiement en périphérie et usage léger</li><li>Calcul léger en périphérie</li></ul>
 </div>
 </div>
 <div class="capability-card">
 <div class="capability-card-img">
-<img alt="Serveur d'analyse vidéo en rack" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-02.webp" width="1200"/>
+<img alt="Serveur généraliste" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-02.webp" width="1200"/>
 </div>
 <div class="card-body">
-<h3>Serveur d'analyse vidéo en rack</h3>
-<ul class="capability-card-specs"><li>Équipement d'inférence haute densité en rack, 288 canaux 1080P par unité</li><li>Contrôleur hôte X86 pour les algorithmes métier</li><li>Pour l'analyse centralisée en salle technique ; choisir selon le nombre total et simultané de canaux ; prévoir l'alimentation en baie et la capacité de commutation Ethernet</li></ul>
+<h3>Serveur généraliste</h3>
+<ul class="capability-card-specs"><li>Calcul généraliste en baies standard</li><li>Déploiement standard en baie générale</li></ul>
 </div>
 </div>
 <div class="capability-card">
 <div class="capability-card-img">
-<img alt="Serveur de calcul général RISC-V" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-03.webp" width="1200"/>
+<img alt="Serveur de stockage" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-03.webp" width="1200"/>
 </div>
 <div class="card-body">
-<h3>Serveur de calcul général RISC-V</h3>
-<ul class="capability-card-specs"><li>Équipement 2U / en rack sur jeu d'instructions ouvert RISC-V</li><li>Interconnexion double puce, jusqu'à 128 cœurs simultanés</li><li>Pour les projets sans contrainte de licence ; choisir selon les cœurs simultanés et la mémoire ; vérifier le portage du logiciel cible sur RISC-V</li></ul>
+<h3>Serveur de stockage</h3>
+<ul class="capability-card-specs"><li>Stockage centralisé de vidéo et de données</li><li>Dimensionner selon le volume et la durée de conservation</li></ul>
 </div>
 </div>
 <div class="capability-card">
 <div class="capability-card-img">
-<img alt="Stockage et cluster RISC-V" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-04.webp" width="1200"/>
+<img alt="Serveur convergent" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-04.webp" width="1200"/>
 </div>
 <div class="card-body">
-<h3>Stockage et cluster RISC-V</h3>
-<ul class="capability-card-specs"><li>Nœuds de stockage et forme cluster 42U</li><li>Près de 100 To de capacité par nœud</li><li>Pour la conservation longue durée des vidéos et le stockage centralisé ; dimensionner les baies selon les jours de conservation et le volume ; planifier le cluster selon le nombre de nœuds et l'échelle mille cœurs</li></ul>
+<h3>Serveur convergent</h3>
+<ul class="capability-card-specs"><li>Déploiement intégré associant calcul et stockage</li><li>Livré comme ensemble calcul-stockage</li></ul>
+</div>
+</div>
+<div class="capability-card">
+<div class="capability-card-img">
+<img alt="Grappe de serveurs" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-05.webp" width="1200"/>
+</div>
+<div class="card-body">
+<h3>Grappe de serveurs</h3>
+<ul class="capability-card-specs"><li>Forme en grappe extensible multi-nœuds</li><li>Extension horizontale sur plusieurs nœuds</li></ul>
 </div>
 </div>
 </div>
 <div class="axlt-container-mt">
-<h3>Aperçu de sélection</h3>
+<h3>Guide de sélection</h3>
 <div class="axlt-overflow-auto">
 <table class="axlt-table-responsive">
-<thead><tr><th>Scénario applicatif</th><th>Catégorie</th><th>Points de sélection</th></tr></thead>
+<thead><tr><th>Scénario</th><th>Catégorie d’équipement</th><th>Critères de choix</th></tr></thead>
 <tbody>
-<tr><td>Sites en périphérie aux points dispersés et sans climatisation</td><td>Micro-serveur d'inférence en périphérie</td><td>Choisir selon le nombre de canaux ; privilégier les modèles large plage de température en extérieur ou en armoire chaude</td></tr>
-<tr><td>Analyse centralisée en salle technique</td><td>Serveur d'analyse vidéo en rack</td><td>Choisir selon le nombre total et simultané de canaux ; prévoir l'alimentation en baie et la capacité de commutation Ethernet</td></tr>
-<tr><td>Recherche et calcul confidentiel sans contrainte de licence</td><td>Serveur de calcul général RISC-V</td><td>Choisir selon les cœurs simultanés et la mémoire ; vérifier le portage du logiciel cible sur RISC-V</td></tr>
-<tr><td>Conservation longue durée des vidéos et stockage centralisé</td><td>Stockage et cluster RISC-V</td><td>Dimensionner les baies selon les jours de conservation et le volume ; planifier le cluster selon le nombre de nœuds et l'échelle mille cœurs</td></tr>
+<tr><td>Unité de calcul unique pour déploiement en périphérie et usage léger</td><td>Micro-serveur</td><td>Calcul léger en périphérie</td></tr>
+<tr><td>Calcul généraliste en baies standard</td><td>Serveur généraliste</td><td>Déploiement standard en baie générale</td></tr>
+<tr><td>Stockage centralisé de vidéo et de données</td><td>Serveur de stockage</td><td>Dimensionner selon le volume et la durée de conservation</td></tr>
+<tr><td>Déploiement intégré associant calcul et stockage</td><td>Serveur convergent</td><td>Livré comme ensemble calcul-stockage</td></tr>
+<tr><td>Forme en grappe extensible multi-nœuds</td><td>Grappe de serveurs</td><td>Extension horizontale sur plusieurs nœuds</td></tr>
 </tbody></table></div></div>
 </section>
 
-<!-- 5. Interfaces -->
+
+
+<!-- 5. Interfaces & Compatibilité -->
 <section class="section-container">
   <h2 class="section-title">Interfaces et Compatibilité</h2>
-  <p class="axlt-lead-text">Les deux types de serveurs organisent leurs interfaces en quatre groupes de capacités — connectivité physique, interconnexion réseau, écosystème logiciel et exploitation — configurés selon le modèle et le format.</p>
+  <p class="axlt-lead-text">Frameworks IA et gestion de cluster courants, déployable sur cloud public et privé.</p>
   <div class="grid-2 axlt-grid-cards" >
       <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>Interfaces physiques</h3>
           <ul class="axlt-list-muted">
-            <li>Port RJ45 gigabit de gestion (BMC / IPMI)</li>
-            <li>Ports RJ45 gigabit de service</li>
-            <li>Port console RJ45</li>
-            <li>Sortie HDMI 1.4a</li>
+            <li>PCIe 5.0 ×16</li>
+            <li>NVLink 4.0</li>
+            <li>InfiniBand NDR</li>
+            <li>RJ45 management</li>
             <li>USB 3.0</li>
-            <li>VGA</li>
-            <li>Baies SATA / SAS à chaud</li>
-            <li>Disque système M.2 NVMe</li>
-            <li>Slots d'extension PCIe</li>
-            <li>CAN / RS-485 / RS-232 (format micro-serveur)</li>
           </ul>
         </div>
       </div>
       <div class="card capability-card">
         <div class="card-body">
-          <h3><i data-lucide="network" class="axlt-icon-inline"></i>Réseau et interconnexion</h3>
+          <h3><i data-lucide="network" class="axlt-icon-inline"></i>Écosystème logiciel</h3>
           <ul class="axlt-list-muted">
-            <li>Interconnexion de cluster via Ethernet standard</li>
-            <li>Gestion hors bande BMC</li>
-            <li>Sans-fil LTE / 5G / Wi-Fi / BT (option micro-serveur)</li>
-            <li>RAID 0 / 1 / 10 / 5 / 50 / 6 / 60</li>
-            <li>Interconnexion double puce, 128 cœurs simultanés (série RISC-V)</li>
-            <li>Redondance ventilateurs N+1, alimentation 1+1</li>
+            <li>CUDA 12.x</li>
+            <li>cuDNN</li>
+            <li>TensorRT</li>
+            <li>NCCL</li>
+            <li>PyTorch / TensorFlow / JAX</li>
           </ul>
         </div>
       </div>
       <div class="card capability-card">
         <div class="card-body">
-          <h3><i data-lucide="layers" class="axlt-icon-inline"></i>Écosystème logiciel</h3>
+          <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>Gestion de cluster</h3>
           <ul class="axlt-list-muted">
-            <li>Chaîne d'outils d'apprentissage profond tout-en-un (pilotes, compilateur, déploiement d'inférence)</li>
-            <li>Caffe / TensorFlow / PyTorch / PaddlePaddle / MXNet / ONNX / Darknet</li>
-            <li>Précision mixte : FP32 / FP16 / BF16 / INT8 / INT4</li>
-            <li>Codecs vidéo : H.264 / H.265, du 8K au CIF</li>
-            <li>Systèmes : Linux, Ubuntu, Kylin, openEuler, deepin</li>
+            <li>Kubernetes</li>
+            <li>Slurm</li>
+            <li>OpenShift</li>
+            <li>VMware vSphere</li>
           </ul>
         </div>
       </div>
       <div class="card capability-card">
         <div class="card-body">
-          <h3><i data-lucide="wrench" class="axlt-icon-inline"></i>Déploiement et exploitation</h3>
+          <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>Services cloud</h3>
           <ul class="axlt-list-muted">
-            <li>Service de gestion unifiée du cluster</li>
-            <li>Déploiement multi-nœuds sur Ethernet</li>
-            <li>Supervision à distance hors bande (BMC / IPMI)</li>
-            <li>Déploiement à refroidissement passif, large plage de température (-20 °C à +60 °C)</li>
-            <li>Déploiement en baie (2U / 42U)</li>
-            <li>Gestion de matrice de disques, sauvegarde et réparation</li>
+            <li>Cloud privé</li>
+            <li>Hybride public</li>
+            <li>Model-as-a-Service (MaaS)</li>
+            <li>API d'inférence</li>
           </ul>
         </div>
       </div>
@@ -175,8 +353,14 @@
 </div>
 </section>
 
+<section class="section-container">
+<h2 class="section-title">Solutions d'Application</h2>
+<p class="axlt-lead-text">Serveur IA peut être intégré en profondeur avec les systèmes logiciels et solutions sectorielles AXLTeco pour délivrer une valeur synergique.</p>
+<h3 class="axlt-my-40-20">Solutions</h3>
+<div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>Ville Intelligente</h4><img alt="Ville Intelligente Scene" class="axlt-img-rounded axlt-img-cover axlt-mt-16" decoding="async" loading="lazy" src="../../images/hardware-new/ai-server-scene-1.png" width="1200" height="675"/><div class="axlt-flex-tags"><span class="scenario-tag">Gouvernement</span><span class="scenario-tag">Public</span></div><p class="axlt-text-muted-md">Réseau vidéo urbain, plateforme agrégation données, commande urgente.</p><p class="axlt-text-secondary-sm"><strong>Valeur Principale: </strong></p><ul class="axlt-list-muted-sm"><li>Gouvernance urbaine numérique</li><li>Réponse urgente accélérée</li><li>Partage ressources</li></ul><a class="btn btn-primary axlt-btn-inline" href="../solution/smart-city.html" >Voir les Détails</a></div></div></div>
+</section>
 
-<!-- 7. Advantages -->
+<!-- 7. Avantages et garantie -->
 <section class="section-container">
   <h2 class="section-title">Avantages et garantie</h2>
   <div class="triple-grid">
@@ -185,33 +369,25 @@
     <span class="col-icon"><i data-lucide="zap"></i></span>
     Avantages clés
   </div>
-  <div class="triple-card"><h4>Densité et paliers de canaux clairs</h4><p>Une gamme couvre de 8 à 288 canaux : la configuration se déduit du nombre de canaux et de la complexité de l'algorithme.</p></div>
-  <div class="triple-card"><h4>Unités en périphérie à refroidissement passif</h4><p>Les micro-serveurs ne nécessitent pas de climatisation de salle, ce qui réduit les travaux d'aménagement.</p></div>
-  <div class="triple-card"><h4>Base sur jeu d’instructions ouvert</h4><p>La gamme RISC-V évite les contraintes de licence et exécute les systèmes courants et domestiques.</p></div>
-  <div class="triple-card"><h4>Chaîne d’outils tout-en-un</h4><p>Pilotes, compilateur et déploiement d'inférence sont couverts, ce qui abaisse le coût de migration.</p></div>
-  <div class="triple-card"><h4>Cluster dès une seule unité</h4><p>Les unités forment un cluster sur Ethernet standard : la capacité croît sans changer d'architecture.</p></div>
+  <div class="triple-card"><h4>Compatible avec les Marques Principales</h4><p>Équipements compatibles avec Hikvision, Dahua, ZKTeco et autres marques principales, supportant ONVIF, GB/T 28181 et autres protocoles standard.</p></div>
+<div class="triple-card"><h4>Service Clé en Main</h4><p>De la conception de solution, sélection d'équipements, installation et mise en service à la maintenance après-vente, service clé en main sur tout le cycle de vie.</p></div>
 </div>
 <div class="triple-col-center">
   <div class="triple-col-title">
     <span class="col-icon"><i data-lucide="truck"></i></span>
     Services de livraison
   </div>
-  <div class="triple-card"><h4>Évaluation des besoins</h4><p>Configuration de calcul dimensionnée selon le nombre de canaux, la complexité des algorithmes et la durée de conservation.</p></div>
-  <div class="triple-card"><h4>Installation et mise en service</h4><p>Montage en baie, configuration réseau et cluster, tests de performance d’inférence.</p></div>
-  <div class="triple-card"><h4>Formation et remise</h4><p>Gestion du cluster, déploiement de modèles, supervision et alertes.</p></div>
+  <div class="triple-card"><h4>Support Local en Afrique</h4><p>Équipes de service local au Nigeria et dans d'autres régions, fournissant support technique, approvisionnement pièces de rechange et maintenance sur site.</p></div>
 </div>
 <div class="triple-col-right">
   <div class="triple-col-title">
     <span class="col-icon"><i data-lucide="shield-check"></i></span>
     Garantie de service
   </div>
-  <div class="triple-card"><h4>Engagement de garantie</h4><p>Garantie matérielle d'un an, extension optionnelle incluant les puces d'accélération et les composants essentiels de la carte mère.</p></div>
-  <div class="triple-card"><h4>Réponse locale</h4><p>Des équipes locales au Nigeria et ailleurs assurent le support technique, les pièces de rechange et la maintenance sur site.</p></div>
-  <div class="triple-card"><h4>Exploitation à distance</h4><p>Support à distance 7×24, supervision de l’état des nœuds et alertes proactives.</p></div>
+  <div class="triple-card"><h4>Maintenance Réactive</h4><p>Support technique à distance 7j/7 24h/24, ingénieurs locaux sur site dans les 48 heures pour les pannes urgentes.</p></div>
 </div>
 </div>
 </section>
-
 </main>
 <footer class="footer">
 <div class="footer-inner">
