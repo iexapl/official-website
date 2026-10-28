@@ -1,269 +1,85 @@
-<!DOCTYPE html>
-
-<html lang="zh">
-<head>
-<meta charset="utf-8"/>
-<link href="/official-website/zh/hardware/ai-server.html" hreflang="zh" rel="alternate"/>
-<link href="/official-website/en/hardware/ai-server.html" hreflang="en" rel="alternate"/>
-<link href="/official-website/fr/hardware/ai-server.html" hreflang="fr" rel="alternate"/>
-<link href="/official-website/en/hardware/ai-server.html" hreflang="x-default" rel="alternate"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="AXLTeco AI 服务器基于NVIDIA H100/A100/H20 GPU平台，提供从单机到集群的灵活算力配置，支持大模型训练、深度学习推理、科学计算与数据分析，配备液冷散热系统与InfiniBand高速互联网络，适配数据中心、科研院所与AI企业的高性能计算需求。" name="description">
-<title>AI 服务器 | AXLTeco Limited</title>
-<link href="../../style.css" rel="stylesheet"/>
-<script defer="" src="../../assets/lucide/lucide.min.js"></script>
-<link href="https://iexapl.github.io/official-website/zh/hardware/ai-server.html" rel="canonical">
-<meta content="AI 服务器 | AXLTeco Limited" property="og:title">
-<meta content="AXLTeco AI 服务器基于NVIDIA H100/A100/H20 GPU平台，提供从单机到集群的灵活算力配置，支持大模型训练、深度学习推理、科学计算与数据分析，配备液冷散热系统与InfiniBand高速互联网络，适配数据中心、科研院所与AI企业的高性能计算需求。" property="og:description"/>
-<meta content="https://iexapl.github.io/official-website/images/home-extra-strength.webp" property="og:image"/>
-<meta content="https://iexapl.github.io/official-website/zh/hardware/ai-server.html" property="og:url"/>
-<meta content="zh_CN" property="og:locale"/>
-<meta content="website" property="og:type"/>
-<meta content="AXLTeco Limited" property="og:site_name"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="AI 服务器 | AXLTeco Limited" name="twitter:title"/>
-<meta content="AXLTeco AI 服务器基于NVIDIA H100/A100/H20 GPU平台，提供从单机到集群的灵活算力配置，支持大模型训练、深度学习推理、科学计算与数据分析，配备液冷散热系统与InfiniBand高速互联网络，适配数据中心、科研院所与AI企业的高性能计算需求。" name="twitter:description"/>
-<meta content="https://iexapl.github.io/official-website/images/home-extra-strength.webp" name="twitter:image"/>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "AXLTeco Limited",
-  "alternateName": "深圳市安信联科技有限公司",
-  "url": "https://iexapl.github.io/official-website/",
-  "logo": "https://iexapl.github.io/official-website/images/home-extra-strength.webp",
-  "description": "Professional building intelligence and low-voltage systems engineering company connecting Chinese technology with African development.",
-  "sameAs": [
-    "https://wa.me/+2349110215649"
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+234 911 021 5649",
-    "contactType": "customer service",
-    "areaServed": "NG",
-    "availableLanguage": ["Chinese", "English", "French"]
-  }
-}
-</script>
-</meta></link></meta></head>
-<body class="software-page">
-<header class="header">
-<div class="header-inner">
-<a class="logo" href="../index.html"><span>AXLTeco</span> Limited</a>
-<button aria-label="菜单" class="menu-toggle">☰</button>
-<nav class="nav">
-<a href="../index.html">首页</a>
-<div class="nav-dropdown has-mega-menu">
-<a href="../service/software-dev.html">服务</a>
-<div class="mega-menu mega-menu-service">
-<div class="mega-menu-inner">
-<div class="menu-col"><h4>软件定制研发</h4><ul><li><a href="../service/software-dev.html">软件定制研发</a></li></ul></div>
-<div class="menu-col"><h4>AI 智能体研发</h4><ul><li><a href="../service/ai-agent.html">AI 智能体研发</a></li></ul></div>
-<div class="menu-col"><h4>城市建模服务</h4><ul><li><a href="../service/city-modeling.html">城市建模服务</a></li></ul></div>
-
-</div></div></div>
-<div class="nav-dropdown has-mega-menu">
-<a href="../software/hrms.html">软件</a>
-<div class="mega-menu mega-menu-software">
-<div class="mega-menu-inner">
-<div class="menu-col"><h4>用工管理</h4><ul>
-<li><a href="../software/hrms.html">人事管理系统</a></li>
-<li><a href="../software/blacklist.html">黑名单系统</a></li>
-</ul></div>
-<div class="menu-col"><h4>物资管理</h4><ul>
-<li><a href="../software/warehouse.html">物资管理系统</a></li>
-<li><a href="../software/procurement.html">采购管理系统</a></li>
-</ul></div>
-<div class="menu-col"><h4>安全与质量管理</h4><ul>
-<li><a href="../software/safety.html">安全管理系统</a></li>
-<li><a href="../software/quality.html">质量管理系统</a></li>
-</ul></div>
-<div class="menu-col"><h4>建筑智能化软件</h4><ul>
-<li><a href="../software/ibms.html">IBMS</a></li>
-</ul></div>
-<div class="menu-col"><h4>其他</h4><ul>
-<li><a href="../software/bim.html">BIM 轻量化系统</a></li>
-<li><a href="../software/mixing-station.html">搅拌站管理系统</a></li>
-<li><a href="../software/budget.html">工程预算管理系统</a></li>
-<li><a href="../software/dashboard.html">看板系统</a></li>
-<li><a href="../software/info-display.html">信息公示系统</a></li>
-</ul></div>
-
-</div></div></div>
-<div class="nav-dropdown has-mega-menu">
-<a class="active" href="../hardware/camera.html">硬件</a>
-<div class="mega-menu mega-menu-hardware">
-<div class="mega-menu-inner">
-<div class="menu-col"><h4>安防与通行</h4><ul>
-<li><a href="../hardware/camera.html">视频监控设备</a></li>
-<li><a href="../hardware/attendance.html">门禁与考勤设备</a></li>
-<li><a href="../hardware/gate.html">车辆道闸</a></li>
-<li><a href="../hardware/passage.html">人行通道闸机</a></li>
-</ul></div>
-<div class="menu-col"><h4>商用显示</h4><ul>
-<li><a href="../hardware/splicing.html">拼接屏</a></li>
-<li><a href="../hardware/adscreen.html">广告屏</a></li>
-<li><a href="../hardware/led.html">户外 LED 屏</a></li>
-</ul></div>
-<div class="menu-col"><h4>车载智能设备</h4><ul>
-<li><a href="../hardware/gps.html">车辆定位终端</a></li>
-<li><a href="../hardware/oil.html">车辆油耗传感器</a></li>
-<li><a href="../hardware/weight-sensor.html">车载载重传感器</a></li>
-<li><a href="../hardware/dashcam.html">车载行车记录仪</a></li>
-</ul></div>
-<div class="menu-col"><h4>新能源设备</h4><ul>
-<li><a href="../hardware/industrial-storage.html">工商储</a></li>
-<li><a href="../hardware/home-storage.html">户储</a></li>
-<li><a href="../hardware/solar-storage.html">光伏</a></li>
-</ul></div>
-<div class="menu-col"><h4>其他设备</h4><ul>
-<li><a href="../hardware/ai-server.html">AI 服务器</a></li>
-<li><a href="../hardware/drone.html">重载无人机</a></li>
-</ul></div>
-
-</div></div></div>
-<div class="nav-dropdown has-mega-menu">
-<a href="../solution/smart-construction.html">解决方案</a>
-<div class="mega-menu mega-menu-solution">
-<div class="mega-menu-inner">
-<div class="menu-col"><h4>智慧建筑</h4><ul>
-<li><a href="../solution/smart-construction.html">智慧工地</a></li>
-<li><a href="../solution/smart-building.html">智慧楼宇</a></li>
-<li><a href="../solution/smart-community.html">智慧社区</a></li>
-<li><a href="../solution/smart-campus.html">智慧校园</a></li>
-</ul></div>
-<div class="menu-col"><h4>交通与出行</h4><ul>
-<li><a href="../solution/smart-traffic.html">智慧交通</a></li>
-<li><a href="../solution/smart-parking.html">智慧停车场</a></li>
-<li><a href="../solution/smart-airport.html">智慧机场</a></li>
-</ul></div>
-<div class="menu-col"><h4>城市治理</h4><ul>
-<li><a href="../solution/smart-city.html">智慧城市</a></li>
-<li><a href="../solution/city-eagle.html">城市鹰眼</a></li>
-<li><a href="../solution/patrol.html">电子巡更</a></li>
-</ul></div>
-<div class="menu-col"><h4>基础设施</h4><ul>
-<li><a href="../solution/data-center.html">机房与网络</a></li>
-<li><a href="../solution/fire-alarm.html">火灾自动报警</a></li>
-<li><a href="../solution/solar-energy.html">光伏储能</a></li>
-</ul></div>
-<div class="menu-col"><h4>音视频与广播</h4><ul>
-<li><a href="../solution/av-conference.html">音视频会议</a></li>
-<li><a href="../solution/broadcast.html">广播及背景音乐</a></li>
-<li><a href="../solution/iptv.html">酒店/社区 IPTV</a></li>
-</ul></div>
-
-</div></div></div>
-<a href="../about.html">企业介绍</a>
-<a href="../contact.html">联系我们</a>
-</nav>
-<div class="languagebox">
-<a href="javascript:void(0)" aria-label="切换语言"><i data-lucide="globe"></i><span>简体中文</span></a>
-<ul class="languagelist">
-<li><a href="ai-server.html" class="active">简体中文</a></li>
-<li><a href="../../en/hardware/ai-server.html">English</a></li>
-<li><a href="../../fr/hardware/ai-server.html">Français</a></li>
-</ul>
-</div>
-</div>
-</header>
-
 <div class="page-hero"><h1>AI 服务器</h1>
-<p>高性能AI服务器，支持大模型训练与推理集群，配备液冷散热与GPU加速，适用于智慧城市、数据中心与企业AI部署。</p>
+<p>AXLTeco 提供智能视觉推理服务器与 RISC-V 通用计算服务器两条产品线，覆盖从边缘单机轻量推理、机架式高密度视频解析，到 42U 千核集群的完整算力谱系，适用于智慧城市、园区安防、交通与工业生产等需要大规模视频智能分析，以及科研计算、隐私计算等需要自主可控算力底座的场景。</p>
 </div>
 <div class="page-image axlt-container-pad" >
 <img alt="AI 服务器" decoding="async" height="675" src="../../images/hardware-new/ai-server-overview.png" class="axlt-card-accent" width="1200"/>
 </div>
 <main>
 
-<!-- 2. 产品概述 -->
+<!-- 2. Product Overview -->
 <div class="section-container">
   <p class="axlt-lead-text-lg">
-    AXLTeco 提供基于NVIDIA H100/A100/H20 GPU的AI服务器与训练集群，支持大模型训练、深度学习推理、科学计算与数据分析，配备液冷散热系统与高速互联网络，适用于数据中心、科研院所、AI企业等高性能计算场景。
+    AI 服务器是一套按“推理密度—机架形态—集群规模”三级展开的算力设备体系，解决视频智能分析算力不足、异构平台迁移成本高、集群扩容难三类问题，面向安防集成商、行业用户与科研机构，核心价值是在有限机房空间与供电条件下获得可预测的推理吞吐，并保持软件栈的可迁移性。
   </p>
   <div class="grid-3 axlt-mt-32">
       <div class="capability-card">
+        <div class="capability-icon"><i data-lucide="scan-eye"></i></div>
+        <h3 class="capability-title">高密度视频解析</h3>
+        <p class="capability-desc">单台机架式服务器可承载 288 路 1080P 视频解码与智能分析，单机内置多颗推理加速芯片，显著降低单位算力的机柜占用。</p>
+      </div>
+      <div class="capability-card">
+        <div class="capability-icon"><i data-lucide="thermometer"></i></div>
+        <h3 class="capability-title">边缘宽温部署</h3>
+        <p class="capability-desc">微服务器形态采用被动散热，工作温度覆盖 -20℃ 至 +60℃，可直接部署于无空调的配电间、收费站亭与厂区机柜。</p>
+      </div>
+      <div class="capability-card">
         <div class="capability-icon"><i data-lucide="cpu"></i></div>
-        <h3 class="capability-title">H100/A100 GPU加速</h3>
-        <p class="capability-desc">NVIDIA H100 SXM5 80GB / A100 80GB，FP16算力高达989 TFLOPS。</p>
+        <h3 class="capability-title">自主可控算力底座</h3>
+        <p class="capability-desc">通用计算线基于开源 RISC-V 指令集，双芯互联最大支持 128 核并发，无指令集许可限制，可运行主流及国产操作系统。</p>
       </div>
       <div class="capability-card">
-        <div class="capability-icon"><i data-lucide="hard-drive"></i></div>
-        <h3 class="capability-title">大模型训练</h3>
-        <p class="capability-desc">支持GPT/LLaMA等百亿至千亿参数大模型分布式训练。</p>
+        <div class="capability-icon"><i data-lucide="shuffle"></i></div>
+        <h3 class="capability-title">软硬协同迁移</h3>
+        <p class="capability-desc">提供一站式深度学习工具链，支持 Caffe、TensorFlow、PyTorch、PaddlePaddle、MXNet、ONNX 等主流框架的模型迁移与量化部署，缩短算法上线周期。</p>
       </div>
       <div class="capability-card">
-        <div class="capability-icon"><i data-lucide="zap"></i></div>
-        <h3 class="capability-title">高速互联网络</h3>
-        <p class="capability-desc">NVLink + InfiniBand NDR 400Gb/s，GPU间通信延迟<1μs。</p>
-      </div>
-      <div class="capability-card">
-        <div class="capability-icon"><i data-lucide="settings-2"></i></div>
-        <h3 class="capability-title">液冷散热系统</h3>
-        <p class="capability-desc">冷板液冷+CDU，PUE<1.15，降低数据中心能耗与噪音。</p>
-      </div>
-      <div class="capability-card">
-        <div class="capability-icon"><i data-lucide="expand"></i></div>
-        <h3 class="capability-title">弹性扩展架构</h3>
-        <p class="capability-desc">从单机8卡到千卡集群灵活扩展，支持Kubernetes与Slurm调度。</p>
-      </div>
-      <div class="capability-card">
-        <div class="capability-icon"><i data-lucide="shield-check"></i></div>
-        <h3 class="capability-title">企业级可靠性</h3>
-        <p class="capability-desc">冗余电源、热插拔硬盘、ECC内存，MTBF>100000小时。</p>
+        <div class="capability-icon"><i data-lucide="network"></i></div>
+        <h3 class="capability-title">集群横向扩展</h3>
+        <p class="capability-desc">多台设备可经标准以太网组成集群，配合统一管理服务实现集中运维；存储型节点配置近 100TB 容量，满足视频与数据的长周期留存。</p>
       </div>
   </div>
 </div>
 
-<!-- 3. 类别型号 -->
+<!-- 3. Model Selection -->
 <section class="section-container">
   <h2 class="section-title">型号选型</h2>
-<p class="axlt-lead-text">服务器按部署形态与扩展方式组织类别，类别对应不同的机房条件与业务负载。</p>
-<h3>服务器</h3>
+<p class="axlt-lead-text">AI 服务器按形态与算力分层组织类别，四个类别对应不同的部署位置、解析路数与算力底座要求。</p>
+<h3>AI 服务器</h3>
 <div class="grid-3">
 <div class="capability-card">
 <div class="capability-card-img">
-<img alt="微服务器" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-01.webp" width="1200"/>
+<img alt="边缘推理微服务器" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-01.webp" width="1200"/>
 </div>
 <div class="card-body">
-<h3>微服务器</h3>
-<ul class="capability-card-specs"><li>单机算力单元，适合边缘与轻量部署</li><li>边缘侧轻量算力</li></ul>
+<h3>边缘推理微服务器</h3>
+<ul class="capability-card-specs"><li>单机形态、被动散热的轻量推理单元</li><li>按 8 路或 16 路 1080P 智能分析分档</li><li>用于前端点位分散、无机房空调的边缘场景，按单点接入路数选档；户外或高温机柜优先宽温型号</li></ul>
 </div>
 </div>
 <div class="capability-card">
 <div class="capability-card-img">
-<img alt="通用服务器" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-02.webp" width="1200"/>
+<img alt="机架式视频解析服务器" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-02.webp" width="1200"/>
 </div>
 <div class="card-body">
-<h3>通用服务器</h3>
-<ul class="capability-card-specs"><li>通用机架部署的通用计算</li><li>通用机柜内标准部署</li></ul>
+<h3>机架式视频解析服务器</h3>
+<ul class="capability-card-specs"><li>机架式高密度推理设备，单台承载 288 路 1080P 解码与分析</li><li>配 X86 主控承载上层业务算法</li><li>用于中心机房集中解析，按总路数与并发分析路数选型；需配套机柜供电与以太网交换容量</li></ul>
 </div>
 </div>
 <div class="capability-card">
 <div class="capability-card-img">
-<img alt="存储服务器" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-03.webp" width="1200"/>
+<img alt="RISC-V 通用计算服务器" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-03.webp" width="1200"/>
 </div>
 <div class="card-body">
-<h3>存储服务器</h3>
-<ul class="capability-card-specs"><li>视频与数据集中存储</li><li>按数据量与留存周期规划</li></ul>
+<h3>RISC-V 通用计算服务器</h3>
+<ul class="capability-card-specs"><li>开源 RISC-V 指令集的 2U / 机架式通用计算设备</li><li>双芯互联，最大 128 核并发</li><li>用于要求无指令集许可限制的项目；按并发核数与内存容量选型；须确认目标软件已完成 RISC-V 平台适配</li></ul>
 </div>
 </div>
 <div class="capability-card">
 <div class="capability-card-img">
-<img alt="融合服务器" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-04.webp" width="1200"/>
+<img alt="RISC-V 存储与集群" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-04.webp" width="1200"/>
 </div>
 <div class="card-body">
-<h3>融合服务器</h3>
-<ul class="capability-card-specs"><li>算力与存储融合的一体化部署</li><li>算力与存储一体化交付</li></ul>
-</div>
-</div>
-<div class="capability-card">
-<div class="capability-card-img">
-<img alt="服务器集群" class="card-img axlt-img-cover" decoding="async" height="800" loading="lazy" src="../../images/hardware-new/cats/ai-server-05.webp" width="1200"/>
-</div>
-<div class="card-body">
-<h3>服务器集群</h3>
-<ul class="capability-card-specs"><li>多节点横向扩展的集群形态</li><li>多节点横向扩展</li></ul>
+<h3>RISC-V 存储与集群</h3>
+<ul class="capability-card-specs"><li>存储型节点与 42U 集群形态</li><li>单节点存储容量接近 100TB</li><li>用于视频长周期留存与数据集中存储；按留存天数与数据量规划盘位；集群按节点数与千核并发规模规划</li></ul>
 </div>
 </div>
 </div>
@@ -273,64 +89,70 @@
 <table class="axlt-table-responsive">
 <thead><tr><th>应用场景</th><th>设备类别</th><th>选型要点</th></tr></thead>
 <tbody>
-<tr><td>单机算力单元，适合边缘与轻量部署</td><td>微服务器</td><td>边缘侧轻量算力</td></tr>
-<tr><td>通用机架部署的通用计算</td><td>通用服务器</td><td>通用机柜内标准部署</td></tr>
-<tr><td>视频与数据集中存储</td><td>存储服务器</td><td>按数据量与留存周期规划</td></tr>
-<tr><td>算力与存储融合的一体化部署</td><td>融合服务器</td><td>算力与存储一体化交付</td></tr>
-<tr><td>多节点横向扩展的集群形态</td><td>服务器集群</td><td>多节点横向扩展</td></tr>
+<tr><td>前端点位分散、无机房空调的边缘场景</td><td>边缘推理微服务器</td><td>按单点接入路数选档，户外或高温机柜优先宽温型号</td></tr>
+<tr><td>中心机房集中解析</td><td>机架式视频解析服务器</td><td>按总路数与并发分析路数选型，配套机柜供电与以太网交换容量</td></tr>
+<tr><td>要求无指令集许可限制的科研与隐私计算项目</td><td>RISC-V 通用计算服务器</td><td>按并发核数与内存容量选型，确认目标软件已完成 RISC-V 平台适配</td></tr>
+<tr><td>视频长周期留存与数据集中存储</td><td>RISC-V 存储与集群</td><td>按留存天数与数据量规划盘位，集群按节点数与千核并发规模规划</td></tr>
 </tbody></table></div></div>
 </section>
 
-
-
-<!-- 5. 接口兼容 -->
+<!-- 5. Interfaces -->
 <section class="section-container">
   <h2 class="section-title">接口与兼容</h2>
-  <p class="axlt-lead-text">AI 服务器支持丰富的物理接口与网络协议，兼容主流平台与第三方系统。</p>
+  <p class="axlt-lead-text">两类服务器围绕物理连接、网络互联、软件生态与部署运维四组能力组织接口，配置按型号与形态区分。</p>
   <div class="grid-2 axlt-grid-cards" >
       <div class="card capability-card">
         <div class="card-body">
           <h3><i data-lucide="plug" class="axlt-icon-inline"></i>物理接口</h3>
           <ul class="axlt-list-muted">
-            <li>PCIe 5.0 ×16</li>
-            <li>NVLink 4.0</li>
-            <li>InfiniBand NDR</li>
-            <li>RJ45 管理网口</li>
+            <li>RJ45 千兆管理网口（BMC / IPMI）</li>
+            <li>RJ45 千兆业务网口</li>
+            <li>RJ45 Console 调试口</li>
+            <li>HDMI 1.4a 显示输出</li>
             <li>USB 3.0</li>
+            <li>VGA</li>
+            <li>SATA / SAS 热插拔盘位</li>
+            <li>M.2 NVMe 系统盘</li>
+            <li>PCIe 扩展槽位</li>
+            <li>CAN / RS-485 / RS-232（微服务器形态）</li>
           </ul>
         </div>
       </div>
       <div class="card capability-card">
         <div class="card-body">
-          <h3><i data-lucide="network" class="axlt-icon-inline"></i>软件生态</h3>
+          <h3><i data-lucide="network" class="axlt-icon-inline"></i>网络与互联</h3>
           <ul class="axlt-list-muted">
-            <li>CUDA 12.x</li>
-            <li>cuDNN</li>
-            <li>TensorRT</li>
-            <li>NCCL</li>
-            <li>PyTorch / TensorFlow / JAX</li>
+            <li>标准以太网集群互联（服务器间以太网连接）</li>
+            <li>BMC 带外管理</li>
+            <li>LTE / 5G / Wi-Fi / BT 无线（微服务器选配）</li>
+            <li>RAID 0 / 1 / 10 / 5 / 50 / 6 / 60</li>
+            <li>双芯互联 128 核并发（RISC-V 系列）</li>
+            <li>N+1 风扇冗余、1+1 电源冗余</li>
           </ul>
         </div>
       </div>
       <div class="card capability-card">
         <div class="card-body">
-          <h3><i data-lucide="monitor" class="axlt-icon-inline"></i>集群管理</h3>
+          <h3><i data-lucide="layers" class="axlt-icon-inline"></i>软件生态</h3>
           <ul class="axlt-list-muted">
-            <li>Kubernetes</li>
-            <li>Slurm</li>
-            <li>OpenShift</li>
-            <li>VMware vSphere</li>
+            <li>一站式深度学习工具链（驱动、编译器、推理部署）</li>
+            <li>Caffe / TensorFlow / PyTorch / PaddlePaddle / MXNet / ONNX / Darknet</li>
+            <li>混合精度：FP32 / FP16 / BF16 / INT8 / INT4</li>
+            <li>视频编解码：H.264 / H.265，8K 至 CIF</li>
+            <li>操作系统：Linux、Ubuntu、麒麟、openEuler、deepin</li>
           </ul>
         </div>
       </div>
       <div class="card capability-card">
         <div class="card-body">
-          <h3><i data-lucide="puzzle" class="axlt-icon-inline"></i>云服务</h3>
+          <h3><i data-lucide="wrench" class="axlt-icon-inline"></i>部署与运维</h3>
           <ul class="axlt-list-muted">
-            <li>私有云部署</li>
-            <li>公有云混合</li>
-            <li>模型即服务（MaaS）</li>
-            <li>API 推理接口</li>
+            <li>集群统一管理服务</li>
+            <li>多节点以太网集群部署</li>
+            <li>带外远程监管（BMC / IPMI）</li>
+            <li>被动散热宽温部署（-20℃ 至 +60℃）</li>
+            <li>机架式机柜部署（2U / 42U）</li>
+            <li>磁盘阵列安全管理与数据备份修复</li>
           </ul>
         </div>
       </div>
@@ -350,10 +172,11 @@
 </div>
 <div class="tab-content axlt-display-none" id="content-solutions-ai-server">
 <div class="grid-3"><div class="card capability-card"><div class="card-body"><h4>智慧城市</h4><div class="axlt-flex-tags"><span class="scenario-tag">政府</span><span class="scenario-tag">公共</span></div>
+</div></div></div>
 </div>
 </section>
 
-<!-- 7. 优势与保障 -->
+<!-- 7. Advantages -->
 <section class="section-container">
   <h2 class="section-title">优势与保障</h2>
   <div class="triple-grid">
@@ -362,30 +185,29 @@
     <span class="col-icon"><i data-lucide="zap"></i></span>
     核心优势
   </div>
-  <div class="triple-card"><h4>GPU 加速算力</h4><p>基于 NVIDIA H100/A100/H20 GPU 平台，提供从单机到集群的灵活算力配置，训练与推理性能强劲。</p></div>
-<div class="triple-card"><h4>液冷散热系统</h4><p>配备液冷散热系统，高负载下温度可控，保障 GPU 持续满血运行，降低数据中心 PUE。</p></div>
-<div class="triple-card"><h4>InfiniBand 高速互联</h4><p>集群节点间 InfiniBand 高速互联，大模型分布式训练通信瓶颈显著降低。</p></div>
-<div class="triple-card"><h4>灵活配置</h4><p>支持 AI 训练服务器、AI 推理服务器、边缘 AI 服务器多种形态，按需选型，保护投资。</p></div>
-<div class="triple-card"><h4>预集成交付</h4><p>深度学习框架、容器平台预装交付，开箱即用，缩短上线周期。</p></div>
-<div class="triple-card"><h4>高密度计算</h4><p>单机多卡高密度设计，有限机房空间内最大化算力输出，TCO 优化。</p></div>
+  <div class="triple-card"><h4>推理密度与路数分档清晰</h4><p>从 8 路到 288 路一条产品线覆盖，按接入路数与算法复杂度直接定档。</p></div>
+  <div class="triple-card"><h4>边缘被动散热宽温</h4><p>微服务器形态无需机房空调，减少机房改造投入。</p></div>
+  <div class="triple-card"><h4>开源指令集底座</h4><p>RISC-V 通用计算线规避指令集许可限制，可运行主流及国产操作系统。</p></div>
+  <div class="triple-card"><h4>一站式工具链</h4><p>覆盖驱动、编译器与推理部署，降低模型迁移成本。</p></div>
+  <div class="triple-card"><h4>单台即可横向组集群</h4><p>多台设备经标准以太网组集群，扩容不换架构。</p></div>
 </div>
 <div class="triple-col-center">
   <div class="triple-col-title">
     <span class="col-icon"><i data-lucide="truck"></i></span>
     交付服务
   </div>
-  <div class="triple-card"><h4>需求评估</h4><p>了解模型类型、数据规模、训练/推理场景与预算，输出算力配置方案。</p></div>
-<div class="triple-card"><h4>安装调试</h4><p>专业工程师完成服务器上架、网络配置、集群调优与性能基准测试。</p></div>
-<div class="triple-card"><h4>培训交付</h4><p>培训运维人员与算法工程师，覆盖集群管理、任务调度、监控告警与日常维护。</p></div>
+  <div class="triple-card"><h4>需求评估</h4><p>按接入路数、算法复杂度与留存周期出算力配置。</p></div>
+  <div class="triple-card"><h4>安装调试</h4><p>上架、网络与集群配置、推理性能基准测试。</p></div>
+  <div class="triple-card"><h4>培训交付</h4><p>集群管理、模型部署、监控告警。</p></div>
 </div>
 <div class="triple-col-right">
   <div class="triple-col-title">
     <span class="col-icon"><i data-lucide="shield-check"></i></span>
     服务保障
   </div>
-  <div class="triple-card"><h4>质保承诺</h4><p>设备质保一年，GPU 与主板核心部件延保可选，质保期内免费维修或更换。</p></div>
-<div class="triple-card"><h4>本地响应</h4><p>在尼日利亚等地设有本地服务团队，提供技术支持、备件供应与现场维护服务。</p></div>
-<div class="triple-card"><h4>远程运维</h4><p>7×24 小时远程技术支持，集群状态实时监控，故障主动预警与远程诊断。</p></div>
+  <div class="triple-card"><h4>质保承诺</h4><p>设备质保一年，可选延保，加速芯片与主板核心部件延保可选。</p></div>
+  <div class="triple-card"><h4>本地响应</h4><p>尼日利亚等地本地服务团队提供技术支持、备件供应与现场维护。</p></div>
+  <div class="triple-card"><h4>远程运维</h4><p>7×24 远程支持、节点状态监控、故障主动预警。</p></div>
 </div>
 </div>
 </section>
