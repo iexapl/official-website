@@ -54,11 +54,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Set active nav link
-  var current = window.location.pathname.split('/').pop() || 'index.html';
+  // Set active nav link (unified)
+  var current = (window.location.pathname.split('/').pop() || 'index.html').split(/[?#]/)[0];
   document.querySelectorAll('.nav a').forEach(function(a) {
-    if (a.getAttribute('href') === current) {
+    var href = a.getAttribute('href');
+    if (!href) return;
+    if (href.split('/').pop().split(/[?#]/)[0] === current) {
       a.classList.add('active');
+    }
+  });
+  // Parent-level highlight: mark the dropdown whose mega-menu contains the current page
+  document.querySelectorAll('.nav-dropdown.has-mega-menu').forEach(function(dd) {
+    var links = dd.querySelectorAll('.mega-menu a');
+    for (var i = 0; i < links.length; i++) {
+      if ((links[i].getAttribute('href') || '').split('/').pop().split(/[?#]/)[0] === current) {
+        var trigger = dd.querySelector('a');
+        if (trigger && !trigger.classList.contains('active')) trigger.classList.add('active');
+        break;
+      }
     }
   });
 
