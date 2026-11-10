@@ -83,6 +83,9 @@
 .triple-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-card-hover);border-color:var(--color-brand)}
 .triple-card h4{font-size:1rem;color:var(--color-text-strong);margin-bottom:8px}
 .triple-card p{font-size:0.9rem;color:var(--color-text-muted);line-height:1.6;margin:0}
+.triple-col-left,.triple-col-center,.triple-col-right{display:flex;flex-direction:column}
+.triple-col-title{flex-shrink:0}
+.triple-col-left .triple-card,.triple-col-center .triple-card,.triple-col-right .triple-card{flex:1;display:flex;flex-direction:column;justify-content:center}
 @media (max-width:991px){.triple-grid{grid-template-columns:1fr;gap:32px}}
 
 /* ===== 阶段一追加：spec-table 参数项加粗 ===== */
