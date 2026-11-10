@@ -129,6 +129,7 @@
 .axlt-text-muted { color: var(--color-text-muted); font-size: 0.85rem; }
 .axlt-card-accent { border: 1px solid rgba(56,189,248,0.15); border-radius: var(--radius); box-shadow: var(--shadow); width: 100%; }
 .axlt-list-muted-sm { color: var(--color-text-muted); font-size: 0.85rem; margin-top: 4px; padding-left: 18px; }
+.capability-card-specs,.axlt-list-muted,.axlt-list-muted-sm{text-align:left;width:fit-content;margin-left:auto;margin-right:auto}
 .axlt-btn-inline { display: inline-block; margin-top: 12px; }
 .axlt-text-muted-md { color: var(--color-text-muted); font-size: 0.9rem; margin: 8px 0; }
 .axlt-paragraph-lead { color: var(--color-text); line-height: 1.8; margin: 28px auto 0; max-width: 900px; }
