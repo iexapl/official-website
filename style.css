@@ -258,3 +258,4 @@
 .languagelist li a.active{color:var(--color-brand);font-weight:600}
 .languagebox:hover .languagelist{display:block}
 @media (max-width:900px){.menu-toggle{order:2;margin-left:auto}.languagebox{order:3;margin-left:12px}}
+@media (max-width:767px){.contact-grid{grid-template-columns:1fr !important}}
