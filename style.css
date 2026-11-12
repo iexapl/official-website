@@ -267,3 +267,23 @@
 /* Header brand logo: image replaces the former text lockup (works on dark and light header) */
 .logo img { height: 60px; width: auto; max-width: none; display: block; flex-shrink: 0; border-radius: var(--radius-sm); background: #ffffff; }
 @media (prefers-color-scheme:light){.logo img{background:transparent}}
+
+/* ===== Narrow viewport: keep the enlarged header logo from overflowing =====
+   The 60px logo is 190px wide. With the previous spacings (header padding 0 20px,
+   .languagebox margin-left 12px, language link padding 0 18px 0 8px, .menu-toggle
+   padding 8px) the single header row needs 20 + 190 + 37.52 + 12 + 103 + 20 = 362.5px,
+   so it overflows every width below 363px: 3px at 360px on zh pages and ~43px at 320px,
+   where the language label is pushed off screen.
+   Below 367px only the header spacings tighten and the logo keeps its 60px height:
+   that alone fits the row down to 333px, well under the 360px target. The 48px
+   fallback starts at 340px instead, leaving an 8px buffer for the narrowest widths,
+   and is the only place the 60px logo height is deviated from. */
+@media (max-width:366px){
+  .header-inner{padding:0 12px}
+  .menu-toggle{padding:4px}
+  .languagebox{margin-left:6px}
+  .languagebox>a{padding:0 14px 0 4px}
+}
+@media (max-width:340px){
+  .logo img{height:48px}
+}
