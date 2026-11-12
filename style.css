@@ -265,4 +265,5 @@
 
 
 /* Header brand logo: image replaces the former text lockup (works on dark and light header) */
-.logo img { height: 40px; width: auto; max-width: none; display: block; flex-shrink: 0; border-radius: var(--radius-sm); box-shadow: 0 0 0 1px var(--color-line-soft); background: #ffffff; }
+.logo img { height: 60px; width: auto; max-width: none; display: block; flex-shrink: 0; border-radius: var(--radius-sm); background: #ffffff; }
+@media (prefers-color-scheme:light){.logo img{background:transparent}}
