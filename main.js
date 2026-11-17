@@ -81,6 +81,9 @@ document.addEventListener('DOMContentLoaded', function() {
   backToTop.setAttribute('aria-label', 'Back to top');
   backToTop.innerHTML = '<i data-lucide="chevron-up"></i>';
   document.body.appendChild(backToTop);
+  if (typeof lucide !== 'undefined') {
+    lucide.createIcons();
+  }
 
   var scrollThreshold = 300;
   function updateBackToTop() {
