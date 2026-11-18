@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var backToTop = document.createElement('button');
   backToTop.className = 'back-to-top';
   backToTop.setAttribute('aria-label', 'Back to top');
-  backToTop.innerHTML = '<i data-lucide="chevron-up"></i><span class="back-to-top-label" aria-hidden="true">TOP</span>';
+  backToTop.innerHTML = '<i data-lucide="arrow-up-to-line"></i><span class="back-to-top-label" aria-hidden="true">TOP</span>';
   document.body.appendChild(backToTop);
   if (typeof lucide !== 'undefined') {
     lucide.createIcons();
