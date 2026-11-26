@@ -9,6 +9,10 @@
 .menu-col ul{list-style:none;margin:0;padding:0}
 .menu-col li{margin:0}
 .menu-col li a{display:block;padding:6px 0 6px 10px;color:var(--color-text-muted);font-size:0.85rem;text-decoration:none;border-left:2px solid transparent;transition:all 0.2s;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* R37 返工：解决方案下拉首列「Système de Construction Intelligente」在 206px 列宽下被省略号截断（R2 引入）。
+   仅对法语页放开该条链接的截断让其完整显示（窄视口折行），列宽与其余下拉项均维持现状；
+   10 个存量截断项不在本轮范围。 */
+html[lang="fr"] .mega-menu-solution .menu-col:first-child li a[href$="solution/smart-construction.html"]{white-space:normal;overflow:visible;text-overflow:clip;line-height:1.35}
 .menu-col li a:hover{color:var(--color-brand);border-left-color:var(--color-brand);background:rgba(56,189,248,0.06)}
 @media (max-width:900px){.nav-dropdown.has-mega-menu{position:relative}.nav-dropdown.has-mega-menu .mega-menu{position:static;box-shadow:none;background:rgba(56,189,248,0.03);display:none;opacity:1;transform:none;pointer-events:auto;max-height:0;overflow:hidden;transition:max-height 0.3s ease;padding:0;border:none;border-radius:0}.nav-dropdown.has-mega-menu.open .mega-menu{display:block;max-height:800px}.mega-menu-inner{flex-direction:column;padding:0 16px}.menu-col h4{font-size:0.9rem;color:var(--color-text);margin-top:8px}.menu-col li a{color:var(--color-text-muted);font-size:0.85rem;padding:8px 0 8px 12px}}
 /* ===== Fix: Desktop nav hover dead-zone + close delay ===== */
